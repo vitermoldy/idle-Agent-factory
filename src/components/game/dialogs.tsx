@@ -50,3 +50,4 @@ export function Dialog({
   )
 }
 
+export function AwayDialog() {
