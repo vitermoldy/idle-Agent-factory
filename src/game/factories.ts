@@ -342,3 +342,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'novel', name: 'Novel', desc: 'Tiga ratus halaman cerita. Mesin Tulis bekerja keras.', price: 600_000_000, work: [1, 2.6, 1.6, 1.2, 1], unlockCost: 540_000_000_000 },
       { id: 'course', name: 'Kursus dan e-book', desc: 'Buku plus video pelajaran. Sunting dan toko ikut berat.', price: 1_700_000_000, work: [1.6, 3, 2.8, 1.8, 1.4], unlockCost: 16_000_000_000_000 },
     ],
+    rate: 0.11,
