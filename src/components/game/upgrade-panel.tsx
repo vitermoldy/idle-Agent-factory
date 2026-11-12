@@ -65,3 +65,4 @@ function BuyModeSwitch() {
   const setBuyMode = useGame((s) => s.setBuyMode)
   return (
     <div role="group" aria-label="Level per pembelian" className="flex rounded-lg border border-line bg-ground p-0.5">
+      {MODES.map(({ mode, label }) => (
