@@ -79,3 +79,4 @@ function initialState() {
     notices.push({ id: ++noticeId, text: 'Browser ini menolak penyimpanan lokal. Progres hilang saat halaman ditutup.' })
   const gone = (now - game.savedAt) / 1000
   if (gone > AWAY_AFTER) {
+    const { state, report } = catchUp(game, gone)
