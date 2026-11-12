@@ -1524,3 +1524,4 @@ export function initMachineScene(
       p.flyPost.position.y = Math.sin(tact) * 0.04
       const orderPhase = (t / 24) % 1,
         cashBeat = orderMode ? THREE.MathUtils.clamp((orderPhase - 0.88) / 0.12, 0, 1) : beat
+      p.receipt.visible = p.coin.visible = !locked && (!orderMode || orderPhase > 0.88)
