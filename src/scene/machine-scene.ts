@@ -1410,3 +1410,4 @@ export function initMachineScene(
     listen(renderer.domElement, 'pointerdown', (e: PointerEvent) => {
       ;[downX, downY] = local(e)
       wasDragged = false
+      tooltip.classList.remove('visible')
