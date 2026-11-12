@@ -1034,3 +1034,4 @@ export function initMachineScene(
       let paintedValue = ''
       function paintPrice(value: string) {
         paintedValue = value
+        let c = cashTex.ctx
