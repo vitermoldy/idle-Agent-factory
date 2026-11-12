@@ -8,3 +8,4 @@ import { PriceButton } from './price-button'
 const MAX_WORK = 3.4
 
 /** Every product the line can make. Each one bought stands as its own plate beside the others. */
+export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => void; onBought: () => void }) {
