@@ -656,3 +656,4 @@ export function initMachineScene(
         pts.push(pVec.clone().add(new THREE.Vector3(-tVec.z * 0.36 * side, 0.09, tVec.x * 0.36 * side)))
       }
       return new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 160, 0.028, 6, false)
+    })
