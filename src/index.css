@@ -140,3 +140,4 @@
   }
   .icon-btn:hover {
     background: var(--color-raised);
+    color: var(--color-ink);
