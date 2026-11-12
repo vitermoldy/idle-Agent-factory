@@ -1231,3 +1231,4 @@ export function initMachineScene(
       sized = false,
       readySent = false
     const focusPlate = () => plates[live.focus] ?? plates[0]
+    /** Where a plate stands in the row: owned plates centred on the origin, in purchase order. */
