@@ -327,3 +327,4 @@ export function parseSave(raw: string | null): GameState | null {
   let data: unknown
   try {
     data = JSON.parse(raw)
+  } catch {
