@@ -1296,3 +1296,4 @@ export function initMachineScene(
       }
     }
     const emitView = () => {
+      $('journey').classList.toggle('visible', mode === 'order')
