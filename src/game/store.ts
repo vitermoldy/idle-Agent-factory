@@ -14,3 +14,4 @@ export interface Notice {
   action?: string
 }
 
+export interface AwayReport {
