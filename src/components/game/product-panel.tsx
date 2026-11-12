@@ -37,3 +37,4 @@ function ProductRow({
   product,
   inView,
   onShow,
+  onBought,
