@@ -1606,3 +1606,4 @@ export function initMachineScene(
       for (const p of plates) animatePlate(p, dt, now, smooth, playing, locked)
       // Shared screens run on the clock of the plate in view.
       const fp = focusPlate()
+      if (fp.t - lastDraw > 1 / 18 || lastDraw < 0 || fp.t < lastDraw) {
