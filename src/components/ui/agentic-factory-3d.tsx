@@ -128,3 +128,4 @@ export default function AgenticFactory3D({
       {children}
     </div>
   )
+}
