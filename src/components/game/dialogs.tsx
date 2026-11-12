@@ -150,3 +150,4 @@ export function SettingsDialog({
             ? `Progres disimpan di browser ini setiap 5 detik${time ? `, terakhir pukul ${time}` : ''}.`
             : 'Browser ini menolak penyimpanan lokal, jadi progres hilang saat halaman ditutup.'}
         </p>
+        <button type="button" className="btn btn-quiet mt-3" onClick={save}>
