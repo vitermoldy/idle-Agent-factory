@@ -427,3 +427,4 @@ export function initMachineScene(
         const lift = (Math.sin(t * 1.3) * 0.5 + 0.5) * 34 + 10
         c.fillStyle = '#e8e4d8'
         c.beginPath()
+        c.moveTo(274, 302 - lift)
