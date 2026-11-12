@@ -4,3 +4,5 @@ import * as E from '@/game/engine'
 import { FACTORY_BY_ID, type FactoryDef, type SlotId } from '@/game/factories'
 import { duration, money, pad2, short } from '@/lib/format'
 import { cn } from '@/lib/utils'
+import { PriceButton } from './price-button'
+
