@@ -189,3 +189,4 @@ export default function App() {
       const i = def.stations.findIndex((s) => s.slot === slot)
       const st = def.stations[i]
       const product = def.products[plate] ?? def.products[0]
+      const level = fs.unlocked
