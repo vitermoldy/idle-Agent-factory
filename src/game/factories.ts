@@ -262,3 +262,4 @@ export const FACTORIES: FactoryDef[] = [
       screen: { kicker: 'SUARA', head: 'DARI AGEN.', lines: ['Topik dipilih,', 'suara direkam.', 'Episode', 'siap tayang.'] },
       journey: [
         ['Topik masuk', 'Usulan Tari masuk ke meja Topik'],
+        ['Merekam suara', 'Studio Suara merekam narasi'],
