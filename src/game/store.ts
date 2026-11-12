@@ -25,3 +25,4 @@ interface Store {
   game: E.GameState
   buyMode: E.BuyMode
   away: AwayReport | null
+  notices: Notice[]
