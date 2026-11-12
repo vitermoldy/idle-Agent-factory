@@ -129,3 +129,4 @@ export function UnlockCard() {
         <p className="mono-label text-accent">Lini {def.no}</p>
         <h3 id="unlock-title" className="mt-1.5 font-display text-[20px] font-semibold">
           Buka {def.name}
+        </h3>
