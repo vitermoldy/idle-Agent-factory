@@ -5,3 +5,5 @@ import { money, short } from '@/lib/format'
 import { cn } from '@/lib/utils'
 import { PriceButton } from './price-button'
 
+const MAX_WORK = 3.4
+
