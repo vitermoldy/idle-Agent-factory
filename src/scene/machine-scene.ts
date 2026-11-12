@@ -1257,3 +1257,4 @@ export function initMachineScene(
     function layoutCamera() {
       if (!frameWidth() || !frameHeight()) return
       const first = !sized
+      sized = true
