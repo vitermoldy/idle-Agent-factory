@@ -1460,3 +1460,4 @@ export function initMachineScene(
       [-12, 40],
     ]
     const labelOffsetsMobile = [
+      [-30, 25],
