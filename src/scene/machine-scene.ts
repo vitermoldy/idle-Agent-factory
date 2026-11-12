@@ -273,3 +273,4 @@ export function initMachineScene(
       o.castShadow = true
       parent.add(o)
       return o
+    }
