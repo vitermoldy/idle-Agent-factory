@@ -208,3 +208,4 @@ function StationRow({
         </span>
         <button
           type="button"
+          className="btn btn-primary min-w-[132px] flex-col gap-0 py-1 leading-tight"
