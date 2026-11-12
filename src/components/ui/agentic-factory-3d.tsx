@@ -109,3 +109,4 @@ export default function AgenticFactory3D({
           <i data-el="journey-progress" />
         </div>
       </div>
+      {phase === 'loading' && (
