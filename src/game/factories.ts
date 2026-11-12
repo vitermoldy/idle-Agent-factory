@@ -16,3 +16,4 @@ export interface StationDef {
   output: string
   /** Base speed relative to the line's rate. */
   speed: number
+  /** Price of the first upgrade. */
