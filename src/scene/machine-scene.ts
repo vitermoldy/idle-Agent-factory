@@ -629,3 +629,4 @@ export function initMachineScene(
     })
 
     // Conveyor path, the same on every plate.
+    const path = new THREE.CatmullRomCurve3(
