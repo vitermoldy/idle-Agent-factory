@@ -83,3 +83,4 @@ describe('buying', () => {
     const cost = FACTORY_BY_ID.web.unlockCost
     const g = E.unlockFactory(rich(cost), 'web')
     expect(g.factories.web.unlocked).toBe(true)
+    expect(g.factories.web.levels).toEqual([1, 1, 1, 1, 1])
