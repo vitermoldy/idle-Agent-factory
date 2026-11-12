@@ -31,3 +31,4 @@ interface Popup {
 function lineSpeed(T: number, running: boolean) {
   if (!running) return 0
   const v = T * 4
+  return v <= 2.4 ? Math.max(0.35, v) : Math.min(3.2, 2.4 + Math.log10(v / 2.4) * 0.8)
