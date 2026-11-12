@@ -192,3 +192,4 @@ describe('saves', () => {
     expect(back.factories.video.product).toBe('short')
     expect(back.factories.web.agent).toBe(false)
   })
+})
