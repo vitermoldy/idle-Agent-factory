@@ -293,3 +293,4 @@ export default function App() {
                 {t === 'series' && E.starsClaimable(game) > 0 && (
                   <span className="ml-1.5 text-[12px] text-accent tabular-nums">+{E.starsClaimable(game)}</span>
                 )}
+              </button>
