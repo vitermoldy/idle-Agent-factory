@@ -624,3 +624,4 @@ export function initMachineScene(
       c.strokeStyle = 'rgba(20,24,20,.45)'
       c.lineWidth = 2
       c.strokeRect(23, 112, 210, 139)
+      fit(c, theme.orders.customers[0], 42, 190, 37, 176, '#1f241d', 550)
