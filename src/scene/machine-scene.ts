@@ -607,3 +607,4 @@ export function initMachineScene(
     })
     const scriptTex = canvasTexture(256, 352, (c, w, h) => {
       c.fillStyle = '#eeeae0'
+      c.fillRect(0, 0, w, h)
