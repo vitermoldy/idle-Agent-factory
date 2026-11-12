@@ -1660,3 +1660,4 @@ export function initMachineScene(
         if (meta.level !== label.levelText) {
           label.levelText = meta.level
           label.level.textContent = meta.level
+        }
