@@ -319,3 +319,4 @@ export const FACTORIES: FactoryDef[] = [
         statuses: ['Spesifikasi', 'Dibangun', 'Di toko'],
       },
       incoming: 'Proyek baru  +',
+      cashTitle: 'LISENSI DIBAYAR',
