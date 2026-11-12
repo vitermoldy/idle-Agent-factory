@@ -224,3 +224,4 @@ export default function App() {
             <FactoryList onPick={openFactory} />
           </nav>
         )}
+        <main className="relative flex flex-col lg:min-h-0">
