@@ -65,3 +65,4 @@ function catchUp(game: E.GameState, seconds: number) {
   const totals = Object.values(completed).reduce(
     (sum, c) => ({ cash: sum.cash + c.cash, orders: sum.orders + c.orders }),
     { cash: 0, orders: 0 }
+  )
