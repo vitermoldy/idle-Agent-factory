@@ -212,3 +212,4 @@ export default function App() {
   const game = useGame((s) => s.game)
 
   return (
+    <div className="min-h-svh bg-ground text-ink lg:flex lg:h-svh lg:flex-col" style={accent}>
