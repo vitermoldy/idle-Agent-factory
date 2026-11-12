@@ -1357,3 +1357,4 @@ export function initMachineScene(
       p.speed = live.locked ? 0 : plateLive(p.k).speed
     }
     layoutCamera()
+    const resizeObserver = new ResizeObserver(() => layoutCamera())
