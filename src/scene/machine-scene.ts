@@ -1634,3 +1634,4 @@ export function initMachineScene(
           .add(desiredTarget)
         cameraAnimating = true
       } else if ((cameraMode === 'station' || cameraMode === 'plate') && cameraAnimating) setCameraGoal()
+      if (cameraAnimating && !dragging) {
