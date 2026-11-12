@@ -342,3 +342,4 @@ export function parseSave(raw: string | null): GameState | null {
   for (const def of FACTORIES) {
     const f: Partial<FactoryState> | undefined = saved[def.id]
     if (!f) continue
+    const unlocked = def.unlockCost === 0 || f.unlocked === true
