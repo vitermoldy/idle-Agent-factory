@@ -1553,3 +1553,4 @@ export function initMachineScene(
           scratch.copy(engine.position).add(new THREE.Vector3(0, 1.3, 0.65))
           packet.group.position.lerp(scratch, f)
           packet.group.position.y += Math.sin(f * Math.PI) * 2
+          packet.group.rotation.set(0, Math.sin(f * Math.PI) * 0.28, Math.sin(f * Math.PI) * -0.1)
