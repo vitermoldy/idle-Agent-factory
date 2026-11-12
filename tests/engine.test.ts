@@ -94,3 +94,4 @@ describe('products', () => {
     const g = E.buyProduct(rich(ads.unlockCost), 'video', ads.id)
     expect(g.factories.video.owned).toEqual(['short', 'ads'])
     expect(g.factories.video.product).toBe(ads.id)
+    expect(E.orderValue(video, g.factories.video, 0)).toBe(ads.price)
