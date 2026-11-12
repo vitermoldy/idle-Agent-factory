@@ -1116,3 +1116,4 @@ export function initMachineScene(
         const p = path.getPointAt(i / 16)
         cyl(belt, 0.045, 0.43, p.x, 0.53, p.z, M.chrome)
       }
+      // Pneumatic lines (in the line's deep accent) link the station footings.
