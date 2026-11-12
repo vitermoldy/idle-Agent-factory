@@ -47,3 +47,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
               key={st.slot}
               def={def}
               index={i}
+              rate={rates[i]}
