@@ -121,3 +121,4 @@ export const FACTORIES: FactoryDef[] = [
         nav: 'Beranda    Katalog    Akun',
         tag: ['DARI IDE', 'JADI VIDEO.'],
         head: ['Idemu.', 'Sudah tayang.'],
+        sub: ['Video 30 detik yang', 'menjual produkmu.'],
