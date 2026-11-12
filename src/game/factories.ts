@@ -371,3 +371,4 @@ export const FACTORIES: FactoryDef[] = [
         head: ['Buku baru.', 'Langsung baca.'],
         sub: ['120 halaman resep', 'dari dapur keluarga.'],
         cta: 'Beli e-book',
+        foot: 'DITERBITKAN OLEH AGEN',
