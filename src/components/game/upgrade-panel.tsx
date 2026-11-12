@@ -115,3 +115,4 @@ function StationRow({
   index,
   rate,
   throughput,
+  neck,
