@@ -171,3 +171,4 @@ export default function App() {
       if (product) useGame.getState().selectProduct(product.id)
       syncLive(live.current, useGame.getState().game)
       setSelected(slot)
+      setTab('upgrade')
