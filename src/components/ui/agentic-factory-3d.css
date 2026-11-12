@@ -70,3 +70,4 @@
   font: 500 9px var(--font-mono);
 }
 .af3d .station-label .label-title b {
+  font-weight: 600;
