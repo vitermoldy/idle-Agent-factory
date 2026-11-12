@@ -264,3 +264,4 @@ export default function App() {
               onPlaying={setPlaying}
             />
           </div>
+        </main>
