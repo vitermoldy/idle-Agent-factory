@@ -78,3 +78,4 @@ export const ModeIcon = ({ mode, ...p }: P & { mode: MachineMode }) => (
 )
 
 export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
+  switch (id) {
