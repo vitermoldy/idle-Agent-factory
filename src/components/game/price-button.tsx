@@ -12,3 +12,4 @@ export function PriceButton({
     <button
       type="button"
       aria-label={`${label}, ${price}`}
+      className={cn('btn btn-primary justify-between gap-4 px-4', className)}
