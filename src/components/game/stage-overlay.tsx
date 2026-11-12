@@ -84,3 +84,4 @@ export function StageAction() {
       </button>
       <div className="w-full rounded-lg bg-panel/90 px-3 py-2">
         <div className="flex items-center justify-between gap-3 text-[12px] text-muted tabular-nums">
+          <span>
