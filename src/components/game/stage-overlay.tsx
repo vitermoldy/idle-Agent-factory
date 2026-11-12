@@ -73,3 +73,4 @@ export function StageAction() {
   const first = fs.orders === 0 && fs.queue === 0 && game.allTime === 0
   const full = fs.queue >= E.QUEUE_MAX
   return (
+    <div className="pointer-events-auto flex w-[min(360px,100%)] flex-col items-center gap-2.5">
