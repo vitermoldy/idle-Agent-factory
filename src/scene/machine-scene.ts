@@ -1546,3 +1546,4 @@ export function initMachineScene(
         const phase = (t / 24 + i / 6) % 1
         packet.phase = phase
         let stage
+        if (phase < 0.15) {
