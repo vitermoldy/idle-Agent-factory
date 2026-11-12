@@ -1651,3 +1651,4 @@ export function initMachineScene(
       controls.autoRotateSpeed = 0.24
       controls.update(dt)
       // Station labels follow the plate in view, clamped inside the box. The Label button alone
+      // decides whether they show, in every mode and camera.
