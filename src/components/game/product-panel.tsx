@@ -47,3 +47,4 @@ function ProductRow({
 }) {
   const game = useGame((s) => s.game)
   const buyProduct = useGame((s) => s.buyProduct)
+  const fs = game.factories[def.id]
