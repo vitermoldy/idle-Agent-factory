@@ -24,3 +24,4 @@ export function StagePlate({ className }: { className?: string }) {
         : 'Menunggu order'
   return (
     <div className={className}>
+      <p className="mono-label text-accent">Lini {def.no}</p>
