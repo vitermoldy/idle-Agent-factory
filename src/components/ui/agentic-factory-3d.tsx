@@ -64,3 +64,4 @@ export default function AgenticFactory3D({
         if (cancelled) return
         const scene = initMachineScene(root, {
           factory,
+          live,
