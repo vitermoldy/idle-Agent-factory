@@ -310,3 +310,4 @@ export default function App() {
                   syncLive(live.current, useGame.getState().game)
                   apiRef.current?.setCamera('plate')
                   if (!wide) window.scrollTo({ top: 0, behavior: 'smooth' })
+                }}
