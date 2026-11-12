@@ -3,3 +3,5 @@
 
 export type FactoryId = 'video' | 'web' | 'podcast' | 'app' | 'ebook'
 export type SlotId = 'cabinet' | 'engine' | 'admin' | 'storefront' | 'cashdesk'
+export type PropKind = 'reels' | 'rack' | 'mic' | 'phone' | 'books'
+
