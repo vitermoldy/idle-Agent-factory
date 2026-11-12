@@ -154,3 +154,4 @@ function StationRow({
   const progress = next ? (level - prev) / (next - prev) : 1
   return (
     <li
+      ref={ref}
