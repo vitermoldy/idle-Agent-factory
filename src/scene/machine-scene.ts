@@ -1589,3 +1589,4 @@ export function initMachineScene(
       // A plate was bought: widen the row and the camera with it.
       const count = countOwned()
       if (count !== ownedCount) {
+        ownedCount = count
