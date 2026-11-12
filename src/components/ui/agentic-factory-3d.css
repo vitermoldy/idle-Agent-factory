@@ -89,3 +89,4 @@
   font-variant-numeric: tabular-nums;
 }
 .af3d .station-label.is-neck .label-meta {
+  color: var(--accent);
