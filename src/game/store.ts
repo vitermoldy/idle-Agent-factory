@@ -138,3 +138,4 @@ export const useGame = create<Store>((set, get) => {
         const def = FACTORY_BY_ID[g.active]
         const level = g.factories[g.active].levels[index]
         const n = E.levelsToBuy(def, index, level, g.cash, get().buyMode)
+        return E.buyLevels(g, g.active, index, n)
