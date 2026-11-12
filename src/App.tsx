@@ -80,3 +80,4 @@ export default function App() {
   const setActive = useGame((s) => s.setActive)
   const def = FACTORY_BY_ID[active]
   const wide = useMediaQuery('(min-width: 1280px)')
+  const live = useRef<SceneLive>(null as unknown as SceneLive)
