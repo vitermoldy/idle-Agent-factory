@@ -41,3 +41,4 @@ function ProductRow({
 }: {
   def: FactoryDef
   product: ProductDef
+  inView: boolean
