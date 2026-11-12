@@ -98,3 +98,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
       </p>
       <PriceButton
         label="Rekrut agen"
+        price={money(def.agentCost)}
