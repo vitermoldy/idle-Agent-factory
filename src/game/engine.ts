@@ -354,3 +354,4 @@ export function parseSave(raw: string | null): GameState | null {
     const product = typeof f.product === 'string' && owned.includes(f.product) ? f.product : def.products[0].id
     const rawProgress: unknown = f.progress
     const progress: Record<string, number> = {}
+    if (typeof rawProgress === 'number') progress[product] = Math.min(0.999, num(rawProgress, 0))
