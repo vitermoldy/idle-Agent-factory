@@ -33,3 +33,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
           onClick={() => {
             onOpen(notice.factory!)
             dismiss(notice.id)
+          }}
