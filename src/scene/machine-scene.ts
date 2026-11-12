@@ -983,3 +983,5 @@ export function initMachineScene(
         ball(consoleTop, 0.04, x, 0.275, 0.421, M.ivory)
       }
       cyl(admin, 0.075, 0.06, 0.77, 1.05, -0.62, M.green)
+      for (let i = 0; i < 7; i++) box(admin, 0.55, 0.027, 0.02, 0, 0.46 + i * 0.05, 0.655, M.dark, 0.003)
+
