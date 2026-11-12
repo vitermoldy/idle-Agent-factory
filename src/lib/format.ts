@@ -4,3 +4,4 @@
 const UNITS = ['', 'K', 'M', 'B', 'T', 'Qa', 'Qi', 'Sx', 'Sp', 'Oc', 'No', 'Dc']
 
 export function short(n: number): string {
+  if (!Number.isFinite(n)) return '∞'
