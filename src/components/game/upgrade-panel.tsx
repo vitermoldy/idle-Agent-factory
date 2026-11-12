@@ -164,3 +164,4 @@ function StationRow({
         <span className={cn('mt-0.5 font-mono text-[10px]', holds ? 'text-accent' : 'text-muted')}>
           {pad2(index + 1)}
         </span>
+        <div className="min-w-0 flex-1">
