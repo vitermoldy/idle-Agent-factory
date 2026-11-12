@@ -180,3 +180,4 @@ export default function App() {
     setCamera(c)
   }, [])
   const onApi = useCallback((api: SceneApi | null) => {
+    apiRef.current = api
