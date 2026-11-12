@@ -324,3 +324,4 @@ export function initMachineScene(
       x: number,
       y: number,
       size = 20,
+      color = '#f4f1ea',
