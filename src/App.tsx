@@ -222,3 +222,4 @@ export default function App() {
           <nav aria-label="Lini produksi" className="min-h-0 overflow-y-auto border-r border-line p-4">
             <p className="mono-label mb-3 px-1">Lini produksi</p>
             <FactoryList onPick={openFactory} />
+          </nav>
