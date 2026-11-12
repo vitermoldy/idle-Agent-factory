@@ -40,3 +40,4 @@ export interface SceneLive {
   labels: boolean
   /** Product index of the plate in view. */
   focus: number
+  /** Station labels of the plate in view: level beside the name, speed below it. */
