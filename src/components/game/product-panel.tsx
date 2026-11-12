@@ -50,3 +50,4 @@ function ProductRow({
   const fs = game.factories[def.id]
   const plate = fs.owned.indexOf(product.id)
   const owned = plate >= 0
+  const speed = E.throughput(def, fs, product)
