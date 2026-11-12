@@ -1218,3 +1218,4 @@ export function initMachineScene(
       dragging = false,
       wasDragged = false,
       downX = 0,
+      downY = 0
