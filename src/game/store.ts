@@ -105,3 +105,4 @@ export const useGame = create<Store>((set, get) => {
       } else result = E.advance(game, seconds)
       const fresh: Notice[] = []
       for (const def of FACTORIES) {
+        const fs = result.state.factories[def.id]
