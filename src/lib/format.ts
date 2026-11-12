@@ -9,3 +9,4 @@ export function short(n: number): string {
   if (n < 10) return trim(n.toFixed(2))
   if (n < 100) return trim(n.toFixed(1))
   if (n < 1000) return Math.floor(n).toString()
+  const e = Math.min(UNITS.length - 1, Math.floor(Math.log10(n) / 3))
