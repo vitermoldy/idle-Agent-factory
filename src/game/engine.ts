@@ -104,3 +104,4 @@ export function activeProduct(def: FactoryDef, fs: FactoryState): ProductDef {
 /** Raw capacity of a station: base-product orders per second. */
 export function stationRate(def: FactoryDef, index: number, level: number) {
   if (level <= 0) return 0
+  return def.rate * def.stations[index].speed * level * 2 ** milestoneCount(level)
