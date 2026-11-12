@@ -38,3 +38,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
   const def = FACTORY_BY_ID[g.active]
   const fs = g.factories[g.active]
   const rates = E.lineRates(def, fs)
+  live.locked = !fs.unlocked
