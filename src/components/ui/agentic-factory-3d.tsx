@@ -116,3 +116,4 @@ export default function AgenticFactory3D({
         </div>
       )}
       {phase === 'error' && (
+        <div className="af3d-error" role="alert">
