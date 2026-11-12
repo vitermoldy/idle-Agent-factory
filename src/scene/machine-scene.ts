@@ -307,3 +307,4 @@ export function initMachineScene(
       maxW: number,
       color = '#f4f1ea',
       weight = 500,
+      family = fontFamily
