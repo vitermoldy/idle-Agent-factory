@@ -114,3 +114,4 @@ export const useGame = create<Store>((set, get) => {
           factory: def.id,
           action: 'Lihat pabrik',
         })
+      }
