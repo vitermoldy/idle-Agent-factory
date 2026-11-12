@@ -1685,3 +1685,4 @@ export function initMachineScene(
           if (frameCount / measureTime < 43 && pixelRatio > 1) {
             pixelRatio = Math.max(1, pixelRatio - 0.25)
             renderer.setPixelRatio(pixelRatio)
+          }
