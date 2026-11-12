@@ -263,3 +263,4 @@ export default function App() {
               onLabels={setLabels}
               onPlaying={setPlaying}
             />
+          </div>
