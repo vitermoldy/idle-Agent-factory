@@ -163,3 +163,4 @@ function StationRow({
       <div className="flex items-start gap-3">
         <span className={cn('mt-0.5 font-mono text-[10px]', holds ? 'text-accent' : 'text-muted')}>
           {pad2(index + 1)}
+        </span>
