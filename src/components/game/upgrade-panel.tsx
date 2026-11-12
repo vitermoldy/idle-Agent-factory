@@ -118,3 +118,4 @@ function StationRow({
   neck,
   heldBack,
   selected,
+}: {
