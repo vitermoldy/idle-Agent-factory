@@ -1043,3 +1043,4 @@ export function initMachineScene(
         c = receiptTex.ctx
         c.fillStyle = '#f4f1ea'
         c.fillRect(0, 0, 280, 540)
+        fit(c, theme.receipt.shop, 25, 52, 24, 230, '#333d36', 650)
