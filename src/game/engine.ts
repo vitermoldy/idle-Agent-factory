@@ -325,3 +325,4 @@ export function startNewSeries(state: GameState, now = Date.now()): GameState {
 export function parseSave(raw: string | null): GameState | null {
   if (!raw) return null
   let data: unknown
+  try {
