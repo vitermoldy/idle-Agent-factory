@@ -373,3 +373,4 @@ export function initMachineScene(
           c.fillStyle = i === 0 ? INK : '#b9bcb5'
           c.fillRect(198, 92 + i * 20, i === 0 ? 120 : 132 - i * 18, i === 0 ? 10 : 6)
         }
+        rounded(c, 198, 166, 92, 24, 6, INK)
