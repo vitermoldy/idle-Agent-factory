@@ -528,3 +528,4 @@ export function initMachineScene(
         print(c, i === 0 ? q.active : q.waiting, 77, y + 49, 11, i === 0 ? ACC : '#81948f')
         c.fillStyle = '#334348'
         c.fillRect(377, y + 26, 214, 7)
+        c.fillStyle = i === 0 ? ACC : '#607475'
