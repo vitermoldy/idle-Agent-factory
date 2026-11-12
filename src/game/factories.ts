@@ -116,3 +116,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       queue: { title: 'ANTREAN VIDEO', items: ['Ulasan produk', 'Cerita merek', 'Koleksi baru'], active: 'RENDER', waiting: 'ANTRE' },
       wip: { title: 'NASKAH', sub: '01 / Pembuka' },
+      store: {
