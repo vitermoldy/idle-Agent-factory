@@ -144,3 +144,4 @@ function StationRow({
   const can = n > 0 && cost <= cash
   const levels = fs.levels.slice()
   levels[index] = level + n
+  // With an agent every plate earns, so the gain counts them all; by hand only the plate in view works.
