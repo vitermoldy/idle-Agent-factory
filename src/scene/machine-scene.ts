@@ -1179,3 +1179,4 @@ export function initMachineScene(
         engine,
         t: 0,
         speed: 0,
+        lastBelt: -1,
