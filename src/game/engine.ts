@@ -82,3 +82,4 @@ export function newGame(now = Date.now()): GameState {
       FactoryId,
       FactoryState
     >,
+    savedAt: now,
