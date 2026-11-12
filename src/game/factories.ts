@@ -23,3 +23,4 @@ export interface StationDef {
 type Three = [string, string, string]
 type Two = [string, string]
 
+export interface SceneTheme {
