@@ -1591,3 +1591,4 @@ export function initMachineScene(
       if (count !== ownedCount) {
         ownedCount = count
         fitRow()
+        if (cameraMode !== 'station' && mode !== 'order') {
