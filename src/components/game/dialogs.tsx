@@ -125,3 +125,4 @@ export function ConfirmDialog({
 }
 
 export function SettingsDialog({
+  open,
