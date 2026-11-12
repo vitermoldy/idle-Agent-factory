@@ -53,3 +53,5 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
       )}
     </section>
   )
+}
+
