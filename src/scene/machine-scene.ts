@@ -1532,3 +1532,4 @@ export function initMachineScene(
       const incomingBeat = orderMode ? Math.min(1, orderPhase / 0.15) : beat
       p.incoming.visible = !locked && (!orderMode || orderPhase < 0.15)
       p.incoming.position.set(Math.sin(incomingBeat * Math.PI) * 0.24, 2.9 - incomingBeat * 1.9, 1.1 - incomingBeat * 0.55)
+      p.incoming.rotation.z = Math.sin(incomingBeat * Math.PI) * -0.14
