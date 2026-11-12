@@ -1344,3 +1344,4 @@ export function initMachineScene(
     const publicApi = api
     window.__machine = publicApi
     cleanups.push(() => {
+      if (window.__machine === publicApi) delete window.__machine
