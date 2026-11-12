@@ -165,3 +165,4 @@ function StationRow({
           {pad2(index + 1)}
         </span>
         <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
