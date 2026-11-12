@@ -86,3 +86,4 @@ export function ConfirmDialog({
   title,
   confirmLabel,
   onConfirm,
+  onClose,
