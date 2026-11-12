@@ -183,3 +183,4 @@ function StationRow({
             <span className="text-muted">
               {neck ? 'Menahan lini' : `Cadangan +${Math.min(999, Math.round((rate / throughput - 1) * 100))}%`}
             </span>
+          </p>
