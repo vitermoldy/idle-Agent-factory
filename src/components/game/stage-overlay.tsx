@@ -152,3 +152,4 @@ export function UnlockCard() {
           price={money(def.unlockCost)}
           className="btn-lg mt-4 w-full"
           disabled={!can}
+          onClick={() => unlockFactory(def.id)}
