@@ -95,3 +95,4 @@ function ProductRow({
               price={money(product.unlockCost)}
               className="w-full"
               disabled={!can}
+              onClick={() => {
