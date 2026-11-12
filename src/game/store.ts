@@ -60,3 +60,4 @@ function readSave() {
 }
 
 function catchUp(game: E.GameState, seconds: number) {
+  const capped = seconds > E.OFFLINE_CAP
