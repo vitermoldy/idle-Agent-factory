@@ -1695,3 +1695,4 @@ export function initMachineScene(
     cleanups.push(() => {
       cancelAnimationFrame(rafId)
       controls.dispose()
+      const textures = new Set<THREE.Texture>()
