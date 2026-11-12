@@ -819,3 +819,4 @@ export function initMachineScene(
       printhead.position.set(0, 1.9, -0.08)
       printhead.userData.moving = true
       box(printhead, 0.45, 0.36, 0.44, 0, 0, 0, M.body, 0.05)
+      cyl(printhead, 0.11, 0.13, 0, -0.24, 0.03, M.chrome, 0.04)
