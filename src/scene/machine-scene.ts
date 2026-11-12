@@ -1240,3 +1240,4 @@ export function initMachineScene(
     // at about 0.85 of its length across and 0.25 of it up the screen.
     function fitDistance(span: number) {
       const aspect = width / height
+      const tan = 2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))
