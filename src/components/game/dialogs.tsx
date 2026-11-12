@@ -164,3 +164,4 @@ export function SettingsDialog({
         <button type="button" className="btn btn-quiet mt-3" onClick={onReset}>
           Hapus semua progres
         </button>
+      </section>
