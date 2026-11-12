@@ -1671,3 +1671,4 @@ export function initMachineScene(
         const x = THREE.MathUtils.clamp((anchor.x * 0.5 + 0.5) * width - 40 + off[0], 8, width - (mobile ? 118 : 160))
         const y = THREE.MathUtils.clamp((-anchor.y * 0.5 + 0.5) * height - 52 + off[1], 8, height - 150)
         label.el.style.transform = `translate(${x}px,${y}px)`
+      })
