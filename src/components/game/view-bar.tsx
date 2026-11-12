@@ -39,3 +39,4 @@ export function ViewBar({
   return (
     <div
       role="toolbar"
+      aria-label="Tampilan mesin"
