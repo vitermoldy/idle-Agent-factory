@@ -616,3 +616,4 @@ export function initMachineScene(
       }
       print(c, 'SELESAI  ✓', 24, 327, 17, '#4f5a45', 600)
     })
+    const orderCardTex = canvasTexture(256, 352, (c, w, h) => {
