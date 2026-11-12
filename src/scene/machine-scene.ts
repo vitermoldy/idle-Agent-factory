@@ -1345,3 +1345,4 @@ export function initMachineScene(
     window.__machine = publicApi
     cleanups.push(() => {
       if (window.__machine === publicApi) delete window.__machine
+    })
