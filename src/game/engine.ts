@@ -197,3 +197,4 @@ export function buyLevels(state: GameState, id: FactoryId, index: number, count:
   if (level + count > MAX_LEVEL) return state
   const cost = upgradeCost(def, index, level, count)
   if (cost > state.cash) return state
+  const levels = fs.levels.slice()
