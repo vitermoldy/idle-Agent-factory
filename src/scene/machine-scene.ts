@@ -1491,3 +1491,4 @@ export function initMachineScene(
       if (playing) p.t += dt * p.speed
       const t = p.t,
         beat = (t / 4) % 1,
+        tact = (t * TAU) / 4
