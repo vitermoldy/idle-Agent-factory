@@ -33,3 +33,4 @@ interface Store {
   setActive: (id: FactoryId) => void
   takeOrder: () => void
   buyStation: (index: number) => void
+  hireAgent: () => void
