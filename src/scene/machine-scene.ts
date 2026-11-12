@@ -309,3 +309,4 @@ export function initMachineScene(
       weight = 500,
       family = fontFamily
     ) {
+      let s = size
