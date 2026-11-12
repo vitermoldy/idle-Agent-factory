@@ -230,3 +230,4 @@ export function initMachineScene(
     function box(
       parent: THREE.Object3D,
       w: number,
+      h: number,
