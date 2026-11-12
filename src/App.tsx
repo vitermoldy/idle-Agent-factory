@@ -89,3 +89,4 @@ export default function App() {
     syncLive(live.current, useGame.getState().game)
   }
   const apiRef = useRef<SceneApi | null>(null)
+  const [tab, setTab] = useState<Tab>('upgrade')
