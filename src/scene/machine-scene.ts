@@ -720,3 +720,4 @@ export function initMachineScene(
 
     /** One complete machine for product `k`: platform, five stations, belt and cargo. */
     function buildPlate(k: number) {
+      const product = factory.products[k]
