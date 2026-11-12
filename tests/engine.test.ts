@@ -52,3 +52,4 @@ describe('the line', () => {
     const T = E.throughput(video, g.factories.video)
     const { state } = E.advance(g, 100)
     expect(state.factories.video.orders).toBe(Math.floor(T * 100))
+  })
