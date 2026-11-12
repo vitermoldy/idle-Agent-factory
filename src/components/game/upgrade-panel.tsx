@@ -88,3 +88,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
   const hireAgent = useGame((s) => s.hireAgent)
   const can = cash >= def.agentCost
   return (
+    <section aria-labelledby="agent-title" className="rounded-xl border border-line-strong bg-raised p-4">
