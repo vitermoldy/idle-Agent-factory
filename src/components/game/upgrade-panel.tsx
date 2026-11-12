@@ -93,3 +93,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
         Rekrut agen untuk {def.name}
       </h2>
       <p className="mt-1.5 text-[13px] leading-relaxed text-soft">
+        Tanpa agen, lini hanya bekerja saat kamu mengambil order. Agen menjalankannya terus, juga saat game
