@@ -72,3 +72,4 @@ describe('buying', () => {
   })
 
   it('refuses purchases the cash cannot cover', () => {
+    const g = rich(1)
