@@ -64,3 +64,4 @@ const freshFactory = (def: FactoryDef): FactoryState => {
     owned: [def.products[0].id],
     queue: 0,
     progress: {},
+    orders: 0,
