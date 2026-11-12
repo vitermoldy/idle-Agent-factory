@@ -55,3 +55,4 @@ export default function AgenticFactory3D({
     let dispose: (() => void) | undefined
     setPhase('loading')
     const style = getComputedStyle(root)
+    const text = style.fontFamily
