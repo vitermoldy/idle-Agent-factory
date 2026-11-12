@@ -56,3 +56,4 @@ function ProductRow({
   const can = game.cash >= product.unlockCost
   return (
     <li className={cn('rounded-xl border bg-panel p-3.5', owned && inView ? 'border-accent' : 'border-line')}>
+      <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
