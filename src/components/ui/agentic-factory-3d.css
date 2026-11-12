@@ -188,3 +188,4 @@
 }
 @keyframes af3d-spin {
   to {
+    transform: rotate(360deg);
