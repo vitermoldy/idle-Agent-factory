@@ -115,3 +115,4 @@
   /* Disabled is told by shape too (a dashed edge), not by colour alone. */
   .btn-primary:disabled {
     background: #1b1e24;
+    border: 1px dashed rgb(244 241 234 / 0.2);
