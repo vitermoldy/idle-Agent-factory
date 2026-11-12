@@ -1162,3 +1162,4 @@ export function initMachineScene(
         stations,
         bySlot,
         gears,
+        propUpdates,
