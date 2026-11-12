@@ -21,3 +21,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
         <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
           Setiap produk punya petak mesin sendiri di samping petak lain, dan semua petak berproduksi
           bersamaan. Level stasiun berlaku untuk semua petak; produk mahal membebani stasiun tertentu.
+        </p>
