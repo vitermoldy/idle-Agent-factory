@@ -1306,3 +1306,4 @@ export function initMachineScene(
         focusPlate().t = 0
         cameraMode = 'overview'
       } else if (cameraMode === 'station') cameraMode = 'overview'
+      setCameraGoal()
