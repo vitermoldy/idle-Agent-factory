@@ -20,3 +20,4 @@ dibayar di Kasir.
    setiap order untuk seterusnya.
 
 | Lini | Produk | Properti khas di mesin |
+|---|---|---|
