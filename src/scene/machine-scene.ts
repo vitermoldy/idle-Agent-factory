@@ -1151,3 +1151,4 @@ export function initMachineScene(
         halo.position.y = -0.37
         g.add(halo)
         halo.visible = false
+        packets.push({ group: g, faces, halo, stage: -1, phase: 0 })
