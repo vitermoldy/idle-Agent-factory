@@ -51,3 +51,4 @@ src/
   scene/machine-scene.ts                 scene three.js: geometri, layar yang dilukis, animasi
   game/factories.ts                      data lima lini: stasiun, produk, harga, tema
   game/engine.ts                         aturan game murni (tanpa React), dipakai store dan tes
+  game/store.ts                          state zustand: tick, simpan/muat, hasil offline, notifikasi
