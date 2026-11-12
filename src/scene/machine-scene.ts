@@ -1736,3 +1736,4 @@ export function initMachineScene(
               return { id: s.id, x: (v.x * 0.5 + 0.5) * width, y: (-0.5 * v.y + 0.5) * height }
             }),
           }
+        },
