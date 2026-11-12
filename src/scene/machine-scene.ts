@@ -568,3 +568,4 @@ export function initMachineScene(
       c.fillRect(15, 16, 190, 168)
       art(c, 15, 16, 190, 168, 0)
       fit(c, theme.post, 17, 225, 23, 186, '#283030', 600)
+      c.fillStyle = '#b0b5b0'
