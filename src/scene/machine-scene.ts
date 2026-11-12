@@ -1280,3 +1280,4 @@ export function initMachineScene(
       anchor = new THREE.Vector3()
     function setCameraGoal() {
       const expand = mode === 'stations' ? 1.2 : 1
+      const fp = focusPlate()
