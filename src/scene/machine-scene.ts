@@ -63,3 +63,5 @@ export interface SceneOptions {
   onView?: (mode: MachineMode, camera: MachineCamera) => void
   onReady?: () => void
   onError?: (message: string) => void
+}
+
