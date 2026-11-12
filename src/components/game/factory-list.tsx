@@ -15,3 +15,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
       {FACTORIES.map((def) => {
         const fs = game.factories[def.id]
         const active = game.active === def.id
+        const affordable = !fs.unlocked && game.cash >= def.unlockCost
