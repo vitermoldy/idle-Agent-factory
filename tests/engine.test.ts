@@ -133,3 +133,4 @@ describe('products', () => {
   it('makes the pricier product pay off once its heavy station is upgraded', () => {
     const ads = video.products[1]
     const base = video.products[0]
+    const fs = { ...E.newGame(0).factories.video, levels: [20, 40, 50, 30, 20] }
