@@ -8,3 +8,4 @@ const MODES: Array<{ id: MachineMode; label: string }> = [
   { id: 'stations', label: 'Urai' },
   { id: 'order', label: 'Ikuti order' },
 ]
+const CAMERAS: Array<{ id: MachineCamera; label: string }> = [
