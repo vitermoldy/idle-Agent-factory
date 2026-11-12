@@ -299,3 +299,4 @@ export function initMachineScene(
     }
     /** Paints a line of text, shrinking it until it fits `maxW`. */
     function fit(
+      ctx: CanvasRenderingContext2D,
