@@ -52,3 +52,4 @@ export const Play = (p: P) => (
   </svg>
 )
 
+export const Close = (p: P) => (
