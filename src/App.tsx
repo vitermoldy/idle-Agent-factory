@@ -282,3 +282,4 @@ export default function App() {
                 key={t}
                 id={`tab-${t}`}
                 type="button"
+                role="tab"
