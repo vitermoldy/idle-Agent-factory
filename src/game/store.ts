@@ -157,3 +157,4 @@ export const useGame = create<Store>((set, get) => {
       get().save()
     },
     resetGame: () => {
+      announced.clear()
