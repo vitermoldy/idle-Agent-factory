@@ -1272,3 +1272,4 @@ export function initMachineScene(
       if (first) {
         camera.position.copy(desiredPosition)
         controls.target.copy(desiredTarget)
+        controls.update()
