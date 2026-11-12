@@ -140,3 +140,4 @@ export function SettingsDialog({
     ? new Date(lastSaved).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' })
     : null
   return (
+    <Dialog open={open} onClose={onClose} title="Pengaturan">
