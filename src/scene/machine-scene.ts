@@ -1576,3 +1576,4 @@ export function initMachineScene(
 
     function animate(now: number) {
       rafId = requestAnimationFrame(animate)
+      const dt = Math.max(0, Math.min((now - lastFrame) / 1000, 0.045))
