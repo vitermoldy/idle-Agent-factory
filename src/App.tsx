@@ -280,3 +280,4 @@ export default function App() {
             {tabs.map((t) => (
               <button
                 key={t}
+                id={`tab-${t}`}
