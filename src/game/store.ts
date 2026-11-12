@@ -132,3 +132,4 @@ export const useGame = create<Store>((set, get) => {
       }
     },
     setActive: (id) => update((g) => ({ ...g, active: id })),
+    takeOrder: () => update((g) => E.takeOrder(g, g.active)),
