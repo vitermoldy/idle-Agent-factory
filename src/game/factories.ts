@@ -297,3 +297,4 @@ export const FACTORIES: FactoryDef[] = [
       shell: '#e4e2dc',
       prop: 'phone',
       plate: {
+        title: 'PABRIK APLIKASI',
