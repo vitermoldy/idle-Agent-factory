@@ -311,3 +311,4 @@ export default function App() {
                   apiRef.current?.setCamera('plate')
                   if (!wide) window.scrollTo({ top: 0, behavior: 'smooth' })
                 }}
+                onBought={() => {
