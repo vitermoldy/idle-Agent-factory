@@ -1238,3 +1238,4 @@ export function initMachineScene(
       out.copy(local).multiplyScalar(p.holder.scale.x).add(p.holder.position)
     // Camera distance that fits a row `span` wide. The row runs along x, which the camera sees
     // at about 0.85 of its length across and 0.25 of it up the screen.
+    function fitDistance(span: number) {
