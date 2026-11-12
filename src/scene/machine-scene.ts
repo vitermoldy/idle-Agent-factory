@@ -1705,3 +1705,4 @@ export function initMachineScene(
           material.dispose()
         }
       })
+      // Materials swapped in and out by props are not always attached at dispose time.
