@@ -173,3 +173,4 @@ function StationRow({
                 Bottleneck
               </span>
             )}
+          </div>
