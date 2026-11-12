@@ -242,3 +242,4 @@ export default function App() {
             <div className="pointer-events-none absolute inset-x-0 bottom-0 hidden justify-center px-4 pb-[84px] lg:flex">
               <StageAction />
             </div>
+            {popups.map((p) => (
