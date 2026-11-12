@@ -137,3 +137,4 @@ export const FACTORIES: FactoryDef[] = [
       receipt: { shop: 'STUDIO VIDEO' },
       screen: { kicker: 'DIBUAT', head: 'OLEH AGEN.', lines: ['Dari sebuah ide,', 'jadi produk nyata.', 'Agenmu', 'sudah bekerja.'] },
       journey: [
+        ['Order baru', 'Order dari Sari masuk ke Kabinet'],
