@@ -35,3 +35,4 @@ export default function AgenticFactory3D({
   tooltip,
   onStation,
   onView,
+  onApi,
