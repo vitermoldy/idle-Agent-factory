@@ -253,3 +253,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
   const completed: Completed = {}
   const factories = { ...state.factories }
   let gained = 0
+  for (const def of FACTORIES) {
