@@ -145,3 +145,4 @@ describe('series and stars', () => {
     const next = E.startNewSeries(g, 0)
     expect(next.stars).toBe(2)
     expect(next.series).toBe(2)
+    expect(next.cash).toBe(0)
