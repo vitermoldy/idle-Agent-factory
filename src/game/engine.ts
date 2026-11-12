@@ -204,3 +204,4 @@ export function buyLevels(state: GameState, id: FactoryId, index: number, count:
 
 export function hireAgent(state: GameState, id: FactoryId) {
   const def = FACTORY_BY_ID[id]
+  const fs = state.factories[id]
