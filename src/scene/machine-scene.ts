@@ -1341,3 +1341,4 @@ export function initMachineScene(
         return { x: (projected.x * 0.5 + 0.5) * width, y: (-projected.y * 0.5 + 0.5) * height }
       },
     }
+    const publicApi = api
