@@ -17,3 +17,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         <h2 id="series-title" className="panel-title">
           Series {series(game.series)}
         </h2>
+        <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
