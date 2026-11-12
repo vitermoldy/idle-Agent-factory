@@ -260,3 +260,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     const progress = { ...fs.progress }
     let done = 0
     let cash = 0
+    let queue = fs.queue
