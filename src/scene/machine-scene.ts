@@ -741,3 +741,4 @@ export function initMachineScene(
       for (const x of [-5.6, 5.6])
         for (const z of [-3.35, 3.35]) {
           cyl(machine, 0.39, 0.25, x, -0.31, z, M.rubber)
+          cyl(machine, 0.29, 0.09, x, -0.4, z, M.dark)
