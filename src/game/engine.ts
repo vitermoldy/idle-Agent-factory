@@ -190,3 +190,4 @@ function withFactory(state: GameState, id: FactoryId, patch: Partial<FactoryStat
 }
 
 export function buyLevels(state: GameState, id: FactoryId, index: number, count: number) {
+  const def = FACTORY_BY_ID[id]
