@@ -623,3 +623,4 @@ export function initMachineScene(
       print(c, 'BARU', 21, 79, 24, '#1f241d', 650)
       c.strokeStyle = 'rgba(20,24,20,.45)'
       c.lineWidth = 2
+      c.strokeRect(23, 112, 210, 139)
