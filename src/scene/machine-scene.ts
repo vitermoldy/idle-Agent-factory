@@ -1253,3 +1253,4 @@ export function initMachineScene(
       controls.maxDistance = Math.max(90, baseDistance * 1.6)
       fitShadow(ownedCount)
     }
+    // A zero-size box (a collapsed panel) would put NaN into the camera; wait for a real size.
