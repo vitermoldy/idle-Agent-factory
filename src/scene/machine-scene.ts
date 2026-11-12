@@ -761,3 +761,4 @@ export function initMachineScene(
         print(c, `PETAK ${k + 1}`, w - 48, 130, 23, DEEP, 600)
         c.textAlign = 'left'
       })
+      const plaqueMesh = screen(machine, 7.35, 0.84, -0.4, 0.25, 3.51, engraving)
