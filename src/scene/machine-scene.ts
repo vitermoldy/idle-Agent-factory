@@ -301,3 +301,4 @@ export function initMachineScene(
     function fit(
       ctx: CanvasRenderingContext2D,
       txt: string,
+      x: number,
