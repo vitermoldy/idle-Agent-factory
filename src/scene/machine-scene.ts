@@ -297,3 +297,4 @@ export function initMachineScene(
       t.anisotropy = Math.min(4, renderer.capabilities.getMaxAnisotropy())
       return { texture: t, canvas: c, ctx }
     }
+    /** Paints a line of text, shrinking it until it fits `maxW`. */
