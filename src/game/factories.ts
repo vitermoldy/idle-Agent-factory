@@ -343,3 +343,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'course', name: 'Kursus dan e-book', desc: 'Buku plus video pelajaran. Sunting dan toko ikut berat.', price: 1_700_000_000, work: [1.6, 3, 2.8, 1.8, 1.4], unlockCost: 16_000_000_000_000 },
     ],
     rate: 0.11,
+    growth: 1.15,
