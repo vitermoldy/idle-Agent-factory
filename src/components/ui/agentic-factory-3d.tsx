@@ -49,3 +49,4 @@ export default function AgenticFactory3D({
   const [attempt, setAttempt] = useState(0)
 
   useEffect(() => {
+    const root = rootRef.current
