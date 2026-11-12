@@ -114,3 +114,4 @@ function Progress({ value, steady = false }: { value: number; steady?: boolean }
 /** A locked line: what it makes and the price to open it. */
 export function UnlockCard() {
   const game = useGame((s) => s.game)
+  const unlockFactory = useGame((s) => s.unlockFactory)
