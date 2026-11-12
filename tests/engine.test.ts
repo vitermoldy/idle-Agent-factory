@@ -105,3 +105,4 @@ describe('products', () => {
     expect(E.incomePerSec(video, fs, 0)).toBeCloseTo(sum)
     const { state, completed } = E.advance(g, 100)
     const expected =
+      Math.floor(E.throughput(video, fs, video.products[0]) * 100) * 29 +
