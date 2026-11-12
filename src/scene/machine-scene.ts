@@ -178,3 +178,4 @@ export function initMachineScene(
     key.shadow.radius = 4
     scene.add(key)
     /** The shadow box follows the row, so one plate keeps sharp shadows. */
+    function fitShadow(count: number) {
