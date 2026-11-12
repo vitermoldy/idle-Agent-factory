@@ -752,3 +752,4 @@ export function initMachineScene(
         c.strokeStyle = '#4d545c'
         c.lineWidth = 2
         c.strokeRect(2, 2, w - 4, h - 4)
+        c.font = `650 40px ${displayFamily}`
