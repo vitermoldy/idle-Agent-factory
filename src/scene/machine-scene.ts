@@ -21,3 +21,4 @@ export type MachineCamera = 'overview' | 'side' | 'top' | 'plate' | 'station' | 
 /** One product's plate, as the game sees it right now. */
 export interface PlateLive {
   owned: boolean
+  /** Place in the row, in purchase order. */
