@@ -18,3 +18,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   const fs = game.factories[game.active]
   if (!fs.unlocked) return <LockedLine def={def} />
   const rates = E.lineRates(def, fs)
+  const T = Math.min(...rates)
