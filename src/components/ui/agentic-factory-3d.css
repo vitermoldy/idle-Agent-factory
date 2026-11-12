@@ -93,3 +93,4 @@
 }
 .af3d-tooltip {
   position: absolute;
+  pointer-events: none;
