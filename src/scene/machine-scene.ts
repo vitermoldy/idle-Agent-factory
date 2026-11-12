@@ -488,3 +488,4 @@ export function initMachineScene(
           c.fillRect(0, 0, 512, 116)
           print(c, pad(stepOf(id)), 24, 76, 42, ACC, 550)
           fit(c, stationDef(id).name.toUpperCase(), 111, 73, 35, 380, '#d7d9d7', 550)
+        }),
