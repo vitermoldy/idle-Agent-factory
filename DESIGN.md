@@ -22,3 +22,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Keputusan | Alasan |
 |---|---|
 | Latar nyaris hitam (#050607), tanpa tema terang | Mesin dirancang untuk panggung gelap: strip emisif, penangkap bayangan, vignette. Versi terang butuh pencahayaan ulang, dan game layar penuh lazim gelap. |
+| Panel #0e1013, panel naik #161920, garis ivory 9% dan 18% | Dua tingkat permukaan cukup untuk membedakan daftar dan kartu tanpa bayangan besar. |
