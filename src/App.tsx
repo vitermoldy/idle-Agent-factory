@@ -104,3 +104,4 @@ export default function App() {
   const shownTab: Tab = tabs.includes(tab) ? tab : 'upgrade'
 
   // The clock: the game advances ten times a second; the scene reads `live` every frame.
+  useEffect(() => {
