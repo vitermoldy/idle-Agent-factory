@@ -258,3 +258,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       incoming: 'Topik baru  +',
       cashTitle: 'SPONSOR MEMBAYAR',
+      receipt: { shop: 'PABRIK PODCAST' },
