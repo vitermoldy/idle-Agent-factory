@@ -1691,3 +1691,4 @@ export function initMachineScene(
         }
       }
     }
+    rafId = requestAnimationFrame(animate)
