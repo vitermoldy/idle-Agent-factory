@@ -94,3 +94,4 @@ export function StageAction() {
             <span key={i} className={cn('h-1.5 flex-1 rounded-sm', i < fs.queue ? 'bg-accent' : 'bg-line')} />
           ))}
         </div>
+        <Progress value={fs.queue > 0 ? progress : 0} />
