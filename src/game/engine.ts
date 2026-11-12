@@ -8,3 +8,4 @@ import {
   type ProductDef,
 } from './factories.ts'
 
+export const SAVE_VERSION = 3
