@@ -1383,3 +1383,4 @@ export function initMachineScene(
       pointer.set((x / width) * 2 - 1, (-y / height) * 2 + 1)
       raycaster.setFromCamera(pointer, camera)
       const hits = raycaster.intersectObjects(pickables, true).filter((h) => plates[h.object.userData.plate]?.holder.visible)
+      if (!hits.length) return null
