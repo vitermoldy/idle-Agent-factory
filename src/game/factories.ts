@@ -385,3 +385,4 @@ export const FACTORIES: FactoryDef[] = [
       receipt: { shop: 'PENERBIT E-BOOK' },
       screen: { kicker: 'DITULIS', head: 'OLEH AGEN.', lines: ['Kerangka disusun,', 'bab demi bab.', 'Buku terbit', 'di toko digital.'] },
       journey: [
+        ['Naskah masuk', 'Usulan Wulan jadi kerangka buku'],
