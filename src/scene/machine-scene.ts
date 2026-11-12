@@ -930,3 +930,4 @@ export function initMachineScene(
         shelf.position.set(-1.22, 0, -0.22)
         engine.add(shelf)
         const covers = [M.amber, S.ivory, M.dark, M.copper]
+        covers.forEach((m, i) => {
