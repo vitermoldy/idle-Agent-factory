@@ -8,3 +8,4 @@ import { Close } from './icons'
 export function Dialog({
   open,
   onClose,
+  title,
