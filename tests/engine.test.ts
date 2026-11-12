@@ -116,3 +116,5 @@ describe('products', () => {
     g = E.takeOrder(g, 'video')
     const { state } = E.advance(g, 600)
     expect(state.cash).toBeCloseTo(100)
+  })
+
