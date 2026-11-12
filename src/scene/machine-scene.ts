@@ -1457,3 +1457,4 @@ export function initMachineScene(
       [-8, -64],
       [30, -12],
       [30, 20],
+      [-12, 40],
