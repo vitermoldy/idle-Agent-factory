@@ -43,3 +43,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
   // One plate per product; with an agent every owned plate runs, by hand only the one in view.
   live.plates = def.products.map((p) => {
     const slot = fs.owned.indexOf(p.id)
+    const running = fs.unlocked && slot >= 0 && (fs.agent || (fs.queue > 0 && fs.product === p.id))
