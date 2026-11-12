@@ -320,3 +320,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       incoming: 'Proyek baru  +',
       cashTitle: 'LISENSI DIBAYAR',
+      receipt: { shop: 'PABRIK APLIKASI' },
