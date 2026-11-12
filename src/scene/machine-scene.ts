@@ -903,3 +903,4 @@ export function initMachineScene(
           bars.forEach((bar, i) => {
             const s = 0.25 + Math.abs(Math.sin(t * 3.1 + i * 0.9)) * 0.75
             bar.scale.y = s
+            bar.position.y = 0.11 + 0.15 * s
