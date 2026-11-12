@@ -885,3 +885,4 @@ export function initMachineScene(
         head.userData.moving = true
         mic.add(head)
         cyl(head, 0.14, 0.3, 0, -0.06, 0, M.dark)
+        cyl(head, 0.155, 0.04, 0, 0.1, 0, M.amber)
