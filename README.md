@@ -17,3 +17,5 @@ dibayar di Kasir.
    Klik "Lihat petak ini" atau sebuah stasiun di petak mana pun untuk melihat petak itu dari dekat.
 5. **Buka pabrik lain** begitu uangmu cukup. Game memberi tahu saat itu terjadi.
 6. **Mulai series baru** untuk menukar pendapatan dengan bintang. Setiap bintang menambah 5% nilai
+   setiap order untuk seterusnya.
+
