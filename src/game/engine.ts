@@ -287,3 +287,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
       ...state,
       factories,
       cash: state.cash + gained,
+      earned: state.earned + gained,
