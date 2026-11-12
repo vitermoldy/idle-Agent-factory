@@ -36,3 +36,4 @@ export default function AgenticFactory3D({
   onStation,
   onView,
   onApi,
+  className,
