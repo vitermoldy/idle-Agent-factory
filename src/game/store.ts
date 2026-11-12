@@ -131,3 +131,4 @@ export const useGame = create<Store>((set, get) => {
         set({ storageOk: false })
       }
     },
+    setActive: (id) => update((g) => ({ ...g, active: id })),
