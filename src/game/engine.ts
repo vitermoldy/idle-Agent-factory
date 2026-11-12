@@ -225,3 +225,4 @@ export function buyProduct(state: GameState, id: FactoryId, productId: string) {
   const fs = state.factories[id]
   const product = def.products.find((p) => p.id === productId)
   if (!product || !fs.unlocked || fs.owned.includes(productId) || state.cash < product.unlockCost) return state
+  return {
