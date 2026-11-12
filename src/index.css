@@ -66,3 +66,4 @@
 @layer components {
   .mono-label {
     font-family: var(--font-mono);
+    font-size: 10px;
