@@ -53,3 +53,4 @@ export interface SceneTheme {
  * Something a line can make. Pricier products pay more per order but load some stations
  * harder (`work`, in pipeline order), so the best pick depends on which stations are upgraded.
  */
+export interface ProductDef {
