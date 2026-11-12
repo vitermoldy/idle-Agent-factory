@@ -148,3 +148,4 @@ export function initMachineScene(
     renderer.toneMappingExposure = live.locked ? 0.5 : 1.12
     renderer.shadowMap.enabled = true
     renderer.shadowMap.type = THREE.PCFShadowMap
+    renderer.localClippingEnabled = true
