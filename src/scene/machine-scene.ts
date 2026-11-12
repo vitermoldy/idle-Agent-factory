@@ -1236,3 +1236,4 @@ export function initMachineScene(
     const countOwned = () => plates.filter((p) => plateLive(p.k).owned || p.k === 0).length
     const world = (p: Plate, local: THREE.Vector3, out: THREE.Vector3) =>
       out.copy(local).multiplyScalar(p.holder.scale.x).add(p.holder.position)
+    // Camera distance that fits a row `span` wide. The row runs along x, which the camera sees
