@@ -130,3 +130,4 @@
   transform: translate(-50%, -6px);
   opacity: 0;
   transition: 0.35s;
+  pointer-events: none;
