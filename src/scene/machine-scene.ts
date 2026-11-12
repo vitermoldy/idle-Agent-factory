@@ -543,3 +543,4 @@ export function initMachineScene(
       for (let i = 0; i < 3; i++) disc(c, 26 + i * 19, 27, 4, '#adaeaa')
       print(c, st.brand, 33, 100, 22, '#22282b', 650, displayFamily)
       c.textAlign = 'right'
+      print(c, st.nav, 862, 98, 14, '#6a7271')
