@@ -267,3 +267,4 @@ export function initMachineScene(
     }
     function ball(parent: THREE.Object3D, r: number, x: number, y: number, z: number, m: Material = M.chrome) {
       const k = `s${r}`
+      if (!geometries.has(k)) geometries.set(k, new THREE.SphereGeometry(r, 16, 10))
