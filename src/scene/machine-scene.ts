@@ -311,3 +311,4 @@ export function initMachineScene(
     ) {
       let s = size
       ctx.font = `${weight} ${s}px ${family}`
+      while (s > 8 && ctx.measureText(txt).width > maxW) {
