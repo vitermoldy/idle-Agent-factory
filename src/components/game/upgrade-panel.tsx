@@ -25,3 +25,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   const heldBack = def.stations.map((_, i) =>
     owned.filter((p) => E.bottlenecks(def, fs, p).includes(i)).map((p) => p.name)
   )
+  return (
