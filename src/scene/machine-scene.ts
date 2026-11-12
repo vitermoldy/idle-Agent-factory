@@ -171,3 +171,4 @@ export function initMachineScene(
     const key = new THREE.DirectionalLight(0xfff1d8, 4.2)
     key.position.set(-4, 12, 7)
     key.castShadow = true
+    key.shadow.mapSize.set(2048, 2048)
