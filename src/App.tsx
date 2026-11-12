@@ -277,3 +277,4 @@ export default function App() {
             onKeyDown={onTabKey}
             className="sticky top-16 z-20 flex gap-5 border-b border-line bg-ground px-4 lg:static"
           >
+            {tabs.map((t) => (
