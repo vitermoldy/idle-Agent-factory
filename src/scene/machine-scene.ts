@@ -443,3 +443,5 @@ export function initMachineScene(
       c.scale(w / 384, h / 340)
       ARTS[factory.id](c, t)
       c.restore()
+    }
+
