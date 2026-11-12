@@ -26,3 +26,4 @@ type Two = [string, string]
 export interface SceneTheme {
   accent: string
   accentDeep: string
+  shell: string
