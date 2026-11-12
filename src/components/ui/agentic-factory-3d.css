@@ -62,3 +62,4 @@
   display: flex;
   gap: 8px;
   align-items: center;
+  white-space: nowrap;
