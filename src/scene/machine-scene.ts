@@ -688,3 +688,4 @@ export function initMachineScene(
     // Merge static geometry per parent/material. Moving assemblies remain separate.
     function compact(group: THREE.Object3D) {
       for (const child of [...group.children]) if ((child as THREE.Group).isGroup) compact(child)
+      const buckets = new Map<string, THREE.Mesh<THREE.BufferGeometry, THREE.Material>[]>()
