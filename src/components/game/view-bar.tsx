@@ -12,3 +12,4 @@ const CAMERAS: Array<{ id: MachineCamera; label: string }> = [
   { id: 'overview', label: 'Kamera depan' },
   { id: 'side', label: 'Kamera samping' },
   { id: 'top', label: 'Kamera atas' },
+  { id: 'plate', label: 'Kamera petak' },
