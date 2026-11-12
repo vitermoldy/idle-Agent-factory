@@ -134,3 +134,4 @@ describe('products', () => {
     const ads = video.products[1]
     const base = video.products[0]
     const fs = { ...E.newGame(0).factories.video, levels: [20, 40, 50, 30, 20] }
+    expect(E.productIncome(video, fs, 0, ads)).toBeGreaterThan(E.productIncome(video, fs, 0, base))
