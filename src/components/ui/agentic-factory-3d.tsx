@@ -12,3 +12,4 @@ import './agentic-factory-3d.css'
 
 /**
  * Agentic Factory 3D, game edition: the interactive machine of one production line.
+ * Fills its box. Remount it (React key) to switch lines; the game talks to it through
