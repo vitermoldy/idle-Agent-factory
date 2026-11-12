@@ -1233,3 +1233,4 @@ export function initMachineScene(
     const focusPlate = () => plates[live.focus] ?? plates[0]
     /** Where a plate stands in the row: owned plates centred on the origin, in purchase order. */
     const targetX = (k: number) => (plateLive(k).slot - (ownedCount - 1) / 2) * SPACING
+    const countOwned = () => plates.filter((p) => plateLive(p.k).owned || p.k === 0).length
