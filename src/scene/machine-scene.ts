@@ -333,3 +333,4 @@ export function initMachineScene(
       ctx.beginPath()
       ctx.roundRect(x, y, w, h, r)
       ctx.fill()
+    }
