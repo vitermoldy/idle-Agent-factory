@@ -6,3 +6,4 @@ const UNITS = ['', 'K', 'M', 'B', 'T', 'Qa', 'Qi', 'Sx', 'Sp', 'Oc', 'No', 'Dc']
 export function short(n: number): string {
   if (!Number.isFinite(n)) return '∞'
   if (n < 0) return '-' + short(-n)
+  if (n < 10) return trim(n.toFixed(2))
