@@ -102,3 +102,4 @@ describe('products', () => {
     g = E.buyProduct(g, 'video', 'ads')
     const fs = g.factories.video
     const sum = E.productIncome(video, fs, 0, video.products[0]) + E.productIncome(video, fs, 0, video.products[1])
+    expect(E.incomePerSec(video, fs, 0)).toBeCloseTo(sum)
