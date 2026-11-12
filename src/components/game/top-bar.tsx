@@ -26,3 +26,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         <strong className="font-display text-[22px] font-semibold tabular-nums sm:text-[26px]" aria-live="off">
           {money(cash)}
         </strong>
+        <span className="text-[13px] text-muted tabular-nums">
