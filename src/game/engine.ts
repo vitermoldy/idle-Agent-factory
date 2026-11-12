@@ -303,3 +303,5 @@ export function starsEarnedTotal(allTime: number) {
 export function nextStarAt(allTime: number) {
   const next = starsEarnedTotal(allTime) + 1
   return next * next * STAR_UNIT
+}
+
