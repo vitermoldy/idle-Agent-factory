@@ -99,3 +99,4 @@ export default function AgenticFactory3D({
       <div data-el="tooltip" className="af3d-tooltip" role="tooltip">
         <strong />
         <p />
+      </div>
