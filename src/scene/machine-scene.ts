@@ -643,3 +643,4 @@ export function initMachineScene(
       ].map((p) => new THREE.Vector3(...(p as Vec3))),
       true,
       'catmullrom',
+      0.25
