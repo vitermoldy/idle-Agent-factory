@@ -792,3 +792,4 @@ export function initMachineScene(
         box(group, 2.05, 0.12, 1.78, 0, 0.03, 0, M.dark, 0.1)
         box(group, 1.97, 0.03, 1.7, 0, 0.12, 0, glowMat, 0.09)
         box(group, 2.03, 0.17, 1.75, 0, 0.215, 0, M.body, 0.1)
+        for (const x of [-0.85, 0.85]) for (const z of [-0.7, 0.7]) screw(group, x, 0.311, z)
