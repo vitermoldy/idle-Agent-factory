@@ -46,3 +46,5 @@ function PlateStat({ label, value }: { label: string; value: string }) {
       <dd className="text-ink">{value}</dd>
     </div>
   )
+}
+
