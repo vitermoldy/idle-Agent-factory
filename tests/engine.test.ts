@@ -167,3 +167,4 @@ describe('saves', () => {
   })
 
   it('reads the previous save format', () => {
+    const old = JSON.parse(JSON.stringify(E.newGame(0)))
