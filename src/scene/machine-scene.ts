@@ -1443,3 +1443,4 @@ export function initMachineScene(
     })
     listen(renderer.domElement, 'webglcontextrestored', () => {
       contextLost = false
+      lastFrame = performance.now()
