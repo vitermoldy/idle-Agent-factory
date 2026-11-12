@@ -335,3 +335,4 @@ export function initMachineScene(
       ctx.fill()
     }
     function disc(ctx: CanvasRenderingContext2D, x: number, y: number, r: number, color: string) {
+      ctx.fillStyle = color
