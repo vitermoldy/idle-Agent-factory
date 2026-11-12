@@ -233,3 +233,4 @@
     top: 64px;
   }
 }
+@media (prefers-reduced-motion: reduce) {
