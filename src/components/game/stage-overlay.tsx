@@ -93,3 +93,4 @@ export function StageAction() {
           {Array.from({ length: E.QUEUE_MAX }, (_, i) => (
             <span key={i} className={cn('h-1.5 flex-1 rounded-sm', i < fs.queue ? 'bg-accent' : 'bg-line')} />
           ))}
+        </div>
