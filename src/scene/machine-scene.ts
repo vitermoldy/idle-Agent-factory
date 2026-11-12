@@ -128,3 +128,4 @@ export function initMachineScene(
       0.1,
       220
     )
+    let renderer: THREE.WebGLRenderer
