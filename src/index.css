@@ -188,3 +188,4 @@
   }
   .tab[aria-selected='true']::after {
     content: '';
+    position: absolute;
