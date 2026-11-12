@@ -201,3 +201,4 @@ export default function App() {
     if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return
     const i = tabs.indexOf(shownTab)
     const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length]
+    setTab(next)
