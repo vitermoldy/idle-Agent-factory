@@ -876,3 +876,4 @@ export function initMachineScene(
         // A studio microphone on a boom, with a level meter at its foot.
         const mic = new THREE.Group()
         mic.position.set(-1.2, 0, -0.32)
+        engine.add(mic)
