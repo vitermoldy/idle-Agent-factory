@@ -652,3 +652,4 @@ export function initMachineScene(
       const pts: THREE.Vector3[] = []
       for (let i = 0; i <= 160; i++) {
         path.getPointAt(i / 160, pVec)
+        path.getTangentAt(i / 160, tVec)
