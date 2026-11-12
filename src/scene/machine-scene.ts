@@ -594,3 +594,4 @@ export function initMachineScene(
       c.fillStyle = ACC
       c.fillRect(0, 0, w, h)
       disc(c, 58, 98, 32, '#2a2e26')
+      c.textAlign = 'center'
