@@ -281,3 +281,4 @@ export default function App() {
               <button
                 key={t}
                 id={`tab-${t}`}
+                type="button"
