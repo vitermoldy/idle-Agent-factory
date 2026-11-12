@@ -224,3 +224,4 @@ export const FACTORIES: FactoryDef[] = [
     agentCost: 9_000_000,
     stations: [
       { slot: 'cabinet', name: 'Topik', desc: 'Ide episode dan tamu dijadwalkan.', output: 'topik', speed: 1.3, cost: 22_500 },
+      { slot: 'engine', name: 'Studio Suara', desc: 'Agen merekam narasi dan wawancara.', output: 'rekaman', speed: 1, cost: 40_000 },
