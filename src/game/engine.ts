@@ -330,3 +330,4 @@ export function parseSave(raw: string | null): GameState | null {
   } catch {
     return null
   }
+  if (!data || typeof data !== 'object') return null
