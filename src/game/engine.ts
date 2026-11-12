@@ -348,3 +348,4 @@ export function parseSave(raw: string | null): GameState | null {
         ? f.levels.map((l) => Math.min(MAX_LEVEL, Math.max(unlocked ? 1 : 0, Math.floor(num(l, 1)))))
         : base.factories[def.id].levels
     const known = new Set(def.products.map((p) => p.id))
+    const owned = Array.isArray(f.owned)
