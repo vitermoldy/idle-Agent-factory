@@ -506,3 +506,4 @@ export function initMachineScene(
       const n = Math.floor(t * 0.7) % 4
       fit(c, lines[n], 45, 505, 25, 300, '#f4f1ea', 550)
       fit(c, lines[(n + 1) % 4], 45, 547, 25, 300, '#f4f1ea', 550)
+      c.fillStyle = '#fff7d4'
