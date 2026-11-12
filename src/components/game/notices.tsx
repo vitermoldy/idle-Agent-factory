@@ -30,3 +30,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
         <button
           type="button"
           className="btn btn-primary min-h-10 px-3 text-[13px]"
+          onClick={() => {
