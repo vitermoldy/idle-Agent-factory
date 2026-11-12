@@ -21,3 +21,4 @@ export function Dialog({
   const ref = useRef<HTMLDialogElement>(null)
   const id = useId()
   useEffect(() => {
+    const d = ref.current
