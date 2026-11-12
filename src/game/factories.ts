@@ -181,3 +181,4 @@ export const FACTORIES: FactoryDef[] = [
       store: {
         brand: 'KOPI PAGI',
         nav: 'Menu    Lokasi    Pesan',
+        tag: ['SEDUH', 'SETIAP PAGI.'],
