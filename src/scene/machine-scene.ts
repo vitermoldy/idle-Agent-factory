@@ -996,3 +996,4 @@ export function initMachineScene(
       box(storefront, 0.21, 0.019, 0.008, 0, 1.149, 0.013, M.light, 0.003)
       screen(storefront, 0.685, 0.96, -0.655, 1.86, 0.018, productTex)
       const flyPost = new THREE.Group()
+      flyPost.userData.moving = true
