@@ -103,3 +103,4 @@ export default function App() {
   const tabs: Tab[] = wide ? ['upgrade', 'produk', 'series'] : ['upgrade', 'produk', 'pabrik', 'series']
   const shownTab: Tab = tabs.includes(tab) ? tab : 'upgrade'
 
+  // The clock: the game advances ten times a second; the scene reads `live` every frame.
