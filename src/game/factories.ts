@@ -386,3 +386,4 @@ export const FACTORIES: FactoryDef[] = [
       screen: { kicker: 'DITULIS', head: 'OLEH AGEN.', lines: ['Kerangka disusun,', 'bab demi bab.', 'Buku terbit', 'di toko digital.'] },
       journey: [
         ['Naskah masuk', 'Usulan Wulan jadi kerangka buku'],
+        ['Menulis bab', 'Mesin Tulis bekerja bab demi bab'],
