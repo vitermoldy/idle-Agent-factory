@@ -101,3 +101,4 @@ export function StageAction() {
 }
 
 function Progress({ value, steady = false }: { value: number; steady?: boolean }) {
+  return (
