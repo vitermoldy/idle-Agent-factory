@@ -118,3 +118,4 @@ export function initMachineScene(
     const ACC = theme.accent
     const DEEP = theme.accentDeep
     const plateLive = (k: number) => live.plates[k] ?? NO_PLATE
+    const stationDef = (slot: SlotId) => factory.stations.find((s) => s.slot === slot)!
