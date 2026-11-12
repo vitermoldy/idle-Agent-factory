@@ -139,3 +139,4 @@ export function initMachineScene(
       throw new Error(
         'WebGL tidak tersedia. Nyalakan akselerasi perangkat keras di pengaturan browser, lalu muat ulang halaman.'
       )
+    }
