@@ -34,3 +34,4 @@ export function StagePlate({ className }: { className?: string }) {
           <PlateStat label="Per order" value={money(E.orderValue(def, fs, game.stars))} />
           <PlateStat label="Kecepatan" value={pace(T)} />
         </dl>
+      )}
