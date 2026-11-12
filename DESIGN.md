@@ -35,3 +35,5 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Ikon digambar sendiri: bingkai film, jendela browser, mikrofon, ponsel, buku | Setiap ikon menggambarkan produk lininya. Tidak ada pustaka ikon. |
 | Logo: tanda V dari komponen asli | Bukan aset baru; diambil dari komponen yang diberikan. |
 | Tombol nonaktif bergaris putus-putus | Status nonaktif dibedakan oleh bentuk juga, bukan hanya warna. |
+| Kaca dan blur tidak dipakai | Panel memakai permukaan padat agar teks di atas mesin selalu kontras. |
+
