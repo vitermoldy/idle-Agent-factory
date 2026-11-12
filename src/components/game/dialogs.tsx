@@ -47,3 +47,4 @@ export function Dialog({
         {footer && <div className="mt-5 flex flex-wrap justify-end gap-2">{footer}</div>}
       </div>
     </dialog>
+  )
