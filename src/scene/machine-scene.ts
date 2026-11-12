@@ -246,3 +246,4 @@ export function initMachineScene(
       return o
     }
     function cyl(
+      parent: THREE.Object3D,
