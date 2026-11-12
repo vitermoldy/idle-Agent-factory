@@ -1335,3 +1335,4 @@ export function initMachineScene(
       focusStation,
       project: (slot) => {
         if (!sized) return null
+        const fp = focusPlate()
