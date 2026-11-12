@@ -379,3 +379,4 @@ export function initMachineScene(
         for (let i = 0; i < 3; i++) rounded(c, 54 + i * 100, 210, 88, 56, 6, i === k ? ACC : '#e1e2db')
       },
       podcast: (c, t) => {
+        disc(c, 320, 70, 190, DEEP)
