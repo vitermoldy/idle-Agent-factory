@@ -231,3 +231,4 @@ export function initMachineScene(
       parent: THREE.Object3D,
       w: number,
       h: number,
+      d: number,
