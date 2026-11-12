@@ -1036,3 +1036,4 @@ export function initMachineScene(
         paintedValue = value
         let c = cashTex.ctx
         c.fillStyle = '#12231e'
+        c.fillRect(0, 0, 512, 176)
