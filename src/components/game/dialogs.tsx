@@ -174,3 +174,4 @@ export function SettingsDialog({
           Claude), digambar seluruhnya dengan three.js tanpa model atau gambar.{' '}
           <a
             className="text-soft underline underline-offset-2 hover:text-ink"
+            href="https://github.com/eugeneshilow/agentic-3d-templates"
