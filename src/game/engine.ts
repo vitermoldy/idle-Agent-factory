@@ -173,3 +173,5 @@ export function affordableLevels(def: FactoryDef, index: number, level: number, 
   // Guard against rounding at the edge.
   const fit = upgradeCost(def, index, level, n) <= cash ? n : n - 1
   return Math.max(0, Math.min(fit, MAX_LEVEL - level))
+}
+
