@@ -33,3 +33,4 @@ while (t <= 4 * 3600) {
       marks.push(`${clock(t)}  open ${next.name}`)
       continue
     }
+    const hire = FACTORIES.find((f) => s.factories[f.id].unlocked && !s.factories[f.id].agent && s.cash >= f.agentCost)
