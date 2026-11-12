@@ -257,3 +257,4 @@ export default function App() {
               mode={mode}
               camera={camera}
               labels={labels}
+              playing={playing}
