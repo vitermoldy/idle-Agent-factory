@@ -236,3 +236,4 @@
 @media (prefers-reduced-motion: reduce) {
   .af3d * {
     transition: none !important;
+  }
