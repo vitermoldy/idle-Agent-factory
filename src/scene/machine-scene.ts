@@ -464,3 +464,4 @@ export function initMachineScene(
     const lineMat = new THREE.LineBasicMaterial({ color: 0x69717a, transparent: true, opacity: 0.12 })
     const draftingPoints: THREE.Vector3[] = []
     for (const r of [7.5, 8.1])
+      for (let i = 0; i < 120; i++)
