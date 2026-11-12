@@ -1390,3 +1390,4 @@ export function initMachineScene(
       const [x, y] = local(e)
       if (Math.hypot(x - downX, y - downY) > 5) wasDragged = true
       if (dragging) return
+      const hit = hitStation(x, y)
