@@ -243,3 +243,4 @@ export default function App() {
               <StageAction />
             </div>
             {popups.map((p) => (
+              <span key={p.id} className="popup" style={{ left: p.x, top: p.y }} aria-hidden="true">
