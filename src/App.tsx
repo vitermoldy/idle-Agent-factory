@@ -342,3 +342,4 @@ export default function App() {
         }}
       />
       <ConfirmDialog
+        open={confirm === 'series'}
