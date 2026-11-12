@@ -1054,3 +1054,4 @@ export function initMachineScene(
         c.setLineDash([])
         fit(c, product.name, 25, 154, 22, 230, '#333d36')
         fit(c, '1 × ' + value, 25, 190, 21, 230, '#333d36')
+        print(c, 'LUNAS', 25, 263, 31, '#333d36', 650)
