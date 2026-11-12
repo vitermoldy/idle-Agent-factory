@@ -346,3 +346,4 @@ export function initMachineScene(
       const o = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map, toneMapped: false }))
       o.position.set(x, y, z)
       parent.add(o)
+      return o
