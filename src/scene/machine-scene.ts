@@ -388,3 +388,4 @@ export function initMachineScene(
         c.stroke()
         for (let i = 0; i < 15; i++) {
           const a = Math.abs(Math.sin(t * 2.4 + i * 0.75)) * 0.75 + 0.25
+          const bh = 22 + a * 92 * (1 - Math.abs(i - 7) / 9)
