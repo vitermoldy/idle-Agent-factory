@@ -289,3 +289,4 @@ export function initMachineScene(
     function canvasTexture(w: number, h: number, draw: Draw) {
       const c = document.createElement('canvas')
       c.width = w
+      c.height = h
