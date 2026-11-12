@@ -199,3 +199,4 @@ export default function App() {
 
   const onTabKey = (e: KeyboardEvent<HTMLDivElement>) => {
     if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return
+    const i = tabs.indexOf(shownTab)
