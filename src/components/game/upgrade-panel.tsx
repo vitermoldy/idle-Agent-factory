@@ -198,3 +198,4 @@ function StationRow({
         <span className="min-w-0 flex-1 text-[12px] text-muted tabular-nums">
           {gain > 0.0005 ? (
             <span className="font-medium text-accent">
+              Pendapatan +{gain < 0.1 ? (gain * 100).toFixed(1) : Math.round(gain * 100)}%
