@@ -897,3 +897,4 @@ export function initMachineScene(
           const bar = box(meter, 0.045, 0.3, 0.06, -0.15 + i * 0.06, 0.26, 0.05, i > 3 ? M.amber : M.light, 0.01)
           bar.userData.moving = true
           bars.push(bar)
+        }
