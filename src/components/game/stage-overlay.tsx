@@ -66,3 +66,4 @@ export function StageAction() {
             {fs.owned.length > 1 ? `${fs.owned.length} petak berproduksi` : 'Agen menjalankan lini'}
           </span>
           <span className="text-muted">{money(E.incomePerSec(def, fs, game.stars))}/dtk</span>
+        </div>
