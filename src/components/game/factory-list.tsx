@@ -44,3 +44,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
             >
               <span className={cn('w-5 font-mono text-[10px]', active ? 'text-(--item)' : 'text-muted')}>
                 {def.no}
+              </span>
