@@ -152,3 +152,4 @@ export const FACTORIES: FactoryDef[] = [
     unit: 'situs',
     blurb: 'Brief masuk pagi, situs tayang sore. Agen merancang, menulis kode, lalu merilis.',
     products: [
+      { id: 'landing', name: 'Landing page', desc: 'Satu halaman untuk satu penawaran.', price: 1_450, work: [1, 1, 1, 1, 1], unlockCost: 0 },
