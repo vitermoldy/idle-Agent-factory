@@ -24,3 +24,5 @@ export const money = (n: number) => '$' + short(n)
 export function perSecond(n: number) {
   if (n <= 0) return '0/dtk'
   return short(n) + '/dtk'
+}
+
