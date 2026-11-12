@@ -219,3 +219,4 @@
     transform: translateY(-160%);
   }
   .skip-link:focus {
+    transform: none;
