@@ -91,3 +91,4 @@ function ProductRow({
         ) : (
           <>
             <PriceButton
+              label="Tambah produk"
