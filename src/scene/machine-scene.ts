@@ -945,3 +945,4 @@ export function initMachineScene(
         turn.userData.moving = true
         open.add(turn)
         box(turn, 0.29, 0.012, 0.44, 0.15, 0.05, 0, M.paper, 0.004)
+        propUpdates.push((t) => {
