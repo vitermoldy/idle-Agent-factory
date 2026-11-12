@@ -63,3 +63,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
 function BuyModeSwitch() {
   const buyMode = useGame((s) => s.buyMode)
   const setBuyMode = useGame((s) => s.setBuyMode)
+  return (
