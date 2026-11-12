@@ -1568,3 +1568,4 @@ export function initMachineScene(
           packet.stage = stage
         }
         packet.group.visible = !locked && (!orderMode || i === 0)
+        packet.halo.visible = orderMode && i === 0
