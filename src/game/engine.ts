@@ -195,3 +195,4 @@ export function buyLevels(state: GameState, id: FactoryId, index: number, count:
   if (!fs.unlocked || count <= 0) return state
   const level = fs.levels[index]
   if (level + count > MAX_LEVEL) return state
+  const cost = upgradeCost(def, index, level, count)
