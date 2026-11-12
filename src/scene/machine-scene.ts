@@ -1650,3 +1650,4 @@ export function initMachineScene(
         playing && !dragging && !cameraAnimating && mode !== 'order' && cameraMode === 'overview' && now - lastInteraction > 6500
       controls.autoRotateSpeed = 0.24
       controls.update(dt)
+      // Station labels follow the plate in view, clamped inside the box. The Label button alone
