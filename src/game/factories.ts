@@ -178,3 +178,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       queue: { title: 'ANTREAN BUILD', items: ['Kedai kopi', 'Klinik gigi', 'Kelas yoga'], active: 'BUILD', waiting: 'ANTRE' },
       wip: { title: 'WIREFRAME', sub: '02 / Beranda' },
+      store: {
