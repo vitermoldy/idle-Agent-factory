@@ -58,3 +58,4 @@ while (t <= 4 * 3600) {
       // Tied bottlenecks: no single upgrade helps, so price the whole tie together.
       for (const p of E.ownedProducts(def, fs)) {
         const tied = E.bottlenecks(def, fs, p)
+        if (tied.length < 2) continue
