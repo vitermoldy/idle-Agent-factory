@@ -57,3 +57,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
     live.meta[st.slot] = fs.unlocked
       ? { level: `Lv ${fs.levels[i]}`, rate: `${short(rates[i])} order/dtk` }
       : { level: '', rate: '' }
+  })
