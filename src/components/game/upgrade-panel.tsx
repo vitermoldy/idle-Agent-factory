@@ -180,3 +180,4 @@ function StationRow({
           )}
           <p className="mt-2 flex flex-wrap justify-between gap-x-3 text-[13px] tabular-nums">
             <span className="text-soft">{short(rate)} order/dtk</span>
+            <span className="text-muted">
