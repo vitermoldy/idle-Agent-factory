@@ -112,3 +112,4 @@ export const FACTORIES: FactoryDef[] = [
       prop: 'reels',
       plate: {
         title: 'STUDIO VIDEO',
+        line: 'naskah, suara, render, lalu posting',
