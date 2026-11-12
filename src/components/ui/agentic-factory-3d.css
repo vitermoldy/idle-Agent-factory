@@ -48,3 +48,4 @@
   background: linear-gradient(transparent, color-mix(in srgb, var(--accent) 60%, transparent));
 }
 .af3d .station-label .label-card {
+  background: rgb(15 17 20 / 0.94);
