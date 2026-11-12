@@ -73,3 +73,4 @@ export interface FactoryDef {
   /** The first product is owned as soon as the line opens. */
   products: ProductDef[]
   /** Orders per second of a level-1 station with speed 1. */
+  rate: number
