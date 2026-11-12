@@ -33,3 +33,4 @@ export default function AgenticFactory3D({
   factory,
   live,
   tooltip,
+  onStation,
