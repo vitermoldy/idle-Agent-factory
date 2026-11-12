@@ -46,3 +46,5 @@ export default function AgenticFactory3D({
   }, [tooltip, onStation, onView, onApi])
   const [phase, setPhase] = useState<Phase>('loading')
   const [error, setError] = useState('')
+  const [attempt, setAttempt] = useState(0)
+
