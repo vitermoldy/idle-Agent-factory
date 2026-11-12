@@ -25,3 +25,4 @@ export const Mark = (p: P) => (
 )
 
 export const Gear = (p: P) => (
+  <svg {...base} width={18} height={18} viewBox="0 0 20 20" {...p}>
