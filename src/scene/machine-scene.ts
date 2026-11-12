@@ -1111,3 +1111,4 @@ export function initMachineScene(
         beltSlats.instanceMatrix.needsUpdate = true
       }
       updateBelt(0)
+      for (const g of railGeos) belt.add(new THREE.Mesh(g, M.chrome))
