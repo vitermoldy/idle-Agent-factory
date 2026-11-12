@@ -46,3 +46,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
     const running = fs.unlocked && slot >= 0 && (fs.agent || (fs.queue > 0 && fs.product === p.id))
     return {
       owned: slot >= 0,
+      slot: Math.max(0, slot),
