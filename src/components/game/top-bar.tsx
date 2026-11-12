@@ -5,3 +5,4 @@ import { Gear, Mark } from './icons'
 
 export function TopBar({ onSettings }: { onSettings: () => void }) {
   const cash = useGame((s) => s.game.cash)
+  const income = useGame((s) => totalIncome(s.game))
