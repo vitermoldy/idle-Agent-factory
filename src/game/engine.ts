@@ -183,3 +183,5 @@ export function levelsToBuy(def: FactoryDef, index: number, level: number, cash:
   if (room <= 0) return 0
   if (mode === 'max') return Math.max(1, affordableLevels(def, index, level, cash))
   return Math.min(mode, room)
+}
+
