@@ -133,3 +133,4 @@ export function SettingsDialog({
   onClose: () => void
   onReset: () => void
 }) {
+  const save = useGame((s) => s.save)
