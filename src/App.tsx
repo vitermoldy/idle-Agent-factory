@@ -53,3 +53,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
       neck: fs.unlocked ? E.bottlenecks(def, fs, p).map((i) => def.stations[i].slot) : [],
     }
   })
+  def.stations.forEach((st, i) => {
