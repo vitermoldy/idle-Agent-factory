@@ -1511,3 +1511,4 @@ export function initMachineScene(
             ? 0.15
             : neck
               ? 1.6 + Math.sin(pulseClock * 4.2) * 1.1
+              : 0.55 + pulse * 0.65
