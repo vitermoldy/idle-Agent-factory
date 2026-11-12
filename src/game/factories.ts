@@ -139,3 +139,4 @@ export const FACTORIES: FactoryDef[] = [
       journey: [
         ['Order baru', 'Order dari Sari masuk ke Kabinet'],
         ['Menulis naskah', 'Mesin mengubah ide jadi cerita'],
+        ['Merakit video', 'Admin menyatukan suara, gambar, dan subtitle'],
