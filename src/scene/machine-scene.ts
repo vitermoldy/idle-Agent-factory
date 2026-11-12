@@ -936,3 +936,4 @@ export function initMachineScene(
         })
         const open = new THREE.Group()
         open.position.set(0, 0.56, 0)
+        shelf.add(open)
