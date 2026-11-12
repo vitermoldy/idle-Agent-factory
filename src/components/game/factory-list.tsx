@@ -10,3 +10,4 @@ import { FactoryGlyph, Lock } from './icons'
 export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
   const game = useGame((s) => s.game)
   const setActive = useGame((s) => s.setActive)
+  return (
