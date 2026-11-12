@@ -159,3 +159,4 @@ export default function App() {
 
   const openFactory = useCallback(
     (id: FactoryId) => {
+      setActive(id)
