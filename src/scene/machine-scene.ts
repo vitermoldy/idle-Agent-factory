@@ -169,3 +169,4 @@ export function initMachineScene(
     pmrem.dispose()
     scene.add(new THREE.HemisphereLight(0xdbe5f4, 0x29211a, 2))
     const key = new THREE.DirectionalLight(0xfff1d8, 4.2)
+    key.position.set(-4, 12, 7)
