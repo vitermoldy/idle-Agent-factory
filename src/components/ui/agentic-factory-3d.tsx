@@ -74,3 +74,4 @@ export default function AgenticFactory3D({
             if (cancelled) return
             setError(message)
             setPhase('error')
+          },
