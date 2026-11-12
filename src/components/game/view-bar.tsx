@@ -34,3 +34,4 @@ export function ViewBar({
   onMode: (m: MachineMode) => void
   onCamera: (c: MachineCamera) => void
   onLabels: (v: boolean) => void
+  onPlaying: (v: boolean) => void
