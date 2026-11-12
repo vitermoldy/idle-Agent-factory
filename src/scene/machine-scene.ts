@@ -662,3 +662,4 @@ export function initMachineScene(
       let best = 0,
         dist = Infinity
       for (let i = 0; i < 300; i++) {
+        const p = path.getPointAt(i / 300),
