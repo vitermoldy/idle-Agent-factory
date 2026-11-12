@@ -17,3 +17,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
       <div>
         <h2 id="products-title" className="panel-title">
           Produk {def.name}
+        </h2>
