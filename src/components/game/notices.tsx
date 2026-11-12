@@ -20,3 +20,4 @@ export function Notices({ onOpen }: { onOpen: (id: FactoryId) => void }) {
 function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId) => void }) {
   const dismiss = useGame((s) => s.dismissNotice)
   useEffect(() => {
+    const t = setTimeout(() => dismiss(notice.id), 15000)
