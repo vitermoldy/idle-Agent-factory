@@ -821,3 +821,5 @@ export function initMachineScene(
       box(printhead, 0.45, 0.36, 0.44, 0, 0, 0, M.body, 0.05)
       cyl(printhead, 0.11, 0.13, 0, -0.24, 0.03, M.chrome, 0.04)
       box(printhead, 0.24, 0.045, 0.022, 0, 0.09, 0.23, M.light, 0.01)
+      tube(engine, [[-0.68, 2.1, -0.35], [-0.42, 2.52, -0.4], [0.25, 2.5, -0.4], [0.35, 2.01, -0.12]], 0.032, M.dark)
+
