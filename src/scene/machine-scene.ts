@@ -1135,3 +1135,4 @@ export function initMachineScene(
       for (let i = 0; i < 6; i++) {
         const g = new THREE.Group()
         g.userData.moving = true
+        machine.add(g)
