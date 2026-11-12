@@ -40,3 +40,4 @@ interface Store {
   setBuyMode: (mode: E.BuyMode) => void
   startNewSeries: () => void
   resetGame: () => void
+  dismissAway: () => void
