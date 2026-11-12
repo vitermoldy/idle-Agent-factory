@@ -165,3 +165,4 @@ export function SettingsDialog({
           Hapus semua progres
         </button>
       </section>
+      <section aria-labelledby="about-title" className="mt-5 border-t border-line pt-5">
