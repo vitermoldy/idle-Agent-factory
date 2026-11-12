@@ -865,3 +865,4 @@ export function initMachineScene(
             led.userData.moving = true
             leds.push(led)
           }
+        }
