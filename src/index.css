@@ -218,3 +218,4 @@
     color: var(--color-ink);
     transform: translateY(-160%);
   }
+  .skip-link:focus {
