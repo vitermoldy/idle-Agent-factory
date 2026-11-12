@@ -182,3 +182,4 @@ describe('saves', () => {
   })
 
   it('cleans values it cannot trust', () => {
+    const g = E.newGame(0)
