@@ -216,3 +216,4 @@ function StationRow({
           <span className="text-[13px]">+{n} level</span>
           <span className="text-[12px] font-medium tabular-nums opacity-80">{money(cost)}</span>
         </button>
+      </div>
