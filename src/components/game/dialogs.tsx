@@ -11,3 +11,4 @@ export function Dialog({
   title,
   children,
   footer,
+}: {
