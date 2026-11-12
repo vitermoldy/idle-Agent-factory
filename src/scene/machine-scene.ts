@@ -133,3 +133,4 @@ export function initMachineScene(
       renderer = new THREE.WebGLRenderer({
         antialias: true,
         alpha: true,
+        powerPreference: 'high-performance',
