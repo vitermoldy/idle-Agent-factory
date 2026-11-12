@@ -1071,3 +1071,4 @@ export function initMachineScene(
       cashdesk.add(receipt)
       const rp = screen(receipt, 0.41, 0.83, 0, 0.415, 0.01, receiptTex)
       ;(rp.material as THREE.MeshBasicMaterial).side = THREE.DoubleSide
+      receipt.rotation.x = -0.16
