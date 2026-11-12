@@ -731,3 +731,4 @@ export function initMachineScene(
       contact.rotation.x = -Math.PI / 2
       contact.position.y = -0.415
       holder.add(contact)
+      holder.add(new THREE.LineSegments(draftingGeo, lineMat))
