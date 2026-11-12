@@ -1076,3 +1076,4 @@ export function initMachineScene(
       coin.userData.moving = true
       cashdesk.add(coin)
       const coinDisc = cyl(coin, 0.22, 0.065, 0, 0, 0, M.amber, undefined, 32)
+      coinDisc.rotation.x = Math.PI / 2
