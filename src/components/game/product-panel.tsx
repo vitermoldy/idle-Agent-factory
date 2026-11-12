@@ -60,3 +60,4 @@ function ProductRow({
         <h3 className="text-[15px] font-semibold text-ink">{product.name}</h3>
         <span className="text-[13px] text-soft tabular-nums">
           {money(product.price * E.starMultiplier(game.stars))} per order
+        </span>
