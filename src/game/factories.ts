@@ -370,3 +370,4 @@ export const FACTORIES: FactoryDef[] = [
         tag: ['RESEP', 'RUMAHAN.'],
         head: ['Buku baru.', 'Langsung baca.'],
         sub: ['120 halaman resep', 'dari dapur keluarga.'],
+        cta: 'Beli e-book',
