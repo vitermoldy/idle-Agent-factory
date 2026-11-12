@@ -1308,3 +1308,4 @@ export function initMachineScene(
       } else if (cameraMode === 'station') cameraMode = 'overview'
       setCameraGoal()
       cameraAnimating = true
+      emitView()
