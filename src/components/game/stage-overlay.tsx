@@ -134,3 +134,4 @@ export function UnlockCard() {
         <p className="mt-2 text-[13px] leading-relaxed text-muted">
           Mulai dengan {first.name.toLowerCase()} ({money(first.price * E.starMultiplier(game.stars))} per order).{' '}
           {def.products.length - 1} produk lain bisa ditambah setelah lini berjalan.
+        </p>
