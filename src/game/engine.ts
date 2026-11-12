@@ -25,3 +25,4 @@ export interface FactoryState {
   unlocked: boolean
   agent: boolean
   levels: number[]
+  /** The plate in view; hand-taken orders are made there. */
