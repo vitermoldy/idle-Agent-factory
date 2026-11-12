@@ -331,3 +331,4 @@ export function parseSave(raw: string | null): GameState | null {
     return null
   }
   if (!data || typeof data !== 'object') return null
+  const s = data as Partial<GameState>
