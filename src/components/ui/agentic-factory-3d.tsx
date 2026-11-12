@@ -22,3 +22,4 @@ export type AgenticFactory3DProps = {
   onStation?: (slot: SlotId, plate: number) => void
   onView?: (mode: MachineMode, camera: MachineCamera) => void
   onApi?: (api: SceneApi | null) => void
+  className?: string
