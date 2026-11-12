@@ -93,3 +93,4 @@ export default function AgenticFactory3D({
         className="af3d-canvas"
         role="img"
         aria-label={`Mesin 3D ${factory.name} dengan lima stasiun. Seret untuk memutar, gulir atau cubit untuk zoom, klik stasiun untuk melihatnya dari dekat.`}
+      />
