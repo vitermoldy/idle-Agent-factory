@@ -222,3 +222,4 @@ function StationRow({
 }
 
 function LockedLine({ def }: { def: FactoryDef }) {
+  return (
