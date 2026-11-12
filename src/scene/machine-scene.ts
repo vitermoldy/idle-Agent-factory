@@ -30,3 +30,5 @@ export interface PlateLive {
   /** Product name, engraved on the plate and printed on its receipt. */
   product: string
   neck: SlotId[]
+}
+
