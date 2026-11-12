@@ -115,3 +115,4 @@ export function ConfirmDialog({
             }}
           >
             {confirmLabel}
+          </button>
