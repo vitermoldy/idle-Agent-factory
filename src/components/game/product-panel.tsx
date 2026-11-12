@@ -39,3 +39,4 @@ function ProductRow({
   onShow,
   onBought,
 }: {
+  def: FactoryDef
