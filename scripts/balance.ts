@@ -56,3 +56,4 @@ while (t <= 4 * 3600) {
         if (gain > 0) consider({ payback: cost / gain, cost, apply: () => (s = E.buyLevels(s, id, i, 1)) })
       }
       // Tied bottlenecks: no single upgrade helps, so price the whole tie together.
+      for (const p of E.ownedProducts(def, fs)) {
