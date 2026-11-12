@@ -1488,3 +1488,4 @@ export function initMachineScene(
       p.holder.position.y = (1 - s) * -2.5
       if (!p.holder.visible) return
       p.speed += ((locked ? 0 : pl.speed) - p.speed) * (1 - Math.exp(-dt * 2.5))
+      if (playing) p.t += dt * p.speed
