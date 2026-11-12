@@ -112,3 +112,4 @@ export default function App() {
       const g = useGame.getState().game
       syncLive(live.current, g)
       const done = completed[g.active]
+      if (done) pending.current += done.cash
