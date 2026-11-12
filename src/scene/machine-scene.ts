@@ -875,3 +875,4 @@ export function initMachineScene(
       } else if (theme.prop === 'mic') {
         // A studio microphone on a boom, with a level meter at its foot.
         const mic = new THREE.Group()
+        mic.position.set(-1.2, 0, -0.32)
