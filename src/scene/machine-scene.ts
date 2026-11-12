@@ -1174,3 +1174,4 @@ export function initMachineScene(
         pipes,
         packets,
         updateBelt,
+        paintPrice,
