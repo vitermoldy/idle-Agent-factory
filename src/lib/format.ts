@@ -43,3 +43,4 @@ export function duration(seconds: number) {
 }
 
 export const pad2 = (n: number) => String(n).padStart(2, '0')
+export const series = (n: number) => String(n).padStart(3, '0')
