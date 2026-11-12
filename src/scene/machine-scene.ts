@@ -98,3 +98,4 @@ export function initMachineScene(
   const listen = (target: EventTarget, type: string, handler: (event: never) => void) => {
     const fn = handler as unknown as EventListener
     target.addEventListener(type, fn)
+    cleanups.push(() => target.removeEventListener(type, fn))
