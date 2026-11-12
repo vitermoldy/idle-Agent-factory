@@ -1033,3 +1033,4 @@ export function initMachineScene(
       const receiptTex = canvasTexture(280, 540, () => {})
       let paintedValue = ''
       function paintPrice(value: string) {
+        paintedValue = value
