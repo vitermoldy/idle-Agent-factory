@@ -34,3 +34,4 @@ while (t <= 4 * 3600) {
       continue
     }
     const hire = FACTORIES.find((f) => s.factories[f.id].unlocked && !s.factories[f.id].agent && s.cash >= f.agentCost)
+    if (hire) {
