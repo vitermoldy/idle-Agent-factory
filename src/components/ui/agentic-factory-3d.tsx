@@ -17,3 +17,4 @@ import './agentic-factory-3d.css'
  */
 export type AgenticFactory3DProps = {
   factory: FactoryDef
+  live: SceneLive
