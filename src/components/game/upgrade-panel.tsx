@@ -241,3 +241,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
               <p className="mt-1 text-[12px] leading-snug text-muted">{st.desc}</p>
             </div>
           </li>
+        ))}
