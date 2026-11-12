@@ -56,3 +56,4 @@ scripts/balance.ts                       simulasi keseimbangan ekonomi
 tests/engine.test.ts                     tes aturan game
 ```
 
+Proyek ini mengikuti struktur shadcn: `components.json` di root, alias `@/` ke `src/`, komponen UI
