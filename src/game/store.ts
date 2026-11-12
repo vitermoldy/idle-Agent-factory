@@ -47,3 +47,5 @@ interface Store {
 let noticeId = 0
 let lastTick = Date.now()
 /** Lines the player was already told they can afford, this session and series. */
+const announced = new Set<FactoryId>()
+
