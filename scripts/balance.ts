@@ -5,3 +5,5 @@ import * as E from '../src/game/engine.ts'
 
 const starsArg = process.argv.indexOf('--stars')
 let s = E.newGame(0)
+if (starsArg > 0) s = { ...s, stars: Number(process.argv[starsArg + 1]) }
+
