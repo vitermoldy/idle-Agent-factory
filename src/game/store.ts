@@ -149,3 +149,4 @@ export const useGame = create<Store>((set, get) => {
       set((s) => ({ notices: s.notices.filter((n) => n.factory !== id) }))
     },
     buyProduct: (productId) => update((g) => E.buyProduct(g, g.active, productId)),
+    selectProduct: (productId) => update((g) => E.selectProduct(g, g.active, productId)),
