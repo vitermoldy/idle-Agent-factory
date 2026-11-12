@@ -180,3 +180,4 @@ export function SettingsDialog({
           >
             Lihat template aslinya
           </a>
+          .
