@@ -1642,3 +1642,4 @@ export function initMachineScene(
           cameraMode !== 'flight' &&
           mode !== 'order' &&
           camera.position.distanceTo(desiredPosition) < 0.015 &&
+          controls.target.distanceTo(desiredTarget) < 0.015
