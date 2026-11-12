@@ -55,3 +55,4 @@ export function AwayDialog() {
   const dismiss = useGame((s) => s.dismissAway)
   return (
     <Dialog
+      open={!!away}
