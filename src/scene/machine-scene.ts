@@ -794,3 +794,4 @@ export function initMachineScene(
         box(group, 2.03, 0.17, 1.75, 0, 0.215, 0, M.body, 0.1)
         for (const x of [-0.85, 0.85]) for (const z of [-0.7, 0.7]) screw(group, x, 0.311, z)
         // Internal mechanics become visible when the shell is cut at deck height.
+        gear(group, 1, -0.35, 0.45, 0, 0.27)
