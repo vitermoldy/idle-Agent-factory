@@ -53,3 +53,5 @@ describe('the line', () => {
     const { state } = E.advance(g, 100)
     expect(state.factories.video.orders).toBe(Math.floor(T * 100))
   })
+})
+
