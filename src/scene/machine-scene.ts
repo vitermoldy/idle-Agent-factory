@@ -294,3 +294,4 @@ export function initMachineScene(
       draw(ctx, w, h)
       const t = new THREE.CanvasTexture(c)
       t.colorSpace = THREE.SRGBColorSpace
+      t.anisotropy = Math.min(4, renderer.capabilities.getMaxAnisotropy())
