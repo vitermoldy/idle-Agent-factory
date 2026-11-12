@@ -134,3 +134,4 @@ export function initMachineScene(
         antialias: true,
         alpha: true,
         powerPreference: 'high-performance',
+      })
