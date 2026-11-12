@@ -158,3 +158,4 @@ describe('series and stars', () => {
 
 describe('saves', () => {
   it('round-trips a game', () => {
+    let g = E.hireAgent(rich(1e6), 'video')
