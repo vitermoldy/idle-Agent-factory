@@ -1612,3 +1612,4 @@ export function initMachineScene(
         lastDraw = fp.t
       }
       if (mode === 'order') {
+        const packet = fp.packets[0],
