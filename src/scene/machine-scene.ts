@@ -1349,3 +1349,4 @@ export function initMachineScene(
     // Plates already owned stand in place from the first frame; only later ones rise.
     ownedCount = countOwned()
     for (const p of plates) {
+      if (!(plateLive(p.k).owned || p.k === 0)) continue
