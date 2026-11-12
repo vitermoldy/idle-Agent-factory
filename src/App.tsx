@@ -239,3 +239,4 @@ export default function App() {
           >
             <StagePlate className="pointer-events-none absolute top-5 left-6 hidden max-w-[calc(100%-48px)] lg:block" />
             <UnlockCard />
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 hidden justify-center px-4 pb-[84px] lg:flex">
