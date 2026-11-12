@@ -102,3 +102,4 @@ function ProductRow({
             />
             <p className="mt-2 text-[12px] text-muted">Membangun petak ke-{fs.owned.length + 1} di samping petak lain.</p>
           </>
+        )}
