@@ -1385,3 +1385,4 @@ export function initMachineScene(
       const hits = raycaster.intersectObjects(pickables, true).filter((h) => plates[h.object.userData.plate]?.holder.visible)
       if (!hits.length) return null
       return { slot: hits[0].object.userData.station as SlotId, plate: hits[0].object.userData.plate as number }
+    }
