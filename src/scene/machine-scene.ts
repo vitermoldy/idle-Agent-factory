@@ -587,3 +587,4 @@ export function initMachineScene(
         c.textAlign = 'left'
         print(c, n, 93, y + 33, 23, '#e6e8dc', 550)
         print(c, o.statuses[i], 93, y + 58, 15, '#94a59b')
+      })
