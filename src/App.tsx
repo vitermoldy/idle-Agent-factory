@@ -259,3 +259,4 @@ export default function App() {
               labels={labels}
               playing={playing}
               onMode={(m) => apiRef.current?.setMode(m)}
+              onCamera={(c) => (c === 'station' ? apiRef.current?.focusStation(selected ?? 'engine') : apiRef.current?.setCamera(c))}
