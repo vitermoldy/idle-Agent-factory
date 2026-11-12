@@ -71,3 +71,4 @@ export default function AgenticFactory3D({
           onView: (mode, camera) => handlers.current.onView?.(mode, camera),
           onReady: () => !cancelled && setPhase('ready'),
           onError: (message) => {
+            if (cancelled) return
