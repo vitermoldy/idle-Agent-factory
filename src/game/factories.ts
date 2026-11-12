@@ -80,3 +80,5 @@ export interface FactoryDef {
   agentCost: number
   stations: StationDef[]
   theme: SceneTheme
+}
+
