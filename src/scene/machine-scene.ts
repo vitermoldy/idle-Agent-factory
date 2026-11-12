@@ -1278,3 +1278,4 @@ export function initMachineScene(
     }
     const scratch = new THREE.Vector3(),
       anchor = new THREE.Vector3()
+    function setCameraGoal() {
