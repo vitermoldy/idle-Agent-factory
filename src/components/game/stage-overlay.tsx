@@ -159,3 +159,4 @@ export function UnlockCard() {
             Kurang {money(def.unlockCost - game.cash)}. Lini lain terus menghasilkan selama kamu menunggu.
           </p>
         )}
+      </section>
