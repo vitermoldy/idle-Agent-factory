@@ -632,3 +632,4 @@ export function initMachineScene(
     const path = new THREE.CatmullRomCurve3(
       [
         [-3.95, 0.84, 0.65],
+        [-3.1, 0.84, -0.12],
