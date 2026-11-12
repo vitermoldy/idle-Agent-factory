@@ -66,3 +66,4 @@ describe('buying', () => {
   it('never lets max buy spend more than the cash', () => {
     for (const cash of [16, 100, 12_345, 9e9]) {
       const n = E.affordableLevels(video, 1, 1, cash)
+      expect(E.upgradeCost(video, 1, 1, n)).toBeLessThanOrEqual(cash)
