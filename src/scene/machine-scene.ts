@@ -96,3 +96,4 @@ export function initMachineScene(
   const frameHeight = () => root.clientHeight
   // Every listener goes through here, so dispose() can take it off again.
   const listen = (target: EventTarget, type: string, handler: (event: never) => void) => {
+    const fn = handler as unknown as EventListener
