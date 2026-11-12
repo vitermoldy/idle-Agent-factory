@@ -113,3 +113,4 @@ export const FACTORIES: FactoryDef[] = [
       plate: {
         title: 'STUDIO VIDEO',
         line: 'naskah, suara, render, lalu posting',
+      },
