@@ -41,3 +41,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
           {owned.length > 1 &&
             ` Level berlaku untuk ${owned.length} petak; kecepatan di bawah untuk petak ${E.activeProduct(def, fs).name.toLowerCase()}.`}
         </p>
+        <ol className="mt-4 flex flex-col gap-2">
