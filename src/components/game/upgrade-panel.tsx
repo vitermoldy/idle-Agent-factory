@@ -203,3 +203,4 @@ function StationRow({
           ) : holds ? (
             'Bottleneck lain ikut menahan'
           ) : (
+            'Belum menambah pendapatan'
