@@ -218,3 +218,4 @@ export function initMachineScene(
     const geometries = new Map<string, THREE.BufferGeometry>()
     function boxGeo(w: number, h: number, d: number, r = 0.04) {
       const k = `b${w},${h},${d},${r}`
+      if (!geometries.has(k))
