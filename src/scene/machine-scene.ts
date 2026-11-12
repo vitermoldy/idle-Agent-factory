@@ -1173,3 +1173,4 @@ export function initMachineScene(
         belt,
         pipes,
         packets,
+        updateBelt,
