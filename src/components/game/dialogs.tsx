@@ -71,3 +71,4 @@ export function AwayDialog() {
           </p>
           <p className="mt-3 font-display text-[28px] font-semibold text-ink tabular-nums">+{money(away.cash)}</p>
           {away.capped && (
+            <p className="mt-2 text-[13px] text-muted">
