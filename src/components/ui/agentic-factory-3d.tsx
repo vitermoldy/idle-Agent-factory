@@ -72,3 +72,4 @@ export default function AgenticFactory3D({
           onReady: () => !cancelled && setPhase('ready'),
           onError: (message) => {
             if (cancelled) return
+            setError(message)
