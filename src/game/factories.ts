@@ -248,3 +248,4 @@ export const FACTORIES: FactoryDef[] = [
         sub: ['Obrolan 40 menit', 'tentang usaha kecil.'],
         cta: 'Putar episode',
         foot: 'DIPRODUKSI OLEH AGEN',
+      },
