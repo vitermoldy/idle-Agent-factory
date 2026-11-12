@@ -193,3 +193,4 @@ export default function App() {
         ? ` Level ${fs.levels[i]}, ${short(E.lineRates(def, fs, product)[i])} ${product.name.toLowerCase()} per detik.`
         : ''
       return { title: st.name, body: st.desc + level }
+    },
