@@ -49,3 +49,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
       slot: Math.max(0, slot),
       speed: lineSpeed(E.throughput(def, fs, p), running),
       value: money(E.orderValue(def, fs, g.stars, p)),
+      product: p.name,
