@@ -423,3 +423,4 @@ export function initMachineScene(
           c.fillStyle = '#5d636b'
           c.fillRect(134, 150 + i * 16, 110 - i * 22, 5)
         }
+        // A page corner lifts and settles.
