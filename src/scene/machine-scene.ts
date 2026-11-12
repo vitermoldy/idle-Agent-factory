@@ -101,3 +101,4 @@ export function initMachineScene(
     cleanups.push(() => target.removeEventListener(type, fn))
   }
   function $(name: string): HTMLElement {
+    const el = root.querySelector<HTMLElement>(`[data-el="${name}"]`)
