@@ -46,3 +46,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           className="w-full"
           onClick={onStart}
         />
+      ) : (
