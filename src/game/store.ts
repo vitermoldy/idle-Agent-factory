@@ -90,3 +90,4 @@ export const useGame = create<Store>((set, get) => {
   const start = initialState()
   return {
     ...start,
+    buyMode: 1,
