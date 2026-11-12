@@ -231,3 +231,4 @@ export function buyProduct(state: GameState, id: FactoryId, productId: string) {
   }
 }
 
+/** Brings one plate into view; hand-taken orders go to it. */
