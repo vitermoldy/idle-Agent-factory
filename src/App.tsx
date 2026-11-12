@@ -144,3 +144,4 @@ export default function App() {
 
   useEffect(() => {
     live.current.labels = labels
+    live.current.playing = playing
