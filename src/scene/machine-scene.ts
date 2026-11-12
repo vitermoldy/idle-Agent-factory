@@ -383,3 +383,4 @@ export function initMachineScene(
         disc(c, 192, 170, 138, INK)
         c.strokeStyle = ACC
         c.lineWidth = 6
+        c.beginPath()
