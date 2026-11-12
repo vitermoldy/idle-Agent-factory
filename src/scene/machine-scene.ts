@@ -737,3 +737,4 @@ export function initMachineScene(
       box(machine, 12.6, 0.055, 8.08, 0, 0.13, 0, M.edge, 0.11)
       box(machine, 12.49, 0.09, 7.96, 0, 0.19, 0, M.body, 0.1)
       box(machine, 12.55, 0.027, 8.02, 0, -0.19, 0, M.dark, 0.06)
+      box(machine, 11.9, 0.026, 0.032, 0, -0.17, 4.115, M.light, 0.01)
