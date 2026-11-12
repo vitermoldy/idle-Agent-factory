@@ -65,3 +65,4 @@ export const Tag = (p: P) => (
   </svg>
 )
 
+const MODE_PATHS: Record<MachineMode, string> = {
