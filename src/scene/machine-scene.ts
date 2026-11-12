@@ -317,3 +317,4 @@ export function initMachineScene(
       }
       ctx.fillStyle = color
       ctx.fillText(txt, x, y)
+    }
