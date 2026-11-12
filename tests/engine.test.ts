@@ -138,3 +138,4 @@ describe('products', () => {
   })
 })
 
+describe('series and stars', () => {
