@@ -8,3 +8,4 @@ export function Notices({ onOpen }: { onOpen: (id: FactoryId) => void }) {
   return (
     <div
       aria-live="polite"
+      className="pointer-events-none fixed inset-x-3 bottom-3 z-40 flex flex-col gap-2 sm:right-auto sm:left-4 sm:w-[360px] lg:top-[80px] lg:right-[396px] lg:bottom-auto lg:left-auto xl:right-[404px]"
