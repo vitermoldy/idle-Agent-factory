@@ -25,3 +25,5 @@ interface Popup {
   x: number
   y: number
   text: string
+}
+
