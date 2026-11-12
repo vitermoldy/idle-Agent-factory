@@ -20,3 +20,4 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
+  background: radial-gradient(ellipse at 50% 46%, transparent 34%, rgb(0 0 0 / 0.1) 66%, rgb(0 0 0 / 0.6) 100%);
