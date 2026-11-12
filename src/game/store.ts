@@ -150,3 +150,4 @@ export const useGame = create<Store>((set, get) => {
     },
     buyProduct: (productId) => update((g) => E.buyProduct(g, g.active, productId)),
     selectProduct: (productId) => update((g) => E.selectProduct(g, g.active, productId)),
+    setBuyMode: (buyMode) => set({ buyMode }),
