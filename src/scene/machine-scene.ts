@@ -1049,3 +1049,4 @@ export function initMachineScene(
         c.setLineDash([5, 6])
         c.beginPath()
         c.moveTo(22, 115)
+        c.lineTo(258, 115)
