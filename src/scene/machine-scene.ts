@@ -492,3 +492,4 @@ export function initMachineScene(
       ])
     ) as Record<SlotId, ReturnType<typeof canvasTexture>>
 
+    // Product screen: the line's product, animated, shown on the engine, the storefront and a cargo face.
