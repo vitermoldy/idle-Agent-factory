@@ -89,3 +89,4 @@ describe('buying', () => {
 })
 
 describe('products', () => {
+  it('adds a product as a new plate and brings it into view', () => {
