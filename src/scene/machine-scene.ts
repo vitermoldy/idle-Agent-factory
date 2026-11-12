@@ -1721,3 +1721,4 @@ export function initMachineScene(
         getState: () => {
           const fp = focusPlate()
           return {
+            factory: factory.id,
