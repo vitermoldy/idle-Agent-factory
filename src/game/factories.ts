@@ -176,3 +176,4 @@ export const FACTORIES: FactoryDef[] = [
         title: 'PABRIK WEBSITE',
         line: 'brief, wireframe, kode, lalu rilis',
       },
+      queue: { title: 'ANTREAN BUILD', items: ['Kedai kopi', 'Klinik gigi', 'Kelas yoga'], active: 'BUILD', waiting: 'ANTRE' },
