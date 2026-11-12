@@ -46,3 +46,4 @@ export interface GameState {
   allTime: number
   stars: number
   series: number
+  active: FactoryId
