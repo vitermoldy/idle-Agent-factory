@@ -39,3 +39,4 @@ npm test           # tes aturan game (vitest)
 npm run balance    # bot rakus memainkan game dan mencetak kapan tiap lini terbuka
 ```
 
+Butuh Node 22 atau lebih baru. Di Windows, jalankan vitest dari `C:\...` (huruf besar), bukan
