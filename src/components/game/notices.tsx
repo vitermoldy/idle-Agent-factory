@@ -14,3 +14,4 @@ export function Notices({ onOpen }: { onOpen: (id: FactoryId) => void }) {
         <NoticeCard key={n.id} notice={n} onOpen={onOpen} />
       ))}
     </div>
+  )
