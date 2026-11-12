@@ -91,3 +91,4 @@ export function initMachineScene(
   root: HTMLElement,
   options: SceneOptions
 ): { api: SceneApi | null; dispose: () => void } {
+  const cleanups: Array<() => void> = []
