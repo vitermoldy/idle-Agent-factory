@@ -16,3 +16,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
       <div>
         <h2 id="series-title" className="panel-title">
           Series {series(game.series)}
+        </h2>
