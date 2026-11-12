@@ -1239,3 +1239,4 @@ export function initMachineScene(
     // Camera distance that fits a row `span` wide. The row runs along x, which the camera sees
     // at about 0.85 of its length across and 0.25 of it up the screen.
     function fitDistance(span: number) {
+      const aspect = width / height
