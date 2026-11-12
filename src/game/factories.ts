@@ -46,3 +46,4 @@ export interface SceneTheme {
   cashTitle: string
   receipt: { shop: string }
   screen: { kicker: string; head: string; lines: [string, string, string, string] }
+  journey: [Two, Two, Two, Two, Two]
