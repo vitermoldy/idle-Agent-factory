@@ -777,3 +777,4 @@ export function initMachineScene(
         cyl(g, r * 0.22, 0.14, 0, 0, 0, M.chrome)
         for (let i = 0; i < 12; i++) {
           const a = (i / 12) * TAU,
+            b = box(g, r * 0.26, 0.085, r * 0.2, Math.cos(a) * r, 0, Math.sin(a) * r, M.copper, 0.008)
