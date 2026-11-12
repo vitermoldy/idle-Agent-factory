@@ -111,3 +111,4 @@ export const useGame = create<Store>((set, get) => {
         fresh.push({
           id: ++noticeId,
           text: `Uangmu cukup untuk membuka ${def.name}.`,
+          factory: def.id,
