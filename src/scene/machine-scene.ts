@@ -816,3 +816,4 @@ export function initMachineScene(
       box(engine, 1.55, 0.06, 0.06, 0, 2.13, -0.115, M.chrome, 0.01)
       const printhead = new THREE.Group()
       engine.add(printhead)
+      printhead.position.set(0, 1.9, -0.08)
