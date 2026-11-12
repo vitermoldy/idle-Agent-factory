@@ -349,3 +349,4 @@ export const FACTORIES: FactoryDef[] = [
     stations: [
       { slot: 'cabinet', name: 'Kerangka', desc: 'Judul dan daftar bab disetujui penulis.', output: 'kerangka', speed: 1.3, cost: 56_000_000 },
       { slot: 'engine', name: 'Mesin Tulis', desc: 'Agen menulis bab demi bab.', output: 'naskah', speed: 1, cost: 100_000_000 },
+      { slot: 'admin', name: 'Sunting', desc: 'Ejaan, alur, dan tata letak diperiksa.', output: 'naskah final', speed: 1.1, cost: 75_000_000 },
