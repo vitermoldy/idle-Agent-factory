@@ -1473,3 +1473,4 @@ export function initMachineScene(
       const owned = pl.owned || p.k === 0
       // Row placement: slide to its place; a newly bought plate rises from the floor.
       if (owned && !p.shown) {
+        p.shown = true
