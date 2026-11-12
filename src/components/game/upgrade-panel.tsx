@@ -167,3 +167,4 @@ function StationRow({
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
             <h3 className="text-[15px] font-semibold text-ink">{st.name}</h3>
+            <span className="text-[12px] text-muted tabular-nums">Lv {level}</span>
