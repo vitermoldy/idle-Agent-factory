@@ -7,3 +7,4 @@ import {
   type SceneApi,
   type SceneLive,
 } from '@/scene/machine-scene'
+import { cn } from '@/lib/utils'
