@@ -18,3 +18,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
         <h2 id="products-title" className="panel-title">
           Produk {def.name}
         </h2>
+        <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
