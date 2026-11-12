@@ -123,3 +123,4 @@
     border-color: var(--color-line-strong);
     color: var(--color-ink);
   }
+  .btn-quiet:hover:not(:disabled) {
