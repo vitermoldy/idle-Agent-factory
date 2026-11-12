@@ -1332,3 +1332,4 @@ export function initMachineScene(
     api = {
       setMode,
       setCamera,
+      focusStation,
