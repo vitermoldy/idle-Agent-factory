@@ -788,3 +788,4 @@ export function initMachineScene(
         group.position.fromArray(POS[id])
         machine.add(group)
         const glowMat = M.light.clone()
+        glowMat.emissiveIntensity = 0.5
