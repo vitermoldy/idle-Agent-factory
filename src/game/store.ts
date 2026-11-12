@@ -82,3 +82,4 @@ function initialState() {
     const { state, report } = catchUp(game, gone)
     return { game: state, away: report.cash > 0 ? report : null, notices, storageOk }
   }
+  return { game, away: null, notices, storageOk }
