@@ -22,3 +22,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
             : fs.queue > 0
               ? `${fs.queue} order antre`
               : 'Tanpa agen'
+          : affordable
