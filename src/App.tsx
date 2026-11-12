@@ -247,3 +247,4 @@ export default function App() {
                 {p.text}
               </span>
             ))}
+          </AgenticFactory3D>
