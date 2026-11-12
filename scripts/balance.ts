@@ -52,3 +52,4 @@ while (t <= 4 * 3600) {
         const levels = fs.levels.slice()
         levels[i]++
         const gain = E.lineIncome(def, fs, s.stars, levels) - before
+        const cost = E.upgradeCost(def, i, fs.levels[i])
