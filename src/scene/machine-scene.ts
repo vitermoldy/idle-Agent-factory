@@ -1134,3 +1134,4 @@ export function initMachineScene(
       const packets: Packet[] = []
       for (let i = 0; i < 6; i++) {
         const g = new THREE.Group()
+        g.userData.moving = true
