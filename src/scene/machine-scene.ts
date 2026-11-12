@@ -110,3 +110,4 @@ export function initMachineScene(
     cleanups.length = 0
   }
   let api: SceneApi | null = null
+  try {
