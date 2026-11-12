@@ -28,3 +28,4 @@ export function ViewBar({
   onPlaying,
 }: {
   mode: MachineMode
+  camera: MachineCamera
