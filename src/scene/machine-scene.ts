@@ -1364,3 +1364,4 @@ export function initMachineScene(
       dragging = true
       cameraAnimating = false
       lastInteraction = performance.now()
+    })
