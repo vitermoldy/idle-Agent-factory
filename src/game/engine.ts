@@ -360,3 +360,4 @@ export function parseSave(raw: string | null): GameState | null {
     factories[def.id] = {
       unlocked,
       agent: unlocked && f.agent === true,
+      levels: unlocked ? levels : [0, 0, 0, 0, 0],
