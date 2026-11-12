@@ -80,3 +80,4 @@ export function ViewBar({
         className={cn('view-btn', labels && 'is-on')}
       >
         Label
+      </button>
