@@ -256,3 +256,4 @@ export function initMachineScene(
       r2: number = r,
       segments = 24
     ) {
+      const k = `c${r},${r2},${h},${segments}`
