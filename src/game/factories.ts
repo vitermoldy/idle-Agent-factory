@@ -126,3 +126,4 @@ export const FACTORIES: FactoryDef[] = [
         foot: 'DIBUAT OLEH AGEN',
       },
       post: 'KANAL',
+      orders: {
