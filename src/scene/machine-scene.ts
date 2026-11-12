@@ -774,3 +774,4 @@ export function initMachineScene(
         parent.add(g)
         cyl(g, r, 0.09, 0, 0, 0, M.copper)
         cyl(g, r * 0.66, 0.105, 0, 0, 0, M.dark)
+        cyl(g, r * 0.22, 0.14, 0, 0, 0, M.chrome)
