@@ -695,3 +695,4 @@ export function initMachineScene(
         const key = child.material.uuid
         if (!buckets.has(key)) buckets.set(key, [])
         buckets.get(key)!.push(child)
+      }
