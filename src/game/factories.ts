@@ -110,3 +110,4 @@ export const FACTORIES: FactoryDef[] = [
       accentDeep: '#c57e45',
       shell: '#e0ded4',
       prop: 'reels',
+      plate: {
