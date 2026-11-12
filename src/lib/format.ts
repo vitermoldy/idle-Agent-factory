@@ -11,3 +11,4 @@ export function short(n: number): string {
   if (n < 1000) return Math.floor(n).toString()
   const e = Math.min(UNITS.length - 1, Math.floor(Math.log10(n) / 3))
   const v = n / 10 ** (e * 3)
+  if (e === UNITS.length - 1 && v >= 1000) return n.toExponential(2)
