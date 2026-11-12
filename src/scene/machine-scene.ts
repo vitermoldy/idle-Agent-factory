@@ -573,3 +573,4 @@ export function initMachineScene(
       c.fillRect(17, 258, 104, 5)
     })
     const orderTex = canvasTexture(480, 460, (c, w, h) => {
+      const o = theme.orders
