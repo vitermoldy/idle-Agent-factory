@@ -96,3 +96,4 @@ export const useGame = create<Store>((set, get) => {
       const seconds = (now - lastTick) / 1000
       lastTick = now
       const { game, notices } = get()
+      let result: { state: E.GameState; completed: E.Completed }
