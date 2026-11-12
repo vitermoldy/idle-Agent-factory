@@ -1373,3 +1373,4 @@ export function initMachineScene(
       if (dragging) lastInteraction = performance.now()
     })
     const raycaster = new THREE.Raycaster(),
+      pointer = new THREE.Vector2(),
