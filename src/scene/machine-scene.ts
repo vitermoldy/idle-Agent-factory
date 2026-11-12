@@ -179,3 +179,4 @@ export function initMachineScene(
     scene.add(key)
     /** The shadow box follows the row, so one plate keeps sharp shadows. */
     function fitShadow(count: number) {
+      const half = 10 + (SPACING * (count - 1)) / 2
