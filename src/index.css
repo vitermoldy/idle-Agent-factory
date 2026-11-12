@@ -237,3 +237,4 @@
 
 @keyframes popup-rise {
   from {
+    opacity: 0;
