@@ -19,3 +19,5 @@ export interface AwayReport {
   capped: boolean
   cash: number
   orders: number
+}
+
