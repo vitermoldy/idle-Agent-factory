@@ -1056,3 +1056,4 @@ export function initMachineScene(
         fit(c, '1 × ' + value, 25, 190, 21, 230, '#333d36')
         print(c, 'LUNAS', 25, 263, 31, '#333d36', 650)
         print(c, 'Terima kasih!', 25, 317, 24, '#687067')
+        for (let i = 0; i < 44; i++) {
