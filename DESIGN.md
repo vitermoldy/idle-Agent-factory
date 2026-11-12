@@ -29,3 +29,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Figtree untuk teks | Pasangan Sora dari deal yang sama: sans yang ramah untuk paragraf pendek di panel. |
 | Martian Mono hanya untuk label 10 px huruf kapital | Meniru tulisan terukir pada pelat mesin ("LINI 01"). Tidak dipakai untuk judul. |
 | Pasangan nomor dan nama ("01 Kabinet") | Motif identitas dari plakat stasiun di mesin aslinya, dipakai ulang di daftar lini, baris stasiun, dan label 3D. |
+| Desktop tiga kolom, ponsel bertumpuk | Di desktop mesin tetap terlihat saat panel digulir. Di ponsel mesin mendapat kotaknya sendiri, dan tombol order berada di bawahnya supaya tidak menutupi mesin. |
