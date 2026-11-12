@@ -47,3 +47,4 @@ describe('the line', () => {
   })
 
   it('runs nonstop once an agent is hired', () => {
+    const g = E.hireAgent(rich(video.agentCost), 'video')
