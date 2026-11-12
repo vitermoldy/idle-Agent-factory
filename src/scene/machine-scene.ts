@@ -38,3 +38,4 @@ export interface SceneLive {
   /** Visual pause. The game keeps running. */
   playing: boolean
   labels: boolean
+  /** Product index of the plate in view. */
