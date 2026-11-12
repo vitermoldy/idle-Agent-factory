@@ -1,3 +1,4 @@
 @import 'tailwindcss';
 
 /* Tokens. The ground is near-black because the machine is lit and composed for a dark stage
+   (emissive strips, a shadow catcher, a vignette); the accent follows the active line. */
