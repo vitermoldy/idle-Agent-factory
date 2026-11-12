@@ -879,3 +879,4 @@ export function initMachineScene(
         engine.add(mic)
         cyl(mic, 0.27, 0.06, 0, -0.02, 0, M.dark)
         cyl(mic, 0.035, 2.0, 0, 0.98, 0, M.chrome)
+        tube(mic, [[0, 1.95, 0], [0.08, 2.24, 0.1], [0.3, 2.42, 0.26]], 0.028, M.chrome)
