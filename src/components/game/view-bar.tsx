@@ -24,3 +24,4 @@ export function ViewBar({
   playing,
   onMode,
   onCamera,
+  onLabels,
