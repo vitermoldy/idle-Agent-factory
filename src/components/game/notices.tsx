@@ -21,3 +21,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
   const dismiss = useGame((s) => s.dismissNotice)
   useEffect(() => {
     const t = setTimeout(() => dismiss(notice.id), 15000)
+    return () => clearTimeout(t)
