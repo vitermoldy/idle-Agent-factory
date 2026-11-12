@@ -474,3 +474,4 @@ export function initMachineScene(
         r = 8.1,
         r2 = r + (i % 4 === 0 ? 0.16 : 0.07)
       draftingPoints.push(
+        new THREE.Vector3(Math.cos(a) * r, -0.395, Math.sin(a) * r * 0.72),
