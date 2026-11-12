@@ -72,3 +72,4 @@
     color: var(--color-muted);
   }
   .panel-title {
+    font-family: var(--font-display);
