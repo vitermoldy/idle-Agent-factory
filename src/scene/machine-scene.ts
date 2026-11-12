@@ -665,3 +665,4 @@ export function initMachineScene(
         const p = path.getPointAt(i / 300),
           d = (p.x - x) ** 2 + (p.z - z) ** 2
         if (d < dist) {
+          dist = d
