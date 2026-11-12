@@ -65,3 +65,4 @@ const freshFactory = (def: FactoryDef): FactoryState => {
     queue: 0,
     progress: {},
     orders: 0,
+    earned: 0,
