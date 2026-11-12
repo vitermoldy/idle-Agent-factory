@@ -614,3 +614,4 @@ export function initMachineScene(
         c.fillStyle = i === 4 ? DEEP : '#aeb2a5'
         c.fillRect(24, 111 + i * 21, 190 - (i % 3) * 24, 6)
       }
+      print(c, 'SELESAI  ✓', 24, 327, 17, '#4f5a45', 600)
