@@ -153,3 +153,4 @@ export function initMachineScene(
     const controls = new OrbitControls(camera, renderer.domElement)
     controls.enableDamping = true
     controls.dampingFactor = 0.065
+    controls.enablePan = false
