@@ -167,3 +167,4 @@
   background: var(--accent);
 }
 .af3d-loading {
+  position: absolute;
