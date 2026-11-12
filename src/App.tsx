@@ -108,3 +108,4 @@ export default function App() {
     let titleAt = 0
     const tick = setInterval(() => {
       const store = useGame.getState()
+      const completed = store.tick(Date.now())
