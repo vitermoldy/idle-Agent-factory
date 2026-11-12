@@ -1682,3 +1682,4 @@ export function initMachineScene(
         frameCount++
         measureTime += dt
         if (measureTime > 4) {
+          if (frameCount / measureTime < 43 && pixelRatio > 1) {
