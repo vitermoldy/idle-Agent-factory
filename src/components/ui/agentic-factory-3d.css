@@ -112,3 +112,4 @@
   color: #f4f1ea;
 }
 .af3d-tooltip strong span {
+  font: 500 10px var(--font-mono);
