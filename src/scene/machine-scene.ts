@@ -646,3 +646,4 @@ export function initMachineScene(
       0.25
     )
     const pVec = new THREE.Vector3(),
+      tVec = new THREE.Vector3()
