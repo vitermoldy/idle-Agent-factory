@@ -73,3 +73,4 @@ while (t <= 4 * 3600) {
             apply: () => (s = E.buyLevels(s, id, cheapest, 1)),
           })
       }
+      for (const p of def.products) {
