@@ -18,3 +18,4 @@ const base = {
 } as const
 
 /** The machine's mark, from the original component. */
+export const Mark = (p: P) => (
