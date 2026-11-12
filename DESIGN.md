@@ -31,3 +31,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Pasangan nomor dan nama ("01 Kabinet") | Motif identitas dari plakat stasiun di mesin aslinya, dipakai ulang di daftar lini, baris stasiun, dan label 3D. |
 | Desktop tiga kolom, ponsel bertumpuk | Di desktop mesin tetap terlihat saat panel digulir. Di ponsel mesin mendapat kotaknya sendiri, dan tombol order berada di bawahnya supaya tidak menutupi mesin. |
 | Kartu berbeda menurut isi | Agen dan lini terkunci memakai kartu menonjol (garis 18%); stasiun dan produk memakai baris; bottleneck dan produk aktif mendapat garis aksen. |
+| Radius 9 px (tombol), 10 sampai 14 px (kartu, dialog) | Mengikuti sudut membulat kecil pada mesin; tidak ada elemen berbentuk pil. |
