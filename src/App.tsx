@@ -82,3 +82,4 @@ export default function App() {
   const wide = useMediaQuery('(min-width: 1280px)')
   const live = useRef<SceneLive>(null as unknown as SceneLive)
   if (!live.current) live.current = makeLive()
+  // The machine of a new line is built from `live` before any effect of this component runs.
