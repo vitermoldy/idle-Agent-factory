@@ -1177,3 +1177,4 @@ export function initMachineScene(
         paintPrice,
         painted: () => paintedValue,
         engine,
+        t: 0,
