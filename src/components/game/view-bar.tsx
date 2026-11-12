@@ -78,3 +78,4 @@ export function ViewBar({
         aria-pressed={labels}
         onClick={() => onLabels(!labels)}
         className={cn('view-btn', labels && 'is-on')}
+      >
