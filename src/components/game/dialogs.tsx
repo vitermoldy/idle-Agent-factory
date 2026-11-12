@@ -112,3 +112,4 @@ export function ConfirmDialog({
             onClick={() => {
               onConfirm()
               onClose()
+            }}
