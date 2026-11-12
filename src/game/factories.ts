@@ -251,3 +251,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       post: 'EPISODE',
       orders: {
+        title: 'TOPIK MASUK',
