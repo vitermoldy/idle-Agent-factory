@@ -158,3 +158,4 @@ export const useGame = create<Store>((set, get) => {
     },
     resetGame: () => {
       announced.clear()
+      lastTick = Date.now()
