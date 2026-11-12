@@ -264,3 +264,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Topik masuk', 'Usulan Tari masuk ke meja Topik'],
         ['Merekam suara', 'Studio Suara merekam narasi'],
         ['Mixing', 'Musik dan efek ditambahkan'],
+        ['Episode tayang', 'Episode muncul di semua aplikasi podcast'],
