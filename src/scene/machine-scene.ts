@@ -1711,3 +1711,4 @@ export function initMachineScene(
       textures.forEach((t) => t.dispose())
       env.dispose()
       renderer.dispose()
+      renderer.forceContextLoss()
