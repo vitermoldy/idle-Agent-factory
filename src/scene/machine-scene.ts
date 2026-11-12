@@ -1437,3 +1437,4 @@ export function initMachineScene(
     observer.observe(renderer.domElement)
     cleanups.push(() => observer.disconnect())
     listen(renderer.domElement, 'webglcontextlost', (e: Event) => {
+      e.preventDefault()
