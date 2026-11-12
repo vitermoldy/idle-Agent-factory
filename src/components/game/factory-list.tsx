@@ -51,3 +51,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                   fs.unlocked ? 'border-line-strong text-(--item)' : 'border-line text-muted'
                 )}
               >
+                {fs.unlocked ? <FactoryGlyph id={def.id} /> : <Lock />}
