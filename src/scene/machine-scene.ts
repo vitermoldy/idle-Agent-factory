@@ -729,3 +729,4 @@ export function initMachineScene(
       holder.add(machine)
       const contact = new THREE.Mesh(contactGeo, contactMat)
       contact.rotation.x = -Math.PI / 2
+      contact.position.y = -0.415
