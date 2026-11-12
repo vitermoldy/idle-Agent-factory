@@ -1580,3 +1580,4 @@ export function initMachineScene(
       lastFrame = now
       if (!visible || contextLost) return
       const playing = live.playing
+      const locked = live.locked
