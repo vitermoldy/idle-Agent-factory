@@ -147,3 +147,4 @@ export default function App() {
     live.current.playing = playing
   }, [labels, playing])
 
+  // A new line is a new machine: views start over.
