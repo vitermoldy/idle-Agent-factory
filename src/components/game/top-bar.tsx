@@ -34,3 +34,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
       </div>
       <div className="ml-auto flex items-center gap-2 sm:gap-4">
         <span className="mono-label hidden md:inline">Series {seriesNo(series)}</span>
+        {stars > 0 && (
