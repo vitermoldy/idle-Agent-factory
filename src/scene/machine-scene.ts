@@ -621,3 +621,4 @@ export function initMachineScene(
       c.fillRect(0, 0, w, h)
       print(c, 'ORDER', 21, 48, 24, '#1f241d', 650)
       print(c, 'BARU', 21, 79, 24, '#1f241d', 650)
+      c.strokeStyle = 'rgba(20,24,20,.45)'
