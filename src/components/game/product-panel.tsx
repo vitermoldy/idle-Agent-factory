@@ -64,3 +64,4 @@ function ProductRow({
       </div>
       <p className="mt-1 text-[12px] leading-snug text-muted">{product.desc}</p>
       <div className="mt-3 flex items-end gap-4">
+        <LoadBars def={def} product={product} heaviest={heaviest} />
