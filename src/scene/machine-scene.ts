@@ -1510,3 +1510,4 @@ export function initMachineScene(
           : locked
             ? 0.15
             : neck
+              ? 1.6 + Math.sin(pulseClock * 4.2) * 1.1
