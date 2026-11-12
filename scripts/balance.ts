@@ -39,3 +39,4 @@ while (t <= 4 * 3600) {
       marks.push(`${clock(t)}  agent ${hire.name}`)
       continue
     }
+    let best: Option | null = null
