@@ -161,3 +161,4 @@ export function SettingsDialog({
         <p className="mt-1 text-[13px] text-muted">
           Menghapus kas, lini, produk, dan bintang. Berbeda dengan series baru, bintang juga hilang.
         </p>
+        <button type="button" className="btn btn-quiet mt-3" onClick={onReset}>
