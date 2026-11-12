@@ -48,3 +48,5 @@ export function Dialog({
       </div>
     </dialog>
   )
+}
+
