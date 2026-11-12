@@ -50,3 +50,4 @@ permainan dan dihitung oleh `src/game/engine.ts`.
 - Semua kontrol minimal 44 px, punya nama yang bisa dibaca pembaca layar, dan cincin fokus beraksen.
 - Skip link ke panel, tab dengan tombol panah, dialog asli `<dialog>` yang tertutup dengan Escape.
 - `prefers-reduced-motion`: mesin dijeda sejak awal, angka uang memudar tanpa bergerak, transisi mati.
+  Tombol jeda dan jalan selalu tersedia di toolbar.
