@@ -689,3 +689,4 @@ export function initMachineScene(
     function compact(group: THREE.Object3D) {
       for (const child of [...group.children]) if ((child as THREE.Group).isGroup) compact(child)
       const buckets = new Map<string, THREE.Mesh<THREE.BufferGeometry, THREE.Material>[]>()
+      for (const object of group.children) {
