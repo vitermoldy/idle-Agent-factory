@@ -146,3 +146,4 @@ export function initMachineScene(
     renderer.outputColorSpace = THREE.SRGBColorSpace
     renderer.toneMapping = THREE.ACESFilmicToneMapping
     renderer.toneMappingExposure = live.locked ? 0.5 : 1.12
+    renderer.shadowMap.enabled = true
