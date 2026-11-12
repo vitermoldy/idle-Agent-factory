@@ -45,3 +45,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
     const slot = fs.owned.indexOf(p.id)
     const running = fs.unlocked && slot >= 0 && (fs.agent || (fs.queue > 0 && fs.product === p.id))
     return {
+      owned: slot >= 0,
