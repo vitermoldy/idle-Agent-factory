@@ -1439,3 +1439,4 @@ export function initMachineScene(
     listen(renderer.domElement, 'webglcontextlost', (e: Event) => {
       e.preventDefault()
       contextLost = true
+      options.onError?.('Konteks grafis terputus. Mesin muncul lagi sendiri begitu WebGL tersedia.')
