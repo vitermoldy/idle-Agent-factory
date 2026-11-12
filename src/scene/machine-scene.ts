@@ -1537,3 +1537,4 @@ export function initMachineScene(
       p.toggles.forEach((o, i) => (o.rotation.x = Math.sin(tact + i) > 0 ? -0.4 : 0.4))
       if (t - p.lastBelt > 1 / 18 || p.lastBelt < 0) {
         p.updateBelt(t)
+        p.lastBelt = t
