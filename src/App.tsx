@@ -177,3 +177,4 @@ export default function App() {
   )
   const onView = useCallback((m: MachineMode, c: MachineCamera) => {
     setMode(m)
+    setCamera(c)
