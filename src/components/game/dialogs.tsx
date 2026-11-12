@@ -91,3 +91,4 @@ export function ConfirmDialog({
 }: {
   open: boolean
   title: string
+  confirmLabel: string
