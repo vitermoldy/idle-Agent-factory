@@ -100,3 +100,4 @@
   }
   .btn:active:not(:disabled) {
     transform: translateY(1px);
+  }
