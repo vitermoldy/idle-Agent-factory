@@ -1596,3 +1596,4 @@ export function initMachineScene(
           cameraAnimating = true
         }
       }
+      if (live.focus !== lastFocus) {
