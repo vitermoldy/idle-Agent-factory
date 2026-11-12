@@ -50,3 +50,5 @@ export interface GameState {
   factories: Record<FactoryId, FactoryState>
   savedAt: number
   startedAt: number
+}
+
