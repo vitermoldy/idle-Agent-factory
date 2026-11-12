@@ -1527,3 +1527,4 @@ export function initMachineScene(
       p.receipt.visible = p.coin.visible = !locked && (!orderMode || orderPhase > 0.88)
       p.receipt.scale.y = 0.2 + Math.min(1, cashBeat * 1.5) * 0.8
       p.coin.position.set(1.04, 2.7 - Math.min(1, cashBeat * 1.7) ** 2 * 2.17, 0.55)
+      p.coin.rotation.y = t * 3.5
