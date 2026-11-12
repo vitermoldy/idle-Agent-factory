@@ -1268,3 +1268,4 @@ export function initMachineScene(
       fitRow()
       camera.updateProjectionMatrix()
       setCameraGoal()
+      cameraAnimating = true
