@@ -1266,3 +1266,4 @@ export function initMachineScene(
       // The overlays sit on the bottom of the box, so the machine is lifted a little.
       camera.setViewOffset(width, height, 0, height * 0.06, width, height)
       fitRow()
+      camera.updateProjectionMatrix()
