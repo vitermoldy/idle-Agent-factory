@@ -1082,3 +1082,4 @@ export function initMachineScene(
       coin.add(coinRing)
       const dollar = screen(coin, 0.28, 0.28, 0, 0, 0.04, dollarTex)
       ;(dollar.material as THREE.MeshBasicMaterial).transparent = true
+      cyl(cashdesk, 0.33, 0.09, 1.04, 0.39, 0.55, M.dark)
