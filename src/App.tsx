@@ -132,3 +132,4 @@ export default function App() {
     const onHide = () => document.visibilityState === 'hidden' && useGame.getState().save()
     const onLeave = () => useGame.getState().save()
     document.addEventListener('visibilitychange', onHide)
+    window.addEventListener('pagehide', onLeave)
