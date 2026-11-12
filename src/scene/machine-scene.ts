@@ -1196,3 +1196,4 @@ export function initMachineScene(
       cleanups.push(() => el.remove())
       return {
         id,
+        el,
