@@ -17,3 +17,4 @@ const base = {
   'aria-hidden': true,
 } as const
 
+/** The machine's mark, from the original component. */
