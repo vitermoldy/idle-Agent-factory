@@ -64,3 +64,4 @@ function catchUp(game: E.GameState, seconds: number) {
   const { state, completed } = E.advance(game, Math.min(seconds, E.OFFLINE_CAP))
   const totals = Object.values(completed).reduce(
     (sum, c) => ({ cash: sum.cash + c.cash, orders: sum.orders + c.orders }),
+    { cash: 0, orders: 0 }
