@@ -278,3 +278,4 @@ export function initMachineScene(
       const curve = new THREE.CatmullRomCurve3(pts.map((p) => new THREE.Vector3(...p)))
       const o = new THREE.Mesh(new THREE.TubeGeometry(curve, Math.max(12, pts.length * 7), r, 8, false), m)
       o.castShadow = true
+      parent.add(o)
