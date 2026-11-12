@@ -126,3 +126,5 @@ export function bottlenecks(def: FactoryDef, fs: FactoryState, product = activeP
   return rates.flatMap((r, i) => (r <= min * 1.0001 ? [i] : []))
 }
 
+export const starMultiplier = (stars: number) => 1 + stars * STAR_BONUS
+
