@@ -1720,3 +1720,4 @@ export function initMachineScene(
       value: {
         getState: () => {
           const fp = focusPlate()
+          return {
