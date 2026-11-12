@@ -409,3 +409,4 @@ export function initMachineScene(
           c.fillRect(148, y + 21, 34, 5)
         }
         disc(c, 236, 292, 11, INK)
+      },
