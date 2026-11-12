@@ -1176,3 +1176,4 @@ export function initMachineScene(
         updateBelt,
         paintPrice,
         painted: () => paintedValue,
+        engine,
