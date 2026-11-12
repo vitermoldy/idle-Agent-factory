@@ -1252,3 +1252,4 @@ export function initMachineScene(
       plateDistance = fitDistance(0)
       controls.maxDistance = Math.max(90, baseDistance * 1.6)
       fitShadow(ownedCount)
+    }
