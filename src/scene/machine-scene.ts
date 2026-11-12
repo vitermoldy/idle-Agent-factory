@@ -1350,3 +1350,4 @@ export function initMachineScene(
     ownedCount = countOwned()
     for (const p of plates) {
       if (!(plateLive(p.k).owned || p.k === 0)) continue
+      p.shown = true
