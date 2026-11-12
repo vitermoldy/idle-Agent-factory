@@ -4,3 +4,4 @@ import {
   initMachineScene,
   type MachineCamera,
   type MachineMode,
+  type SceneApi,
