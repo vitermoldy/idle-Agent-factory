@@ -115,3 +115,4 @@ describe('products', () => {
     let g = E.buyProduct(rich(video.products[1].unlockCost), 'video', 'ads')
     g = E.takeOrder(g, 'video')
     const { state } = E.advance(g, 600)
+    expect(state.cash).toBeCloseTo(100)
