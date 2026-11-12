@@ -98,3 +98,4 @@ function ProductRow({
               onClick={() => {
                 buyProduct(product.id)
                 onBought()
+              }}
