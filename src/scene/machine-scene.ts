@@ -1590,3 +1590,4 @@ export function initMachineScene(
       const count = countOwned()
       if (count !== ownedCount) {
         ownedCount = count
+        fitRow()
