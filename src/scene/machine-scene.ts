@@ -26,3 +26,4 @@ export interface PlateLive {
   /** Animation speed of this plate; 0 when it has nothing to do. */
   speed: number
   /** Formatted value of one order, painted on its cash desk. */
+  value: string
