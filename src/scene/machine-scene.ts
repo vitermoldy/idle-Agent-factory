@@ -326,3 +326,4 @@ export function initMachineScene(
       size = 20,
       color = '#f4f1ea',
       weight = 500,
+      family = fontFamily
