@@ -59,3 +59,4 @@ export function AwayDialog() {
       onClose={dismiss}
       title="Agenmu tetap bekerja"
       footer={
+        <button type="button" className="btn btn-primary" onClick={dismiss}>
