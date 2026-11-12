@@ -15,3 +15,4 @@ import './agentic-factory-3d.css'
  * Fills its box. Remount it (React key) to switch lines; the game talks to it through
  * the `live` object, which must keep its identity for the life of the component.
  */
+export type AgenticFactory3DProps = {
