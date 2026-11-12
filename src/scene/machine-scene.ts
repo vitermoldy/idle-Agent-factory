@@ -100,3 +100,4 @@ export function initMachineScene(
     target.addEventListener(type, fn)
     cleanups.push(() => target.removeEventListener(type, fn))
   }
+  function $(name: string): HTMLElement {
