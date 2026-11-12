@@ -1362,3 +1362,4 @@ export function initMachineScene(
     cleanups.push(() => resizeObserver.disconnect())
     controls.addEventListener('start', () => {
       dragging = true
+      cameraAnimating = false
