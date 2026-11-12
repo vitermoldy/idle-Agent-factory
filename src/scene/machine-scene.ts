@@ -1304,3 +1304,4 @@ export function initMachineScene(
       lastInteraction = performance.now()
       if (mode === 'order') {
         focusPlate().t = 0
+        cameraMode = 'overview'
