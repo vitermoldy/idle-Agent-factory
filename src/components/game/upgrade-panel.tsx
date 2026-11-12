@@ -238,3 +238,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
             <span className="mt-0.5 font-mono text-[10px] text-muted">{pad2(i + 1)}</span>
             <div>
               <h3 className="text-[14px] font-semibold text-ink">{st.name}</h3>
+              <p className="mt-1 text-[12px] leading-snug text-muted">{st.desc}</p>
