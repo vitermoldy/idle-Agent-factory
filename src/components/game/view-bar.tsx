@@ -66,3 +66,4 @@ export function ViewBar({
         value={camera}
         onChange={(e) => onCamera(e.target.value as MachineCamera)}
         className="min-h-11 rounded-lg border border-line bg-ground px-2.5 text-[13px] text-soft hover:border-line-strong"
+      >
