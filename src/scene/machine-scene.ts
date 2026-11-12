@@ -1112,3 +1112,4 @@ export function initMachineScene(
       }
       updateBelt(0)
       for (const g of railGeos) belt.add(new THREE.Mesh(g, M.chrome))
+      for (let i = 0; i < 16; i++) {
