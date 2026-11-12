@@ -532,3 +532,4 @@ export function initMachineScene(
         c.fillRect(377, y + 26, i === 0 ? ((t * 0.15) % 1) * 214 : 41 + i * 27, 7)
       }
       queue.texture.needsUpdate = true
+    }
