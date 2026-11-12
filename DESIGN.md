@@ -17,3 +17,5 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 - MOTION 2: gerak hanya ada di mesin (kecepatannya mengikuti lini), tombol yang naik saat disorot dan
   turun saat ditekan, serta angka uang yang naik dari kasir.
 
+## Keputusan dan alasannya
+
