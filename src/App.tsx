@@ -54,3 +54,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
     }
   })
   def.stations.forEach((st, i) => {
+    live.meta[st.slot] = fs.unlocked
