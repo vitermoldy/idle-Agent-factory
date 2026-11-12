@@ -437,3 +437,4 @@ export function initMachineScene(
     function art(c: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, t: number) {
       c.save()
       c.beginPath()
+      c.rect(x, y, w, h)
