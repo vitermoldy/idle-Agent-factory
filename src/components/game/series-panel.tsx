@@ -32,3 +32,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         <div className="flex justify-between text-[12px] text-muted tabular-nums">
           <span>Bintang berikutnya</span>
           <span>
+            {money(game.allTime)} / {money(nextAt)}
