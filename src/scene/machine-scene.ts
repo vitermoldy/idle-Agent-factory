@@ -220,3 +220,4 @@ export function initMachineScene(
       const k = `b${w},${h},${d},${r}`
       if (!geometries.has(k))
         geometries.set(
+          k,
