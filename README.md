@@ -64,3 +64,4 @@ Tailwind CSS 4, three.js, zustand, Vite.
 
 ## Kredit
 
+Mesin 3D diadaptasi dari [Agentic Factory 3D](https://github.com/eugeneshilow/agentic-3d-templates)
