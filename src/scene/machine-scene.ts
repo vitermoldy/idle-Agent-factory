@@ -211,3 +211,4 @@ export function initMachineScene(
       copper: mat(DEEP, 0.85, 0.3),
       light: mat(ACC, 0.2, 0.25, { emissive: ACC, emissiveIntensity: 1.5 }),
       green: mat(0xc6d9a1, 0.1, 0.3, { emissive: 0x91b364, emissiveIntensity: 0.7 }),
+      paper: mat(0xf4f1ea, 0, 0.85),
