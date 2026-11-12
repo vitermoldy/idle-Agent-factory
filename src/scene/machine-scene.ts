@@ -1474,3 +1474,4 @@ export function initMachineScene(
       // Row placement: slide to its place; a newly bought plate rises from the floor.
       if (owned && !p.shown) {
         p.shown = true
+        p.holder.visible = true
