@@ -97,3 +97,4 @@ function ProductRow({
               disabled={!can}
               onClick={() => {
                 buyProduct(product.id)
+                onBought()
