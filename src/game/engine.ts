@@ -339,3 +339,4 @@ export function parseSave(raw: string | null): GameState | null {
   const num = (v: unknown, d: number) => (typeof v === 'number' && Number.isFinite(v) && v >= 0 ? v : d)
   const factories = { ...base.factories }
   const saved = s.factories as Record<string, Partial<FactoryState> | undefined>
+  for (const def of FACTORIES) {
