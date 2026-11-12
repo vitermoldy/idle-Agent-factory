@@ -120,3 +120,4 @@ function StationRow({
   selected,
 }: {
   def: FactoryDef
+  index: number
