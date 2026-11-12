@@ -29,3 +29,4 @@ interface Popup {
 
 /** How fast the machine animates for a line making `T` orders a second. */
 function lineSpeed(T: number, running: boolean) {
+  if (!running) return 0
