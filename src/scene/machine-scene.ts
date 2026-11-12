@@ -338,3 +338,4 @@ export function initMachineScene(
       ctx.fillStyle = color
       ctx.beginPath()
       ctx.arc(x, y, r, 0, TAU)
+      ctx.fill()
