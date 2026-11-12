@@ -191,3 +191,5 @@ export function initMachineScene(
     scene.add(warm)
     const front = new THREE.DirectionalLight(0xffffff, 1)
     front.position.set(5, 3, 10)
+    scene.add(front)
+
