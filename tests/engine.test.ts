@@ -73,3 +73,4 @@ describe('buying', () => {
 
   it('refuses purchases the cash cannot cover', () => {
     const g = rich(1)
+    expect(E.buyLevels(g, 'video', 0, 1)).toBe(g)
