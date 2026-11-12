@@ -663,3 +663,4 @@ export function initMachineScene(
         dist = Infinity
       for (let i = 0; i < 300; i++) {
         const p = path.getPointAt(i / 300),
+          d = (p.x - x) ** 2 + (p.z - z) ** 2
