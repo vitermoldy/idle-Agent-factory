@@ -22,3 +22,4 @@ let t = 0
 const marks: string[] = []
 const report = new Set([60, 300, 600, 1200, 1800, 2700, 3600, 5400, 7200, 10800, 14400])
 while (t <= 4 * 3600) {
+  for (const def of FACTORIES) {
