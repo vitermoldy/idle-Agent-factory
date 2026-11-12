@@ -1047,3 +1047,4 @@ export function initMachineScene(
         print(c, 'STRUK PENJUALAN', 25, 87, 17, '#566059')
         c.strokeStyle = '#8a9189'
         c.setLineDash([5, 6])
+        c.beginPath()
