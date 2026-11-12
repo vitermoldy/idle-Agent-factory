@@ -11,3 +11,4 @@ export function StagePlate({ className }: { className?: string }) {
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
   const product = E.activeProduct(def, fs)
+  const T = E.throughput(def, fs)
