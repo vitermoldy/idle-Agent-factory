@@ -120,3 +120,4 @@ describe('products', () => {
 
   it('moves the bottleneck to the station the product loads hardest', () => {
     const ads = video.products[1]
+    const fs = { ...E.newGame(0).factories.video, levels: [20, 20, 20, 20, 20] }
