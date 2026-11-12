@@ -1336,3 +1336,4 @@ export function initMachineScene(
       project: (slot) => {
         if (!sized) return null
         const fp = focusPlate()
+        world(fp, fp.bySlot(slot).group.position, projected).add(new THREE.Vector3(0, 1.5, 0)).project(camera)
