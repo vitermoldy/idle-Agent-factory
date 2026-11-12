@@ -16,3 +16,4 @@ export default defineConfig({
     alias: { '@': root + 'src' },
     dedupe: ['react', 'react-dom'],
   },
+  build: {
