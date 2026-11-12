@@ -869,3 +869,4 @@ export function initMachineScene(
         tube(engine, [[-1.17, 2.36, -0.3], [-1.0, 2.5, -0.32], [-0.78, 2.32, -0.35]], 0.03, M.dark)
         propUpdates.push((t) =>
           leds.forEach((led, i) => {
+            led.material = Math.sin(t * (2.2 + (i % 5) * 0.9) + i * 1.7) > 0.15 ? M.light : M.dark
