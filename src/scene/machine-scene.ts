@@ -1452,3 +1452,4 @@ export function initMachineScene(
       pixelRatio = renderer.getPixelRatio(),
       rafId = 0,
       lastDraw = -1
+    const labelOffsets = [
