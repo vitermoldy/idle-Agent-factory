@@ -75,3 +75,4 @@ function BuyModeSwitch() {
             'min-h-11 min-w-11 rounded-md px-2.5 text-[13px] font-medium transition-colors',
             buyMode === mode ? 'bg-raised text-ink shadow-[inset_0_0_0_1px_var(--color-line-strong)]' : 'text-muted hover:text-ink'
           )}
+        >
