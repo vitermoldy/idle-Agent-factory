@@ -118,3 +118,4 @@ export function throughput(def: FactoryDef, fs: FactoryState, product = activePr
   return Math.min(...lineRates(def, fs, product))
 }
 
+/** Every station within a hair of the slowest one (ties are common in a balanced line). */
