@@ -245,3 +245,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
       </ol>
     </section>
   )
+}
