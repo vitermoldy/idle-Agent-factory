@@ -26,3 +26,4 @@ export function Dialog({
     if (open && !d.open) d.showModal()
     else if (!open && d.open) d.close()
   }, [open])
+  return (
