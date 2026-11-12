@@ -40,3 +40,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 ## Isi dalam game
 
 Nama pelanggan di layar mesin (Sari, Rina, Tari, dan lainnya) adalah fiksi permainan untuk menggambarkan
+order masuk, bukan testimoni. Angka di dalam game (harga, kecepatan, pendapatan) adalah aturan
