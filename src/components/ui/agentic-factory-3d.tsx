@@ -23,3 +23,4 @@ export type AgenticFactory3DProps = {
   onView?: (mode: MachineMode, camera: MachineCamera) => void
   onApi?: (api: SceneApi | null) => void
   className?: string
+  /** Overlays drawn above the machine. */
