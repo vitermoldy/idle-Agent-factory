@@ -514,3 +514,4 @@ export function initMachineScene(
     const queue = canvasTexture(640, 340, () => {})
     function drawQueue(t: number) {
       const c = queue.ctx,
+        q = theme.queue
