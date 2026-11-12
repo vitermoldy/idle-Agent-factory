@@ -277,3 +277,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
       cash += made * orderValue(def, fs, state.stars, p)
     }
     factories[def.id] = { ...fs, progress, queue, orders: fs.orders + done, earned: fs.earned + cash }
+    if (done > 0) {
