@@ -972,3 +972,4 @@ export function initMachineScene(
       box(consoleTop, 1.76, 0.12, 1.27, 0, 0, 0, S.ivory, 0.04)
       const qs = screen(consoleTop, 1.53, 0.79, 0, 0.067, -0.17, queue)
       qs.rotation.x = -Math.PI / 2
+      const toggles: THREE.Mesh[] = []
