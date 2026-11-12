@@ -160,3 +160,4 @@ export const FACTORIES: FactoryDef[] = [
     growth: 1.15,
     unlockCost: 4_500_000,
     agentCost: 180_000,
+    stations: [
