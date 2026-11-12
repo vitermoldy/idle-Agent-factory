@@ -180,3 +180,4 @@
     color: var(--color-muted);
     transition: color 0.15s;
   }
+  .tab:hover {
