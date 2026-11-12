@@ -359,3 +359,4 @@ export default function App() {
       <ConfirmDialog
         open={confirm === 'reset'}
         title="Hapus semua progres?"
+        confirmLabel="Hapus dan mulai dari nol"
