@@ -140,3 +140,5 @@ export default function App() {
       document.removeEventListener('visibilitychange', onHide)
       window.removeEventListener('pagehide', onLeave)
     }
+  }, [])
+
