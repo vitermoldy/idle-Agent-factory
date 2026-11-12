@@ -74,3 +74,4 @@ while (t <= 4 * 3600) {
           })
       }
       for (const p of def.products) {
+        if (fs.owned.includes(p.id)) continue
