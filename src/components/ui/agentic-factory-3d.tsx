@@ -39,3 +39,4 @@ export default function AgenticFactory3D({
   className,
   children,
 }: AgenticFactory3DProps) {
+  const rootRef = useRef<HTMLDivElement>(null)
