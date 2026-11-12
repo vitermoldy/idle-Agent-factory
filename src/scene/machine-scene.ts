@@ -334,3 +334,4 @@ export function initMachineScene(
       ctx.roundRect(x, y, w, h, r)
       ctx.fill()
     }
+    function disc(ctx: CanvasRenderingContext2D, x: number, y: number, r: number, color: string) {
