@@ -73,3 +73,4 @@ function initialState() {
   const { game, corrupt, storageOk } = readSave()
   const now = Date.now()
   lastTick = now
+  const notices: Notice[] = []
