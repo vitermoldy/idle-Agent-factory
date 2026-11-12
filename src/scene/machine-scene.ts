@@ -1395,3 +1395,4 @@ export function initMachineScene(
       renderer.domElement.style.cursor = hit ? 'pointer' : 'grab'
       tooltip.classList.toggle('visible', !!hit)
       if (hit) {
+        const info = options.tooltip(hit.slot, hit.plate)
