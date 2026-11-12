@@ -49,3 +49,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
               index={i}
               rate={rates[i]}
               throughput={T}
+              neck={necks.includes(i)}
