@@ -539,3 +539,4 @@ export function initMachineScene(
       c.fillStyle = '#edece3'
       c.fillRect(0, 0, w, h)
       c.fillStyle = '#dedfd7'
+      c.fillRect(0, 0, w, 56)
