@@ -1137,3 +1137,4 @@ export function initMachineScene(
         g.userData.moving = true
         machine.add(g)
         box(g, 0.47, 0.71, 0.04, 0, 0, 0, M.ivory, 0.022)
+        const faces = packetTextures.map((tex) => {
