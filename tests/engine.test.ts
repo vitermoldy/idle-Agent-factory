@@ -150,3 +150,4 @@ describe('series and stars', () => {
     expect(E.orderValue(video, next.factories.video, next.stars)).toBeCloseTo(29 * (1 + 2 * E.STAR_BONUS))
   })
 
+  it('will not start a series that earns no star', () => {
