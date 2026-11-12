@@ -344,3 +344,4 @@ export function parseSave(raw: string | null): GameState | null {
     if (!f) continue
     const unlocked = def.unlockCost === 0 || f.unlocked === true
     const levels =
+      Array.isArray(f.levels) && f.levels.length === 5
