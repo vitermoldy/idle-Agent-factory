@@ -168,3 +168,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'cashdesk', name: 'Tagihan', desc: 'Invoice terkirim, langsung lunas.', output: 'invoice', speed: 1.5, cost: 350 },
     ],
     theme: {
+      accent: '#45b4ff',
