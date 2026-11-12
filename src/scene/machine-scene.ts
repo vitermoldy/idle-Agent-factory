@@ -758,3 +758,4 @@ export function initMachineScene(
         fit(c, product.name, 45 + tw + 34, 79, 34, w - tw - 330, '#c9cdd0', 500)
         fit(c, theme.plate.line.toUpperCase(), 47, 133, 19, 1100, '#8a939c', 500)
         c.textAlign = 'right'
+        print(c, `PETAK ${k + 1}`, w - 48, 130, 23, DEEP, 600)
