@@ -1224,3 +1224,4 @@ export function initMachineScene(
       visible = true,
       contextLost = false
     const desiredPosition = new THREE.Vector3(),
+      desiredTarget = new THREE.Vector3(0, 1, 0)
