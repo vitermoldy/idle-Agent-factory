@@ -361,3 +361,4 @@ export default function App() {
         title="Hapus semua progres?"
         confirmLabel="Hapus dan mulai dari nol"
         onConfirm={() => useGame.getState().resetGame()}
+        onClose={() => setConfirm(null)}
