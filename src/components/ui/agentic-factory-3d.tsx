@@ -5,3 +5,4 @@ import {
   type MachineCamera,
   type MachineMode,
   type SceneApi,
+  type SceneLive,
