@@ -75,3 +75,4 @@ export function ViewBar({
       </select>
       <button
         type="button"
+        aria-pressed={labels}
