@@ -564,3 +564,4 @@ export function initMachineScene(
     const postTex = canvasTexture(220, 290, (c, w, h) => {
       c.fillStyle = '#f4f1ea'
       c.fillRect(0, 0, w, h)
+      c.fillStyle = ACC
