@@ -204,3 +204,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Menulis kode', 'Agen menulis kode dan menjalankan tes'],
         ['Halaman tayang', 'Situs aktif di domain klien'],
         ['Invoice lunas', 'Invoice klien terbayar'],
+      ],
