@@ -96,3 +96,4 @@ export default function AgenticFactory3D({
       />
       <div className="af3d-vignette" />
       <div data-el="labels" className="af3d-labels" />
+      <div data-el="tooltip" className="af3d-tooltip" role="tooltip">
