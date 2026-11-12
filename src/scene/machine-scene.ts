@@ -877,3 +877,4 @@ export function initMachineScene(
         const mic = new THREE.Group()
         mic.position.set(-1.2, 0, -0.32)
         engine.add(mic)
+        cyl(mic, 0.27, 0.06, 0, -0.02, 0, M.dark)
