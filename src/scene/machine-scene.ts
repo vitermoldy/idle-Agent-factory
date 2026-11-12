@@ -1678,3 +1678,4 @@ export function initMachineScene(
         options.onReady?.()
       }
       // Reduce only raster resolution on sustained slow devices; geometry and timing stay identical.
+      if (playing) {
