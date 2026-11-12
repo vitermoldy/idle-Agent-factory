@@ -183,3 +183,4 @@ describe('saves', () => {
 
   it('cleans values it cannot trust', () => {
     const g = E.newGame(0)
+    const raw = JSON.parse(JSON.stringify(g))
