@@ -52,3 +52,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                 )}
               >
                 {fs.unlocked ? <FactoryGlyph id={def.id} /> : <Lock />}
+              </span>
