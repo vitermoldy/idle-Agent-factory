@@ -124,3 +124,4 @@ export const FACTORIES: FactoryDef[] = [
         sub: ['Video 30 detik yang', 'menjual produkmu.'],
         cta: 'Pesan video',
         foot: 'DIBUAT OLEH AGEN',
+      },
