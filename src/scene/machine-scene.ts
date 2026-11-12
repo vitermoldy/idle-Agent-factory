@@ -471,3 +471,4 @@ export function initMachineScene(
         }
     for (let i = 0; i < 52; i++) {
       const a = (i / 52) * TAU,
+        r = 8.1,
