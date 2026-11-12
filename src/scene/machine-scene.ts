@@ -561,3 +561,4 @@ export function initMachineScene(
       fit(c, st.cta, 390, 486, 22, 230, '#f4f1ea', 500)
       print(c, st.foot, 33, 571, 12, '#879088')
     })
+    const postTex = canvasTexture(220, 290, (c, w, h) => {
