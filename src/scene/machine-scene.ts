@@ -1323,3 +1323,4 @@ export function initMachineScene(
       cameraMode = next
       if (mode === 'order') mode = 'assembled'
       lastInteraction = performance.now()
+      flightTime = 0
