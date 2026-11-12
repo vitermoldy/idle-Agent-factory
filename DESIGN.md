@@ -48,3 +48,4 @@ permainan dan dihitung oleh `src/game/engine.ts`.
 - Semua pasangan teks lulus WCAG AA untuk teks normal (diperiksa dengan `antislop-human/contrast-check.py`;
   terendah 5.89:1, koral di atas panel naik).
 - Semua kontrol minimal 44 px, punya nama yang bisa dibaca pembaca layar, dan cincin fokus beraksen.
+- Skip link ke panel, tab dengan tombol panah, dialog asli `<dialog>` yang tertutup dengan Escape.
