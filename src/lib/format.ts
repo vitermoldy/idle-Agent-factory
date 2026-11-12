@@ -18,3 +18,5 @@ export function short(n: number): string {
 
 const trim = (s: string) => s.replace(/\.0+$/, '').replace(/(\.\d*?)0+$/, '$1')
 
+export const money = (n: number) => '$' + short(n)
+
