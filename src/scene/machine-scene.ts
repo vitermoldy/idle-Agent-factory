@@ -562,3 +562,4 @@ export function initMachineScene(
       print(c, st.foot, 33, 571, 12, '#879088')
     })
     const postTex = canvasTexture(220, 290, (c, w, h) => {
+      c.fillStyle = '#f4f1ea'
