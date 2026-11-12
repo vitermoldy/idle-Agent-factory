@@ -1086,3 +1086,4 @@ export function initMachineScene(
       cyl(cashdesk, 0.26, 0.025, 1.04, 0.445, 0.55, M.copper)
 
       // Conveyor: instanced treads, continuous rails and phase-locked cargo.
+      const belt = new THREE.Group()
