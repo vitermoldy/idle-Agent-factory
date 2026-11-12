@@ -129,3 +129,4 @@ export function initMachineScene(
       220
     )
     let renderer: THREE.WebGLRenderer
+    try {
