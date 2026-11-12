@@ -1051,3 +1051,4 @@ export function initMachineScene(
         c.moveTo(22, 115)
         c.lineTo(258, 115)
         c.stroke()
+        c.setLineDash([])
