@@ -150,3 +150,4 @@ export default function App() {
   // A new line is a new machine: views start over.
   useEffect(() => {
     syncLive(live.current, useGame.getState().game)
+    setMode('assembled')
