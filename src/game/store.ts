@@ -146,3 +146,4 @@ export const useGame = create<Store>((set, get) => {
         const next = E.unlockFactory(g, id)
         return next === g ? g : { ...next, active: id }
       })
+      set((s) => ({ notices: s.notices.filter((n) => n.factory !== id) }))
