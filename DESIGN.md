@@ -9,3 +9,5 @@ bergaya nomenklatur mesin. Game ini meneruskan bahasa itu ke seluruh antarmuka, 
 Design read: game idle manajemen untuk pemain yang senang melihat mesin bekerja, dengan bahasa pelat
 dan rambu industri dari mesin 3D tersebut.
 
+Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
+
