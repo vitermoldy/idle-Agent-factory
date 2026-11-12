@@ -1658,3 +1658,4 @@ export function initMachineScene(
         if (!showLabels) return
         const meta = live.meta[label.id]
         if (meta.level !== label.levelText) {
+          label.levelText = meta.level
