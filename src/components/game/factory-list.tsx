@@ -46,3 +46,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                 {def.no}
               </span>
               <span
+                className={cn(
