@@ -314,3 +314,4 @@ export const FACTORIES: FactoryDef[] = [
       post: 'RILIS',
       orders: {
         title: 'PROYEK MASUK',
+        sub: '3 proyek baru bulan ini',
