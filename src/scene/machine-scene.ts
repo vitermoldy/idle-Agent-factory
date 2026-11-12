@@ -1620,3 +1620,4 @@ export function initMachineScene(
           prevJourney = step
         }
         $('journey-progress').style.width = packet.phase * 100 + '%'
+        if (!dragging) {
