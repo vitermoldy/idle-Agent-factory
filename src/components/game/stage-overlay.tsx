@@ -69,3 +69,4 @@ export function StageAction() {
         </div>
         <Progress value={fast ? 1 : progress} steady={fast} />
       </div>
+    )
