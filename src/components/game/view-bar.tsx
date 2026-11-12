@@ -55,3 +55,4 @@ export function ViewBar({
           <span className="hidden lg:inline" aria-hidden="true">
             {m.label}
           </span>
+        </button>
