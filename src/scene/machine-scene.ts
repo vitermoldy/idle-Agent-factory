@@ -1244,3 +1244,4 @@ export function initMachineScene(
       // A single plate may crop its drafting rings on a phone; a row must show every plate whole.
       const share = mobile ? (span > 0 ? 0.94 : 1.1) : 0.9
       const horizontalFit = (17.3 + span * 0.85) / (tan * aspect * share)
+      const verticalFit = (11.5 + span * 0.25) / (tan * (mobile ? 0.84 : 0.8))
