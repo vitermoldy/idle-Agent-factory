@@ -86,3 +86,4 @@ export function ViewBar({
         aria-pressed={!playing}
         aria-label={playing ? 'Jeda animasi mesin' : 'Jalankan animasi mesin'}
         onClick={() => onPlaying(!playing)}
+        className="view-btn"
