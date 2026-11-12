@@ -943,3 +943,4 @@ export function initMachineScene(
         }
         const turn = new THREE.Group()
         turn.userData.moving = true
+        open.add(turn)
