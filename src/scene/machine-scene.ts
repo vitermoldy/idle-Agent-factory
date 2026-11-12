@@ -1751,3 +1751,4 @@ export function initMachineScene(
       error instanceof Error && error.message.startsWith('WebGL')
         ? error.message
         : 'Mesin 3D tidak bisa dimulai di browser ini. Game tetap berjalan; nyalakan WebGL untuk melihat mesinnya.'
+    )
