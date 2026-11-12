@@ -74,3 +74,4 @@ export function ViewBar({
         ))}
       </select>
       <button
+        type="button"
