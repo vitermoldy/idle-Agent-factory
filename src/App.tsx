@@ -170,3 +170,4 @@ export default function App() {
       const product = def.products[plate]
       if (product) useGame.getState().selectProduct(product.id)
       syncLive(live.current, useGame.getState().game)
+      setSelected(slot)
