@@ -59,3 +59,4 @@ describe('buying', () => {
   it('prices a batch of levels as the sum of single levels', () => {
     const batch = E.upgradeCost(video, 1, 5, 10)
     let sum = 0
+    for (let i = 0; i < 10; i++) sum += E.upgradeCost(video, 1, 5 + i)
