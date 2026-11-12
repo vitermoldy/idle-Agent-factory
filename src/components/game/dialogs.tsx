@@ -149,3 +149,4 @@ export function SettingsDialog({
           {storageOk
             ? `Progres disimpan di browser ini setiap 5 detik${time ? `, terakhir pukul ${time}` : ''}.`
             : 'Browser ini menolak penyimpanan lokal, jadi progres hilang saat halaman ditutup.'}
+        </p>
