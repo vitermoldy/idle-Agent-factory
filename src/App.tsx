@@ -238,3 +238,4 @@ export default function App() {
             className="h-[40svh] min-h-[280px] lg:h-auto lg:min-h-0 lg:flex-1"
           >
             <StagePlate className="pointer-events-none absolute top-5 left-6 hidden max-w-[calc(100%-48px)] lg:block" />
+            <UnlockCard />
