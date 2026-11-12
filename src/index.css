@@ -196,3 +196,4 @@
     background: var(--accent);
   }
   .dialog {
+    margin: auto;
