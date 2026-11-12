@@ -1168,3 +1168,4 @@ export function initMachineScene(
         flyPost,
         incoming,
         receipt,
+        coin,
