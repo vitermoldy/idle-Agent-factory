@@ -86,3 +86,4 @@ export default function App() {
   const synced = useRef(active)
   if (synced.current !== active) {
     synced.current = active
+    syncLive(live.current, useGame.getState().game)
