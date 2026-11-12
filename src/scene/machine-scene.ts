@@ -1468,3 +1468,4 @@ export function initMachineScene(
     ]
 
     /** Moves one plate for a frame: its clock, its parts and its cargo. */
+    function animatePlate(p: Plate, dt: number, now: number, smooth: number, playing: boolean, locked: boolean) {
