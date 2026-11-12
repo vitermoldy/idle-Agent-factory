@@ -108,3 +108,4 @@ export function ConfirmDialog({
           </button>
           <button
             type="button"
+            className="btn btn-primary"
