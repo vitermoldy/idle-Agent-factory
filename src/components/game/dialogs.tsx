@@ -178,3 +178,4 @@ export function SettingsDialog({
             target="_blank"
             rel="noopener noreferrer"
           >
+            Lihat template aslinya
