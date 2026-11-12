@@ -74,3 +74,4 @@ function initialState() {
   const now = Date.now()
   lastTick = now
   const notices: Notice[] = []
+  if (corrupt) notices.push({ id: ++noticeId, text: 'Simpanan lama tidak bisa dibaca, jadi permainan dimulai dari awal.' })
