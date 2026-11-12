@@ -104,3 +104,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
         onClick={hireAgent}
       />
       {!can && (
+        <p className="mt-2 text-[12px] text-muted tabular-nums">Kurang {money(def.agentCost - cash)}</p>
