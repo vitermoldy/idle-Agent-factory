@@ -1702,3 +1702,4 @@ export function initMachineScene(
         const list = mesh.material ? (Array.isArray(mesh.material) ? mesh.material : [mesh.material]) : []
         for (const material of list) {
           for (const value of Object.values(material)) if (value instanceof THREE.Texture) textures.add(value)
+          material.dispose()
