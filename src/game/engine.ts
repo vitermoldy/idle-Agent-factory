@@ -309,3 +309,4 @@ export function starsClaimable(state: GameState) {
   return Math.max(0, starsEarnedTotal(state.allTime) - state.stars)
 }
 
+/** Resets every line, product and the cash; keeps the stars and adds the new ones. */
