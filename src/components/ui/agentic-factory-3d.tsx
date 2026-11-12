@@ -89,3 +89,4 @@ export default function AgenticFactory3D({
   return (
     <div ref={rootRef} className={cn('af3d', className)}>
       <div
+        data-el="canvas"
