@@ -1398,3 +1398,4 @@ export function initMachineScene(
         const info = options.tooltip(hit.slot, hit.plate)
         tooltip.querySelector('strong')!.innerHTML = `<span>${pad(stepOf(hit.slot))}</span>`
         tooltip.querySelector('strong')!.append(info.title)
+        tooltip.querySelector('p')!.textContent = info.body
