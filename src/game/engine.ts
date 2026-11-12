@@ -257,3 +257,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     const fs = factories[def.id]
     if (!fs.unlocked) continue
     if (!fs.agent && fs.queue <= 0) continue
+    const progress = { ...fs.progress }
