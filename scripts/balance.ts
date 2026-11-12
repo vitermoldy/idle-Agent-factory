@@ -48,3 +48,4 @@ while (t <= 4 * 3600) {
       if (!fs.unlocked) continue
       const id: FactoryId = def.id
       const before = E.lineIncome(def, fs, s.stars)
+      for (let i = 0; i < 5; i++) {
