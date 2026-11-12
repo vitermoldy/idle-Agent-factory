@@ -13,3 +13,4 @@ describe('a new game', () => {
     expect(FACTORIES.slice(1).every((f) => !g.factories[f.id].unlocked)).toBe(true)
   })
 
+  it('earns nothing until an order is taken or an agent is hired', () => {
