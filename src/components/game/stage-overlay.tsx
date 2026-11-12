@@ -127,3 +127,4 @@ export function UnlockCard() {
         className="pointer-events-auto w-[min(420px,100%)] rounded-2xl border border-line-strong bg-panel/95 p-5"
       >
         <p className="mono-label text-accent">Lini {def.no}</p>
+        <h3 id="unlock-title" className="mt-1.5 font-display text-[20px] font-semibold">
