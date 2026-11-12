@@ -62,3 +62,5 @@ CLI shadcn (`npx shadcn add ...`) menaruh komponen baru di sana dan import seper
 `@/components/ui/agentic-factory-3d` bergantung pada alias itu. Stack: React 19, TypeScript,
 Tailwind CSS 4, three.js, zustand, Vite.
 
+## Kredit
+
