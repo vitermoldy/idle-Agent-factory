@@ -21,3 +21,4 @@ export const STAR_BONUS = 0.05
 /** Lifetime earnings that give the first star; stars grow with the square root. */
 export const STAR_UNIT = 1e10
 
+export interface FactoryState {
