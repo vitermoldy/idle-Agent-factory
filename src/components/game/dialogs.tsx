@@ -32,3 +32,4 @@ export function Dialog({
       aria-labelledby={id}
       onClose={onClose}
       onClick={(e) => e.target === ref.current && onClose()}
+      className="dialog"
