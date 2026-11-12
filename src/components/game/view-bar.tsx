@@ -51,3 +51,4 @@ export function ViewBar({
           onClick={() => onMode(m.id)}
           className={cn('view-btn', mode === m.id && 'is-on')}
         >
+          <ModeIcon mode={m.id} />
