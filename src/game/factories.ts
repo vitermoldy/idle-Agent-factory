@@ -367,3 +367,4 @@ export const FACTORIES: FactoryDef[] = [
       store: {
         brand: 'RAK DIGITAL',
         nav: 'Terlaris    Baru    Penulis',
+        tag: ['RESEP', 'RUMAHAN.'],
