@@ -44,3 +44,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           label={`Mulai series ${series(game.series + 1)}`}
           price={`+${claim} bintang`}
           className="w-full"
+          onClick={onStart}
