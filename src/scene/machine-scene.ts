@@ -659,3 +659,4 @@ export function initMachineScene(
     })
     // Find ports by arc length, so the travelling order arrives at the actual station.
     function nearestPort(x: number, z: number) {
+      let best = 0,
