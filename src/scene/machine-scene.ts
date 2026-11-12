@@ -749,3 +749,4 @@ export function initMachineScene(
       const engraving = canvasTexture(1536, 176, (c, w, h) => {
         c.fillStyle = '#252b32'
         c.fillRect(0, 0, w, h)
+        c.strokeStyle = '#4d545c'
