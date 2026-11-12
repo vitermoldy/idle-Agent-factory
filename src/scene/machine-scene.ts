@@ -1103,3 +1103,4 @@ export function initMachineScene(
           const u = (i / beltCount + t * 0.012) % 1
           path.getPointAt(u, pVec)
           path.getTangentAt(u, tVec)
+          dummy.position.copy(pVec)
