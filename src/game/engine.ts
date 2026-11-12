@@ -374,3 +374,4 @@ export function parseSave(raw: string | null): GameState | null {
     ...base,
     v: SAVE_VERSION,
     cash: num(s.cash, 0),
+    earned: num(s.earned, 0),
