@@ -335,3 +335,4 @@ export default function App() {
       <AwayDialog />
       <SettingsDialog
         open={settings}
+        onClose={() => setSettings(false)}
