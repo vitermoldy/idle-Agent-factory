@@ -115,3 +115,4 @@ export default function App() {
       if (done) pending.current += done.cash
       if (Date.now() - titleAt > 1000) {
         titleAt = Date.now()
+        document.title = `Agentic Factory (${money(g.cash)})`
