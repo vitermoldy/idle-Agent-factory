@@ -116,3 +116,4 @@ export default function App() {
       if (Date.now() - titleAt > 1000) {
         titleAt = Date.now()
         document.title = `Agentic Factory (${money(g.cash)})`
+      }
