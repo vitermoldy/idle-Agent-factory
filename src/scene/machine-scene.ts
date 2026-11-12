@@ -1579,3 +1579,4 @@ export function initMachineScene(
       const dt = Math.max(0, Math.min((now - lastFrame) / 1000, 0.045))
       lastFrame = now
       if (!visible || contextLost) return
+      const playing = live.playing
