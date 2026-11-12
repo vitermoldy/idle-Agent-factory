@@ -7,3 +7,4 @@
 // It reads the game state every frame through `live`: each plate's speed drives its clock, the
 // bottleneck stations pulse, and a locked line sits dark. All geometry and textures are
 // procedural: no models, no images.
+// ---------------------------------------------------------------------------
