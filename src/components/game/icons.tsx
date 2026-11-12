@@ -59,3 +59,4 @@ export const Close = (p: P) => (
 )
 
 export const Tag = (p: P) => (
+  <svg {...base} {...p}>
