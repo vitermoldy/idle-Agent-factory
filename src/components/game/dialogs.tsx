@@ -39,3 +39,4 @@ export function Dialog({
           <h2 id={id} className="font-display text-[19px] leading-snug font-semibold">
             {title}
           </h2>
+          <button type="button" className="icon-btn -mt-1.5 -mr-2" aria-label="Tutup" onClick={onClose}>
