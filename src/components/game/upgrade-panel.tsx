@@ -213,3 +213,4 @@ function StationRow({
           onClick={() => buyStation(index)}
           aria-label={`Naikkan ${st.name} ${n} level seharga ${money(cost)}`}
         >
+          <span className="text-[13px]">+{n} level</span>
