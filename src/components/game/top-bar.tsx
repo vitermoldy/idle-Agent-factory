@@ -20,3 +20,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           </h1>
           <p className="mono-label mt-1.5 hidden sm:block">Game idle</p>
         </div>
+      </div>
