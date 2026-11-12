@@ -45,3 +45,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           <Gear />
         </button>
       </div>
+    </header>
