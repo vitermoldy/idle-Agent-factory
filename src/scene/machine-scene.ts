@@ -958,3 +958,4 @@ export function initMachineScene(
       screen(outputVideo, 0.56, 0.98, 0, 1.36, 0.641, productTex)
       box(engine, 1.14, 0.12, 0.2, 0, 0.83, 0.66, M.dark, 0.025)
       for (const x of [-0.42, 0.42]) {
+        const r = cyl(engine, 0.115, 0.18, x, 0.92, 0.6, M.chrome)
