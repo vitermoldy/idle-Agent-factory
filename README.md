@@ -22,3 +22,4 @@ dibayar di Kasir.
 | Lini | Produk | Properti khas di mesin |
 |---|---|---|
 | 01 Studio Video | Video pendek, video iklan, video penjelas | Gulungan film |
+| 02 Pabrik Website | Landing page, toko online, portal anggota | Rak server |
