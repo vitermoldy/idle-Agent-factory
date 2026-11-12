@@ -171,3 +171,4 @@ export function SettingsDialog({
         </h3>
         <p className="mt-1 text-[13px] text-muted">
           Mesin 3D diadaptasi dari komponen Agentic Factory 3D (dibuat dengan OpenAI Codex, port React oleh
+          Claude), digambar seluruhnya dengan three.js tanpa model atau gambar.{' '}
