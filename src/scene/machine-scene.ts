@@ -1731,3 +1731,4 @@ export function initMachineScene(
             height,
             drawCalls: renderer.info.render.calls,
             triangles: renderer.info.render.triangles,
+            stations: fp.stations.map((s) => {
