@@ -44,3 +44,4 @@ Butuh Node 22 atau lebih baru. Di Windows, jalankan vitest dari `C:\...` (huruf 
 
 ## Struktur
 
+```
