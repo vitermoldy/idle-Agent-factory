@@ -173,3 +173,4 @@
   }
   .tab {
     position: relative;
+    min-height: 48px;
