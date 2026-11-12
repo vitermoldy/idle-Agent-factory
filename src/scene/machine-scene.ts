@@ -1417,3 +1417,4 @@ export function initMachineScene(
       const [x, y] = local(e)
       const hit = hitStation(x, y)
       if (!hit) return
+      // The game moves the focus to this plate; the camera follows on the next frames.
