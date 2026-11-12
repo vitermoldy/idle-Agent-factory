@@ -95,3 +95,4 @@ export default function App() {
   const [labels, setLabels] = useState(live.current.labels)
   const [playing, setPlaying] = useState(live.current.playing)
   const [selected, setSelected] = useState<SlotId | null>(null)
+  const [settings, setSettings] = useState(false)
