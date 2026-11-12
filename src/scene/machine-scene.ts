@@ -712,3 +712,5 @@ export function initMachineScene(
         for (const m of list) group.remove(m)
         group.add(mesh)
       }
+    }
+
