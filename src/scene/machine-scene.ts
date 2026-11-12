@@ -540,3 +540,4 @@ export function initMachineScene(
       c.fillRect(0, 0, w, h)
       c.fillStyle = '#dedfd7'
       c.fillRect(0, 0, w, 56)
+      for (let i = 0; i < 3; i++) disc(c, 26 + i * 19, 27, 4, '#adaeaa')
