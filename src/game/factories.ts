@@ -111,3 +111,4 @@ export const FACTORIES: FactoryDef[] = [
       shell: '#e0ded4',
       prop: 'reels',
       plate: {
+        title: 'STUDIO VIDEO',
