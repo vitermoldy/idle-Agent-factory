@@ -515,3 +515,4 @@ export function initMachineScene(
     function drawQueue(t: number) {
       const c = queue.ctx,
         q = theme.queue
+      c.fillStyle = '#111b20'
