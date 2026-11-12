@@ -327,3 +327,4 @@ export default function App() {
                 <FactoryList onPick={openFactory} />
               </section>
             )}
+            {shownTab === 'series' && <SeriesPanel onStart={() => setConfirm('series')} />}
