@@ -26,3 +26,4 @@ interface Store {
   buyMode: E.BuyMode
   away: AwayReport | null
   notices: Notice[]
+  storageOk: boolean
