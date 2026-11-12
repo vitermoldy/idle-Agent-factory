@@ -353,3 +353,4 @@ export function parseSave(raw: string | null): GameState | null {
       : [def.products[0].id]
     const product = typeof f.product === 'string' && owned.includes(f.product) ? f.product : def.products[0].id
     const rawProgress: unknown = f.progress
+    const progress: Record<string, number> = {}
