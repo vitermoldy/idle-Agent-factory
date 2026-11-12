@@ -1376,3 +1376,4 @@ export function initMachineScene(
       pointer = new THREE.Vector2(),
       tooltip = $('tooltip')
     const local = (e: PointerEvent) => {
+      const r = root.getBoundingClientRect()
