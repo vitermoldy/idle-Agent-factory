@@ -119,3 +119,4 @@ export default function App() {
       }
     }, 100)
     const flush = setInterval(() => {
+      if (pending.current <= 0) return
