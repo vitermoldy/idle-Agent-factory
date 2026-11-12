@@ -359,3 +359,4 @@ export const FACTORIES: FactoryDef[] = [
       shell: '#e6e1d3',
       prop: 'books',
       plate: {
+        title: 'PENERBIT E-BOOK',
