@@ -68,3 +68,4 @@ function BuyModeSwitch() {
       {MODES.map(({ mode, label }) => (
         <button
           key={label}
+          type="button"
