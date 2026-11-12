@@ -1199,3 +1199,4 @@ export function initMachineScene(
         el,
         level: el.querySelector<HTMLElement>('.label-title em')!,
         meta: el.querySelector<HTMLDivElement>('.label-meta')!,
+        levelText: '',
