@@ -98,3 +98,5 @@ export default function App() {
   const [settings, setSettings] = useState(false)
   const [confirm, setConfirm] = useState<'series' | 'reset' | null>(null)
   const [popups, setPopups] = useState<Popup[]>([])
+  const pending = useRef(0)
+
