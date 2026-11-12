@@ -235,3 +235,4 @@ export function initMachineScene(
       x: number,
       y: number,
       z: number,
+      m: Material = M.body,
