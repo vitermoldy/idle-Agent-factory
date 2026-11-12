@@ -209,3 +209,5 @@ export default function App() {
     '--accent': def.theme.accent,
     '--accent-deep': def.theme.accentDeep,
   } as CSSProperties
+  const game = useGame((s) => s.game)
+
