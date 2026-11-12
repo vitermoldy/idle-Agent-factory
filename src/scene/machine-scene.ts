@@ -658,3 +658,4 @@ export function initMachineScene(
       return new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 160, 0.028, 6, false)
     })
     // Find ports by arc length, so the travelling order arrives at the actual station.
+    function nearestPort(x: number, z: number) {
