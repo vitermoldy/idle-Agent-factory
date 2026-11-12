@@ -1655,3 +1655,4 @@ export function initMachineScene(
       const showLabels = !locked && live.labels
       labels.forEach((label, i) => {
         label.el.classList.toggle('visible', showLabels)
+        if (!showLabels) return
