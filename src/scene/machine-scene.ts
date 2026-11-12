@@ -805,3 +805,4 @@ export function initMachineScene(
       const bySlot = (slot: SlotId) => stations.find((s) => s.id === slot)!
 
       const propUpdates: Array<(t: number) => void> = []
+      const engine = bySlot('engine').group
