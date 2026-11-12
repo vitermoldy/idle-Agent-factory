@@ -33,3 +33,4 @@ export interface SceneTheme {
   wip: { title: string; sub: string }
   store: {
     brand: string
+    nav: string
