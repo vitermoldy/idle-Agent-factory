@@ -521,3 +521,4 @@ export function initMachineScene(
       print(c, '03 / 08', 530, 45, 20, ACC, 500)
       for (let i = 0; i < 3; i++) {
         const y = 74 + i * 76
+        rounded(c, 21, y, 598, 61, 6, '#202c30')
