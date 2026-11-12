@@ -1166,3 +1166,4 @@ export function initMachineScene(
         printhead,
         outputVideo,
         flyPost,
+        incoming,
