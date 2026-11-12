@@ -375,3 +375,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       post: 'TERBIT',
       orders: {
+        title: 'NASKAH MASUK',
