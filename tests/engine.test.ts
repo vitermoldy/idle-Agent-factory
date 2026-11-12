@@ -17,3 +17,5 @@ describe('a new game', () => {
     const { state } = E.advance(E.newGame(0), 60)
     expect(state.cash).toBe(0)
   })
+})
+
