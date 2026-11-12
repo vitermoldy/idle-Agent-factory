@@ -1432,3 +1432,4 @@ export function initMachineScene(
         visible = entries[0].isIntersecting && !document.hidden
         lastFrame = performance.now()
       },
+      { threshold: 0.01 }
