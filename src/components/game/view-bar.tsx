@@ -90,3 +90,4 @@ export function ViewBar({
       >
         {playing ? <Pause /> : <Play />}
       </button>
+    </div>
