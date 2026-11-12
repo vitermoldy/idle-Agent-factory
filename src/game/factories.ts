@@ -192,3 +192,4 @@ export const FACTORIES: FactoryDef[] = [
         title: 'BRIEF MASUK',
         sub: '3 brief baru hari ini',
         customers: ['Rina', 'Adi', 'Maya'],
+        statuses: ['Brief baru', 'Dirancang', 'Sudah tayang'],
