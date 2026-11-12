@@ -343,3 +343,4 @@ export function parseSave(raw: string | null): GameState | null {
     const f: Partial<FactoryState> | undefined = saved[def.id]
     if (!f) continue
     const unlocked = def.unlockCost === 0 || f.unlocked === true
+    const levels =
