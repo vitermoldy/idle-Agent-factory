@@ -66,3 +66,4 @@ function ProductRow({
       <div className="mt-3 flex items-end gap-4">
         <LoadBars def={def} product={product} heaviest={heaviest} />
         {fs.unlocked && (
+          <div className="min-w-0 flex-1 text-[12px] leading-relaxed tabular-nums">
