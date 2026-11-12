@@ -121,3 +121,4 @@ export function initMachineScene(
     const stationDef = (slot: SlotId) => factory.stations.find((s) => s.slot === slot)!
     const stepOf = (slot: SlotId) => PIPELINE.indexOf(slot) + 1
     const TAU = Math.PI * 2
+    const scene = new THREE.Scene()
