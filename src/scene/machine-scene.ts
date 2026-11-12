@@ -555,3 +555,4 @@ export function initMachineScene(
       print(c, st.sub[1], 362, 329, 19, '#77807b')
       for (let i = 0; i < 3; i++) {
         c.fillStyle = '#d1d5cd'
+        c.fillRect(362, 363 + i * 16, 400 - i * 43, 5)
