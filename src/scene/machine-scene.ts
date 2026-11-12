@@ -772,3 +772,4 @@ export function initMachineScene(
         const g = new THREE.Group()
         g.position.set(x, y, z)
         parent.add(g)
+        cyl(g, r, 0.09, 0, 0, 0, M.copper)
