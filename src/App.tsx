@@ -266,3 +266,4 @@ export default function App() {
           </div>
         </main>
         <aside
+          id="panel"
