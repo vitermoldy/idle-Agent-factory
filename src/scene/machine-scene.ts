@@ -1215,3 +1215,4 @@ export function initMachineScene(
       height = frameHeight(),
       mobile = width <= 640,
       lastInteraction = performance.now(),
+      dragging = false,
