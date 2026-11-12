@@ -650,3 +650,4 @@ export function initMachineScene(
     const beltFrameGeo = new THREE.TubeGeometry(path, 150, 0.35, 8, true)
     const railGeos = [-1, 1].map((side) => {
       const pts: THREE.Vector3[] = []
+      for (let i = 0; i <= 160; i++) {
