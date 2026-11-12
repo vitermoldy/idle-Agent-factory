@@ -1714,3 +1714,4 @@ export function initMachineScene(
       renderer.forceContextLoss()
       renderer.domElement.remove()
     })
+    renderer.compile(scene, camera)
