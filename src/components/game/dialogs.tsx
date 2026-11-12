@@ -69,3 +69,4 @@ export function AwayDialog() {
           <p>
             Kamu pergi {duration(away.seconds)}. Lini yang punya agen menyelesaikan {short(away.orders)} order.
           </p>
+          <p className="mt-3 font-display text-[28px] font-semibold text-ink tabular-nums">+{money(away.cash)}</p>
