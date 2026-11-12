@@ -702,3 +702,4 @@ export function initMachineScene(
           m.updateMatrix()
           const g = m.geometry.index ? m.geometry.toNonIndexed() : m.geometry.clone()
           return g.applyMatrix4(m.matrix)
+        })
