@@ -186,3 +186,4 @@ export function levelsToBuy(def: FactoryDef, index: number, level: number, cash:
 }
 
 function withFactory(state: GameState, id: FactoryId, patch: Partial<FactoryState>): GameState {
+  return { ...state, factories: { ...state.factories, [id]: { ...state.factories[id], ...patch } } }
