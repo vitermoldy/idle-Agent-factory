@@ -23,3 +23,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         </p>
       </div>
       <dl className="grid grid-cols-2 gap-2">
+        <Stat label="Bintang dimiliki" value={`${game.stars}`} note={`+${bonus}% nilai order`} />
