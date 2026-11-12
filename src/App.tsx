@@ -324,3 +324,4 @@ export default function App() {
                 <h2 id="lines-title" className="panel-title mb-3">
                   Lini produksi
                 </h2>
+                <FactoryList onPick={openFactory} />
