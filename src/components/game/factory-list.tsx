@@ -23,3 +23,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               ? `${fs.queue} order antre`
               : 'Tanpa agen'
           : affordable
+            ? 'Bisa dibuka'
