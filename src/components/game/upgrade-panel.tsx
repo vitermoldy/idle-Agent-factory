@@ -87,3 +87,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
   const cash = useGame((s) => s.game.cash)
   const hireAgent = useGame((s) => s.hireAgent)
   const can = cash >= def.agentCost
+  return (
