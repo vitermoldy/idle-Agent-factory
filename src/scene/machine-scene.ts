@@ -46,3 +46,4 @@ export interface SceneLive {
   plates: PlateLive[]
 }
 
+export interface SceneApi {
