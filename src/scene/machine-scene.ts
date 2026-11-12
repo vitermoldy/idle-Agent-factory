@@ -1167,3 +1167,4 @@ export function initMachineScene(
         outputVideo,
         flyPost,
         incoming,
+        receipt,
