@@ -261,3 +261,4 @@
   }
   .btn:hover:not(:disabled),
   .btn:active:not(:disabled) {
+    transform: none;
