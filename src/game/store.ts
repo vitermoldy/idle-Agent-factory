@@ -136,3 +136,4 @@ export const useGame = create<Store>((set, get) => {
     buyStation: (index) =>
       update((g) => {
         const def = FACTORY_BY_ID[g.active]
+        const level = g.factories[g.active].levels[index]
