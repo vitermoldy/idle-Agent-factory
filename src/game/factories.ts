@@ -141,3 +141,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Menulis naskah', 'Mesin mengubah ide jadi cerita'],
         ['Merakit video', 'Admin menyatukan suara, gambar, dan subtitle'],
         ['Tayang di etalase', 'Video tampil di halaman toko'],
+        ['Pembayaran masuk', 'Kasir mencetak struk, koin masuk'],
