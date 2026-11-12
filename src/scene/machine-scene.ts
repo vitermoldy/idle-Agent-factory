@@ -78,3 +78,4 @@ const POS: Record<SlotId, [number, number, number]> = {
   engine: [-4.15, 0.29, -0.65],
   admin: [-1.65, 0.29, -2.03],
   storefront: [1.5, 0.29, -2.08],
+  cabinet: [4.03, 0.29, 0.12],
