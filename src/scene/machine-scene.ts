@@ -872,3 +872,4 @@ export function initMachineScene(
             led.material = Math.sin(t * (2.2 + (i % 5) * 0.9) + i * 1.7) > 0.15 ? M.light : M.dark
           })
         )
+      } else if (theme.prop === 'mic') {
