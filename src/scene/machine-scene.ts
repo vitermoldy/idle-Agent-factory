@@ -1066,3 +1066,4 @@ export function initMachineScene(
       paintPrice(plateLive(k).value)
       screen(cashdesk, 1.015, 0.349, -0.35, 1.98, -0.459, cashTex)
       const receipt = new THREE.Group()
+      receipt.position.set(0.59, 1.37, -0.1)
