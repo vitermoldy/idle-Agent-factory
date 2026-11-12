@@ -173,3 +173,4 @@ export const FACTORIES: FactoryDef[] = [
       shell: '#dde2e6',
       prop: 'rack',
       plate: {
+        title: 'PABRIK WEBSITE',
