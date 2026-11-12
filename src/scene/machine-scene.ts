@@ -548,3 +548,4 @@ export function initMachineScene(
       rounded(c, 32, 131, 287, 401, 10, ACC)
       art(c, 40, 252, 271, 250, 0)
       fit(c, st.tag[0], 52, 181, 29, 250, '#242827', 700, displayFamily)
+      fit(c, st.tag[1], 52, 220, 29, 250, '#242827', 700, displayFamily)
