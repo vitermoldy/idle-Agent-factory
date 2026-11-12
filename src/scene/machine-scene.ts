@@ -225,3 +225,4 @@ export function initMachineScene(
             ? new RoundedBoxGeometry(w, h, d, 2, Math.min(r, w / 3, h / 3, d / 3))
             : new THREE.BoxGeometry(w, h, d)
         )
+      return geometries.get(k)!
