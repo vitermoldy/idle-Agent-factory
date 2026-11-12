@@ -359,3 +359,4 @@ export function parseSave(raw: string | null): GameState | null {
       for (const id of owned) progress[id] = Math.min(0.999, num((rawProgress as Record<string, unknown>)[id], 0))
     factories[def.id] = {
       unlocked,
+      agent: unlocked && f.agent === true,
