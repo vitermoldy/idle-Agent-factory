@@ -504,3 +504,4 @@ export function initMachineScene(
       rounded(c, 25, 465, 334, 123, 12, INK)
       const lines = theme.screen.lines
       const n = Math.floor(t * 0.7) % 4
+      fit(c, lines[n], 45, 505, 25, 300, '#f4f1ea', 550)
