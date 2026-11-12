@@ -494,3 +494,4 @@ export function initMachineScene(
 
     // Product screen: the line's product, animated, shown on the engine, the storefront and a cargo face.
     const productTex = canvasTexture(384, 640, () => {})
+    function drawProduct(t: number) {
