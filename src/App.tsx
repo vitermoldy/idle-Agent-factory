@@ -126,3 +126,4 @@ export default function App() {
       if (!p) return
       const id = ++popupId
       setPopups((list) => [...list.slice(-5), { id, x: p.x + (Math.random() - 0.5) * 40, y: p.y, text: '+' + money(cash) }])
+      setTimeout(() => setPopups((list) => list.filter((q) => q.id !== id)), 1450)
