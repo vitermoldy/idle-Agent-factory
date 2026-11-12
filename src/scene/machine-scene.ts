@@ -766,3 +766,4 @@ export function initMachineScene(
       for (let i = 0; i < 16; i++)
         box(machine, 0.015, 0.009, 0.11 + (i % 4) * 0.035, -5.6 + i * 0.09, 0.249, 3.5, M.edge, 0)
 
+      const stations: PlateStation[] = []
