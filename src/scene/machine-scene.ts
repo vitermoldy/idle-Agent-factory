@@ -489,3 +489,4 @@ export function initMachineScene(
           print(c, pad(stepOf(id)), 24, 76, 42, ACC, 550)
           fit(c, stationDef(id).name.toUpperCase(), 111, 73, 35, 380, '#d7d9d7', 550)
         }),
+      ])
