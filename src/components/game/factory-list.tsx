@@ -33,3 +33,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               onClick={() => {
                 setActive(def.id)
                 onPick?.(def.id)
+              }}
