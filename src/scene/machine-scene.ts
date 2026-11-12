@@ -1241,3 +1241,4 @@ export function initMachineScene(
     function fitDistance(span: number) {
       const aspect = width / height
       const tan = 2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))
+      // A single plate may crop its drafting rings on a phone; a row must show every plate whole.
