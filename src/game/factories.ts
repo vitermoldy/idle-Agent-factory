@@ -336,3 +336,4 @@ export const FACTORIES: FactoryDef[] = [
     no: '05',
     name: 'Penerbit E-book',
     unit: 'buku',
+    blurb: 'Kerangka disusun, bab ditulis dan disunting, lalu buku terjual di toko digital.',
