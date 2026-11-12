@@ -164,3 +164,4 @@ export default function App() {
       if (!wide) window.scrollTo({ top: 0, behavior: 'smooth' })
     },
     [setActive, wide]
+  )
