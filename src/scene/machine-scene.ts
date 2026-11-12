@@ -520,3 +520,4 @@ export function initMachineScene(
       fit(c, q.title, 25, 45, 21, 440, '#acb9b8', 550)
       print(c, '03 / 08', 530, 45, 20, ACC, 500)
       for (let i = 0; i < 3; i++) {
+        const y = 74 + i * 76
