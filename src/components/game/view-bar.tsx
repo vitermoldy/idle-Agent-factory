@@ -48,3 +48,4 @@ export function ViewBar({
           type="button"
           aria-pressed={mode === m.id}
           aria-label={m.label}
+          onClick={() => onMode(m.id)}
