@@ -1575,3 +1575,4 @@ export function initMachineScene(
     }
 
     function animate(now: number) {
+      rafId = requestAnimationFrame(animate)
