@@ -1724,3 +1724,4 @@ export function initMachineScene(
             factory: factory.id,
             mode,
             camera: cameraMode,
+            focus: live.focus,
