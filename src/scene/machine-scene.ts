@@ -1733,3 +1733,4 @@ export function initMachineScene(
             triangles: renderer.info.render.triangles,
             stations: fp.stations.map((s) => {
               const v = world(fp, s.group.position, new THREE.Vector3()).add(new THREE.Vector3(0, 1, 0)).project(camera)
+              return { id: s.id, x: (v.x * 0.5 + 0.5) * width, y: (-0.5 * v.y + 0.5) * height }
