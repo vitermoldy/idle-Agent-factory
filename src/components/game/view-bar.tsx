@@ -9,3 +9,4 @@ const MODES: Array<{ id: MachineMode; label: string }> = [
   { id: 'order', label: 'Ikuti order' },
 ]
 const CAMERAS: Array<{ id: MachineCamera; label: string }> = [
+  { id: 'overview', label: 'Kamera depan' },
