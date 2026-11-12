@@ -290,3 +290,4 @@ export default function App() {
                 className={cn('tab', t === 'produk' && 'whitespace-nowrap')}
               >
                 {TAB_LABEL[t]}
+                {t === 'series' && E.starsClaimable(game) > 0 && (
