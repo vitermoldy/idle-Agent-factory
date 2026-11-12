@@ -12,3 +12,4 @@ export function Notices({ onOpen }: { onOpen: (id: FactoryId) => void }) {
     >
       {notices.map((n) => (
         <NoticeCard key={n.id} notice={n} onOpen={onOpen} />
+      ))}
