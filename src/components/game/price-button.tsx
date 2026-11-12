@@ -16,3 +16,4 @@ export function PriceButton({
       {...props}
     >
       <span>{label}</span>
+      <span className="font-medium tabular-nums opacity-80" aria-hidden="true">
