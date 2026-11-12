@@ -20,3 +20,4 @@ const trim = (s: string) => s.replace(/\.0+$/, '').replace(/(\.\d*?)0+$/, '$1')
 
 export const money = (n: number) => '$' + short(n)
 
+/** Orders per second, as the station rows show it. */
