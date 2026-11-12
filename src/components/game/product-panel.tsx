@@ -90,3 +90,4 @@ function ProductRow({
           </div>
         ) : (
           <>
+            <PriceButton
