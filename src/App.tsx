@@ -325,3 +325,4 @@ export default function App() {
                   Lini produksi
                 </h2>
                 <FactoryList onPick={openFactory} />
+              </section>
