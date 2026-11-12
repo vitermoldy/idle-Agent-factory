@@ -308,3 +308,4 @@ export function initMachineScene(
       color = '#f4f1ea',
       weight = 500,
       family = fontFamily
+    ) {
