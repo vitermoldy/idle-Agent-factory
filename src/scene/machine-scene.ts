@@ -1530,3 +1530,4 @@ export function initMachineScene(
       p.coin.rotation.y = t * 3.5
       p.coin.scale.setScalar(cashBeat > 0.9 ? 1 - (cashBeat - 0.9) * 8 : 1)
       const incomingBeat = orderMode ? Math.min(1, orderPhase / 0.15) : beat
+      p.incoming.visible = !locked && (!orderMode || orderPhase < 0.15)
