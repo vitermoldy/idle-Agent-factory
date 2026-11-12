@@ -161,3 +161,4 @@ export const useGame = create<Store>((set, get) => {
       lastTick = Date.now()
       set({ game: E.newGame(), away: null, notices: [] })
       get().save()
+    },
