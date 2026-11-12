@@ -5,3 +5,4 @@ import { ModeIcon, Pause, Play } from './icons'
 const MODES: Array<{ id: MachineMode; label: string }> = [
   { id: 'assembled', label: 'Utuh' },
   { id: 'cutaway', label: 'Belah' },
+  { id: 'stations', label: 'Urai' },
