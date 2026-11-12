@@ -43,3 +43,4 @@ export function Dialog({
             <Close />
           </button>
         </div>
+        <div className="mt-3 text-[14px] leading-relaxed text-soft">{children}</div>
