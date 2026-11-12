@@ -578,3 +578,4 @@ export function initMachineScene(
       c.fillRect(0, 0, w, h)
       fit(c, o.title, 30, 51, 27, 420, '#e8e8d8', 550)
       print(c, o.sub, 30, 81, 16, '#869991')
+      o.customers.forEach((n, i) => {
