@@ -199,3 +199,4 @@ export function initMachineScene(
       roughness = 0.4,
       extra: THREE.MeshStandardMaterialParameters = {}
     ) => new THREE.MeshStandardMaterial({ color, metalness, roughness, ...extra })
+    const M = {
