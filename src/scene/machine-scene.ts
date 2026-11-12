@@ -319,3 +319,4 @@ export function initMachineScene(
       ctx.fillText(txt, x, y)
     }
     const print = (
+      ctx: CanvasRenderingContext2D,
