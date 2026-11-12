@@ -524,3 +524,4 @@ export function initMachineScene(
         rounded(c, 21, y, 598, 61, 6, '#202c30')
         c.fillStyle = i === 0 ? DEEP : '#626f69'
         c.fillRect(34, y + 10, 27, 41)
+        fit(c, q.items[i], 77, y + 29, 19, 280, '#d4d8cc')
