@@ -3,3 +3,4 @@ import type { FactoryDef, SlotId } from '@/game/factories'
 import {
   initMachineScene,
   type MachineCamera,
+  type MachineMode,
