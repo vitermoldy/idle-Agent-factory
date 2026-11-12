@@ -7,3 +7,4 @@ export function Notices({ onOpen }: { onOpen: (id: FactoryId) => void }) {
   const notices = useGame((s) => s.notices)
   return (
     <div
+      aria-live="polite"
