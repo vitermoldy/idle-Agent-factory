@@ -1683,3 +1683,4 @@ export function initMachineScene(
         measureTime += dt
         if (measureTime > 4) {
           if (frameCount / measureTime < 43 && pixelRatio > 1) {
+            pixelRatio = Math.max(1, pixelRatio - 0.25)
