@@ -349,3 +349,4 @@ export function parseSave(raw: string | null): GameState | null {
         : base.factories[def.id].levels
     const known = new Set(def.products.map((p) => p.id))
     const owned = Array.isArray(f.owned)
+      ? [...new Set([def.products[0].id, ...f.owned.filter((id): id is string => known.has(id as string))])]
