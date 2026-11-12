@@ -235,3 +235,4 @@ export const FACTORIES: FactoryDef[] = [
       shell: '#e2e0d6',
       prop: 'mic',
       plate: {
+        title: 'PABRIK PODCAST',
