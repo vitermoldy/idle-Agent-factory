@@ -19,3 +19,4 @@ export function StagePlate({ className }: { className?: string }) {
       ? plates > 1
         ? `Agen menjalankan ${plates} petak`
         : 'Agen bekerja'
+      : fs.queue > 0
