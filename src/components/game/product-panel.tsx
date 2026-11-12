@@ -75,3 +75,4 @@ function ProductRow({
         )}
       </div>
       <div className="mt-3">
+        {!fs.unlocked ? (
