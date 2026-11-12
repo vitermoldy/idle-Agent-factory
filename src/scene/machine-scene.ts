@@ -1393,3 +1393,4 @@ export function initMachineScene(
       const hit = hitStation(x, y)
       hovered = hit
       renderer.domElement.style.cursor = hit ? 'pointer' : 'grab'
+      tooltip.classList.toggle('visible', !!hit)
