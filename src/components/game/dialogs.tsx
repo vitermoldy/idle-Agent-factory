@@ -14,3 +14,4 @@ export function Dialog({
 }: {
   open: boolean
   onClose: () => void
+  title: string
