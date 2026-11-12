@@ -1234,3 +1234,4 @@ export function initMachineScene(
     /** Where a plate stands in the row: owned plates centred on the origin, in purchase order. */
     const targetX = (k: number) => (plateLive(k).slot - (ownedCount - 1) / 2) * SPACING
     const countOwned = () => plates.filter((p) => plateLive(p.k).owned || p.k === 0).length
+    const world = (p: Plate, local: THREE.Vector3, out: THREE.Vector3) =>
