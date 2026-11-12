@@ -1413,3 +1413,4 @@ export function initMachineScene(
       tooltip.classList.remove('visible')
     })
     listen(renderer.domElement, 'pointerup', (e: PointerEvent) => {
+      if (wasDragged) return
