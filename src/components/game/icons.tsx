@@ -114,3 +114,4 @@ export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
         </svg>
       )
   }
+}
