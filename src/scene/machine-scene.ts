@@ -1299,3 +1299,4 @@ export function initMachineScene(
       $('journey').classList.toggle('visible', mode === 'order')
       options.onView?.(mode, cameraMode)
     }
+    function setMode(next: MachineMode) {
