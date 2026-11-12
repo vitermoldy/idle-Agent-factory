@@ -109,3 +109,4 @@ export function initMachineScene(
     for (const fn of cleanups.reverse()) fn()
     cleanups.length = 0
   }
+  let api: SceneApi | null = null
