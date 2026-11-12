@@ -1212,3 +1212,4 @@ export function initMachineScene(
       ownedCount = 0,
       lastFocus = live.focus
     let width = frameWidth(),
+      height = frameHeight(),
