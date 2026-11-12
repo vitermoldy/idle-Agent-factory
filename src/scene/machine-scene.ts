@@ -1697,3 +1697,4 @@ export function initMachineScene(
       controls.dispose()
       const textures = new Set<THREE.Texture>()
       scene.traverse((object) => {
+        const mesh = object as THREE.Mesh
