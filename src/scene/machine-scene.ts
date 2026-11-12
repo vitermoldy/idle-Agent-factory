@@ -1326,3 +1326,4 @@ export function initMachineScene(
       flightTime = 0
       setCameraGoal()
       cameraAnimating = true
+      emitView()
