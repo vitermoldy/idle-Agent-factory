@@ -60,3 +60,4 @@ export interface SceneOptions {
   live: SceneLive
   tooltip: (slot: SlotId, plate: number) => { title: string; body: string }
   onStation?: (slot: SlotId, plate: number) => void
+  onView?: (mode: MachineMode, camera: MachineCamera) => void
