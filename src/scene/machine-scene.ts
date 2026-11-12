@@ -415,3 +415,4 @@ export function initMachineScene(
         c.fillStyle = '#f4f1ea'
         c.fillRect(270, 36, 14, 262)
         rounded(c, 104, 28, 170, 274, [4, 10, 10, 4], INK)
+        c.fillStyle = ACC
