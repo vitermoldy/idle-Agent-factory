@@ -1719,3 +1719,4 @@ export function initMachineScene(
     Object.defineProperty(window, '__machineDebug', {
       value: {
         getState: () => {
+          const fp = focusPlate()
