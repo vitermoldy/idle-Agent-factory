@@ -508,3 +508,4 @@ export function initMachineScene(
       fit(c, lines[(n + 1) % 4], 45, 547, 25, 300, '#f4f1ea', 550)
       c.fillStyle = '#fff7d4'
       c.fillRect(27, 615, Math.max(10, ((t * 0.13) % 1) * 330), 5)
+      productTex.texture.needsUpdate = true
