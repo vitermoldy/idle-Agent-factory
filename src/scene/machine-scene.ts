@@ -1365,3 +1365,4 @@ export function initMachineScene(
       cameraAnimating = false
       lastInteraction = performance.now()
     })
+    controls.addEventListener('end', () => {
