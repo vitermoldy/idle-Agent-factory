@@ -140,3 +140,4 @@ export const useGame = create<Store>((set, get) => {
         const n = E.levelsToBuy(def, index, level, g.cash, get().buyMode)
         return E.buyLevels(g, g.active, index, n)
       }),
+    hireAgent: () => update((g) => E.hireAgent(g, g.active)),
