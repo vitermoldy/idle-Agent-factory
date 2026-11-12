@@ -326,3 +326,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Proyek masuk', 'Permintaan Putri ditulis jadi spesifikasi'],
         ['Mendesain layar', 'Alur dan tampilan digambar'],
         ['Kompilasi', 'Kode dikompilasi untuk Android dan iOS'],
+        ['Lolos review', 'Aplikasi tayang di toko aplikasi'],
