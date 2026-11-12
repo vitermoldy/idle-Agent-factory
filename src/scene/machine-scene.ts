@@ -705,3 +705,4 @@ export function initMachineScene(
         })
         const merged = mergeGeometries(geos, false)
         for (const geo of geos) geo.dispose()
+        if (!merged) continue
