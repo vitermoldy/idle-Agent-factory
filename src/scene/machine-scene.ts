@@ -1653,3 +1653,4 @@ export function initMachineScene(
       // Station labels follow the plate in view, clamped inside the box. The Label button alone
       // decides whether they show, in every mode and camera.
       const showLabels = !locked && live.labels
+      labels.forEach((label, i) => {
