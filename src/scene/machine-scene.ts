@@ -1431,3 +1431,4 @@ export function initMachineScene(
       (entries) => {
         visible = entries[0].isIntersecting && !document.hidden
         lastFrame = performance.now()
+      },
