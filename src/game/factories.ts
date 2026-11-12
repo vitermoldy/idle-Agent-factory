@@ -157,3 +157,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'portal', name: 'Portal anggota', desc: 'Login, langganan, dasbor. Perancang dan Kode sama sibuk.', price: 14_500, work: [1.6, 2.6, 3.2, 1.8, 1.3], unlockCost: 68_000_000 },
     ],
     rate: 0.2,
+    growth: 1.15,
