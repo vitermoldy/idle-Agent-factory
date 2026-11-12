@@ -106,3 +106,4 @@ export default function App() {
   // The clock: the game advances ten times a second; the scene reads `live` every frame.
   useEffect(() => {
     let titleAt = 0
+    const tick = setInterval(() => {
