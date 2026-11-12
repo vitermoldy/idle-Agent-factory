@@ -70,3 +70,5 @@ declare global {
     __machine?: SceneApi
     __machineDebug?: { getState: () => Record<string, unknown> }
   }
+}
+
