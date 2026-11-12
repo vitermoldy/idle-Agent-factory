@@ -914,3 +914,4 @@ export function initMachineScene(
         cyl(stand, 0.25, 0.06, 0, -0.02, 0, M.dark)
         cyl(stand, 0.04, 1.62, 0, 0.79, 0, M.chrome)
         const phone = new THREE.Group()
+        phone.position.set(0, 1.98, 0)
