@@ -106,3 +106,4 @@
     font-size: 16px;
   }
   .btn-primary {
+    background: var(--accent);
