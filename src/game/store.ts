@@ -27,3 +27,4 @@ interface Store {
   away: AwayReport | null
   notices: Notice[]
   storageOk: boolean
+  lastSaved: number | null
