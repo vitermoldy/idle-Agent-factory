@@ -209,3 +209,4 @@ export function initMachineScene(
       amber: mat(ACC, 0.52, 0.28),
       ivory: mat(theme.shell, 0.48, 0.26),
       copper: mat(DEEP, 0.85, 0.3),
+      light: mat(ACC, 0.2, 0.25, { emissive: ACC, emissiveIntensity: 1.5 }),
