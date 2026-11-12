@@ -231,3 +231,4 @@ export default function App() {
             key={active}
             factory={def}
             live={live.current}
+            tooltip={tooltip}
