@@ -69,3 +69,5 @@ describe('buying', () => {
       expect(E.upgradeCost(video, 1, 1, n)).toBeLessThanOrEqual(cash)
       expect(E.upgradeCost(video, 1, 1, n + 1)).toBeGreaterThan(cash)
     }
+  })
+
