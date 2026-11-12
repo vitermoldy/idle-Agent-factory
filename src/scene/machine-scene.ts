@@ -1191,3 +1191,4 @@ export function initMachineScene(
       const el = document.createElement('div')
       el.className = 'station-label'
       el.innerHTML = `<div class="stem"></div><div class="label-card"><div class="label-title"><span>${pad(stepOf(id))}</span><b></b><em></em></div><div class="label-meta"></div></div>`
+      el.querySelector('.label-title b')!.textContent = stationDef(id).name
