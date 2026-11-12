@@ -15,3 +15,5 @@ import * as E from '@/game/engine'
 import { FACTORY_BY_ID, PIPELINE, type FactoryId, type SlotId } from '@/game/factories'
 import type { MachineCamera, MachineMode, SceneApi, SceneLive } from '@/scene/machine-scene'
 import { money, series, short } from '@/lib/format'
+import { cn } from '@/lib/utils'
+
