@@ -1275,3 +1275,4 @@ export function initMachineScene(
         controls.update()
         cameraAnimating = false
       }
+    }
