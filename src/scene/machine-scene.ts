@@ -1117,3 +1117,4 @@ export function initMachineScene(
         cyl(belt, 0.045, 0.43, p.x, 0.53, p.z, M.chrome)
       }
       // Pneumatic lines (in the line's deep accent) link the station footings.
+      const pipes = new THREE.Group()
