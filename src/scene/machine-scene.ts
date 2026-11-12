@@ -194,3 +194,4 @@ export function initMachineScene(
     scene.add(front)
 
     const mat = (
+      color: THREE.ColorRepresentation,
