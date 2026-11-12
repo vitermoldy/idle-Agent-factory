@@ -268,3 +268,4 @@
 @keyframes popup-fade {
   0%,
   70% {
+    opacity: 1;
