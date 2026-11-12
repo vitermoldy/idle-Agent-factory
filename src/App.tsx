@@ -85,3 +85,4 @@ export default function App() {
   // The machine of a new line is built from `live` before any effect of this component runs.
   const synced = useRef(active)
   if (synced.current !== active) {
+    synced.current = active
