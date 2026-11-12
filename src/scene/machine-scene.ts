@@ -968,3 +968,4 @@ export function initMachineScene(
       const consoleTop = new THREE.Group()
       consoleTop.position.set(0, 1.01, -0.08)
       consoleTop.rotation.x = -0.32
+      admin.add(consoleTop)
