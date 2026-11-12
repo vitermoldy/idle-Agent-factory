@@ -30,3 +30,4 @@ while (t <= 4 * 3600) {
     const next = FACTORIES.find((f) => !s.factories[f.id].unlocked)
     if (next && s.cash >= next.unlockCost) {
       s = E.unlockFactory(s, next.id)
+      marks.push(`${clock(t)}  open ${next.name}`)
