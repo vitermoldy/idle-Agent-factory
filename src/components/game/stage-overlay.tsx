@@ -119,3 +119,4 @@ export function UnlockCard() {
   const fs = game.factories[game.active]
   if (fs.unlocked) return null
   const can = game.cash >= def.unlockCost
+  const first = def.products[0]
