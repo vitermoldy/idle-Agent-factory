@@ -147,3 +147,4 @@ export const useGame = create<Store>((set, get) => {
         return next === g ? g : { ...next, active: id }
       })
       set((s) => ({ notices: s.notices.filter((n) => n.factory !== id) }))
+    },
