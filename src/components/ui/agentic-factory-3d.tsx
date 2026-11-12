@@ -50,3 +50,4 @@ export default function AgenticFactory3D({
 
   useEffect(() => {
     const root = rootRef.current
+    if (!root) return
