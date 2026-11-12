@@ -1747,3 +1747,4 @@ export function initMachineScene(
     console.error('Machine: failed to start', error)
     dispose()
     api = null
+    options.onError?.(
