@@ -88,3 +88,4 @@ describe('buying', () => {
   })
 })
 
+describe('products', () => {
