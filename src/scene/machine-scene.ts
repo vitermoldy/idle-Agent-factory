@@ -1125,3 +1125,4 @@ export function initMachineScene(
         const curve = new THREE.CatmullRomCurve3([
           a.clone().add(new THREE.Vector3(0.4, 0.12, 0)),
           a.clone().lerp(b, 0.35).add(new THREE.Vector3(0, 0.1, -0.6)),
+          a.clone().lerp(b, 0.65).add(new THREE.Vector3(0, 0.1, -0.6)),
