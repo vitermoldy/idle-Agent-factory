@@ -921,3 +921,4 @@ export function initMachineScene(
         screen(phone, 0.45, 0.78, 0, -0.01, 0.037, productTex)
         box(phone, 0.12, 0.02, 0.012, 0, 0.42, 0.037, M.edge, 0.005)
         propUpdates.push((t) => {
+          phone.rotation.y = 0.5 + Math.sin(t * 0.6) * 0.18
