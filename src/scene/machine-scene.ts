@@ -176,3 +176,4 @@ export function initMachineScene(
     key.shadow.normalBias = 0.035
     key.shadow.bias = -0.0002
     key.shadow.radius = 4
+    scene.add(key)
