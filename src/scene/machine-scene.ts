@@ -1478,3 +1478,4 @@ export function initMachineScene(
         p.holder.position.x = targetX(p.k)
       }
       if (!owned && p.shown && p.holder.scale.x < 0.02) {
+        p.shown = false
