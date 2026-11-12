@@ -141,3 +141,4 @@ export const useGame = create<Store>((set, get) => {
         return E.buyLevels(g, g.active, index, n)
       }),
     hireAgent: () => update((g) => E.hireAgent(g, g.active)),
+    unlockFactory: (id) => {
