@@ -124,3 +124,4 @@ export function initMachineScene(
     const scene = new THREE.Scene()
     const camera = new THREE.PerspectiveCamera(
       33,
+      Math.max(1, frameWidth()) / Math.max(1, frameHeight()),
