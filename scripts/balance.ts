@@ -83,3 +83,4 @@ while (t <= 4 * 3600) {
             cost: p.unlockCost,
             apply: () => {
               s = E.buyProduct(s, id, p.id)
+              marks.push(`${clock(t)}  product ${def.name} / ${p.name}`)
