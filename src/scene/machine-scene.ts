@@ -1312,3 +1312,4 @@ export function initMachineScene(
     }
     function focusStation(slot: SlotId) {
       selected = slot
+      if (mode === 'order') mode = 'assembled'
