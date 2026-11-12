@@ -160,3 +160,4 @@ function StationRow({
         selected ? 'border-accent' : holds ? 'border-line-strong' : 'border-line'
       )}
     >
+      <div className="flex items-start gap-3">
