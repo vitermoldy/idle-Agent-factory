@@ -1316,3 +1316,4 @@ export function initMachineScene(
       cameraMode = 'station'
       lastInteraction = performance.now()
       setCameraGoal()
+      cameraAnimating = true
