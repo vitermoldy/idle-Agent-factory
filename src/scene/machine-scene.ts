@@ -818,3 +818,4 @@ export function initMachineScene(
       engine.add(printhead)
       printhead.position.set(0, 1.9, -0.08)
       printhead.userData.moving = true
+      box(printhead, 0.45, 0.36, 0.44, 0, 0, 0, M.body, 0.05)
