@@ -134,3 +134,4 @@ export function SettingsDialog({
   onReset: () => void
 }) {
   const save = useGame((s) => s.save)
+  const lastSaved = useGame((s) => s.lastSaved)
