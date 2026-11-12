@@ -545,3 +545,4 @@ export function initMachineScene(
       c.textAlign = 'right'
       print(c, st.nav, 862, 98, 14, '#6a7271')
       c.textAlign = 'left'
+      rounded(c, 32, 131, 287, 401, 10, ACC)
