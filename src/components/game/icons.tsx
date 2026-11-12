@@ -50,3 +50,5 @@ export const Play = (p: P) => (
   <svg {...base} {...p} fill="currentColor" stroke="none">
     <path d="M5 3l8 5-8 5z" />
   </svg>
+)
+
