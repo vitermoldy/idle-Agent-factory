@@ -132,3 +132,4 @@ export function initMachineScene(
     try {
       renderer = new THREE.WebGLRenderer({
         antialias: true,
+        alpha: true,
