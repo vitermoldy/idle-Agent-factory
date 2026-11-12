@@ -332,3 +332,4 @@ export const FACTORIES: FactoryDef[] = [
     },
   },
   {
+    id: 'ebook',
