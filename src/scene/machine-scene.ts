@@ -1588,3 +1588,4 @@ export function initMachineScene(
       cutPlane.constant = THREE.MathUtils.lerp(cutPlane.constant, mode === 'cutaway' ? 0.99 : 10, smooth)
       // A plate was bought: widen the row and the camera with it.
       const count = countOwned()
+      if (count !== ownedCount) {
