@@ -84,3 +84,4 @@ function BuyModeSwitch() {
 }
 
 function AgentCard({ def }: { def: FactoryDef }) {
+  const cash = useGame((s) => s.game.cash)
