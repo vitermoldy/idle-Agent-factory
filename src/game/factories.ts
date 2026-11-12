@@ -354,3 +354,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'cashdesk', name: 'Royalti', desc: 'Setiap penjualan membayar royalti.', output: 'royalti', speed: 1.5, cost: 44_000_000 },
     ],
     theme: {
+      accent: '#f2c230',
