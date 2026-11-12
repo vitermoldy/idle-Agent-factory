@@ -472,3 +472,4 @@ export function initMachineScene(
     for (let i = 0; i < 52; i++) {
       const a = (i / 52) * TAU,
         r = 8.1,
+        r2 = r + (i % 4 === 0 ? 0.16 : 0.07)
