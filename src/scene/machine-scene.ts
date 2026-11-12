@@ -557,3 +557,4 @@ export function initMachineScene(
         c.fillStyle = '#d1d5cd'
         c.fillRect(362, 363 + i * 16, 400 - i * 43, 5)
       }
+      rounded(c, 359, 447, 279, 62, 7, '#232a2b')
