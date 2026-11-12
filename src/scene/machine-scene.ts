@@ -357,3 +357,4 @@ export function initMachineScene(
         c.strokeStyle = INK
         c.lineWidth = 13
         for (let i = 0; i < 3; i++) {
+          c.beginPath()
