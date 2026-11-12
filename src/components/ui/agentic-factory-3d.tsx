@@ -75,3 +75,4 @@ export default function AgenticFactory3D({
             setError(message)
             setPhase('error')
           },
+        })
