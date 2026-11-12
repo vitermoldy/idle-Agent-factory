@@ -181,3 +181,4 @@ describe('saves', () => {
     expect(E.parseSave(JSON.stringify({ v: 1, cash: 5, factories: {} }))).toBeNull()
   })
 
+  it('cleans values it cannot trust', () => {
