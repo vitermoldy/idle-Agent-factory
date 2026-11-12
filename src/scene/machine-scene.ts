@@ -1377,3 +1377,4 @@ export function initMachineScene(
       tooltip = $('tooltip')
     const local = (e: PointerEvent) => {
       const r = root.getBoundingClientRect()
+      return [e.clientX - r.left, e.clientY - r.top] as const
