@@ -185,3 +185,4 @@
   }
   .tab[aria-selected='true'] {
     color: var(--color-ink);
+  }
