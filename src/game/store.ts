@@ -12,3 +12,5 @@ export interface Notice {
   /** Opens this line when the notice's button is used. */
   factory?: FactoryId
   action?: string
+}
+
