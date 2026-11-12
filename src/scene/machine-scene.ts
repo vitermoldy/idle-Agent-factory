@@ -94,3 +94,4 @@ export function initMachineScene(
   const cleanups: Array<() => void> = []
   const frameWidth = () => root.clientWidth
   const frameHeight = () => root.clientHeight
+  // Every listener goes through here, so dispose() can take it off again.
