@@ -743,3 +743,4 @@ export function initMachineScene(
           cyl(machine, 0.39, 0.25, x, -0.31, z, M.rubber)
           cyl(machine, 0.29, 0.09, x, -0.4, z, M.dark)
           screw(machine, x, 0.253, z)
+        }
