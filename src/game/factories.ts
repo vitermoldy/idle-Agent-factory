@@ -362,3 +362,4 @@ export const FACTORIES: FactoryDef[] = [
         title: 'PENERBIT E-BOOK',
         line: 'kerangka, tulis, sunting, lalu terbit',
       },
+      queue: { title: 'ANTREAN SUNTING', items: ['Resep rumahan', 'Panduan UMKM', 'Kisah perantau'], active: 'SUNTING', waiting: 'ANTRE' },
