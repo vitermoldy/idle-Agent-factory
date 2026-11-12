@@ -1160,3 +1160,4 @@ export function initMachineScene(
         k,
         holder,
         stations,
+        bySlot,
