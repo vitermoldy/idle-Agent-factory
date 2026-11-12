@@ -708,3 +708,4 @@ export function initMachineScene(
         if (!merged) continue
         const mesh = new THREE.Mesh(merged, list[0].material)
         mesh.castShadow = list.some((x) => x.castShadow)
+        mesh.receiveShadow = list.some((x) => x.receiveShadow)
