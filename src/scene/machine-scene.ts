@@ -1629,3 +1629,4 @@ export function initMachineScene(
         const a = flightTime * 0.12,
           d = baseDistance * (mode === 'stations' ? 1.2 : 1)
         desiredTarget.set(0, 1, 0)
+        desiredPosition
