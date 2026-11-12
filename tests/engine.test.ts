@@ -148,3 +148,5 @@ describe('series and stars', () => {
     expect(next.cash).toBe(0)
     expect(next.allTime).toBe(g.allTime)
     expect(E.orderValue(video, next.factories.video, next.stars)).toBeCloseTo(29 * (1 + 2 * E.STAR_BONUS))
+  })
+
