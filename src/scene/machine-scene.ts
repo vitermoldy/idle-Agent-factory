@@ -826,3 +826,4 @@ export function initMachineScene(
       // The signature prop on the left of the engine: what makes each line look like its trade.
       if (theme.prop === 'reels') {
         const reels: THREE.Group[] = []
+        for (const [x, y] of [[-1.03, 1.82], [-0.94, 2.78]]) {
