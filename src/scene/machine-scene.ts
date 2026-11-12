@@ -478,3 +478,5 @@ export function initMachineScene(
         new THREE.Vector3(Math.cos(a) * r2, -0.395, Math.sin(a) * r2 * 0.72)
       )
     }
+    const draftingGeo = new THREE.BufferGeometry().setFromPoints(draftingPoints)
+
