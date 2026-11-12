@@ -755,3 +755,4 @@ export function initMachineScene(
         c.font = `650 40px ${displayFamily}`
         const tw = c.measureText(theme.plate.title).width
         print(c, theme.plate.title, 45, 79, 40, '#d9d8cd', 650, displayFamily)
+        fit(c, product.name, 45 + tw + 34, 79, 34, w - tw - 330, '#c9cdd0', 500)
