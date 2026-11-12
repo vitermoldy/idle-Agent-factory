@@ -213,3 +213,4 @@ export const FACTORIES: FactoryDef[] = [
     name: 'Pabrik Podcast',
     unit: 'episode',
     blurb: 'Topik dipilih, suara direkam dan dimixing, lalu episode tayang dengan sponsor.',
+    products: [
