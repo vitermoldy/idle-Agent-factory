@@ -105,3 +105,4 @@ export function ConfirmDialog({
         <>
           <button type="button" className="btn btn-quiet" onClick={onClose}>
             Batal
+          </button>
