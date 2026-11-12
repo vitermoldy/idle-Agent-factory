@@ -290,3 +290,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
       earned: state.earned + gained,
       allTime: state.allTime + gained,
     },
+    completed,
