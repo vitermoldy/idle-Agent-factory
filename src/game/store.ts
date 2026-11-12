@@ -108,3 +108,4 @@ export const useGame = create<Store>((set, get) => {
         const fs = result.state.factories[def.id]
         if (fs.unlocked || announced.has(def.id) || result.state.cash < def.unlockCost) continue
         announced.add(def.id)
+        fresh.push({
