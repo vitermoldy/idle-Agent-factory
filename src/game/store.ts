@@ -91,3 +91,4 @@ export const useGame = create<Store>((set, get) => {
   return {
     ...start,
     buyMode: 1,
+    lastSaved: null,
