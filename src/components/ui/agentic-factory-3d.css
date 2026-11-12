@@ -92,3 +92,4 @@
   color: var(--accent);
 }
 .af3d-tooltip {
+  position: absolute;
