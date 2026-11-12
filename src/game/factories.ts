@@ -257,3 +257,4 @@ export const FACTORIES: FactoryDef[] = [
         statuses: ['Topik baru', 'Direkam', 'Siap tayang'],
       },
       incoming: 'Topik baru  +',
+      cashTitle: 'SPONSOR MEMBAYAR',
