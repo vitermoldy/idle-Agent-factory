@@ -41,3 +41,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
             <span className="sr-only"> bintang</span>
           </span>
         )}
+        <button type="button" className="icon-btn" aria-label="Pengaturan dan simpanan" onClick={onSettings}>
