@@ -1220,3 +1220,4 @@ export function initMachineScene(
       downX = 0,
       downY = 0
     let cameraAnimating = true,
+      flightTime = 0,
