@@ -335,3 +335,4 @@ export function parseSave(raw: string | null): GameState | null {
   // Version 2 kept one progress number per line; it reads into the plate in view.
   if ((s.v !== SAVE_VERSION && s.v !== 2) || typeof s.cash !== 'number' || !Number.isFinite(s.cash)) return null
   if (!s.factories || typeof s.factories !== 'object') return null
+  const base = newGame(typeof s.startedAt === 'number' ? s.startedAt : Date.now())
