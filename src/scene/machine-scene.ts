@@ -65,3 +65,4 @@ export interface SceneOptions {
   onError?: (message: string) => void
 }
 
+declare global {
