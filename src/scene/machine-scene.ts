@@ -461,3 +461,4 @@ export function initMachineScene(
     })
     const contactGeo = new THREE.PlaneGeometry(18, 13)
     const contactMat = new THREE.MeshBasicMaterial({ map: shadowTex.texture, transparent: true, depthWrite: false, opacity: 0.65 })
+    const lineMat = new THREE.LineBasicMaterial({ color: 0x69717a, transparent: true, opacity: 0.12 })
