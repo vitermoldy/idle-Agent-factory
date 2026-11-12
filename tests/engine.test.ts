@@ -119,3 +119,4 @@ describe('products', () => {
   })
 
   it('moves the bottleneck to the station the product loads hardest', () => {
+    const ads = video.products[1]
