@@ -143,3 +143,4 @@ export function initMachineScene(
     renderer.setClearColor(0x000000, 0)
     renderer.setPixelRatio(Math.min(devicePixelRatio, frameWidth() < 900 ? 1.5 : 1.75))
     renderer.setSize(Math.max(1, frameWidth()), Math.max(1, frameHeight()))
+    renderer.outputColorSpace = THREE.SRGBColorSpace
