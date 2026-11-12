@@ -98,3 +98,4 @@ export const useGame = create<Store>((set, get) => {
       const { game, notices } = get()
       let result: { state: E.GameState; completed: E.Completed }
       let away: AwayReport | null = null
+      if (seconds > AWAY_AFTER) {
