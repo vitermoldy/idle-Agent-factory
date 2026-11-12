@@ -150,3 +150,4 @@ export function UnlockCard() {
         <PriceButton
           label="Buka lini"
           price={money(def.unlockCost)}
+          className="btn-lg mt-4 w-full"
