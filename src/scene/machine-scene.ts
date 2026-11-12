@@ -981,3 +981,4 @@ export function initMachineScene(
         t.userData.moving = true
         toggles.push(t)
         ball(consoleTop, 0.04, x, 0.275, 0.421, M.ivory)
+      }
