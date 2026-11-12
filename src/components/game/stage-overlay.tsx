@@ -54,3 +54,4 @@ export function StageAction() {
   const takeOrder = useGame((s) => s.takeOrder)
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
+  if (!fs.unlocked) return null
