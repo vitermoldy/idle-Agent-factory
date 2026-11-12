@@ -47,3 +47,4 @@ while (t <= 4 * 3600) {
       const fs = s.factories[def.id]
       if (!fs.unlocked) continue
       const id: FactoryId = def.id
+      const before = E.lineIncome(def, fs, s.stars)
