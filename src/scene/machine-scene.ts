@@ -1303,3 +1303,4 @@ export function initMachineScene(
       mode = next
       lastInteraction = performance.now()
       if (mode === 'order') {
+        focusPlate().t = 0
