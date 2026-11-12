@@ -276,3 +276,4 @@ export function initMachineScene(
     }
     function tube(parent: THREE.Object3D, pts: Vec3[], r: number, m: Material = M.chrome) {
       const curve = new THREE.CatmullRomCurve3(pts.map((p) => new THREE.Vector3(...p)))
+      const o = new THREE.Mesh(new THREE.TubeGeometry(curve, Math.max(12, pts.length * 7), r, 8, false), m)
