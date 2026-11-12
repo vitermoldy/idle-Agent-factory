@@ -150,3 +150,4 @@ export const FACTORIES: FactoryDef[] = [
     no: '02',
     name: 'Pabrik Website',
     unit: 'situs',
+    blurb: 'Brief masuk pagi, situs tayang sore. Agen merancang, menulis kode, lalu merilis.',
