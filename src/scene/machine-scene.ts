@@ -187,3 +187,4 @@ export function initMachineScene(
     rim.position.set(3, 7, -8)
     scene.add(rim)
     const warm = new THREE.PointLight(new THREE.Color(ACC).lerp(new THREE.Color(0xffbd42), 0.6), 28, 20, 2)
+    warm.position.set(-4, 5, 3)
