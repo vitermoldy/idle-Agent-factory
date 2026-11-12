@@ -205,3 +205,4 @@ export default function App() {
     document.getElementById(`tab-${next}`)?.focus()
   }
 
+  const accent = {
