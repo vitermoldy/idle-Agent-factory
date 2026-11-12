@@ -12,3 +12,4 @@ const MODES: Array<{ mode: E.BuyMode; label: string }> = [
   { mode: 'max', label: 'Maks' },
 ]
 
+export function UpgradePanel({ selected }: { selected: SlotId | null }) {
