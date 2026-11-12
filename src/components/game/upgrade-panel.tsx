@@ -33,3 +33,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
           <h2 id="stations-title" className="panel-title">
             Upgrade stasiun
           </h2>
+          <BuyModeSwitch />
