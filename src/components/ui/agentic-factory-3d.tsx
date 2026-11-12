@@ -79,3 +79,4 @@ export default function AgenticFactory3D({
         dispose = scene.dispose
         handlers.current.onApi?.(scene.api)
       })
+    return () => {
