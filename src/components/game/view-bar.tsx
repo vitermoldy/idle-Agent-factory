@@ -89,3 +89,4 @@ export function ViewBar({
         className="view-btn"
       >
         {playing ? <Pause /> : <Play />}
+      </button>
