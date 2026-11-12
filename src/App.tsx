@@ -328,3 +328,4 @@ export default function App() {
               </section>
             )}
             {shownTab === 'series' && <SeriesPanel onStart={() => setConfirm('series')} />}
+          </div>
