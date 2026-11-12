@@ -39,3 +39,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
   const fs = g.factories[g.active]
   const rates = E.lineRates(def, fs)
   live.locked = !fs.unlocked
+  live.focus = Math.max(0, def.products.findIndex((p) => p.id === fs.product))
