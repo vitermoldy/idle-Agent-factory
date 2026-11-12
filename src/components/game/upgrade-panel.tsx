@@ -26,3 +26,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
     owned.filter((p) => E.bottlenecks(def, fs, p).includes(i)).map((p) => p.name)
   )
   return (
+    <div className="flex flex-col gap-5">
