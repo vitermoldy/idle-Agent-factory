@@ -1165,3 +1165,4 @@ export function initMachineScene(
         propUpdates,
         printhead,
         outputVideo,
+        flyPost,
