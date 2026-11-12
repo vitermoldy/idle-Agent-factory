@@ -47,3 +47,4 @@ export function ViewBar({
           key={m.id}
           type="button"
           aria-pressed={mode === m.id}
+          aria-label={m.label}
