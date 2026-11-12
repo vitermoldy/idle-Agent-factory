@@ -299,3 +299,4 @@ export default function App() {
           <div
             id="tab-panel"
             role="tabpanel"
+            aria-labelledby={`tab-${shownTab}`}
