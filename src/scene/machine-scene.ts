@@ -1552,3 +1552,4 @@ export function initMachineScene(
           packet.group.position.copy(cabinet.position).add(new THREE.Vector3(0, 1.6, 0.6))
           scratch.copy(engine.position).add(new THREE.Vector3(0, 1.3, 0.65))
           packet.group.position.lerp(scratch, f)
+          packet.group.position.y += Math.sin(f * Math.PI) * 2
