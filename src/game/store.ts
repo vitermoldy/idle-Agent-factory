@@ -129,3 +129,4 @@ export const useGame = create<Store>((set, get) => {
         set({ lastSaved: game.savedAt, storageOk: true })
       } catch {
         set({ storageOk: false })
+      }
