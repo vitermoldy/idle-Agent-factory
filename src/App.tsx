@@ -287,3 +287,4 @@ export default function App() {
                 aria-controls="tab-panel"
                 tabIndex={shownTab === t ? 0 : -1}
                 onClick={() => setTab(t)}
+                className={cn('tab', t === 'produk' && 'whitespace-nowrap')}
