@@ -158,3 +158,4 @@ export function totalIncome(state: GameState) {
 }
 
 /** Price of buying `count` levels of a station that sits at `level` now. */
+export function upgradeCost(def: FactoryDef, index: number, level: number, count = 1) {
