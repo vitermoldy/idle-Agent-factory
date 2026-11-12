@@ -175,3 +175,4 @@ describe('saves', () => {
     expect(back.factories.video.progress).toEqual({ short: 0.5 })
   })
 
+  it('rejects broken or foreign data', () => {
