@@ -1374,3 +1374,4 @@ export function initMachineScene(
     })
     const raycaster = new THREE.Raycaster(),
       pointer = new THREE.Vector2(),
+      tooltip = $('tooltip')
