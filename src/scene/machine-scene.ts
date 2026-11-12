@@ -908,3 +908,4 @@ export function initMachineScene(
         })
       } else if (theme.prop === 'phone') {
         // A test phone on a stand, playing the line's product screen.
+        const stand = new THREE.Group()
