@@ -1502,3 +1502,4 @@ export function initMachineScene(
         st.group.position.y += spread * (i % 2 ? 0.32 : 0.55)
         const neck = !locked && pl.neck.includes(st.id)
         const pulse = Math.pow(Math.max(0, Math.sin(tact - i * 0.9)), 7)
+        const lit =
