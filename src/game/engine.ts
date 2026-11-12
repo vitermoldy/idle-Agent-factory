@@ -238,3 +238,4 @@ export function selectProduct(state: GameState, id: FactoryId, productId: string
   return withFactory(state, id, { product: productId })
 }
 
+export function takeOrder(state: GameState, id: FactoryId) {
