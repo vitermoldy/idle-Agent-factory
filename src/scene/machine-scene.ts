@@ -22,3 +22,4 @@ export type MachineCamera = 'overview' | 'side' | 'top' | 'plate' | 'station' | 
 export interface PlateLive {
   owned: boolean
   /** Place in the row, in purchase order. */
+  slot: number
