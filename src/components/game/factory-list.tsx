@@ -7,3 +7,4 @@ import { cn } from '@/lib/utils'
 import { FactoryGlyph, Lock } from './icons'
 
 /** The five lines. Each keeps its own colour here, so a line is recognisable before it is opened. */
+export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
