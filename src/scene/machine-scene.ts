@@ -1446,3 +1446,4 @@ export function initMachineScene(
       lastFrame = performance.now()
     })
 
+    let prevJourney = -1,
