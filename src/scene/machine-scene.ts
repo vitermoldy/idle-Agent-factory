@@ -709,3 +709,4 @@ export function initMachineScene(
         const mesh = new THREE.Mesh(merged, list[0].material)
         mesh.castShadow = list.some((x) => x.castShadow)
         mesh.receiveShadow = list.some((x) => x.receiveShadow)
+        for (const m of list) group.remove(m)
