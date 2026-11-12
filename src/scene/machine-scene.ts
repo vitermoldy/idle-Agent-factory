@@ -784,3 +784,4 @@ export function initMachineScene(
         gears.push({ g, dir })
       }
       GEO.forEach((id, i) => {
+        const group = new THREE.Group()
