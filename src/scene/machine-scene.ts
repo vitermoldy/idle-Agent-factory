@@ -1037,3 +1037,4 @@ export function initMachineScene(
         let c = cashTex.ctx
         c.fillStyle = '#12231e'
         c.fillRect(0, 0, 512, 176)
+        fit(c, theme.cashTitle, 22, 44, 23, 470, '#9cae91', 500)
