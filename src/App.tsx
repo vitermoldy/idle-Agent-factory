@@ -314,3 +314,4 @@ export default function App() {
                 onBought={() => {
                   // Step back to the whole row, so the new plate is seen rising beside the others.
                   syncLive(live.current, useGame.getState().game)
+                  apiRef.current?.setCamera('overview')
