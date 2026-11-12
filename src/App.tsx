@@ -187,3 +187,4 @@ export default function App() {
       const g = useGame.getState().game
       const fs = g.factories[def.id]
       const i = def.stations.findIndex((s) => s.slot === slot)
+      const st = def.stations[i]
