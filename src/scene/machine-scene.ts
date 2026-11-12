@@ -831,3 +831,4 @@ export function initMachineScene(
           reel.position.set(x, y, -0.48)
           engine.add(reel)
           reel.userData.moving = true
+          const core = cyl(reel, 0.4, 0.22, 0, 0, 0, M.dark)
