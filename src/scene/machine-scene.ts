@@ -166,3 +166,4 @@ export function initMachineScene(
     scene.environment = env.texture
     scene.environmentIntensity = 0.62
     room.dispose()
+    pmrem.dispose()
