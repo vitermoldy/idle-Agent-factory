@@ -6,3 +6,5 @@ import {
   type FactoryDef,
   type FactoryId,
   type ProductDef,
+} from './factories.ts'
+
