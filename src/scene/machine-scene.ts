@@ -680,3 +680,4 @@ export function initMachineScene(
       const s = m.clone() as T
       s.clippingPlanes = [cutPlane]
       s.clipShadows = true
+      s.side = THREE.DoubleSide
