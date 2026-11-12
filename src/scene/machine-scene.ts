@@ -1142,3 +1142,4 @@ export function initMachineScene(
           ;(s.material as THREE.MeshBasicMaterial).side = THREE.DoubleSide
           s.visible = false
           return s
+        })
