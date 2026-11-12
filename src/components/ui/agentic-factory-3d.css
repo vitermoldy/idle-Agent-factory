@@ -206,3 +206,4 @@
   z-index: 20;
 }
 .af3d-error strong {
+  color: var(--accent);
