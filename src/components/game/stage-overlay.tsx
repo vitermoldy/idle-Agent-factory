@@ -41,3 +41,4 @@ export function StagePlate({ className }: { className?: string }) {
 
 function PlateStat({ label, value }: { label: string; value: string }) {
   return (
+    <div>
