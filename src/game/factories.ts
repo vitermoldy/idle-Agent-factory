@@ -199,3 +199,4 @@ export const FACTORIES: FactoryDef[] = [
       receipt: { shop: 'PABRIK WEBSITE' },
       screen: { kicker: 'RILIS', head: 'HARI INI.', lines: ['Brief pagi,', 'tayang sore.', 'Agen menulis', 'kodenya.'] },
       journey: [
+        ['Brief masuk', 'Permintaan Rina dicatat di meja Brief'],
