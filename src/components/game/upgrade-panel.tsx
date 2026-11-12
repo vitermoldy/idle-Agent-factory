@@ -138,3 +138,4 @@ function StationRow({
     if (selected) ref.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
   }, [selected])
   const st = def.stations[index]
+  const level = fs.levels[index]
