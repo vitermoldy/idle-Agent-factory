@@ -298,3 +298,4 @@ export const FACTORIES: FactoryDef[] = [
       prop: 'phone',
       plate: {
         title: 'PABRIK APLIKASI',
+        line: 'spesifikasi, desain, build, lalu review',
