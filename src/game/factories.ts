@@ -227,3 +227,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'engine', name: 'Studio Suara', desc: 'Agen merekam narasi dan wawancara.', output: 'rekaman', speed: 1, cost: 40_000 },
       { slot: 'admin', name: 'Mixing', desc: 'Suara dibersihkan, musik ditambahkan.', output: 'master', speed: 1.15, cost: 30_000 },
       { slot: 'storefront', name: 'Siaran', desc: 'Episode tayang di semua aplikasi podcast.', output: 'episode', speed: 1.35, cost: 27_500 },
+      { slot: 'cashdesk', name: 'Sponsor', desc: 'Iklan sponsor dibayar per episode.', output: 'sponsor', speed: 1.5, cost: 17_500 },
