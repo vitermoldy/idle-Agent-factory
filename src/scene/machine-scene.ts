@@ -1744,3 +1744,4 @@ export function initMachineScene(
       delete window.__machineDebug
     })
   } catch (error) {
+    console.error('Machine: failed to start', error)
