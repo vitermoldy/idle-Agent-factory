@@ -873,3 +873,4 @@ export function initMachineScene(
           })
         )
       } else if (theme.prop === 'mic') {
+        // A studio microphone on a boom, with a level meter at its foot.
