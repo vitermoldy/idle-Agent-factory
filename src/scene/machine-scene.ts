@@ -645,3 +645,4 @@ export function initMachineScene(
       'catmullrom',
       0.25
     )
+    const pVec = new THREE.Vector3(),
