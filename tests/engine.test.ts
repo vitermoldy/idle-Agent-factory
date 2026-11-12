@@ -98,3 +98,4 @@ describe('products', () => {
   })
 
   it('runs every plate at once once an agent is hired', () => {
+    let g = E.hireAgent(rich(video.agentCost + video.products[1].unlockCost), 'video')
