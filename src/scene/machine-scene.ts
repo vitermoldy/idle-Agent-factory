@@ -1329,3 +1329,4 @@ export function initMachineScene(
       emitView()
     }
     const projected = new THREE.Vector3()
+    api = {
