@@ -63,3 +63,4 @@ describe('buying', () => {
     expect(batch).toBeCloseTo(sum, 6)
   })
 
+  it('never lets max buy spend more than the cash', () => {
