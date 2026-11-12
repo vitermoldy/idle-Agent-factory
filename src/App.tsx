@@ -87,3 +87,4 @@ export default function App() {
   if (synced.current !== active) {
     synced.current = active
     syncLive(live.current, useGame.getState().game)
+  }
