@@ -1514,3 +1514,4 @@ export function initMachineScene(
               : 0.55 + pulse * 0.65
         st.glowMat.emissiveIntensity = THREE.MathUtils.lerp(st.glowMat.emissiveIntensity, goal, neck ? 0.35 : smooth)
       })
+      p.belt.scale.set(1 + spread * 0.12, 1, 1 + spread * 0.15)
