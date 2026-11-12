@@ -1435,3 +1435,4 @@ export function initMachineScene(
       { threshold: 0.01 }
     )
     observer.observe(renderer.domElement)
+    cleanups.push(() => observer.disconnect())
