@@ -1645,3 +1645,4 @@ export function initMachineScene(
           controls.target.distanceTo(desiredTarget) < 0.015
         )
           cameraAnimating = false
+      }
