@@ -54,3 +54,4 @@ function ProductRow({
   const income = E.productIncome(def, fs, game.stars, product)
   const heaviest = product.work.indexOf(Math.max(...product.work))
   const can = game.cash >= product.unlockCost
+  return (
