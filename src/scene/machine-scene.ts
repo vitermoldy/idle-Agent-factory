@@ -226,3 +226,4 @@ export function initMachineScene(
             : new THREE.BoxGeometry(w, h, d)
         )
       return geometries.get(k)!
+    }
