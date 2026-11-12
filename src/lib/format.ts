@@ -27,3 +27,4 @@ export function perSecond(n: number) {
 }
 
 /** Seconds per order for slow lines, orders per second for fast ones. */
+export function pace(ordersPerSec: number) {
