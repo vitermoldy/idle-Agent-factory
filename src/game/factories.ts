@@ -215,3 +215,4 @@ export const FACTORIES: FactoryDef[] = [
     blurb: 'Topik dipilih, suara direkam dan dimixing, lalu episode tayang dengan sponsor.',
     products: [
       { id: 'episode', name: 'Episode reguler', desc: 'Obrolan 40 menit, satu pembawa acara.', price: 72_500, work: [1, 1, 1, 1, 1], unlockCost: 0 },
+      { id: 'interview', name: 'Episode wawancara', desc: 'Tamu harus dijadwalkan. Topik jadi sibuk.', price: 250_000, work: [2.2, 1.6, 1.4, 1, 1.1], unlockCost: 110_000_000 },
