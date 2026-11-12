@@ -339,3 +339,4 @@ export function initMachineScene(
       ctx.beginPath()
       ctx.arc(x, y, r, 0, TAU)
       ctx.fill()
+    }
