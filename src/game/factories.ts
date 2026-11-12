@@ -239,3 +239,4 @@ export const FACTORIES: FactoryDef[] = [
         line: 'topik, rekam, mixing, lalu siaran',
       },
       queue: { title: 'ANTREAN MIXING', items: ['Obrolan bisnis', 'Kisah perantau', 'Tanya pakar'], active: 'MIXING', waiting: 'ANTRE' },
+      wip: { title: 'RUNDOWN', sub: '03 / Segmen tamu' },
