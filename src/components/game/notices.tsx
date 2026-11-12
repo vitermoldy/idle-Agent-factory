@@ -25,3 +25,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
   }, [notice.id, dismiss])
   return (
     <div className="pointer-events-auto flex items-center gap-3 rounded-xl border border-line-strong bg-raised py-2 pr-2 pl-4">
+      <p className="min-w-0 flex-1 text-[13px] leading-snug text-ink">{notice.text}</p>
