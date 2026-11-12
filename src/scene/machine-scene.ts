@@ -681,3 +681,4 @@ export function initMachineScene(
       s.clippingPlanes = [cutPlane]
       s.clipShadows = true
       s.side = THREE.DoubleSide
+      return s
