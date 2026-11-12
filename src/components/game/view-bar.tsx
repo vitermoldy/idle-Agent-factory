@@ -30,3 +30,4 @@ export function ViewBar({
   mode: MachineMode
   camera: MachineCamera
   labels: boolean
+  playing: boolean
