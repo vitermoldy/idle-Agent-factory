@@ -272,3 +272,4 @@ export function initMachineScene(
       o.position.set(x, y, z)
       o.castShadow = true
       parent.add(o)
+      return o
