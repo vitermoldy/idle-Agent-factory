@@ -15,3 +15,5 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 - RHYTHM 2: tiga kolom yang konsisten (lini, mesin, panel) dengan satu perubahan besar: lini terkunci
   memakai kartu buka di tengah panggung.
 - MOTION 2: gerak hanya ada di mesin (kecepatannya mengikuti lini), tombol yang naik saat disorot dan
+  turun saat ditekan, serta angka uang yang naik dari kasir.
+
