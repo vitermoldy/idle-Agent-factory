@@ -50,3 +50,4 @@ let lastTick = Date.now()
 const announced = new Set<FactoryId>()
 
 function readSave() {
+  try {
