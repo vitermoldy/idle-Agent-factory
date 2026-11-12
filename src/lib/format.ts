@@ -22,3 +22,4 @@ export const money = (n: number) => '$' + short(n)
 
 /** Orders per second, as the station rows show it. */
 export function perSecond(n: number) {
+  if (n <= 0) return '0/dtk'
