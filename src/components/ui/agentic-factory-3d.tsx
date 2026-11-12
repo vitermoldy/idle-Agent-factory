@@ -25,3 +25,5 @@ export type AgenticFactory3DProps = {
   className?: string
   /** Overlays drawn above the machine. */
   children?: ReactNode
+}
+
