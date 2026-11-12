@@ -62,3 +62,4 @@ export interface SceneOptions {
   onStation?: (slot: SlotId, plate: number) => void
   onView?: (mode: MachineMode, camera: MachineCamera) => void
   onReady?: () => void
+  onError?: (message: string) => void
