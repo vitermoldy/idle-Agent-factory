@@ -299,3 +299,4 @@ export const FACTORIES: FactoryDef[] = [
       plate: {
         title: 'PABRIK APLIKASI',
         line: 'spesifikasi, desain, build, lalu review',
+      },
