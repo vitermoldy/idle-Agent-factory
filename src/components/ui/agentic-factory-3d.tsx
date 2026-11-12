@@ -43,3 +43,4 @@ export default function AgenticFactory3D({
   const handlers = useRef({ tooltip, onStation, onView, onApi })
   useEffect(() => {
     handlers.current = { tooltip, onStation, onView, onApi }
+  }, [tooltip, onStation, onView, onApi])
