@@ -978,3 +978,4 @@ export function initMachineScene(
         cyl(consoleTop, 0.074, 0.035, x, 0.1, 0.45, M.dark)
         const t = cyl(consoleTop, 0.025, 0.15, x, 0.19, 0.45, M.chrome)
         t.rotation.x = -0.4
+        t.userData.moving = true
