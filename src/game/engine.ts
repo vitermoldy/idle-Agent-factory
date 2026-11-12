@@ -275,3 +275,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
       }
       done += made
       cash += made * orderValue(def, fs, state.stars, p)
+    }
