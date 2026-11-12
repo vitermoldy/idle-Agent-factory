@@ -177,3 +177,4 @@ export function initMachineScene(
     key.shadow.bias = -0.0002
     key.shadow.radius = 4
     scene.add(key)
+    /** The shadow box follows the row, so one plate keeps sharp shadows. */
