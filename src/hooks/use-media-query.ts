@@ -9,3 +9,4 @@ export function useMediaQuery(query: string) {
     },
     () => matchMedia(query).matches,
     () => false
+  )
