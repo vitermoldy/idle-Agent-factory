@@ -59,3 +59,4 @@ export interface SceneOptions {
   fonts: { text: string; display: string }
   live: SceneLive
   tooltip: (slot: SlotId, plate: number) => { title: string; body: string }
+  onStation?: (slot: SlotId, plate: number) => void
