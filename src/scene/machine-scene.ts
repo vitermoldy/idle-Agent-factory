@@ -151,3 +151,4 @@ export function initMachineScene(
     renderer.localClippingEnabled = true
     $('canvas').appendChild(renderer.domElement)
     const controls = new OrbitControls(camera, renderer.domElement)
+    controls.enableDamping = true
