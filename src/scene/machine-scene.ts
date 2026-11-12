@@ -1359,3 +1359,4 @@ export function initMachineScene(
     layoutCamera()
     const resizeObserver = new ResizeObserver(() => layoutCamera())
     resizeObserver.observe(root)
+    cleanups.push(() => resizeObserver.disconnect())
