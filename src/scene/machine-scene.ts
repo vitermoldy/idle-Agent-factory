@@ -320,3 +320,4 @@ export function initMachineScene(
     }
     const print = (
       ctx: CanvasRenderingContext2D,
+      txt: string,
