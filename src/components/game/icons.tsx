@@ -73,3 +73,4 @@ const MODE_PATHS: Record<MachineMode, string> = {
 }
 export const ModeIcon = ({ mode, ...p }: P & { mode: MachineMode }) => (
   <svg {...base} {...p} strokeWidth={1.2}>
+    <path d={MODE_PATHS[mode]} />
