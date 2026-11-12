@@ -7,3 +7,4 @@ export function PriceButton({
   price,
   className,
   ...props
+}: { label: string; price: string } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'children'>) {
