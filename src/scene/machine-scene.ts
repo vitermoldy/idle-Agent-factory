@@ -1214,3 +1214,4 @@ export function initMachineScene(
     let width = frameWidth(),
       height = frameHeight(),
       mobile = width <= 640,
+      lastInteraction = performance.now(),
