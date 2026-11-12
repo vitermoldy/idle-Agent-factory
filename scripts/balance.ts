@@ -59,3 +59,4 @@ while (t <= 4 * 3600) {
       for (const p of E.ownedProducts(def, fs)) {
         const tied = E.bottlenecks(def, fs, p)
         if (tied.length < 2) continue
+        const levels = fs.levels.slice()
