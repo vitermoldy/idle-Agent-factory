@@ -1075,3 +1075,4 @@ export function initMachineScene(
       const coin = new THREE.Group()
       coin.userData.moving = true
       cashdesk.add(coin)
+      const coinDisc = cyl(coin, 0.22, 0.065, 0, 0, 0, M.amber, undefined, 32)
