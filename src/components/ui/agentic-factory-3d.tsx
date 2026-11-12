@@ -87,3 +87,4 @@ export default function AgenticFactory3D({
   }, [factory, live, attempt])
 
   return (
+    <div ref={rootRef} className={cn('af3d', className)}>
