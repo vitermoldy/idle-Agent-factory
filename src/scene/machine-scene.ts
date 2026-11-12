@@ -1328,3 +1328,4 @@ export function initMachineScene(
       cameraAnimating = true
       emitView()
     }
+    const projected = new THREE.Vector3()
