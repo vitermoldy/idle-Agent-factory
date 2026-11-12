@@ -534,3 +534,4 @@ export function initMachineScene(
       queue.texture.needsUpdate = true
     }
     drawQueue(0)
+    const webTexture = canvasTexture(896, 592, (c, w, h) => {
