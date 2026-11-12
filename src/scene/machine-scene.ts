@@ -1314,3 +1314,4 @@ export function initMachineScene(
       selected = slot
       if (mode === 'order') mode = 'assembled'
       cameraMode = 'station'
+      lastInteraction = performance.now()
