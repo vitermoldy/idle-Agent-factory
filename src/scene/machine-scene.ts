@@ -714,3 +714,4 @@ export function initMachineScene(
       }
     }
 
+    type PlateStation = { id: SlotId; group: THREE.Group; base: THREE.Vector3; glowMat: THREE.MeshStandardMaterial; index: number }
