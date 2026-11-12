@@ -17,3 +17,4 @@ export function Dialog({
   title: string
   children: ReactNode
   footer?: ReactNode
+}) {
