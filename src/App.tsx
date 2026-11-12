@@ -22,3 +22,4 @@ const TAB_LABEL: Record<Tab, string> = { upgrade: 'Upgrade', produk: 'Produk', p
 
 interface Popup {
   id: number
+  x: number
