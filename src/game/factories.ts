@@ -290,3 +290,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'admin', name: 'Build', desc: 'Kode dikompilasi untuk Android dan iOS.', output: 'build', speed: 1, cost: 1_500_000 },
       { slot: 'storefront', name: 'Review', desc: 'Aplikasi lolos review dan tayang di toko.', output: 'rilis', speed: 1.2, cost: 1_380_000 },
       { slot: 'cashdesk', name: 'Lisensi', desc: 'Klien membayar lisensi tahunan.', output: 'lisensi', speed: 1.5, cost: 870_000 },
+    ],
