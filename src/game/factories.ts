@@ -273,3 +273,4 @@ export const FACTORIES: FactoryDef[] = [
     id: 'app',
     no: '04',
     name: 'Pabrik Aplikasi',
+    unit: 'aplikasi',
