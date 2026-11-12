@@ -1260,3 +1260,4 @@ export function initMachineScene(
       sized = true
       width = frameWidth()
       height = frameHeight()
+      mobile = width <= 640
