@@ -94,3 +94,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
       </h2>
       <p className="mt-1.5 text-[13px] leading-relaxed text-soft">
         Tanpa agen, lini hanya bekerja saat kamu mengambil order. Agen menjalankannya terus, juga saat game
+        ditutup (dihitung sampai {duration(E.OFFLINE_CAP)}).
