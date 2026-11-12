@@ -57,3 +57,4 @@ export function ViewBar({
           </span>
         </button>
       ))}
+      <span className="mx-1 hidden h-5 w-px bg-line sm:block" aria-hidden="true" />
