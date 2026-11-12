@@ -64,3 +64,4 @@ function makeLive(): SceneLive {
   const live: SceneLive = {
     locked: false,
     playing: !matchMedia('(prefers-reduced-motion: reduce)').matches,
+    labels: matchMedia('(min-width: 1024px)').matches,
