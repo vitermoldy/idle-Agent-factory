@@ -331,3 +331,4 @@ export default function App() {
           </div>
         </aside>
       </div>
+      <Notices onOpen={openFactory} />
