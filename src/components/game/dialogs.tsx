@@ -10,3 +10,4 @@ export function Dialog({
   onClose,
   title,
   children,
+  footer,
