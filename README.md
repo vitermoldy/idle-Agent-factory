@@ -36,3 +36,4 @@ npm install
 npm run dev        # http://localhost:5173
 npm run build      # hasil di dist/, bisa dibuka dari host statis mana pun
 npm test           # tes aturan game (vitest)
+npm run balance    # bot rakus memainkan game dan mencetak kapan tiap lini terbuka
