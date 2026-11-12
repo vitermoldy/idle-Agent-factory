@@ -399,3 +399,4 @@ export function initMachineScene(
         rounded(c, 168, 34, 48, 8, 4, INK)
         c.fillStyle = DEEP
         c.fillRect(128, 52, 128, 44)
+        print(c, 'Hari ini', 140, 81, 15, '#f4f1ea', 600)
