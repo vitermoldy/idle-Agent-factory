@@ -48,3 +48,4 @@ export interface GameState {
   series: number
   active: FactoryId
   factories: Record<FactoryId, FactoryState>
+  savedAt: number
