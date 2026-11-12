@@ -1718,3 +1718,4 @@ export function initMachineScene(
     // Lightweight inspection for automated browser checks; no production UI.
     Object.defineProperty(window, '__machineDebug', {
       value: {
+        getState: () => {
