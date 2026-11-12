@@ -176,3 +176,4 @@ export function SettingsDialog({
             className="text-soft underline underline-offset-2 hover:text-ink"
             href="https://github.com/eugeneshilow/agentic-3d-templates"
             target="_blank"
+            rel="noopener noreferrer"
