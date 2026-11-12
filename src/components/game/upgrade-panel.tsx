@@ -226,3 +226,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
     <section aria-labelledby="locked-title" className="flex flex-col gap-4">
       <div>
         <h2 id="locked-title" className="panel-title">
+          Stasiun di {def.name}
