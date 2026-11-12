@@ -28,3 +28,4 @@ export interface FactoryState {
   /** The plate in view; hand-taken orders are made there. */
   product: string
   /** Products bought for this line, in purchase order. Each one has its own plate. */
+  owned: string[]
