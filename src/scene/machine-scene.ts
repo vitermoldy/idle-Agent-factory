@@ -80,3 +80,4 @@ const POS: Record<SlotId, [number, number, number]> = {
   storefront: [1.5, 0.29, -2.08],
   cabinet: [4.03, 0.29, 0.12],
   cashdesk: [0.93, 0.29, 1.85],
+}
