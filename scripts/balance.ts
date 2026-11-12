@@ -61,3 +61,4 @@ while (t <= 4 * 3600) {
         if (tied.length < 2) continue
         const levels = fs.levels.slice()
         for (const i of tied) levels[i]++
+        const gain = E.lineIncome(def, fs, s.stars, levels) - before
