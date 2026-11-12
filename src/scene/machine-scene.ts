@@ -1696,3 +1696,4 @@ export function initMachineScene(
       cancelAnimationFrame(rafId)
       controls.dispose()
       const textures = new Set<THREE.Texture>()
+      scene.traverse((object) => {
