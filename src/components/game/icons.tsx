@@ -12,3 +12,4 @@ const base = {
   fill: 'none',
   stroke: 'currentColor',
   strokeWidth: 1.4,
+  strokeLinecap: 'round',
