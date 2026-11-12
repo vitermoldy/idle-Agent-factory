@@ -497,3 +497,4 @@ export function initMachineScene(
     function drawProduct(t: number) {
       const c = productTex.ctx
       c.fillStyle = ACC
+      c.fillRect(0, 0, 384, 640)
