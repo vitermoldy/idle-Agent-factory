@@ -168,3 +168,4 @@ export function upgradeCost(def: FactoryDef, index: number, level: number, count
 export function affordableLevels(def: FactoryDef, index: number, level: number, cash: number) {
   const g = def.growth
   const first = def.stations[index].cost * g ** (level - 1)
+  if (cash < first) return 0
