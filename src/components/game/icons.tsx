@@ -84,3 +84,4 @@ export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
         <svg {...base} {...p}>
           <rect x="2" y="3" width="12" height="10" rx="1.5" />
           <path d="M5 3v10M11 3v10M2 6.5h3M2 9.5h3M11 6.5h3M11 9.5h3" />
+        </svg>
