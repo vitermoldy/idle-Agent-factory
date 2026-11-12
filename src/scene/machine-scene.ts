@@ -1264,3 +1264,4 @@ export function initMachineScene(
       renderer.setSize(width, height)
       camera.aspect = width / height
       // The overlays sit on the bottom of the box, so the machine is lifted a little.
+      camera.setViewOffset(width, height, 0, height * 0.06, width, height)
