@@ -302,3 +302,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       queue: { title: 'ANTREAN BUILD', items: ['Kasir warung', 'Absensi kantor', 'Jadwal servis'], active: 'KOMPILASI', waiting: 'ANTRE' },
       wip: { title: 'SPESIFIKASI', sub: '04 / Layar masuk' },
+      store: {
