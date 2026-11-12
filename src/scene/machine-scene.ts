@@ -1098,3 +1098,4 @@ export function initMachineScene(
       beltSlats.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
       belt.add(beltSlats)
       const dummy = new THREE.Object3D()
+      function updateBelt(t: number) {
