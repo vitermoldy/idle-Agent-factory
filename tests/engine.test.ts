@@ -71,3 +71,4 @@ describe('buying', () => {
     }
   })
 
+  it('refuses purchases the cash cannot cover', () => {
