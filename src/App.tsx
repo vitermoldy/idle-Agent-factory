@@ -326,3 +326,4 @@ export default function App() {
                 </h2>
                 <FactoryList onPick={openFactory} />
               </section>
+            )}
