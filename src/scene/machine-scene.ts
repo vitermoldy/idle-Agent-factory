@@ -654,3 +654,4 @@ export function initMachineScene(
         path.getPointAt(i / 160, pVec)
         path.getTangentAt(i / 160, tVec)
         pts.push(pVec.clone().add(new THREE.Vector3(-tVec.z * 0.36 * side, 0.09, tVec.x * 0.36 * side)))
+      }
