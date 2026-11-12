@@ -126,3 +126,4 @@ function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: Produc
         {product.work[heaviest] > 1 ? `Berat di ${def.stations[heaviest].name}` : 'Beban rata'}
       </p>
       <span className="sr-only">Beban kerja per order: {summary}.</span>
+    </div>
