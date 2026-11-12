@@ -26,3 +26,4 @@ export interface FactoryState {
   agent: boolean
   levels: number[]
   /** The plate in view; hand-taken orders are made there. */
+  product: string
