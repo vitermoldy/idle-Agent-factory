@@ -37,3 +37,4 @@ export interface FactoryState {
   earned: number
 }
 
+export interface GameState {
