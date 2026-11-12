@@ -154,3 +154,4 @@ export function SettingsDialog({
           Simpan sekarang
         </button>
       </section>
+      <section aria-labelledby="reset-title" className="mt-5 border-t border-line pt-5">
