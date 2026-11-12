@@ -53,3 +53,4 @@ function readSave() {
   try {
     const raw = localStorage.getItem(SAVE_KEY)
     const game = E.parseSave(raw)
+    return { game: game ?? E.newGame(), corrupt: !!raw && !game, storageOk: true }
