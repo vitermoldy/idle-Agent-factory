@@ -243,3 +243,4 @@ export const FACTORIES: FactoryDef[] = [
       store: {
         brand: 'SUARA SORE',
         nav: 'Episode    Tamu    Ikuti',
+        tag: ['DENGAR', 'DI JALAN.'],
