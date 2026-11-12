@@ -223,3 +223,4 @@ export function unlockFactory(state: GameState, id: FactoryId) {
 export function buyProduct(state: GameState, id: FactoryId, productId: string) {
   const def = FACTORY_BY_ID[id]
   const fs = state.factories[id]
+  const product = def.products.find((p) => p.id === productId)
