@@ -176,3 +176,4 @@ describe('saves', () => {
   })
 
   it('rejects broken or foreign data', () => {
+    expect(E.parseSave('{oops')).toBeNull()
