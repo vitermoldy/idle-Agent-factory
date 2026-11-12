@@ -25,3 +25,5 @@ dibayar di Kasir.
 | 02 Pabrik Website | Landing page, toko online, portal anggota | Rak server |
 | 03 Pabrik Podcast | Episode reguler, wawancara, serial dokumenter | Mikrofon dan meteran suara |
 | 04 Pabrik Aplikasi | Aplikasi alat, aplikasi belanja, game kasual | Ponsel uji |
+| 05 Penerbit E-book | Buku panduan, novel, kursus dan e-book | Tumpukan buku |
+
