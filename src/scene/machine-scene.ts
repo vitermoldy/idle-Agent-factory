@@ -1032,3 +1032,4 @@ export function initMachineScene(
       const cashTex = canvasTexture(512, 176, () => {})
       const receiptTex = canvasTexture(280, 540, () => {})
       let paintedValue = ''
+      function paintPrice(value: string) {
