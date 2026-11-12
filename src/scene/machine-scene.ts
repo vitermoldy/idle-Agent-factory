@@ -1665,3 +1665,4 @@ export function initMachineScene(
           label.metaText = meta.rate
           label.meta.textContent = meta.rate
         }
+        label.el.classList.toggle('is-neck', plateLive(fp.k).neck.includes(label.id))
