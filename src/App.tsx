@@ -71,3 +71,5 @@ function makeLive(): SceneLive {
   }
   syncLive(live, useGame.getState().game)
   return live
+}
+
