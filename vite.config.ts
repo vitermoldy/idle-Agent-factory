@@ -11,3 +11,4 @@ export default defineConfig({
   root,
   // Relative asset paths, so the built game runs from any folder or static host.
   base: './',
+  plugins: [react(), tailwindcss()],
