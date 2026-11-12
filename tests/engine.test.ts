@@ -187,3 +187,4 @@ describe('saves', () => {
     raw.factories.video.levels = [-4, 'x', 99999, 3, 3]
     raw.factories.video.product = 'nope'
     raw.factories.web.agent = true
+    const back = E.parseSave(JSON.stringify(raw))!
