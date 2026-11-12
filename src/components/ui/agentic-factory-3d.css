@@ -104,3 +104,4 @@
   max-width: 240px;
 }
 .af3d-tooltip.visible {
+  opacity: 1;
