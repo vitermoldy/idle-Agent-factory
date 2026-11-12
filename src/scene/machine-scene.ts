@@ -58,3 +58,4 @@ export interface SceneOptions {
   factory: FactoryDef
   fonts: { text: string; display: string }
   live: SceneLive
+  tooltip: (slot: SlotId, plate: number) => { title: string; body: string }
