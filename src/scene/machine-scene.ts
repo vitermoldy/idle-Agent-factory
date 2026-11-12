@@ -851,3 +851,4 @@ export function initMachineScene(
       } else if (theme.prop === 'rack') {
         // A server rack with blinking status lights.
         const rack = new THREE.Group()
+        rack.position.set(-1.17, 0, -0.42)
