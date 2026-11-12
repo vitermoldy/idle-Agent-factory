@@ -152,3 +152,4 @@ export const useGame = create<Store>((set, get) => {
     selectProduct: (productId) => update((g) => E.selectProduct(g, g.active, productId)),
     setBuyMode: (buyMode) => set({ buyMode }),
     startNewSeries: () => {
+      announced.clear()
