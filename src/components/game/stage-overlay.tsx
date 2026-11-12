@@ -145,3 +145,4 @@ export function UnlockCard() {
           <span
             className="block h-full bg-accent"
             style={{ width: `${Math.min(100, (game.cash / def.unlockCost) * 100)}%` }}
+          />
