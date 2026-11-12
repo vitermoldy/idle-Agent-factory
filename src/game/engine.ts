@@ -153,3 +153,4 @@ export function incomePerSec(def: FactoryDef, fs: FactoryState, stars: number) {
   return lineIncome(def, fs, stars)
 }
 
+export function totalIncome(state: GameState) {
