@@ -1271,3 +1271,4 @@ export function initMachineScene(
       cameraAnimating = true
       if (first) {
         camera.position.copy(desiredPosition)
+        controls.target.copy(desiredTarget)
