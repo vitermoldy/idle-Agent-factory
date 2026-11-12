@@ -51,3 +51,4 @@ function ProductRow({
   const plate = fs.owned.indexOf(product.id)
   const owned = plate >= 0
   const speed = E.throughput(def, fs, product)
+  const income = E.productIncome(def, fs, game.stars, product)
