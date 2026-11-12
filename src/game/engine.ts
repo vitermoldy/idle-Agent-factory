@@ -58,3 +58,4 @@ const freshFactory = (def: FactoryDef): FactoryState => {
   const unlocked = def.unlockCost === 0
   return {
     unlocked,
+    agent: false,
