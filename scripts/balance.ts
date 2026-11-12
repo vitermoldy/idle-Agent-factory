@@ -97,3 +97,4 @@ while (t <= 4 * 3600) {
     }
     break
   }
+  s = E.advance(s, dt).state
