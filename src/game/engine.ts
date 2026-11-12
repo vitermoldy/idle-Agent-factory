@@ -319,3 +319,5 @@ export function startNewSeries(state: GameState, now = Date.now()): GameState {
     stars: state.stars + claim,
     series: state.series + 1,
   }
+}
+
