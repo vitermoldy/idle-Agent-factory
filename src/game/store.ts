@@ -57,3 +57,5 @@ function readSave() {
   } catch {
     return { game: E.newGame(), corrupt: false, storageOk: false }
   }
+}
+
