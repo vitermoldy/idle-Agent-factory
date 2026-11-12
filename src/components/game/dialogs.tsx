@@ -62,3 +62,4 @@ export function AwayDialog() {
         <button type="button" className="btn btn-primary" onClick={dismiss}>
           Ambil hasilnya
         </button>
+      }
