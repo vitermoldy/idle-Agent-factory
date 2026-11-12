@@ -725,3 +725,4 @@ export function initMachineScene(
       holder.visible = false
       holder.scale.setScalar(0.001)
       scene.add(holder)
+      const machine = new THREE.Group()
