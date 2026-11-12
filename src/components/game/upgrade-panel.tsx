@@ -80,3 +80,4 @@ function BuyModeSwitch() {
         </button>
       ))}
     </div>
+  )
