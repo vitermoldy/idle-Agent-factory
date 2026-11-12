@@ -1686,3 +1686,4 @@ export function initMachineScene(
             pixelRatio = Math.max(1, pixelRatio - 0.25)
             renderer.setPixelRatio(pixelRatio)
           }
+          frameCount = 0
