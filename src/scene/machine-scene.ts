@@ -1287,3 +1287,4 @@ export function initMachineScene(
       } else if (cameraMode === 'plate') {
         desiredTarget.set(targetX(fp.k), 1, 0)
         desiredPosition.copy(viewDirection).multiplyScalar(plateDistance * expand).add(desiredTarget)
+      } else {
