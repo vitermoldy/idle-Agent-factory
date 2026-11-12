@@ -498,3 +498,4 @@ export function initMachineScene(
       const c = productTex.ctx
       c.fillStyle = ACC
       c.fillRect(0, 0, 384, 640)
+      art(c, 0, 112, 384, 340, t)
