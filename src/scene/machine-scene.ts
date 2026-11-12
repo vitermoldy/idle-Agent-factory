@@ -452,3 +452,4 @@ export function initMachineScene(
     floor.receiveShadow = true
     scene.add(floor)
     const shadowTex = canvasTexture(128, 128, (c, w, h) => {
+      const g = c.createRadialGradient(64, 64, 12, 64, 64, 64)
