@@ -343,3 +343,4 @@ export default function App() {
       />
       <ConfirmDialog
         open={confirm === 'series'}
+        title={`Mulai series ${series(game.series + 1)}?`}
