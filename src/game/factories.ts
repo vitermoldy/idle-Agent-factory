@@ -268,3 +268,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Sponsor membayar', 'Iklan sponsor terbayar'],
       ],
     },
+  },
