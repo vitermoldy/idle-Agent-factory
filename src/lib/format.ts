@@ -26,3 +26,4 @@ export function perSecond(n: number) {
   return short(n) + '/dtk'
 }
 
+/** Seconds per order for slow lines, orders per second for fast ones. */
