@@ -10,3 +10,4 @@ dibayar di Kasir.
 2. **Rekrut agen** supaya lini berjalan sendiri, juga saat game ditutup (hasil offline dihitung sampai 8 jam).
 3. **Upgrade stasiun.** Lini berjalan secepat stasiun paling lambat (bottleneck), jadi naikkan stasiun
    yang ditandai Bottleneck dulu. Setiap stasiun dua kali lebih cepat di level 10, 25, 50, 100, dan seterusnya.
+4. **Tambah produk.** Setiap pabrik punya tiga produk. Setiap produk yang dibeli dibangun sebagai petak
