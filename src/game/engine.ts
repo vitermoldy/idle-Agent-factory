@@ -13,3 +13,4 @@ export const SAVE_VERSION = 3
 export const MILESTONES = [10, 25, 50, 100, 150, 200, 300, 400, 500, 750, 1000]
 export const MAX_LEVEL = 2000
 /** Orders a player can line up by hand on a line without an agent. */
+export const QUEUE_MAX = 10
