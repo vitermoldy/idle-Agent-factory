@@ -128,3 +128,4 @@ function StationRow({
   heldBack: string[]
   selected: boolean
 }) {
+  const cash = useGame((s) => s.game.cash)
