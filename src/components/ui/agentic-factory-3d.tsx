@@ -27,3 +27,5 @@ export type AgenticFactory3DProps = {
   children?: ReactNode
 }
 
+type Phase = 'loading' | 'ready' | 'error'
+
