@@ -31,3 +31,4 @@ while (t <= 4 * 3600) {
     if (next && s.cash >= next.unlockCost) {
       s = E.unlockFactory(s, next.id)
       marks.push(`${clock(t)}  open ${next.name}`)
+      continue
