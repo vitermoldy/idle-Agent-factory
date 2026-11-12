@@ -389,3 +389,4 @@ export function initMachineScene(
         for (let i = 0; i < 15; i++) {
           const a = Math.abs(Math.sin(t * 2.4 + i * 0.75)) * 0.75 + 0.25
           const bh = 22 + a * 92 * (1 - Math.abs(i - 7) / 9)
+          rounded(c, 105 + i * 12, 170 - bh / 2, 7, bh, 3.5, i % 4 === 0 ? '#f4f1ea' : ACC)
