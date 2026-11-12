@@ -723,3 +723,4 @@ export function initMachineScene(
       const product = factory.products[k]
       const holder = new THREE.Group()
       holder.visible = false
+      holder.scale.setScalar(0.001)
