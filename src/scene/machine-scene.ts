@@ -1228,3 +1228,4 @@ export function initMachineScene(
     const viewDirection = new THREE.Vector3(10.5, 10.8, 17).normalize()
     let baseDistance = 25,
       plateDistance = 25,
+      sized = false,
