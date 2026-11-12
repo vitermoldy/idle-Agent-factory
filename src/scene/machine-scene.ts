@@ -182,3 +182,4 @@ export function initMachineScene(
       const half = 10 + (SPACING * (count - 1)) / 2
       Object.assign(key.shadow.camera, { left: -half, right: half })
       key.shadow.camera.updateProjectionMatrix()
+    }
