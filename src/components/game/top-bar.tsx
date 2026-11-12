@@ -9,3 +9,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
   const series = useGame((s) => s.game.series)
   const stars = useGame((s) => s.game.stars)
   return (
+    <header className="sticky top-0 z-30 flex h-16 items-center gap-3 border-b border-line bg-ground px-4 lg:px-6">
