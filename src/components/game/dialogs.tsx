@@ -30,3 +30,4 @@ export function Dialog({
     <dialog
       ref={ref}
       aria-labelledby={id}
+      onClose={onClose}
