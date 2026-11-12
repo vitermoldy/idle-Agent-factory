@@ -177,3 +177,4 @@ export function affordableLevels(def: FactoryDef, index: number, level: number, 
 
 export type BuyMode = 1 | 10 | 'max'
 
+/** Levels a buy button would purchase: at least one, so a price is always shown. */
