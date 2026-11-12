@@ -112,3 +112,4 @@ export function lineRates(def: FactoryDef, fs: FactoryState, product = activePro
   return def.stations.map((_, i) => stationRate(def, i, fs.levels[i]) / product.work[i])
 }
 
+/** Orders per second: a line is exactly as fast as its slowest station. */
