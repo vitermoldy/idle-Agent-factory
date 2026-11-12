@@ -1300,3 +1300,4 @@ export function initMachineScene(
       options.onView?.(mode, cameraMode)
     }
     function setMode(next: MachineMode) {
+      mode = next
