@@ -501,3 +501,4 @@ export function initMachineScene(
       art(c, 0, 112, 384, 340, t)
       print(c, theme.screen.kicker, 28, 57, 24, '#242320', 650)
       fit(c, theme.screen.head, 24, 101, 40, 336, '#242320', 700, displayFamily)
+      rounded(c, 25, 465, 334, 123, 12, INK)
