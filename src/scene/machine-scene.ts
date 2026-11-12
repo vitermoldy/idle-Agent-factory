@@ -1387,3 +1387,4 @@ export function initMachineScene(
       return { slot: hits[0].object.userData.station as SlotId, plate: hits[0].object.userData.plate as number }
     }
     listen(renderer.domElement, 'pointermove', (e: PointerEvent) => {
+      const [x, y] = local(e)
