@@ -32,3 +32,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 id="stations-title" className="panel-title">
             Upgrade stasiun
+          </h2>
