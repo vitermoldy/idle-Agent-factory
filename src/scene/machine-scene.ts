@@ -585,3 +585,4 @@ export function initMachineScene(
         c.textAlign = 'center'
         print(c, n[0], 58, y + 47, 20, '#1b2828', 600)
         c.textAlign = 'left'
+        print(c, n, 93, y + 33, 23, '#e6e8dc', 550)
