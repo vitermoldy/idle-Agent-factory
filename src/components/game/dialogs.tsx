@@ -28,3 +28,4 @@ export function Dialog({
   }, [open])
   return (
     <dialog
+      ref={ref}
