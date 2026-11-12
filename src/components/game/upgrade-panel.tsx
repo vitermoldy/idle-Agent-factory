@@ -139,3 +139,4 @@ function StationRow({
   }, [selected])
   const st = def.stations[index]
   const level = fs.levels[index]
+  const n = E.levelsToBuy(def, index, level, cash, buyMode)
