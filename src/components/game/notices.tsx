@@ -28,3 +28,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
       <p className="min-w-0 flex-1 text-[13px] leading-snug text-ink">{notice.text}</p>
       {notice.factory && notice.action && (
         <button
+          type="button"
