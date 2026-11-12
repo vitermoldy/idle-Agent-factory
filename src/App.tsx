@@ -267,3 +267,4 @@ export default function App() {
         </main>
         <aside
           id="panel"
+          tabIndex={-1}
