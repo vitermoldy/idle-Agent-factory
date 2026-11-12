@@ -224,3 +224,4 @@ function StationRow({
 function LockedLine({ def }: { def: FactoryDef }) {
   return (
     <section aria-labelledby="locked-title" className="flex flex-col gap-4">
+      <div>
