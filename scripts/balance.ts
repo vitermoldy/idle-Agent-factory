@@ -41,3 +41,4 @@ while (t <= 4 * 3600) {
     }
     let best: Option | null = null
     const consider = (o: Option) => {
+      if (!best || o.payback < best.payback) best = o
