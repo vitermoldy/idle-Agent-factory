@@ -162,3 +162,4 @@ describe('saves', () => {
     g = E.buyProduct(g, 'video', 'ads')
     const back = E.parseSave(JSON.stringify(g))
     expect(back?.factories.video.agent).toBe(true)
+    expect(back?.factories.video.product).toBe('ads')
