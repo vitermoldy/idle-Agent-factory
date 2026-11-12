@@ -72,3 +72,4 @@ export function ViewBar({
             {c.label}
           </option>
         ))}
+      </select>
