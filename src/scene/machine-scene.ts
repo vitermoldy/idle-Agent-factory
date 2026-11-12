@@ -481,3 +481,4 @@ export function initMachineScene(
     const draftingGeo = new THREE.BufferGeometry().setFromPoints(draftingPoints)
 
     const plaques = Object.fromEntries(
+      GEO.map((id) => [
