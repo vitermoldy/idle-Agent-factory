@@ -96,3 +96,4 @@ function ProductRow({
               className="w-full"
               disabled={!can}
               onClick={() => {
+                buyProduct(product.id)
