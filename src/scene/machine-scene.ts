@@ -1048,3 +1048,4 @@ export function initMachineScene(
         c.strokeStyle = '#8a9189'
         c.setLineDash([5, 6])
         c.beginPath()
+        c.moveTo(22, 115)
