@@ -1038,3 +1038,4 @@ export function initMachineScene(
         c.fillStyle = '#12231e'
         c.fillRect(0, 0, 512, 176)
         fit(c, theme.cashTitle, 22, 44, 23, 470, '#9cae91', 500)
+        fit(c, '+ ' + value, 26, 131, 66, 470, '#ecedc7', 500)
