@@ -450,3 +450,4 @@ export function initMachineScene(
     floor.rotation.x = -Math.PI / 2
     floor.position.y = -0.43
     floor.receiveShadow = true
+    scene.add(floor)
