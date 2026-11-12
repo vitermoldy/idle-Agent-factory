@@ -1619,3 +1619,4 @@ export function initMachineScene(
           $('journey-detail').textContent = theme.journey[step][1]
           prevJourney = step
         }
+        $('journey-progress').style.width = packet.phase * 100 + '%'
