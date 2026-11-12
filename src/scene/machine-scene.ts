@@ -1485,3 +1485,4 @@ export function initMachineScene(
       const s = THREE.MathUtils.lerp(p.holder.scale.x, owned ? 1 : 0.001, grow)
       p.holder.scale.setScalar(s)
       p.holder.position.x = THREE.MathUtils.lerp(p.holder.position.x, targetX(p.k), grow)
+      p.holder.position.y = (1 - s) * -2.5
