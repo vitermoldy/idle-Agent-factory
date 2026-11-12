@@ -973,3 +973,4 @@ export function initMachineScene(
       const qs = screen(consoleTop, 1.53, 0.79, 0, 0.067, -0.17, queue)
       qs.rotation.x = -Math.PI / 2
       const toggles: THREE.Mesh[] = []
+      for (let i = 0; i < 4; i++) {
