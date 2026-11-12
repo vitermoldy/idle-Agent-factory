@@ -100,3 +100,4 @@ export function ConfirmDialog({
     <Dialog
       open={open}
       onClose={onClose}
+      title={title}
