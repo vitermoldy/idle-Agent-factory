@@ -61,3 +61,4 @@ export function AwayDialog() {
       footer={
         <button type="button" className="btn btn-primary" onClick={dismiss}>
           Ambil hasilnya
+        </button>
