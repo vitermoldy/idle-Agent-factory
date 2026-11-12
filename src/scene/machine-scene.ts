@@ -1498,3 +1498,4 @@ export function initMachineScene(
       p.stations.forEach((st, i) => {
         st.group.position.copy(st.base)
         st.group.position.x *= 1 + spread * 0.29
+        st.group.position.z *= 1 + spread * 0.37
