@@ -114,3 +114,4 @@ export function initMachineScene(
     const { factory, live } = options
     const theme = factory.theme
     const fontFamily = options.fonts.text
+    const displayFamily = options.fonts.display
