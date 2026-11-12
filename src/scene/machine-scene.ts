@@ -1188,3 +1188,4 @@ export function initMachineScene(
 
     // Station labels follow the plate in view.
     const labels = GEO.map((id) => {
+      const el = document.createElement('div')
