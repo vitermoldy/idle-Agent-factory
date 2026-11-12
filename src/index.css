@@ -197,3 +197,4 @@
   }
   .dialog {
     margin: auto;
+    width: min(460px, calc(100% - 32px));
