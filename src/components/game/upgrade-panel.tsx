@@ -91,3 +91,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
     <section aria-labelledby="agent-title" className="rounded-xl border border-line-strong bg-raised p-4">
       <h2 id="agent-title" className="panel-title">
         Rekrut agen untuk {def.name}
+      </h2>
