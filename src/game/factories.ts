@@ -134,3 +134,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       incoming: 'Order baru  +',
       cashTitle: 'PEMBAYARAN DITERIMA',
+      receipt: { shop: 'STUDIO VIDEO' },
