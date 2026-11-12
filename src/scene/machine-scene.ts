@@ -304,3 +304,4 @@ export function initMachineScene(
       x: number,
       y: number,
       size: number,
+      maxW: number,
