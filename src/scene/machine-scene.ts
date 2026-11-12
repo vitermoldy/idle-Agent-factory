@@ -1674,3 +1674,4 @@ export function initMachineScene(
       })
       renderer.render(scene, camera)
       if (!readySent && sized) {
+        readySent = true
