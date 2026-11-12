@@ -135,3 +135,5 @@ export function orderValue(def: FactoryDef, fs: FactoryState, stars: number, pro
 /** Income of one plate running nonstop on a product, whether or not an agent runs it yet. */
 export function productIncome(def: FactoryDef, fs: FactoryState, stars: number, product = activeProduct(def, fs)) {
   return throughput(def, fs, product) * orderValue(def, fs, stars, product)
+}
+
