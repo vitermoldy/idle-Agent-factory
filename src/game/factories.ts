@@ -20,3 +20,4 @@ export interface StationDef {
   cost: number
 }
 
+type Three = [string, string, string]
