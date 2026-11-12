@@ -205,3 +205,4 @@ function StationRow({
           ) : (
             'Belum menambah pendapatan'
           )}
+        </span>
