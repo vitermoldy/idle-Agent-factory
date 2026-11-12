@@ -100,3 +100,4 @@ export default function AgenticFactory3D({
         <strong />
         <p />
       </div>
+      <div data-el="journey" className="af3d-journey" aria-live="polite">
