@@ -4,3 +4,5 @@ import { incomePerSec } from '@/game/engine'
 import { FACTORIES, type FactoryId } from '@/game/factories'
 import { money } from '@/lib/format'
 import { cn } from '@/lib/utils'
+import { FactoryGlyph, Lock } from './icons'
+
