@@ -21,3 +21,4 @@ export function StagePlate({ className }: { className?: string }) {
         : 'Agen bekerja'
       : fs.queue > 0
         ? `${fs.queue} order dalam antrean`
+        : 'Menunggu order'
