@@ -1128,3 +1128,4 @@ export function initMachineScene(
           a.clone().lerp(b, 0.65).add(new THREE.Vector3(0, 0.1, -0.6)),
           b.clone().add(new THREE.Vector3(-0.4, 0.12, 0)),
         ])
+        pipes.add(new THREE.Mesh(new THREE.TubeGeometry(curve, 30, 0.054, 8, false), M.copper))
