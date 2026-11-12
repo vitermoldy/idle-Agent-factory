@@ -1059,3 +1059,4 @@ export function initMachineScene(
         for (let i = 0; i < 44; i++) {
           c.fillStyle = '#333d36'
           c.fillRect(25 + i * 5, 370, 1 + (i % 3), 83)
+        }
