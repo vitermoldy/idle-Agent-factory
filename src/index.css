@@ -230,3 +230,4 @@
     font-size: 15px;
     color: var(--color-ink);
     text-shadow: 0 1px 8px rgb(0 0 0 / 0.8);
+    white-space: nowrap;
