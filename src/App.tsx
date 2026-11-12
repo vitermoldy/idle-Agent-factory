@@ -137,3 +137,4 @@ export default function App() {
       clearInterval(tick)
       clearInterval(flush)
       clearInterval(save)
+      document.removeEventListener('visibilitychange', onHide)
