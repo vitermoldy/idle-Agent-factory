@@ -1295,3 +1295,4 @@ export function initMachineScene(
         else desiredPosition.copy(viewDirection).multiplyScalar(distance).add(desiredTarget)
       }
     }
+    const emitView = () => {
