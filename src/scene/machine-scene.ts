@@ -161,3 +161,4 @@ export function initMachineScene(
     controls.rotateSpeed = 0.48
     controls.zoomSpeed = 0.7
     const pmrem = new THREE.PMREMGenerator(renderer),
+      room = new RoomEnvironment()
