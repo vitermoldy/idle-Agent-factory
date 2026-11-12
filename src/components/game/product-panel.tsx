@@ -46,3 +46,4 @@ function ProductRow({
   onBought: () => void
 }) {
   const game = useGame((s) => s.game)
+  const buyProduct = useGame((s) => s.buyProduct)
