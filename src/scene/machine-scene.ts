@@ -353,3 +353,4 @@ export function initMachineScene(
     type Art = (c: CanvasRenderingContext2D, t: number) => void
     const ARTS: Record<FactoryId, Art> = {
       video: (c, t) => {
+        disc(c, 330, 95, 210, DEEP)
