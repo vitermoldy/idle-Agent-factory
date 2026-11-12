@@ -1560,3 +1560,4 @@ export function initMachineScene(
           packet.group.position.x *= 1 + spread * 0.12
           packet.group.position.z *= 1 + spread * 0.15
           packet.group.position.y += 0.43
+          packet.group.rotation.set(0, 0.18, 0)
