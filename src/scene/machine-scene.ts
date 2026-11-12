@@ -51,3 +51,4 @@ export interface SceneApi {
   setCamera: (camera: MachineCamera) => void
   focusStation: (slot: SlotId) => void
   /** Screen position of a station's top on the plate in view, relative to the scene box. */
+  project: (slot: SlotId) => { x: number; y: number } | null
