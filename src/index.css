@@ -111,3 +111,4 @@
   }
   .btn-primary:hover:not(:disabled) {
     background: color-mix(in srgb, var(--accent) 86%, white);
+  }
