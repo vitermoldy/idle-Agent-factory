@@ -36,3 +36,4 @@ function ProductRow({
   def,
   product,
   inView,
+  onShow,
