@@ -1690,3 +1690,4 @@ export function initMachineScene(
           measureTime = 0
         }
       }
+    }
