@@ -160,3 +160,4 @@ export function initMachineScene(
     controls.maxPolarAngle = Math.PI * 0.475
     controls.rotateSpeed = 0.48
     controls.zoomSpeed = 0.7
+    const pmrem = new THREE.PMREMGenerator(renderer),
