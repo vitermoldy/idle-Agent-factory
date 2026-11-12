@@ -608,3 +608,4 @@ export function initMachineScene(
     const scriptTex = canvasTexture(256, 352, (c, w, h) => {
       c.fillStyle = '#eeeae0'
       c.fillRect(0, 0, w, h)
+      fit(c, theme.wip.title, 24, 47, 22, 208, '#3b403a', 650)
