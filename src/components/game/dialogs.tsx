@@ -12,3 +12,4 @@ export function Dialog({
   children,
   footer,
 }: {
+  open: boolean
