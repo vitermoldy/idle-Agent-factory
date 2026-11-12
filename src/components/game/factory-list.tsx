@@ -61,3 +61,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                     affordable ? 'font-medium text-(--item)' : 'text-muted'
                   )}
                 >
+                  <span className="truncate">{status}</span>
