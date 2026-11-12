@@ -1584,3 +1584,4 @@ export function initMachineScene(
       if (playing) flightTime += dt
       const smooth = 1 - Math.exp(-dt * 5)
       renderer.toneMappingExposure = THREE.MathUtils.lerp(renderer.toneMappingExposure, locked ? 0.5 : 1.12, smooth)
+      spread = THREE.MathUtils.lerp(spread, mode === 'stations' ? 1 : 0, smooth)
