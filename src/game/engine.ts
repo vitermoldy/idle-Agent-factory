@@ -59,3 +59,4 @@ const freshFactory = (def: FactoryDef): FactoryState => {
   return {
     unlocked,
     agent: false,
+    levels: unlocked ? [1, 1, 1, 1, 1] : [0, 0, 0, 0, 0],
