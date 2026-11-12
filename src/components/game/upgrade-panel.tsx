@@ -116,3 +116,4 @@ function StationRow({
   rate,
   throughput,
   neck,
+  heldBack,
