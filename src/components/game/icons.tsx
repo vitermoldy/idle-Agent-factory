@@ -24,3 +24,4 @@ export const Mark = (p: P) => (
   </svg>
 )
 
+export const Gear = (p: P) => (
