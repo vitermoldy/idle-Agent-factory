@@ -162,3 +162,4 @@ export function SettingsDialog({
           Menghapus kas, lini, produk, dan bintang. Berbeda dengan series baru, bintang juga hilang.
         </p>
         <button type="button" className="btn btn-quiet mt-3" onClick={onReset}>
+          Hapus semua progres
