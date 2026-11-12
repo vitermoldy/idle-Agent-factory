@@ -322,3 +322,4 @@ export const FACTORIES: FactoryDef[] = [
       cashTitle: 'LISENSI DIBAYAR',
       receipt: { shop: 'PABRIK APLIKASI' },
       screen: { kicker: 'APLIKASI', head: 'SIAP PASANG.', lines: ['Dari daftar fitur', 'jadi aplikasi.', 'Agen menguji', 'setiap layar.'] },
+      journey: [
