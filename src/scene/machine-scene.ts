@@ -576,3 +576,4 @@ export function initMachineScene(
       const o = theme.orders
       c.fillStyle = '#172224'
       c.fillRect(0, 0, w, h)
+      fit(c, o.title, 30, 51, 27, 420, '#e8e8d8', 550)
