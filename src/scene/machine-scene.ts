@@ -23,3 +23,4 @@ export interface PlateLive {
   owned: boolean
   /** Place in the row, in purchase order. */
   slot: number
+  /** Animation speed of this plate; 0 when it has nothing to do. */
