@@ -954,3 +954,4 @@ export function initMachineScene(
       const outputVideo = new THREE.Group()
       outputVideo.userData.moving = true
       engine.add(outputVideo)
+      box(outputVideo, 0.62, 1.08, 0.055, 0, 1.36, 0.61, M.dark, 0.035)
