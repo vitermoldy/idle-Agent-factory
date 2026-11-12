@@ -1586,3 +1586,4 @@ export function initMachineScene(
       renderer.toneMappingExposure = THREE.MathUtils.lerp(renderer.toneMappingExposure, locked ? 0.5 : 1.12, smooth)
       spread = THREE.MathUtils.lerp(spread, mode === 'stations' ? 1 : 0, smooth)
       cutPlane.constant = THREE.MathUtils.lerp(cutPlane.constant, mode === 'cutaway' ? 0.99 : 10, smooth)
+      // A plate was bought: widen the row and the camera with it.
