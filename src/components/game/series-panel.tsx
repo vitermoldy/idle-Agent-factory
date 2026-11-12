@@ -63,3 +63,4 @@ function Stat({ label, value, note }: { label: string; value: string; note?: str
       {note && <dd className="text-[12px] text-muted">{note}</dd>}
     </div>
   )
+}
