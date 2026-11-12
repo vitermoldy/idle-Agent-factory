@@ -355,3 +355,4 @@ export function parseSave(raw: string | null): GameState | null {
     const rawProgress: unknown = f.progress
     const progress: Record<string, number> = {}
     if (typeof rawProgress === 'number') progress[product] = Math.min(0.999, num(rawProgress, 0))
+    else if (rawProgress && typeof rawProgress === 'object')
