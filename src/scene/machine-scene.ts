@@ -1367,3 +1367,4 @@ export function initMachineScene(
     })
     controls.addEventListener('end', () => {
       dragging = false
+      lastInteraction = performance.now()
