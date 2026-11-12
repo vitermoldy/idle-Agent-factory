@@ -1172,3 +1172,4 @@ export function initMachineScene(
         toggles,
         belt,
         pipes,
+        packets,
