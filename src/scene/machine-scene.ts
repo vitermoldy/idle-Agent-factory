@@ -1073,3 +1073,4 @@ export function initMachineScene(
       ;(rp.material as THREE.MeshBasicMaterial).side = THREE.DoubleSide
       receipt.rotation.x = -0.16
       const coin = new THREE.Group()
+      coin.userData.moving = true
