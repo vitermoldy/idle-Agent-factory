@@ -283,3 +283,4 @@ export default function App() {
                 id={`tab-${t}`}
                 type="button"
                 role="tab"
+                aria-selected={shownTab === t}
