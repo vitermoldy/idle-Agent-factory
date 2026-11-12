@@ -1069,3 +1069,4 @@ export function initMachineScene(
       receipt.position.set(0.59, 1.37, -0.1)
       receipt.userData.moving = true
       cashdesk.add(receipt)
+      const rp = screen(receipt, 0.41, 0.83, 0, 0.415, 0.01, receiptTex)
