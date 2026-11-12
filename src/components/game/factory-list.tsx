@@ -47,3 +47,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               </span>
               <span
                 className={cn(
+                  'grid size-8 shrink-0 place-items-center rounded-md border',
