@@ -161,3 +161,4 @@ export function totalIncome(state: GameState) {
 export function upgradeCost(def: FactoryDef, index: number, level: number, count = 1) {
   const g = def.growth
   const first = def.stations[index].cost * g ** (level - 1)
+  return (first * (g ** count - 1)) / (g - 1)
