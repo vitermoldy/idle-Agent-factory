@@ -80,3 +80,4 @@ export function StageAction() {
         </p>
       )}
       <button type="button" className="btn btn-primary btn-lg w-full" disabled={full} onClick={takeOrder}>
+        {full ? 'Antrean penuh' : 'Ambil order'}
