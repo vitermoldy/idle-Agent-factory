@@ -252,3 +252,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
   if (!(seconds > 0)) return { state, completed: {} }
   const completed: Completed = {}
   const factories = { ...state.factories }
+  let gained = 0
