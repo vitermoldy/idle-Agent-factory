@@ -205,3 +205,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Halaman tayang', 'Situs aktif di domain klien'],
         ['Invoice lunas', 'Invoice klien terbayar'],
       ],
+    },
