@@ -322,3 +322,4 @@ export function initMachineScene(
       ctx: CanvasRenderingContext2D,
       txt: string,
       x: number,
+      y: number,
