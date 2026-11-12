@@ -45,3 +45,4 @@
   height: 22px;
   width: 1px;
   margin-left: 10px;
+  background: linear-gradient(transparent, color-mix(in srgb, var(--accent) 60%, transparent));
