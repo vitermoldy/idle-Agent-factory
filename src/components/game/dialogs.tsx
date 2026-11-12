@@ -110,3 +110,4 @@ export function ConfirmDialog({
             type="button"
             className="btn btn-primary"
             onClick={() => {
+              onConfirm()
