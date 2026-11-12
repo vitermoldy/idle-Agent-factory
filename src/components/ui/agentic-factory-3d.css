@@ -187,3 +187,4 @@
   animation: af3d-spin 1s linear infinite;
 }
 @keyframes af3d-spin {
+  to {
