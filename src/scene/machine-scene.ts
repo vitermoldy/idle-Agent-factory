@@ -780,3 +780,4 @@ export function initMachineScene(
             b = box(g, r * 0.26, 0.085, r * 0.2, Math.cos(a) * r, 0, Math.sin(a) * r, M.copper, 0.008)
           b.rotation.y = -a
         }
+        g.userData.moving = true
