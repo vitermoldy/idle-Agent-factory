@@ -1107,3 +1107,4 @@ export function initMachineScene(
           dummy.rotation.set(0, -Math.atan2(tVec.z, tVec.x), 0)
           dummy.updateMatrix()
           beltSlats.setMatrixAt(i, dummy.matrix)
+        }
