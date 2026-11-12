@@ -11,3 +11,4 @@ export function PriceButton({
   return (
     <button
       type="button"
+      aria-label={`${label}, ${price}`}
