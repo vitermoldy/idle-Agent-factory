@@ -147,3 +147,4 @@ export function UnlockCard() {
             style={{ width: `${Math.min(100, (game.cash / def.unlockCost) * 100)}%` }}
           />
         </span>
+        <PriceButton
