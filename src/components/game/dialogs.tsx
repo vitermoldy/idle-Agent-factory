@@ -177,3 +177,4 @@ export function SettingsDialog({
             href="https://github.com/eugeneshilow/agentic-3d-templates"
             target="_blank"
             rel="noopener noreferrer"
+          >
