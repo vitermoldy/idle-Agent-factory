@@ -92,3 +92,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
       <h2 id="agent-title" className="panel-title">
         Rekrut agen untuk {def.name}
       </h2>
+      <p className="mt-1.5 text-[13px] leading-relaxed text-soft">
