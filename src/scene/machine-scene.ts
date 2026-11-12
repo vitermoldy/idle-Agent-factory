@@ -284,3 +284,4 @@ export function initMachineScene(
     function screw(parent: THREE.Object3D, x: number, y: number, z: number) {
       cyl(parent, 0.055, 0.026, x, y, z, M.chrome, undefined, 12)
       box(parent, 0.068, 0.005, 0.009, x, y + 0.014, z, M.dark, 0)
+    }
