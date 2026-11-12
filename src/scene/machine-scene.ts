@@ -1402,3 +1402,4 @@ export function initMachineScene(
         tooltip.style.left = Math.min(width - 255, Math.max(10, x + 16)) + 'px'
         tooltip.style.top = Math.max(10, Math.min(height - 95, y - 65)) + 'px'
       }
+    })
