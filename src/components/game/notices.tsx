@@ -35,3 +35,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
             dismiss(notice.id)
           }}
         >
+          {notice.action}
