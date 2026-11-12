@@ -112,3 +112,4 @@ export const useGame = create<Store>((set, get) => {
           id: ++noticeId,
           text: `Uangmu cukup untuk membuka ${def.name}.`,
           factory: def.id,
+          action: 'Lihat pabrik',
