@@ -127,3 +127,4 @@ function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: Produc
       </p>
       <span className="sr-only">Beban kerja per order: {summary}.</span>
     </div>
+  )
