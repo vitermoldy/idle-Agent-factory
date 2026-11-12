@@ -85,3 +85,4 @@ describe('buying', () => {
     expect(g.factories.web.unlocked).toBe(true)
     expect(g.factories.web.levels).toEqual([1, 1, 1, 1, 1])
     expect(g.cash).toBe(0)
+  })
