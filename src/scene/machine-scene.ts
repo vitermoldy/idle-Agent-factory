@@ -651,3 +651,4 @@ export function initMachineScene(
     const railGeos = [-1, 1].map((side) => {
       const pts: THREE.Vector3[] = []
       for (let i = 0; i <= 160; i++) {
+        path.getPointAt(i / 160, pVec)
