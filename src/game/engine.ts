@@ -267,3 +267,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
       let made = Math.floor(work)
       progress[p.id] = work - made
       if (!fs.agent) {
+        if (made >= queue) {
