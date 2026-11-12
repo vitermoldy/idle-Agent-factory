@@ -200,3 +200,5 @@ export function buyLevels(state: GameState, id: FactoryId, index: number, count:
   const levels = fs.levels.slice()
   levels[index] = level + count
   return { ...withFactory(state, id, { levels }), cash: state.cash - cost }
+}
+
