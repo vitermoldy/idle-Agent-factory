@@ -597,3 +597,4 @@ export function initMachineScene(
       c.textAlign = 'center'
       print(c, name[0], 58, 111, 34, ACC, 550)
       c.textAlign = 'left'
+      fit(c, name, 108, 91, 38, 300, '#222822', 600)
