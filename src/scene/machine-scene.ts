@@ -838,3 +838,4 @@ export function initMachineScene(
             d.rotation.x = Math.PI / 2
             for (let j = 0; j < 6; j++) {
               const a = (j / 6) * TAU
+              const hole = cyl(reel, 0.1, 0.006, Math.cos(a) * 0.29, Math.sin(a) * 0.29, z + (z > 0 ? 0.026 : -0.026), M.dark, undefined, 14)
