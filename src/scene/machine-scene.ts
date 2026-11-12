@@ -410,3 +410,4 @@ export function initMachineScene(
         }
         disc(c, 236, 292, 11, INK)
       },
+      ebook: (c, t) => {
