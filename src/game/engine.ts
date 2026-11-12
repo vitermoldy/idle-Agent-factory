@@ -31,3 +31,4 @@ export interface FactoryState {
   owned: string[]
   /** Orders waiting on a line without an agent. */
   queue: number
+  /** Fraction of the next order already done, per plate. */
