@@ -1184,3 +1184,5 @@ export function initMachineScene(
       }
     }
     const plates = factory.products.map((_, k) => buildPlate(k))
+    const pickables = plates.flatMap((p) => p.stations.map((s) => s.group))
+
