@@ -1415,3 +1415,4 @@ export function initMachineScene(
     listen(renderer.domElement, 'pointerup', (e: PointerEvent) => {
       if (wasDragged) return
       const [x, y] = local(e)
+      const hit = hitStation(x, y)
