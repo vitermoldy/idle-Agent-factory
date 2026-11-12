@@ -186,3 +186,4 @@ describe('saves', () => {
     const raw = JSON.parse(JSON.stringify(g))
     raw.factories.video.levels = [-4, 'x', 99999, 3, 3]
     raw.factories.video.product = 'nope'
+    raw.factories.web.agent = true
