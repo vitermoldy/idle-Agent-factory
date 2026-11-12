@@ -265,3 +265,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     for (const p of plates) {
       const work = (progress[p.id] ?? 0) + throughput(def, fs, p) * seconds
       let made = Math.floor(work)
+      progress[p.id] = work - made
