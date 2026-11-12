@@ -1097,3 +1097,4 @@ export function initMachineScene(
       beltSlats.receiveShadow = true
       beltSlats.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
       belt.add(beltSlats)
+      const dummy = new THREE.Object3D()
