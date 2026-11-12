@@ -155,3 +155,5 @@ export function incomePerSec(def: FactoryDef, fs: FactoryState, stars: number) {
 
 export function totalIncome(state: GameState) {
   return FACTORIES.reduce((sum, def) => sum + incomePerSec(def, state.factories[def.id], state.stars), 0)
+}
+
