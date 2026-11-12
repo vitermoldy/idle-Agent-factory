@@ -86,3 +86,4 @@ function ProductRow({
               <button type="button" className="btn btn-quiet" onClick={() => onShow(product.id)}>
                 Lihat petak ini
               </button>
+            )}
