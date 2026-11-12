@@ -1582,3 +1582,4 @@ export function initMachineScene(
       const playing = live.playing
       const locked = live.locked
       if (playing) flightTime += dt
+      const smooth = 1 - Math.exp(-dt * 5)
