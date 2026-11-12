@@ -164,3 +164,5 @@ describe('saves', () => {
     expect(back?.factories.video.agent).toBe(true)
     expect(back?.factories.video.product).toBe('ads')
     expect(back?.cash).toBe(g.cash)
+  })
+
