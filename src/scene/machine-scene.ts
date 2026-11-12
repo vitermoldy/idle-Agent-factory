@@ -172,3 +172,4 @@ export function initMachineScene(
     key.position.set(-4, 12, 7)
     key.castShadow = true
     key.shadow.mapSize.set(2048, 2048)
+    Object.assign(key.shadow.camera, { left: -10, right: 10, top: 9, bottom: -9, near: 0.5, far: 45 })
