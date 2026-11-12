@@ -135,3 +135,4 @@ export const useGame = create<Store>((set, get) => {
     takeOrder: () => update((g) => E.takeOrder(g, g.active)),
     buyStation: (index) =>
       update((g) => {
+        const def = FACTORY_BY_ID[g.active]
