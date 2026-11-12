@@ -130,3 +130,4 @@ export function UnlockCard() {
         <h3 id="unlock-title" className="mt-1.5 font-display text-[20px] font-semibold">
           Buka {def.name}
         </h3>
+        <p className="mt-2 text-[14px] leading-relaxed text-soft">{def.blurb}</p>
