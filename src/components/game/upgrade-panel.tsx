@@ -69,3 +69,4 @@ function BuyModeSwitch() {
         <button
           key={label}
           type="button"
+          aria-pressed={buyMode === mode}
