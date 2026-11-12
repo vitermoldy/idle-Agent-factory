@@ -121,3 +121,4 @@ function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: Produc
             style={{ height: `${Math.max(14, (w / MAX_WORK) * 100)}%` }}
           />
         ))}
+      </div>
