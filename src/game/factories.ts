@@ -30,3 +30,4 @@ export interface SceneTheme {
   prop: PropKind
   plate: { title: string; line: string }
   queue: { title: string; items: Three; active: string; waiting: string }
+  wip: { title: string; sub: string }
