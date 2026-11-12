@@ -228,3 +228,4 @@ export function initMachineScene(
       return geometries.get(k)!
     }
     function box(
+      parent: THREE.Object3D,
