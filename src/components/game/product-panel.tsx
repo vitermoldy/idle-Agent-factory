@@ -76,3 +76,4 @@ function ProductRow({
       </div>
       <div className="mt-3">
         {!fs.unlocked ? (
+          <p className="text-[12px] text-muted">Tersedia setelah lini dibuka.</p>
