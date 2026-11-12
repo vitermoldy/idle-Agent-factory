@@ -11,3 +11,4 @@ const base = {
   viewBox: '0 0 16 16',
   fill: 'none',
   stroke: 'currentColor',
+  strokeWidth: 1.4,
