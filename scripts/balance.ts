@@ -95,3 +95,4 @@ while (t <= 4 * 3600) {
       pick.apply()
       continue
     }
+    break
