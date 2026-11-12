@@ -228,3 +228,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
         <h2 id="locked-title" className="panel-title">
           Stasiun di {def.name}
         </h2>
+        <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
