@@ -135,3 +135,4 @@ export function initMachineScene(
         alpha: true,
         powerPreference: 'high-performance',
       })
+    } catch {
