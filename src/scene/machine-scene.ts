@@ -703,3 +703,4 @@ export function initMachineScene(
           const g = m.geometry.index ? m.geometry.toNonIndexed() : m.geometry.clone()
           return g.applyMatrix4(m.matrix)
         })
+        const merged = mergeGeometries(geos, false)
