@@ -118,3 +118,4 @@ export const FACTORIES: FactoryDef[] = [
       wip: { title: 'NASKAH', sub: '01 / Pembuka' },
       store: {
         brand: 'TOKO KAMU',
+        nav: 'Beranda    Katalog    Akun',
