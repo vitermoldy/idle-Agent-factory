@@ -78,3 +78,4 @@ while (t <= 4 * 3600) {
         // A new plate adds its own income on top of the others.
         const gain = E.productIncome(def, fs, s.stars, p)
         if (gain > 0)
+          consider({
