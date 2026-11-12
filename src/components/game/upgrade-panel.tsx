@@ -143,3 +143,4 @@ function StationRow({
   const cost = n > 0 ? E.upgradeCost(def, index, level, n) : Infinity
   const can = n > 0 && cost <= cash
   const levels = fs.levels.slice()
+  levels[index] = level + n
