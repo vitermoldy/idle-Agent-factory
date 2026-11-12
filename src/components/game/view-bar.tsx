@@ -36,3 +36,4 @@ export function ViewBar({
   onLabels: (v: boolean) => void
   onPlaying: (v: boolean) => void
 }) {
+  return (
