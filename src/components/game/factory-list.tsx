@@ -21,3 +21,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
             ? `${money(incomePerSec(def, fs, game.stars))}/dtk`
             : fs.queue > 0
               ? `${fs.queue} order antre`
+              : 'Tanpa agen'
