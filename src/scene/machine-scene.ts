@@ -1676,3 +1676,4 @@ export function initMachineScene(
       if (!readySent && sized) {
         readySent = true
         options.onReady?.()
+      }
