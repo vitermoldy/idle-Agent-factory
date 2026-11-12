@@ -29,3 +29,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         <Stat label="Total sepanjang masa" value={money(game.allTime)} />
       </dl>
       <div>
+        <div className="flex justify-between text-[12px] text-muted tabular-nums">
