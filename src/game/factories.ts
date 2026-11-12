@@ -125,3 +125,4 @@ export const FACTORIES: FactoryDef[] = [
         cta: 'Pesan video',
         foot: 'DIBUAT OLEH AGEN',
       },
+      post: 'KANAL',
