@@ -254,3 +254,4 @@ export default function App() {
           </div>
           <div className="flex justify-center border-b border-line px-3 py-3 lg:pointer-events-none lg:absolute lg:inset-x-0 lg:bottom-4 lg:border-0 lg:px-4 lg:py-0 lg:[&>*]:pointer-events-auto">
             <ViewBar
+              mode={mode}
