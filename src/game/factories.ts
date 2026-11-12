@@ -252,3 +252,4 @@ export const FACTORIES: FactoryDef[] = [
       post: 'EPISODE',
       orders: {
         title: 'TOPIK MASUK',
+        sub: '3 topik baru minggu ini',
