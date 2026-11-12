@@ -102,3 +102,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
         className="mt-3 w-full"
         disabled={!can}
         onClick={hireAgent}
+      />
