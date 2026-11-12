@@ -5,3 +5,4 @@ import {
   FACTORY_BY_ID,
   type FactoryDef,
   type FactoryId,
+  type ProductDef,
