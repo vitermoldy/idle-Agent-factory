@@ -102,3 +102,4 @@ export default function AgenticFactory3D({
       </div>
       <div data-el="journey" className="af3d-journey" aria-live="polite">
         <div>
+          <strong data-el="journey-title">{factory.theme.journey[0][0]}</strong>
