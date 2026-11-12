@@ -1154,3 +1154,4 @@ export function initMachineScene(
         packets.push({ group: g, faces, halo, stage: -1, phase: 0 })
       }
       ;[incoming, receipt, coin, outputVideo, flyPost, printhead].forEach((g) => (g.userData.moving = true))
+      compact(machine)
