@@ -31,3 +31,5 @@ export function pace(ordersPerSec: number) {
   if (ordersPerSec <= 0) return 'berhenti'
   if (ordersPerSec < 1) return `${trim((1 / ordersPerSec).toFixed(1))} dtk per order`
   return `${short(ordersPerSec)} order/dtk`
+}
+
