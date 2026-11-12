@@ -17,3 +17,4 @@ import type { MachineCamera, MachineMode, SceneApi, SceneLive } from '@/scene/ma
 import { money, series, short } from '@/lib/format'
 import { cn } from '@/lib/utils'
 
+type Tab = 'upgrade' | 'produk' | 'pabrik' | 'series'
