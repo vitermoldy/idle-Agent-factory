@@ -79,3 +79,4 @@ function BuyModeSwitch() {
           {label}
         </button>
       ))}
+    </div>
