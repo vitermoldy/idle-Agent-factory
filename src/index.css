@@ -139,3 +139,4 @@
       transform 0.12s;
   }
   .icon-btn:hover {
+    background: var(--color-raised);
