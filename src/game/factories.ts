@@ -172,3 +172,4 @@ export const FACTORIES: FactoryDef[] = [
       accentDeep: '#3a7fb0',
       shell: '#dde2e6',
       prop: 'rack',
+      plate: {
