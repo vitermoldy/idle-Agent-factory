@@ -27,3 +27,4 @@ export function Dialog({
     else if (!open && d.open) d.close()
   }, [open])
   return (
+    <dialog
