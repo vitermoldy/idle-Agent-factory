@@ -260,3 +260,4 @@
     transform: translate(-50%, -20px);
   }
   .btn:hover:not(:disabled),
+  .btn:active:not(:disabled) {
