@@ -1361,3 +1361,4 @@ export function initMachineScene(
     resizeObserver.observe(root)
     cleanups.push(() => resizeObserver.disconnect())
     controls.addEventListener('start', () => {
+      dragging = true
