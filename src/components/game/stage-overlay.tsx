@@ -96,3 +96,4 @@ export function StageAction() {
         </div>
         <Progress value={fs.queue > 0 ? progress : 0} />
       </div>
+    </div>
