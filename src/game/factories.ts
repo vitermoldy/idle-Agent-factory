@@ -236,3 +236,4 @@ export const FACTORIES: FactoryDef[] = [
       prop: 'mic',
       plate: {
         title: 'PABRIK PODCAST',
+        line: 'topik, rekam, mixing, lalu siaran',
