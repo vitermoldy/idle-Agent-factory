@@ -91,3 +91,5 @@ export function milestoneCount(level: number) {
   let n = 0
   for (const m of MILESTONES) if (level >= m) n++
   return n
+}
+
