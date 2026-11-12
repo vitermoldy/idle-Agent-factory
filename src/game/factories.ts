@@ -274,3 +274,4 @@ export const FACTORIES: FactoryDef[] = [
     no: '04',
     name: 'Pabrik Aplikasi',
     unit: 'aplikasi',
+    blurb: 'Spesifikasi jadi desain, desain jadi build, build lolos review dan masuk toko aplikasi.',
