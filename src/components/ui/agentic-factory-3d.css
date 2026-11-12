@@ -127,3 +127,4 @@
   left: 50%;
   top: 76px;
   width: min(420px, calc(100% - 32px));
+  transform: translate(-50%, -6px);
