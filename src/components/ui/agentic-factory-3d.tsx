@@ -54,3 +54,4 @@ export default function AgenticFactory3D({
     let cancelled = false
     let dispose: (() => void) | undefined
     setPhase('loading')
+    const style = getComputedStyle(root)
