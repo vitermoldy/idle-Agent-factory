@@ -890,3 +890,4 @@ export function initMachineScene(
         ball(head, 0.15, 0, 0.32, 0, M.chrome)
         const meter = new THREE.Group()
         meter.position.set(0.02, 0, 0.66)
+        mic.add(meter)
