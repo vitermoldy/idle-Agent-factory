@@ -1320,3 +1320,4 @@ export function initMachineScene(
       emitView()
     }
     function setCamera(next: MachineCamera) {
+      cameraMode = next
