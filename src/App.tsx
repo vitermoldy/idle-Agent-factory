@@ -42,3 +42,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
   live.focus = Math.max(0, def.products.findIndex((p) => p.id === fs.product))
   // One plate per product; with an agent every owned plate runs, by hand only the one in view.
   live.plates = def.products.map((p) => {
+    const slot = fs.owned.indexOf(p.id)
