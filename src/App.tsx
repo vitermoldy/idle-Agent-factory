@@ -163,3 +163,4 @@ export default function App() {
       setTab('upgrade')
       if (!wide) window.scrollTo({ top: 0, behavior: 'smooth' })
     },
+    [setActive, wide]
