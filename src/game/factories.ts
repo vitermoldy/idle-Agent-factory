@@ -128,3 +128,4 @@ export const FACTORIES: FactoryDef[] = [
       post: 'KANAL',
       orders: {
         title: 'ORDER MASUK',
+        sub: '3 order baru hari ini',
