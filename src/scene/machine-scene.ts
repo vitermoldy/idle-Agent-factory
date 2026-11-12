@@ -44,3 +44,5 @@ export interface SceneLive {
   meta: Record<SlotId, { level: string; rate: string }>
   /** One entry per product of the line, by product index. */
   plates: PlateLive[]
+}
+
