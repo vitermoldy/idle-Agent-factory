@@ -1041,3 +1041,4 @@ export function initMachineScene(
         fit(c, '+ ' + value, 26, 131, 66, 470, '#ecedc7', 500)
         cashTex.texture.needsUpdate = true
         c = receiptTex.ctx
+        c.fillStyle = '#f4f1ea'
