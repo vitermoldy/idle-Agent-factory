@@ -123,3 +123,4 @@ export const useGame = create<Store>((set, get) => {
       return result.completed
     },
     save: () => {
+      const game = { ...get().game, savedAt: Date.now() }
