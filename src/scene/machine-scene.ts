@@ -378,3 +378,4 @@ export function initMachineScene(
         const k = Math.floor(t * 0.9) % 3
         for (let i = 0; i < 3; i++) rounded(c, 54 + i * 100, 210, 88, 56, 6, i === k ? ACC : '#e1e2db')
       },
+      podcast: (c, t) => {
