@@ -4,3 +4,4 @@ import * as E from '@/game/engine'
 import { duration, money, short } from '@/lib/format'
 import { Close } from './icons'
 
+/** Native modal dialog: focus is trapped, Escape and the backdrop close it. */
