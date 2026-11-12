@@ -812,3 +812,4 @@ export function initMachineScene(
         cyl(engine, 0.065, 1.73, x, 1.35, -0.18, M.chrome)
         box(engine, 0.22, 1.8, 0.22, x, 1.37, -0.44, S.ivory, 0.035)
       }
+      box(engine, 1.82, 0.27, 0.4, 0, 2.28, -0.35, S.amber, 0.045)
