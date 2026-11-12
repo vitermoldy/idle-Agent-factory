@@ -16,3 +16,4 @@ export const MAX_LEVEL = 2000
 export const QUEUE_MAX = 10
 /** Offline earnings stop after this many seconds. */
 export const OFFLINE_CAP = 8 * 60 * 60
+/** Each star adds this much to every order's value. */
