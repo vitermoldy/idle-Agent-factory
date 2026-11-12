@@ -157,3 +157,4 @@ export function initMachineScene(
     controls.minDistance = 7
     controls.maxDistance = 90
     controls.minPolarAngle = 0.09
+    controls.maxPolarAngle = Math.PI * 0.475
