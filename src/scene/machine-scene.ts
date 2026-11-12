@@ -558,3 +558,4 @@ export function initMachineScene(
         c.fillRect(362, 363 + i * 16, 400 - i * 43, 5)
       }
       rounded(c, 359, 447, 279, 62, 7, '#232a2b')
+      fit(c, st.cta, 390, 486, 22, 230, '#f4f1ea', 500)
