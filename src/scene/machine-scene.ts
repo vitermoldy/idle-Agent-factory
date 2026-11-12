@@ -669,3 +669,4 @@ export function initMachineScene(
           best = i / 300
         }
       }
+      return best
