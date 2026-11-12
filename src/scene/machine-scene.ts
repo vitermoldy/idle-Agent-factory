@@ -763,3 +763,4 @@ export function initMachineScene(
       })
       const plaqueMesh = screen(machine, 7.35, 0.84, -0.4, 0.25, 3.51, engraving)
       plaqueMesh.rotation.x = -Math.PI / 2
+      for (let i = 0; i < 16; i++)
