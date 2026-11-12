@@ -750,3 +750,4 @@ export function initMachineScene(
         c.fillStyle = '#252b32'
         c.fillRect(0, 0, w, h)
         c.strokeStyle = '#4d545c'
+        c.lineWidth = 2
