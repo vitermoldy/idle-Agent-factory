@@ -35,3 +35,4 @@ export interface SceneTheme {
     brand: string
     nav: string
     tag: Two
+    head: Two
