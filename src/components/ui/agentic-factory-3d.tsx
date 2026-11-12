@@ -112,3 +112,4 @@ export default function AgenticFactory3D({
       {phase === 'loading' && (
         <div className="af3d-loading" role="status">
           <i aria-hidden="true" />
+          <span>Merakit lini {factory.name}</span>
