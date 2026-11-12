@@ -78,3 +78,4 @@ function ProductRow({
         {!fs.unlocked ? (
           <p className="text-[12px] text-muted">Tersedia setelah lini dibuka.</p>
         ) : owned ? (
+          <div className="flex items-center justify-between gap-3">
