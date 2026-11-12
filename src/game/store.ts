@@ -81,3 +81,4 @@ function initialState() {
   if (gone > AWAY_AFTER) {
     const { state, report } = catchUp(game, gone)
     return { game: state, away: report.cash > 0 ? report : null, notices, storageOk }
+  }
