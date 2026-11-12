@@ -320,3 +320,4 @@ export default function App() {
               />
             )}
             {shownTab === 'pabrik' && (
+              <section aria-labelledby="lines-title">
