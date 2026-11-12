@@ -519,3 +519,4 @@ export function initMachineScene(
       c.fillRect(0, 0, 640, 340)
       fit(c, q.title, 25, 45, 21, 440, '#acb9b8', 550)
       print(c, '03 / 08', 530, 45, 20, ACC, 500)
+      for (let i = 0; i < 3; i++) {
