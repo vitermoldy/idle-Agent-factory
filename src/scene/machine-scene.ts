@@ -1566,3 +1566,4 @@ export function initMachineScene(
         if (packet.stage !== stage) {
           packet.faces.forEach((f, j) => (f.visible = j === stage))
           packet.stage = stage
+        }
