@@ -79,3 +79,4 @@ export interface FactoryDef {
   unlockCost: number
   agentCost: number
   stations: StationDef[]
+  theme: SceneTheme
