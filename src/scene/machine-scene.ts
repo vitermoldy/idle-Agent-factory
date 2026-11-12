@@ -484,3 +484,4 @@ export function initMachineScene(
       GEO.map((id) => [
         id,
         canvasTexture(512, 116, (c) => {
+          c.fillStyle = '#151a20'
