@@ -133,3 +133,4 @@ export const FACTORIES: FactoryDef[] = [
         statuses: ['Order baru', 'Diproduksi', 'Video siap'],
       },
       incoming: 'Order baru  +',
+      cashTitle: 'PEMBAYARAN DITERIMA',
