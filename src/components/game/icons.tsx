@@ -40,3 +40,4 @@ export const Lock = (p: P) => (
 )
 
 export const Pause = (p: P) => (
+  <svg {...base} {...p} fill="currentColor" stroke="none">
