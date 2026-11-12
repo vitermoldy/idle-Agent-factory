@@ -696,3 +696,4 @@ export function initMachineScene(
         if (!buckets.has(key)) buckets.set(key, [])
         buckets.get(key)!.push(child)
       }
+      for (const list of buckets.values()) {
