@@ -111,3 +111,4 @@ describe('products', () => {
     expect(state.cash).toBeCloseTo(expected)
   })
 
+  it('makes hand-taken orders on the plate in view only', () => {
