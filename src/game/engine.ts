@@ -9,3 +9,4 @@ import {
 } from './factories.ts'
 
 export const SAVE_VERSION = 3
+/** A station doubles its speed when it reaches each of these levels. */
