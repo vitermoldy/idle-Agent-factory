@@ -36,3 +36,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
           <BuyModeSwitch />
         </div>
         <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
+          Setiap petak berjalan secepat stasiun paling lambatnya. Naikkan bottleneck dulu; stasiun lain baru
