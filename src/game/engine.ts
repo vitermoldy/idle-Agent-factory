@@ -328,3 +328,4 @@ export function parseSave(raw: string | null): GameState | null {
   try {
     data = JSON.parse(raw)
   } catch {
+    return null
