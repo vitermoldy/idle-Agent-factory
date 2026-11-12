@@ -42,3 +42,4 @@ export function duration(seconds: number) {
   return `${s} detik`
 }
 
+export const pad2 = (n: number) => String(n).padStart(2, '0')
