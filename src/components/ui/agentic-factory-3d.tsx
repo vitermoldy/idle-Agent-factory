@@ -106,3 +106,4 @@ export default function AgenticFactory3D({
           <small data-el="journey-detail">{factory.theme.journey[0][1]}</small>
         </div>
         <div className="af3d-track">
+          <i data-el="journey-progress" />
