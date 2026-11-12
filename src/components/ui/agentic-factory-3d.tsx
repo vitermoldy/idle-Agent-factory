@@ -65,3 +65,4 @@ export default function AgenticFactory3D({
         const scene = initMachineScene(root, {
           factory,
           live,
+          fonts: { text, display },
