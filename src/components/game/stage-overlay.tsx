@@ -90,3 +90,4 @@ export function StageAction() {
           <span>{pace(T)}</span>
         </div>
         <div className="mt-1.5 flex gap-1" aria-hidden="true">
+          {Array.from({ length: E.QUEUE_MAX }, (_, i) => (
