@@ -844,3 +844,4 @@ export function initMachineScene(
           }
           const axle = cyl(reel, 0.095, 0.37, 0, 0, 0, M.amber)
           axle.rotation.x = Math.PI / 2
+          reels.push(reel)
