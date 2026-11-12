@@ -43,3 +43,5 @@ Nama pelanggan di layar mesin (Sari, Rina, Tari, dan lainnya) adalah fiksi perma
 order masuk, bukan testimoni. Angka di dalam game (harga, kecepatan, pendapatan) adalah aturan
 permainan dan dihitung oleh `src/game/engine.ts`.
 
+## Aksesibilitas
+
