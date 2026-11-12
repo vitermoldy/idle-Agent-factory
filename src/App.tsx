@@ -111,3 +111,4 @@ export default function App() {
       const completed = store.tick(Date.now())
       const g = useGame.getState().game
       syncLive(live.current, g)
+      const done = completed[g.active]
