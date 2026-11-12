@@ -40,3 +40,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
           terasa setelah ia menyusul.
           {owned.length > 1 &&
             ` Level berlaku untuk ${owned.length} petak; kecepatan di bawah untuk petak ${E.activeProduct(def, fs).name.toLowerCase()}.`}
+        </p>
