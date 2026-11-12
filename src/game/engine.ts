@@ -38,3 +38,4 @@ export interface FactoryState {
 }
 
 export interface GameState {
+  v: number
