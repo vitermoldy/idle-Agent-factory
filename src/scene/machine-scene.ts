@@ -1334,3 +1334,4 @@ export function initMachineScene(
       setCamera,
       focusStation,
       project: (slot) => {
+        if (!sized) return null
