@@ -953,3 +953,4 @@ export function initMachineScene(
 
       const outputVideo = new THREE.Group()
       outputVideo.userData.moving = true
+      engine.add(outputVideo)
