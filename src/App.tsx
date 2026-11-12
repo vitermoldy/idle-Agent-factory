@@ -76,3 +76,4 @@ function makeLive(): SceneLive {
 let popupId = 0
 
 export default function App() {
+  const active = useGame((s) => s.game.active)
