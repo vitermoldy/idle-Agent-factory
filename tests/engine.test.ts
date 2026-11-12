@@ -97,3 +97,4 @@ describe('products', () => {
     expect(E.orderValue(video, g.factories.video, 0)).toBe(ads.price)
   })
 
+  it('runs every plate at once once an agent is hired', () => {
