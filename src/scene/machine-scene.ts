@@ -405,3 +405,4 @@ export function initMachineScene(
           const y = 108 + i * 44
           rounded(c, 138, y, 108, 34, 7, i === k ? ACC : '#e2e0d6')
           c.fillStyle = i === k ? INK : '#9a9d95'
+          c.fillRect(148, y + 10, 52, 6)
