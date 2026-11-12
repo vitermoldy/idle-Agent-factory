@@ -54,3 +54,4 @@ export interface GameState {
 
 export type Completed = Partial<Record<FactoryId, { orders: number; cash: number }>>
 
+const freshFactory = (def: FactoryDef): FactoryState => {
