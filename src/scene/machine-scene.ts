@@ -369,3 +369,4 @@ export function initMachineScene(
         for (let i = 0; i < 3; i++) disc(c, 54 + i * 16, 51, 4.5, '#adaeaa')
         rounded(c, 54, 86, 128, 104, 8, INK)
         disc(c, 118, 138, 30, ACC)
+        for (let i = 0; i < 4; i++) {
