@@ -323,3 +323,4 @@ export function startNewSeries(state: GameState, now = Date.now()): GameState {
 
 /** Reads a saved game; anything malformed returns null so the caller can start fresh. */
 export function parseSave(raw: string | null): GameState | null {
+  if (!raw) return null
