@@ -117,3 +117,4 @@ export function UnlockCard() {
   const unlockFactory = useGame((s) => s.unlockFactory)
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
+  if (fs.unlocked) return null
