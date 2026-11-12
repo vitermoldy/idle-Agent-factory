@@ -1668,3 +1668,4 @@ export function initMachineScene(
         label.el.classList.toggle('is-neck', plateLive(fp.k).neck.includes(label.id))
         world(fp, anchor.copy(fp.bySlot(label.id).group.position).add(new THREE.Vector3(0, 2.5, 0)), anchor).project(camera)
         const off = (mobile ? labelOffsetsMobile : labelOffsets)[i]
+        const x = THREE.MathUtils.clamp((anchor.x * 0.5 + 0.5) * width - 40 + off[0], 8, width - (mobile ? 118 : 160))
