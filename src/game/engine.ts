@@ -116,3 +116,5 @@ export function lineRates(def: FactoryDef, fs: FactoryState, product = activePro
 export function throughput(def: FactoryDef, fs: FactoryState, product = activeProduct(def, fs)) {
   if (!fs.unlocked) return 0
   return Math.min(...lineRates(def, fs, product))
+}
+
