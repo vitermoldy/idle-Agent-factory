@@ -1354,3 +1354,4 @@ export function initMachineScene(
       p.holder.visible = true
       p.holder.scale.setScalar(1)
       p.holder.position.x = targetX(p.k)
+      p.speed = live.locked ? 0 : plateLive(p.k).speed
