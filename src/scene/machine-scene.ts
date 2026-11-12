@@ -1182,3 +1182,4 @@ export function initMachineScene(
         lastBelt: -1,
         shown: false,
       }
+    }
