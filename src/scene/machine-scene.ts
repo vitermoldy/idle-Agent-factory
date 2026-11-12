@@ -1521,3 +1521,4 @@ export function initMachineScene(
       p.printhead.position.x = Math.sin(tact) * 0.42
       p.printhead.position.y = 1.91 + Math.sin(tact * 2) * 0.055
       p.outputVideo.position.y = beat * 0.25
+      p.flyPost.position.y = Math.sin(tact) * 0.04
