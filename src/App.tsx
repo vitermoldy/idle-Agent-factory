@@ -97,3 +97,4 @@ export default function App() {
   const [selected, setSelected] = useState<SlotId | null>(null)
   const [settings, setSettings] = useState(false)
   const [confirm, setConfirm] = useState<'series' | 'reset' | null>(null)
+  const [popups, setPopups] = useState<Popup[]>([])
