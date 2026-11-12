@@ -112,3 +112,4 @@ export function initMachineScene(
   let api: SceneApi | null = null
   try {
     const { factory, live } = options
+    const theme = factory.theme
