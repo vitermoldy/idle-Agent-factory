@@ -1739,3 +1739,4 @@ export function initMachineScene(
         },
       },
       configurable: true,
+    })
