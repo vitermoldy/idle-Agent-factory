@@ -144,3 +144,4 @@ export const useGame = create<Store>((set, get) => {
     unlockFactory: (id) => {
       update((g) => {
         const next = E.unlockFactory(g, id)
+        return next === g ? g : { ...next, active: id }
