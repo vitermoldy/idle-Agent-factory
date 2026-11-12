@@ -150,3 +150,4 @@ function StationRow({
   const gain = before > 0 ? after / before - 1 : 0
   const holds = neck || heldBack.length > 0
   const next = E.nextMilestone(level)
+  const prev = [...E.MILESTONES].reverse().find((m) => m <= level) ?? 0
