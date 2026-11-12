@@ -246,3 +246,4 @@ export function takeOrder(state: GameState, id: FactoryId) {
 
 /**
  * Runs every line for `seconds`. With an agent every plate runs nonstop; without one only the
+ * plate in view works, and only on the orders taken by hand.
