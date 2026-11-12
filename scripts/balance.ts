@@ -43,3 +43,4 @@ while (t <= 4 * 3600) {
     const consider = (o: Option) => {
       if (!best || o.payback < best.payback) best = o
     }
+    for (const def of FACTORIES) {
