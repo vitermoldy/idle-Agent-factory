@@ -668,3 +668,4 @@ export function initMachineScene(
           dist = d
           best = i / 300
         }
+      }
