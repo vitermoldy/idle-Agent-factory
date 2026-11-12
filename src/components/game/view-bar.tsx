@@ -61,3 +61,4 @@ export function ViewBar({
       <label className="sr-only" htmlFor="camera-select">
         Kamera
       </label>
+      <select
