@@ -690,3 +690,4 @@ export function initMachineScene(
       for (const child of [...group.children]) if ((child as THREE.Group).isGroup) compact(child)
       const buckets = new Map<string, THREE.Mesh<THREE.BufferGeometry, THREE.Material>[]>()
       for (const object of group.children) {
+        const child = object as THREE.Mesh<THREE.BufferGeometry, THREE.Material> & { isInstancedMesh?: boolean }
