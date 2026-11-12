@@ -163,3 +163,4 @@
   }
   .view-btn:hover {
     color: var(--color-ink);
+    background: rgb(244 241 234 / 0.05);
