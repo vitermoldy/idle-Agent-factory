@@ -70,3 +70,4 @@ function catchUp(game: E.GameState, seconds: number) {
 }
 
 function initialState() {
+  const { game, corrupt, storageOk } = readSave()
