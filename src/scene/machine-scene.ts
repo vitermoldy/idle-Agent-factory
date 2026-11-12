@@ -92,3 +92,4 @@ export function initMachineScene(
   options: SceneOptions
 ): { api: SceneApi | null; dispose: () => void } {
   const cleanups: Array<() => void> = []
+  const frameWidth = () => root.clientWidth
