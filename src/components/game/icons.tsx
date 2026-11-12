@@ -32,3 +32,4 @@ export const Gear = (p: P) => (
   </svg>
 )
 
+export const Lock = (p: P) => (
