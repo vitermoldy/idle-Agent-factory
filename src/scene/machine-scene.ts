@@ -1598,3 +1598,4 @@ export function initMachineScene(
       }
       if (live.focus !== lastFocus) {
         lastFocus = live.focus
+        if (cameraMode === 'plate' || cameraMode === 'station') {
