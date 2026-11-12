@@ -325,3 +325,4 @@ export const FACTORIES: FactoryDef[] = [
       journey: [
         ['Proyek masuk', 'Permintaan Putri ditulis jadi spesifikasi'],
         ['Mendesain layar', 'Alur dan tampilan digambar'],
+        ['Kompilasi', 'Kode dikompilasi untuk Android dan iOS'],
