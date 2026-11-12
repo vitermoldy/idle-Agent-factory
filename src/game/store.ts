@@ -106,3 +106,4 @@ export const useGame = create<Store>((set, get) => {
       const fresh: Notice[] = []
       for (const def of FACTORIES) {
         const fs = result.state.factories[def.id]
+        if (fs.unlocked || announced.has(def.id) || result.state.cash < def.unlockCost) continue
