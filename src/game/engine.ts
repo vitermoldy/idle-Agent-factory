@@ -61,3 +61,4 @@ const freshFactory = (def: FactoryDef): FactoryState => {
     agent: false,
     levels: unlocked ? [1, 1, 1, 1, 1] : [0, 0, 0, 0, 0],
     product: def.products[0].id,
+    owned: [def.products[0].id],
