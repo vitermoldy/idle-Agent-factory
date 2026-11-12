@@ -24,3 +24,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
     return () => clearTimeout(t)
   }, [notice.id, dismiss])
   return (
+    <div className="pointer-events-auto flex items-center gap-3 rounded-xl border border-line-strong bg-raised py-2 pr-2 pl-4">
