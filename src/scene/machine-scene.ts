@@ -1611,3 +1611,4 @@ export function initMachineScene(
         drawQueue(fp.t)
         lastDraw = fp.t
       }
+      if (mode === 'order') {
