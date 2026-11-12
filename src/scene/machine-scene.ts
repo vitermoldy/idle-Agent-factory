@@ -76,3 +76,4 @@ declare global {
 const GEO: SlotId[] = ['engine', 'admin', 'storefront', 'cabinet', 'cashdesk']
 const POS: Record<SlotId, [number, number, number]> = {
   engine: [-4.15, 0.29, -0.65],
+  admin: [-1.65, 0.29, -2.03],
