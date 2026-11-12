@@ -9,3 +9,4 @@ if (starsArg > 0) s = { ...s, stars: Number(process.argv[starsArg + 1]) }
 
 const fmt = (n: number) => {
   if (n < 1e3) return n.toFixed(1)
+  const u = ['K', 'M', 'B', 'T', 'Qa', 'Qi', 'Sx']
