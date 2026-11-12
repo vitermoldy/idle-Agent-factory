@@ -95,3 +95,4 @@
       border-color 0.15s,
       color 0.15s;
   }
+  .btn:hover:not(:disabled) {
