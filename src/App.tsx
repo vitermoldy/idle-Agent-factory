@@ -135,3 +135,4 @@ export default function App() {
     window.addEventListener('pagehide', onLeave)
     return () => {
       clearInterval(tick)
+      clearInterval(flush)
