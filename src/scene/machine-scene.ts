@@ -8,3 +8,4 @@
 // bottleneck stations pulse, and a locked line sits dark. All geometry and textures are
 // procedural: no models, no images.
 // ---------------------------------------------------------------------------
+import * as THREE from 'three'
