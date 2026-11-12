@@ -112,3 +112,4 @@ export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
         <svg {...base} {...p}>
           <path d="M2.5 3.2h4a1.5 1.5 0 0 1 1.5 1.5v8.6a1.2 1.2 0 0 0-1.2-1.2H2.5zM13.5 3.2h-4A1.5 1.5 0 0 0 8 4.7v8.6a1.2 1.2 0 0 1 1.2-1.2h4.3z" />
         </svg>
+      )
