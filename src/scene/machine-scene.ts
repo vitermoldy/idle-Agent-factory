@@ -140,3 +140,4 @@ export function initMachineScene(
         'WebGL tidak tersedia. Nyalakan akselerasi perangkat keras di pengaturan browser, lalu muat ulang halaman.'
       )
     }
+    renderer.setClearColor(0x000000, 0)
