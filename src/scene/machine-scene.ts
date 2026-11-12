@@ -145,3 +145,4 @@ export function initMachineScene(
     renderer.setSize(Math.max(1, frameWidth()), Math.max(1, frameHeight()))
     renderer.outputColorSpace = THREE.SRGBColorSpace
     renderer.toneMapping = THREE.ACESFilmicToneMapping
+    renderer.toneMappingExposure = live.locked ? 0.5 : 1.12
