@@ -304,3 +304,4 @@ export const FACTORIES: FactoryDef[] = [
       wip: { title: 'SPESIFIKASI', sub: '04 / Layar masuk' },
       store: {
         brand: 'TOKO APLIKASI',
+        nav: 'Teratas    Baru    Kategori',
