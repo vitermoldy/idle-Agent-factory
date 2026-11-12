@@ -1263,3 +1263,4 @@ export function initMachineScene(
       mobile = width <= 640
       renderer.setSize(width, height)
       camera.aspect = width / height
+      // The overlays sit on the bottom of the box, so the machine is lifted a little.
