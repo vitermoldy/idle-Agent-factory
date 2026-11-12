@@ -892,3 +892,4 @@ export function initMachineScene(
         meter.position.set(0.02, 0, 0.66)
         mic.add(meter)
         box(meter, 0.46, 0.16, 0.36, 0, 0.03, 0, M.dark, 0.03)
+        const bars: THREE.Mesh[] = []
