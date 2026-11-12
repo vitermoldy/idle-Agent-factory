@@ -26,3 +26,4 @@ export function ViewBar({
   onCamera,
   onLabels,
   onPlaying,
+}: {
