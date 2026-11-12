@@ -146,3 +146,4 @@ export function SettingsDialog({
           Simpanan
         </h3>
         <p className="mt-1 text-[13px] text-muted">
+          {storageOk
