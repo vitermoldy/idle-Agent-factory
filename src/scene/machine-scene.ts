@@ -1058,3 +1058,4 @@ export function initMachineScene(
         print(c, 'Terima kasih!', 25, 317, 24, '#687067')
         for (let i = 0; i < 44; i++) {
           c.fillStyle = '#333d36'
+          c.fillRect(25 + i * 5, 370, 1 + (i % 3), 83)
