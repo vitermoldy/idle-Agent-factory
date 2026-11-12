@@ -48,3 +48,4 @@ export interface SceneLive {
 
 export interface SceneApi {
   setMode: (mode: MachineMode) => void
+  setCamera: (camera: MachineCamera) => void
