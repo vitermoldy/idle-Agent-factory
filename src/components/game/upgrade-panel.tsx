@@ -124,3 +124,4 @@ function StationRow({
   rate: number
   throughput: number
   neck: boolean
+  /** Plates this station holds back, listed only when the line has more than one. */
