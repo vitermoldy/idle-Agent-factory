@@ -160,3 +160,4 @@ export function SettingsDialog({
         </h3>
         <p className="mt-1 text-[13px] text-muted">
           Menghapus kas, lini, produk, dan bintang. Berbeda dengan series baru, bintang juga hilang.
+        </p>
