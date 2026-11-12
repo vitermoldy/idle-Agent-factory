@@ -121,3 +121,4 @@ export default function App() {
     const flush = setInterval(() => {
       if (pending.current <= 0) return
       const p = apiRef.current?.project('cashdesk')
+      const cash = pending.current
