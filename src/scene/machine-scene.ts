@@ -1673,3 +1673,4 @@ export function initMachineScene(
         label.el.style.transform = `translate(${x}px,${y}px)`
       })
       renderer.render(scene, camera)
+      if (!readySent && sized) {
