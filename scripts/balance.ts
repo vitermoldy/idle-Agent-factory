@@ -69,3 +69,4 @@ while (t <= 4 * 3600) {
         if (gain > 0)
           consider({
             payback: total / gain,
+            cost: E.upgradeCost(def, cheapest, fs.levels[cheapest]),
