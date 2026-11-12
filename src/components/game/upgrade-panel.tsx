@@ -235,3 +235,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
       <ol className="flex flex-col gap-2">
         {def.stations.map((st, i) => (
           <li key={st.slot} className="flex gap-3 rounded-xl border border-line bg-panel p-3.5">
+            <span className="mt-0.5 font-mono text-[10px] text-muted">{pad2(i + 1)}</span>
