@@ -263,3 +263,5 @@
   .btn:active:not(:disabled) {
     transform: none;
   }
+}
+
