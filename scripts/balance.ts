@@ -102,3 +102,4 @@ while (t <= 4 * 3600) {
   if (report.has(t)) {
     const lv = FACTORIES.filter((f) => s.factories[f.id].unlocked)
       .map((f) => `${f.id}[${s.factories[f.id].owned.length}]:${s.factories[f.id].levels.join("/")}`)
+      .join('  ')
