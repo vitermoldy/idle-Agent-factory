@@ -1558,3 +1558,4 @@ export function initMachineScene(
           const u = ((phase - 0.15) / 0.85) * cashU
           path.getPointAt(u, packet.group.position)
           packet.group.position.x *= 1 + spread * 0.12
+          packet.group.position.z *= 1 + spread * 0.15
