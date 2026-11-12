@@ -808,3 +808,4 @@ export function initMachineScene(
       const engine = bySlot('engine').group
       box(engine, 1.74, 0.62, 1.33, 0, 0.65, -0.05, S.ivory, 0.13)
       box(engine, 1.5, 0.1, 1.16, 0, 0.99, -0.04, S.body, 0.025)
+      for (const x of [-0.68, 0.68]) {
