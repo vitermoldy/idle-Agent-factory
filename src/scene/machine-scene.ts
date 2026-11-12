@@ -931,3 +931,4 @@ export function initMachineScene(
         engine.add(shelf)
         const covers = [M.amber, S.ivory, M.dark, M.copper]
         covers.forEach((m, i) => {
+          const b = box(shelf, 0.54 - i * 0.03, 0.12, 0.72 - i * 0.04, 0, 0.02 + i * 0.125, 0, m, 0.02)
