@@ -244,3 +244,4 @@ export function takeOrder(state: GameState, id: FactoryId) {
   return withFactory(state, id, { queue: fs.queue + 1 })
 }
 
+/**
