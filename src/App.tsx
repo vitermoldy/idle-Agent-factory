@@ -47,3 +47,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
     return {
       owned: slot >= 0,
       slot: Math.max(0, slot),
+      speed: lineSpeed(E.throughput(def, fs, p), running),
