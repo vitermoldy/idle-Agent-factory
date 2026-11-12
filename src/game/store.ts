@@ -109,3 +109,4 @@ export const useGame = create<Store>((set, get) => {
         if (fs.unlocked || announced.has(def.id) || result.state.cash < def.unlockCost) continue
         announced.add(def.id)
         fresh.push({
+          id: ++noticeId,
