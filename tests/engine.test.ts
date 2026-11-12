@@ -112,3 +112,4 @@ describe('products', () => {
   })
 
   it('makes hand-taken orders on the plate in view only', () => {
+    let g = E.buyProduct(rich(video.products[1].unlockCost), 'video', 'ads')
