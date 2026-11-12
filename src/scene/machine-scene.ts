@@ -1104,3 +1104,4 @@ export function initMachineScene(
           path.getPointAt(u, pVec)
           path.getTangentAt(u, tVec)
           dummy.position.copy(pVec)
+          dummy.rotation.set(0, -Math.atan2(tVec.z, tVec.x), 0)
