@@ -113,3 +113,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
 function StationRow({
   def,
   index,
+  rate,
