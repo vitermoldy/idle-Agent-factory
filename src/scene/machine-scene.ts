@@ -1399,3 +1399,4 @@ export function initMachineScene(
         tooltip.querySelector('strong')!.innerHTML = `<span>${pad(stepOf(hit.slot))}</span>`
         tooltip.querySelector('strong')!.append(info.title)
         tooltip.querySelector('p')!.textContent = info.body
+        tooltip.style.left = Math.min(width - 255, Math.max(10, x + 16)) + 'px'
