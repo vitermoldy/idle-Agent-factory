@@ -25,3 +25,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
           : affordable
             ? 'Bisa dibuka'
             : 'Terkunci'
+        return (
