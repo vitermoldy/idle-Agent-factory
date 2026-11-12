@@ -152,3 +152,4 @@ function StationRow({
   const next = E.nextMilestone(level)
   const prev = [...E.MILESTONES].reverse().find((m) => m <= level) ?? 0
   const progress = next ? (level - prev) / (next - prev) : 1
+  return (
