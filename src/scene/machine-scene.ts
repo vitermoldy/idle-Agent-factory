@@ -982,3 +982,4 @@ export function initMachineScene(
         toggles.push(t)
         ball(consoleTop, 0.04, x, 0.275, 0.421, M.ivory)
       }
+      cyl(admin, 0.075, 0.06, 0.77, 1.05, -0.62, M.green)
