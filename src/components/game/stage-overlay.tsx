@@ -124,3 +124,4 @@ export function UnlockCard() {
     <div className="pointer-events-none absolute inset-0 grid place-items-center p-4 lg:pt-24">
       <section
         aria-labelledby="unlock-title"
+        className="pointer-events-auto w-[min(420px,100%)] rounded-2xl border border-line-strong bg-panel/95 p-5"
