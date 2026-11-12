@@ -36,3 +36,4 @@ export interface SceneTheme {
     nav: string
     tag: Two
     head: Two
+    sub: Two
