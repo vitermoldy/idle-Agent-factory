@@ -21,3 +21,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   const T = Math.min(...rates)
   const necks = E.bottlenecks(def, fs)
   const owned = E.ownedProducts(def, fs)
+  // Which plates each station holds back; with several products the answer differs per plate.
