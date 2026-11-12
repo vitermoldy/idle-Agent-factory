@@ -48,3 +48,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               <span
                 className={cn(
                   'grid size-8 shrink-0 place-items-center rounded-md border',
+                  fs.unlocked ? 'border-line-strong text-(--item)' : 'border-line text-muted'
