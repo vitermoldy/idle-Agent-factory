@@ -467,3 +467,4 @@ export function initMachineScene(
       for (let i = 0; i < 120; i++)
         for (const j of [i, i + 1]) {
           const a = (j / 120) * TAU
+          draftingPoints.push(new THREE.Vector3(Math.cos(a) * r, -0.4, Math.sin(a) * r * 0.72))
