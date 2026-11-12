@@ -72,3 +72,4 @@ function BuyModeSwitch() {
           aria-pressed={buyMode === mode}
           onClick={() => setBuyMode(mode)}
           className={cn(
+            'min-h-11 min-w-11 rounded-md px-2.5 text-[13px] font-medium transition-colors',
