@@ -102,3 +102,4 @@ export function ConfirmDialog({
       onClose={onClose}
       title={title}
       footer={
+        <>
