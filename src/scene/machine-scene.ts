@@ -1743,3 +1743,4 @@ export function initMachineScene(
     cleanups.push(() => {
       delete window.__machineDebug
     })
+  } catch (error) {
