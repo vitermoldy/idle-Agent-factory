@@ -157,3 +157,4 @@ function StationRow({
       ref={ref}
       className={cn(
         'rounded-xl border bg-panel p-3.5 transition-colors',
+        selected ? 'border-accent' : holds ? 'border-line-strong' : 'border-line'
