@@ -1022,3 +1022,4 @@ export function initMachineScene(
       box(cashdesk, 0.37, 0.042, 0.03, 0, 0.45, 0.687, M.chrome, 0.009)
       box(cashdesk, 1.02, 0.25, 0.91, -0.33, 1.04, -0.03, S.body, 0.045)
       for (let row = 0; row < 3; row++)
+        for (let col = 0; col < 3; col++)
