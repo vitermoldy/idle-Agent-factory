@@ -392,3 +392,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Royalti masuk', 'Royalti masuk dari setiap buku terjual'],
       ],
     },
+  },
