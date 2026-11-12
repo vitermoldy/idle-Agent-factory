@@ -163,3 +163,4 @@ export const FACTORIES: FactoryDef[] = [
     stations: [
       { slot: 'cabinet', name: 'Brief', desc: 'Brief klien masuk dan dirangkum.', output: 'brief', speed: 1.25, cost: 450 },
       { slot: 'engine', name: 'Perancang', desc: 'Wireframe dan susunan halaman.', output: 'wireframe', speed: 1.1, cost: 800 },
+      { slot: 'admin', name: 'Kode', desc: 'Agen menulis kode dan menjalankan tes.', output: 'build', speed: 1, cost: 600 },
