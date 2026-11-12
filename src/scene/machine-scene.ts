@@ -1181,3 +1181,4 @@ export function initMachineScene(
         speed: 0,
         lastBelt: -1,
         shown: false,
+      }
