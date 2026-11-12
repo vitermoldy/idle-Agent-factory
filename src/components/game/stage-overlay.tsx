@@ -9,3 +9,4 @@ import { PriceButton } from './price-button'
 export function StagePlate({ className }: { className?: string }) {
   const game = useGame((s) => s.game)
   const def = FACTORY_BY_ID[game.active]
+  const fs = game.factories[game.active]
