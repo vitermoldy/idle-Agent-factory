@@ -232,3 +232,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
           Buka lini ini dulu. Semua stasiun mulai dari level 1.
         </p>
       </div>
+      <ol className="flex flex-col gap-2">
