@@ -148,3 +148,4 @@ export default function App() {
   }, [labels, playing])
 
   // A new line is a new machine: views start over.
+  useEffect(() => {
