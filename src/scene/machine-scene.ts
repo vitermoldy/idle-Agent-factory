@@ -806,3 +806,4 @@ export function initMachineScene(
 
       const propUpdates: Array<(t: number) => void> = []
       const engine = bySlot('engine').group
+      box(engine, 1.74, 0.62, 1.33, 0, 0.65, -0.05, S.ivory, 0.13)
