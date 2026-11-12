@@ -274,3 +274,4 @@ export function initMachineScene(
       parent.add(o)
       return o
     }
+    function tube(parent: THREE.Object3D, pts: Vec3[], r: number, m: Material = M.chrome) {
