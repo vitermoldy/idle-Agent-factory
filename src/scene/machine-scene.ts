@@ -39,3 +39,4 @@ export interface SceneLive {
   playing: boolean
   labels: boolean
   /** Product index of the plate in view. */
+  focus: number
