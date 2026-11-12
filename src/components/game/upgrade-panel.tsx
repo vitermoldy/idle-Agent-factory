@@ -191,3 +191,4 @@ function StationRow({
             <span className="text-[11px] whitespace-nowrap text-muted tabular-nums">
               {next ? `Lv ${next}: ×2 cepat` : 'Bonus level penuh'}
             </span>
+          </div>
