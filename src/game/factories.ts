@@ -242,3 +242,4 @@ export const FACTORIES: FactoryDef[] = [
       wip: { title: 'RUNDOWN', sub: '03 / Segmen tamu' },
       store: {
         brand: 'SUARA SORE',
+        nav: 'Episode    Tamu    Ikuti',
