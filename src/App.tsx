@@ -206,3 +206,4 @@ export default function App() {
   }
 
   const accent = {
+    '--accent': def.theme.accent,
