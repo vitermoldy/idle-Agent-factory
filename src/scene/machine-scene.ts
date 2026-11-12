@@ -762,3 +762,4 @@ export function initMachineScene(
         c.textAlign = 'left'
       })
       const plaqueMesh = screen(machine, 7.35, 0.84, -0.4, 0.25, 3.51, engraving)
+      plaqueMesh.rotation.x = -Math.PI / 2
