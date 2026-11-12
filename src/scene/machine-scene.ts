@@ -902,3 +902,4 @@ export function initMachineScene(
           head.rotation.z = -0.22 + Math.sin(t * 0.8) * 0.05
           bars.forEach((bar, i) => {
             const s = 0.25 + Math.abs(Math.sin(t * 3.1 + i * 0.9)) * 0.75
+            bar.scale.y = s
