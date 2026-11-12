@@ -1689,3 +1689,4 @@ export function initMachineScene(
           frameCount = 0
           measureTime = 0
         }
+      }
