@@ -949,3 +949,5 @@ export function initMachineScene(
           const p = (t * 0.32) % 1
           turn.rotation.z = THREE.MathUtils.smoothstep(p, 0.2, 0.8) * (Math.PI - 0.2)
         })
+      }
+
