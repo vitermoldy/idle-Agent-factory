@@ -417,3 +417,4 @@ export function initMachineScene(
         rounded(c, 104, 28, 170, 274, [4, 10, 10, 4], INK)
         c.fillStyle = ACC
         c.fillRect(104, 28, 14, 274)
+        fit(c, theme.store.tag[0], 134, 84, 26, 128, ACC, 700, displayFamily)
