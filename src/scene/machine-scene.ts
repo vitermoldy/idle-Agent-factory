@@ -1311,3 +1311,4 @@ export function initMachineScene(
       emitView()
     }
     function focusStation(slot: SlotId) {
+      selected = slot
