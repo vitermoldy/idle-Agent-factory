@@ -66,3 +66,4 @@ export const Tag = (p: P) => (
 )
 
 const MODE_PATHS: Record<MachineMode, string> = {
+  assembled: 'M8 1.5l6 3.3v6.4l-6 3.3-6-3.3V4.8L8 1.5zM2 4.8l6 3.4 6-3.4M8 8.2v6.3',
