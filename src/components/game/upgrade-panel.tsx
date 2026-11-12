@@ -129,3 +129,4 @@ function StationRow({
   selected: boolean
 }) {
   const cash = useGame((s) => s.game.cash)
+  const stars = useGame((s) => s.game.stars)
