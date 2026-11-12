@@ -459,3 +459,4 @@ export function initMachineScene(
       c.fillStyle = g
       c.fillRect(0, 0, w, h)
     })
+    const contactGeo = new THREE.PlaneGeometry(18, 13)
