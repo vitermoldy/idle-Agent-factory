@@ -860,3 +860,4 @@ export function initMachineScene(
           const y = 0.5 + row * 0.25
           box(rack, 0.42, 0.18, 0.02, 0, y, 0.305, M.dark, 0.012)
           box(rack, 0.18, 0.014, 0.012, -0.08, y - 0.035, 0.318, M.edge, 0)
+          for (let j = 0; j < 3; j++) {
