@@ -109,3 +109,4 @@ export default function App() {
     const tick = setInterval(() => {
       const store = useGame.getState()
       const completed = store.tick(Date.now())
+      const g = useGame.getState().game
