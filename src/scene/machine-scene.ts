@@ -754,3 +754,4 @@ export function initMachineScene(
         c.strokeRect(2, 2, w - 4, h - 4)
         c.font = `650 40px ${displayFamily}`
         const tw = c.measureText(theme.plate.title).width
+        print(c, theme.plate.title, 45, 79, 40, '#d9d8cd', 650, displayFamily)
