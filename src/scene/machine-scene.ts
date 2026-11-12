@@ -1654,3 +1654,4 @@ export function initMachineScene(
       // decides whether they show, in every mode and camera.
       const showLabels = !locked && live.labels
       labels.forEach((label, i) => {
+        label.el.classList.toggle('visible', showLabels)
