@@ -146,3 +146,4 @@ describe('series and stars', () => {
     expect(next.stars).toBe(2)
     expect(next.series).toBe(2)
     expect(next.cash).toBe(0)
+    expect(next.allTime).toBe(g.allTime)
