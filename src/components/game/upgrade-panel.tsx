@@ -121,3 +121,4 @@ function StationRow({
 }: {
   def: FactoryDef
   index: number
+  rate: number
