@@ -1141,3 +1141,4 @@ export function initMachineScene(
           const s = screen(g, 0.43, 0.665, 0, 0, 0.024, tex)
           ;(s.material as THREE.MeshBasicMaterial).side = THREE.DoubleSide
           s.visible = false
+          return s
