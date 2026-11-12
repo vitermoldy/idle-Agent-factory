@@ -22,3 +22,4 @@ export const STAR_BONUS = 0.05
 export const STAR_UNIT = 1e10
 
 export interface FactoryState {
+  unlocked: boolean
