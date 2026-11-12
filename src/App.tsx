@@ -114,3 +114,4 @@ export default function App() {
       const done = completed[g.active]
       if (done) pending.current += done.cash
       if (Date.now() - titleAt > 1000) {
+        titleAt = Date.now()
