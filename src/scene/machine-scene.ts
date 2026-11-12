@@ -883,3 +883,4 @@ export function initMachineScene(
         const head = new THREE.Group()
         head.position.set(0.34, 2.56, 0.3)
         head.userData.moving = true
+        mic.add(head)
