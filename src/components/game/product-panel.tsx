@@ -23,3 +23,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
           bersamaan. Level stasiun berlaku untuk semua petak; produk mahal membebani stasiun tertentu.
         </p>
       </div>
+      <ul className="flex flex-col gap-2">
