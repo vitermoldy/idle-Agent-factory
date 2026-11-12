@@ -114,3 +114,4 @@ function StationRow({
   def,
   index,
   rate,
+  throughput,
