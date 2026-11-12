@@ -42,3 +42,5 @@ interface Store {
   resetGame: () => void
   dismissAway: () => void
   dismissNotice: (id: number) => void
+}
+
