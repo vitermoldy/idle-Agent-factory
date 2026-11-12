@@ -34,3 +34,4 @@ export function Dialog({
       onClick={(e) => e.target === ref.current && onClose()}
       className="dialog"
     >
+      <div className="p-5 sm:p-6">
