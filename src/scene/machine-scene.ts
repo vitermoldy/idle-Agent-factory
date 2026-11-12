@@ -445,3 +445,4 @@ export function initMachineScene(
       c.restore()
     }
 
+    // ---- Shared by every plate: the floor, the painted screens that do not depend on the product.
