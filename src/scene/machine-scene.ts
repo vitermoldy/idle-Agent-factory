@@ -1269,3 +1269,4 @@ export function initMachineScene(
       camera.updateProjectionMatrix()
       setCameraGoal()
       cameraAnimating = true
+      if (first) {
