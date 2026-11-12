@@ -352,3 +352,4 @@ export function initMachineScene(
     // The product art of each line, drawn in a 384 x 340 box and scaled into any frame.
     type Art = (c: CanvasRenderingContext2D, t: number) => void
     const ARTS: Record<FactoryId, Art> = {
+      video: (c, t) => {
