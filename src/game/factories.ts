@@ -295,3 +295,4 @@ export const FACTORIES: FactoryDef[] = [
       accent: '#ff5d6c',
       accentDeep: '#b5525b',
       shell: '#e4e2dc',
+      prop: 'phone',
