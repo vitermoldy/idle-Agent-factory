@@ -285,3 +285,4 @@ export const FACTORIES: FactoryDef[] = [
     unlockCost: 18_000_000_000,
     agentCost: 750_000_000,
     stations: [
+      { slot: 'cabinet', name: 'Spesifikasi', desc: 'Kebutuhan klien ditulis jadi daftar fitur.', output: 'spesifikasi', speed: 1.3, cost: 1_120_000 },
