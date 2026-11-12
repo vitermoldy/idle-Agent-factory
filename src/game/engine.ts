@@ -326,3 +326,4 @@ export function parseSave(raw: string | null): GameState | null {
   if (!raw) return null
   let data: unknown
   try {
+    data = JSON.parse(raw)
