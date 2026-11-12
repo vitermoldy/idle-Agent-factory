@@ -6,3 +6,4 @@ export function PriceButton({
   label,
   price,
   className,
+  ...props
