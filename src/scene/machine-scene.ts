@@ -1698,3 +1698,4 @@ export function initMachineScene(
       const textures = new Set<THREE.Texture>()
       scene.traverse((object) => {
         const mesh = object as THREE.Mesh
+        if (mesh.geometry) mesh.geometry.dispose()
