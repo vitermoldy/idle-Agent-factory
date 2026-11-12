@@ -60,3 +60,4 @@ describe('buying', () => {
     const batch = E.upgradeCost(video, 1, 5, 10)
     let sum = 0
     for (let i = 0; i < 10; i++) sum += E.upgradeCost(video, 1, 5 + i)
+    expect(batch).toBeCloseTo(sum, 6)
