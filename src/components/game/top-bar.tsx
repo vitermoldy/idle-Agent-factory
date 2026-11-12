@@ -17,3 +17,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         <div>
           <h1 className="sr-only font-display text-[15px] leading-none font-semibold tracking-[-0.01em] sm:not-sr-only">
             Agentic Factory
+          </h1>
