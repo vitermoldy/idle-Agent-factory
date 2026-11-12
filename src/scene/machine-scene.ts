@@ -1509,3 +1509,4 @@ export function initMachineScene(
           ? 3.5
           : locked
             ? 0.15
+            : neck
