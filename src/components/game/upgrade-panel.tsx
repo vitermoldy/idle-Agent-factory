@@ -137,3 +137,4 @@ function StationRow({
   useEffect(() => {
     if (selected) ref.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
   }, [selected])
+  const st = def.stations[index]
