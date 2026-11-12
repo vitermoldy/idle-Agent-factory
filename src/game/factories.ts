@@ -40,3 +40,4 @@ export interface SceneTheme {
     cta: string
     foot: string
   }
+  post: string
