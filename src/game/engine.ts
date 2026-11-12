@@ -138,3 +138,5 @@ export function productIncome(def: FactoryDef, fs: FactoryState, stars: number, 
 }
 
 export const ownedProducts = (def: FactoryDef, fs: FactoryState) =>
+  fs.owned.map((id) => def.products.find((p) => p.id === id)!).filter(Boolean)
+
