@@ -1223,3 +1223,4 @@ export function initMachineScene(
       flightTime = 0,
       visible = true,
       contextLost = false
+    const desiredPosition = new THREE.Vector3(),
