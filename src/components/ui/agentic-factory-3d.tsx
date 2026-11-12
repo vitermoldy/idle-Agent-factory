@@ -105,3 +105,4 @@ export default function AgenticFactory3D({
           <strong data-el="journey-title">{factory.theme.journey[0][0]}</strong>
           <small data-el="journey-detail">{factory.theme.journey[0][1]}</small>
         </div>
+        <div className="af3d-track">
