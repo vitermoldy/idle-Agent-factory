@@ -361,3 +361,4 @@ export const FACTORIES: FactoryDef[] = [
       plate: {
         title: 'PENERBIT E-BOOK',
         line: 'kerangka, tulis, sunting, lalu terbit',
+      },
