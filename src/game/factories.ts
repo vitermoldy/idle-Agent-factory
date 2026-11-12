@@ -219,3 +219,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'docu', name: 'Serial dokumenter', desc: 'Enam bagian dengan musik asli. Rekam dan mixing panjang.', price: 725_000, work: [1.8, 3, 3, 1.4, 1.2], unlockCost: 3_300_000_000 },
     ],
     rate: 0.16,
+    growth: 1.15,
