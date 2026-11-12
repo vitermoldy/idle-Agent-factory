@@ -920,3 +920,4 @@ export function initMachineScene(
         box(phone, 0.52, 0.94, 0.07, 0, 0, 0, M.dark, 0.06)
         screen(phone, 0.45, 0.78, 0, -0.01, 0.037, productTex)
         box(phone, 0.12, 0.02, 0.012, 0, 0.42, 0.037, M.edge, 0.005)
+        propUpdates.push((t) => {
