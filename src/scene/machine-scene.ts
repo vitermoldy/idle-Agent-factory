@@ -1411,3 +1411,4 @@ export function initMachineScene(
       ;[downX, downY] = local(e)
       wasDragged = false
       tooltip.classList.remove('visible')
+    })
