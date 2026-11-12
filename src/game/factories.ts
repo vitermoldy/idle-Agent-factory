@@ -360,3 +360,4 @@ export const FACTORIES: FactoryDef[] = [
       prop: 'books',
       plate: {
         title: 'PENERBIT E-BOOK',
+        line: 'kerangka, tulis, sunting, lalu terbit',
