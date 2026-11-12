@@ -15,3 +15,4 @@ export interface StationDef {
   /** What this station hands to the next one. */
   output: string
   /** Base speed relative to the line's rate. */
+  speed: number
