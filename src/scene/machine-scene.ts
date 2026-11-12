@@ -1687,3 +1687,4 @@ export function initMachineScene(
             renderer.setPixelRatio(pixelRatio)
           }
           frameCount = 0
+          measureTime = 0
