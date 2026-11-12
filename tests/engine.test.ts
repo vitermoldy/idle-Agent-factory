@@ -152,3 +152,4 @@ describe('series and stars', () => {
 
   it('will not start a series that earns no star', () => {
     const g = rich(100)
+    expect(E.startNewSeries(g)).toBe(g)
