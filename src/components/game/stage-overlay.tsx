@@ -15,3 +15,4 @@ export function StagePlate({ className }: { className?: string }) {
   const plates = fs.owned.length
   const status = !fs.unlocked
     ? 'Terkunci'
+    : fs.agent
