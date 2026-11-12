@@ -37,3 +37,4 @@ export function ViewBar({
   onPlaying: (v: boolean) => void
 }) {
   return (
+    <div
