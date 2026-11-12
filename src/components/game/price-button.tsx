@@ -15,3 +15,4 @@ export function PriceButton({
       className={cn('btn btn-primary justify-between gap-4 px-4', className)}
       {...props}
     >
+      <span>{label}</span>
