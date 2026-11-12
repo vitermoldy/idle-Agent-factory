@@ -36,3 +36,4 @@ export function StagePlate({ className }: { className?: string }) {
         </dl>
       )}
     </div>
+  )
