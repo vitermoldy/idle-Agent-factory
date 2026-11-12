@@ -463,3 +463,4 @@ export function initMachineScene(
     const contactMat = new THREE.MeshBasicMaterial({ map: shadowTex.texture, transparent: true, depthWrite: false, opacity: 0.65 })
     const lineMat = new THREE.LineBasicMaterial({ color: 0x69717a, transparent: true, opacity: 0.12 })
     const draftingPoints: THREE.Vector3[] = []
+    for (const r of [7.5, 8.1])
