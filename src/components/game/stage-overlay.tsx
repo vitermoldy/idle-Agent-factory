@@ -16,3 +16,4 @@ export function StagePlate({ className }: { className?: string }) {
   const status = !fs.unlocked
     ? 'Terkunci'
     : fs.agent
+      ? plates > 1
