@@ -41,3 +41,4 @@ interface Store {
   startNewSeries: () => void
   resetGame: () => void
   dismissAway: () => void
+  dismissNotice: (id: number) => void
