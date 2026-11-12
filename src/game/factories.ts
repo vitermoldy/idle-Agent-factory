@@ -69,3 +69,4 @@ export interface FactoryDef {
   no: string
   name: string
   unit: string
+  blurb: string
