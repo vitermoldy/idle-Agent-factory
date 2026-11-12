@@ -1289,3 +1289,4 @@ export function initMachineScene(
         desiredPosition.copy(viewDirection).multiplyScalar(plateDistance * expand).add(desiredTarget)
       } else {
         desiredTarget.set(0, 1, 0)
+        const distance = baseDistance * expand
