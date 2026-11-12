@@ -93,3 +93,4 @@ export function ConfirmDialog({
   title: string
   confirmLabel: string
   onConfirm: () => void
+  onClose: () => void
