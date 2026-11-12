@@ -269,3 +269,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
       if (!fs.agent) {
         if (made >= queue) {
           made = queue
+          progress[p.id] = 0
