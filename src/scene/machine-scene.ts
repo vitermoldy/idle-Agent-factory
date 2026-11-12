@@ -644,3 +644,4 @@ export function initMachineScene(
       true,
       'catmullrom',
       0.25
+    )
