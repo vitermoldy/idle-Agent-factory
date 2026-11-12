@@ -293,3 +293,4 @@ export function initMachineScene(
       const ctx = c.getContext('2d')!
       draw(ctx, w, h)
       const t = new THREE.CanvasTexture(c)
+      t.colorSpace = THREE.SRGBColorSpace
