@@ -1330,3 +1330,4 @@ export function initMachineScene(
     }
     const projected = new THREE.Vector3()
     api = {
+      setMode,
