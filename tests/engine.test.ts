@@ -31,3 +31,4 @@ describe('the line', () => {
     expect(E.stationRate(video, 0, 10) / E.stationRate(video, 0, 9)).toBeCloseTo((10 / 9) * 2)
   })
 
+  it('works off a manual queue and then stops', () => {
