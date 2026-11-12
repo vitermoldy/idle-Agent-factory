@@ -170,3 +170,4 @@ function StationRow({
             <span className="text-[12px] text-muted tabular-nums">Lv {level}</span>
             {holds && (
               <span className="rounded-[5px] border border-accent px-1.5 py-px text-[11px] font-medium text-accent">
+                Bottleneck
