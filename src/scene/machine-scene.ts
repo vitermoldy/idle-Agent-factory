@@ -1318,3 +1318,4 @@ export function initMachineScene(
       setCameraGoal()
       cameraAnimating = true
       emitView()
+    }
