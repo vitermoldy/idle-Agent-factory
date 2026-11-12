@@ -35,3 +35,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
       <div className="ml-auto flex items-center gap-2 sm:gap-4">
         <span className="mono-label hidden md:inline">Series {seriesNo(series)}</span>
         {stars > 0 && (
+          <span className="text-[13px] text-soft tabular-nums" title={`${stars} bintang: +${stars * 5}% nilai order`}>
