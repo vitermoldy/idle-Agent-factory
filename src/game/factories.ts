@@ -82,3 +82,4 @@ export interface FactoryDef {
   theme: SceneTheme
 }
 
+export const FACTORIES: FactoryDef[] = [
