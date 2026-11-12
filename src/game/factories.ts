@@ -374,3 +374,4 @@ export const FACTORIES: FactoryDef[] = [
         foot: 'DITERBITKAN OLEH AGEN',
       },
       post: 'TERBIT',
+      orders: {
