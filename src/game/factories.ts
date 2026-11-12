@@ -247,3 +247,4 @@ export const FACTORIES: FactoryDef[] = [
         head: ['Episode baru.', 'Tiap Senin.'],
         sub: ['Obrolan 40 menit', 'tentang usaha kecil.'],
         cta: 'Putar episode',
+        foot: 'DIPRODUKSI OLEH AGEN',
