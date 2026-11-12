@@ -117,3 +117,4 @@ function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: Produc
         {product.work.map((w, i) => (
           <span
             key={i}
+            className={cn('w-2.5 rounded-sm', i === heaviest && w > 1 ? 'bg-accent' : 'bg-line-strong')}
