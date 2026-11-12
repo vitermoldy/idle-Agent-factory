@@ -363,3 +363,4 @@ export function initMachineScene(
         }
       },
       web: (c, t) => {
+        disc(c, 330, 60, 180, DEEP)
