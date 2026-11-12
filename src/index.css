@@ -54,3 +54,4 @@
   select:disabled {
     cursor: not-allowed;
   }
+  :focus-visible {
