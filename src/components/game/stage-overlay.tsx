@@ -136,3 +136,4 @@ export function UnlockCard() {
           {def.products.length - 1} produk lain bisa ditambah setelah lini berjalan.
         </p>
         <div className="mt-4 flex justify-between text-[12px] text-muted tabular-nums">
+          <span>Kas</span>
