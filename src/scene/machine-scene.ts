@@ -600,3 +600,4 @@ export function initMachineScene(
       fit(c, name, 108, 91, 38, 300, '#222822', 600)
       fit(c, theme.incoming, 108, 138, 23, 300, 'rgba(20,20,16,.66)', 500)
     })
+    const dollarTex = canvasTexture(128, 128, (c, w, h) => {
