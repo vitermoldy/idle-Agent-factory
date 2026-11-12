@@ -1708,3 +1708,4 @@ export function initMachineScene(
       // Materials swapped in and out by props are not always attached at dispose time.
       Object.values(M).forEach((m) => m.dispose())
       geometries.forEach((g) => g.dispose())
+      textures.forEach((t) => t.dispose())
