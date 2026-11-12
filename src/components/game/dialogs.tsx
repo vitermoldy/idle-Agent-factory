@@ -18,3 +18,4 @@ export function Dialog({
   children: ReactNode
   footer?: ReactNode
 }) {
+  const ref = useRef<HTMLDialogElement>(null)
