@@ -368,3 +368,4 @@ export function parseSave(raw: string | null): GameState | null {
       orders: num(f.orders, 0),
       earned: num(f.earned, 0),
     }
+  }
