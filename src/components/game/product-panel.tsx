@@ -49,3 +49,4 @@ function ProductRow({
   const buyProduct = useGame((s) => s.buyProduct)
   const fs = game.factories[def.id]
   const plate = fs.owned.indexOf(product.id)
+  const owned = plate >= 0
