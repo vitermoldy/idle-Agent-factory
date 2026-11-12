@@ -1425,3 +1425,4 @@ export function initMachineScene(
     let lastFrame = performance.now()
     listen(document, 'visibilitychange', () => {
       visible = !document.hidden
+      lastFrame = performance.now()
