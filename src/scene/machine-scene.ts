@@ -1531,3 +1531,4 @@ export function initMachineScene(
       p.coin.scale.setScalar(cashBeat > 0.9 ? 1 - (cashBeat - 0.9) * 8 : 1)
       const incomingBeat = orderMode ? Math.min(1, orderPhase / 0.15) : beat
       p.incoming.visible = !locked && (!orderMode || orderPhase < 0.15)
+      p.incoming.position.set(Math.sin(incomingBeat * Math.PI) * 0.24, 2.9 - incomingBeat * 1.9, 1.1 - incomingBeat * 0.55)
