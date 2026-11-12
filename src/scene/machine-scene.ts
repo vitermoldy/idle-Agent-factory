@@ -683,3 +683,5 @@ export function initMachineScene(
       s.side = THREE.DoubleSide
       return s
     }
+    const S = { body: shell(M.body), ivory: shell(M.ivory), amber: shell(M.amber), edge: shell(M.edge) }
+
