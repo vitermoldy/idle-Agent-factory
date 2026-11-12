@@ -34,3 +34,4 @@ export interface PlateLive {
 
 /** Written by the game every tick, read by the scene every frame. */
 export interface SceneLive {
+  locked: boolean
