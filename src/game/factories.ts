@@ -200,3 +200,4 @@ export const FACTORIES: FactoryDef[] = [
       screen: { kicker: 'RILIS', head: 'HARI INI.', lines: ['Brief pagi,', 'tayang sore.', 'Agen menulis', 'kodenya.'] },
       journey: [
         ['Brief masuk', 'Permintaan Rina dicatat di meja Brief'],
+        ['Merancang halaman', 'Perancang menyusun wireframe'],
