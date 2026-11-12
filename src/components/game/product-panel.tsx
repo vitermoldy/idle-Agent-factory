@@ -67,3 +67,4 @@ function ProductRow({
         <LoadBars def={def} product={product} heaviest={heaviest} />
         {fs.unlocked && (
           <div className="min-w-0 flex-1 text-[12px] leading-relaxed tabular-nums">
+            <p className="text-soft">{short(speed)} order/dtk</p>
