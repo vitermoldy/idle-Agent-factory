@@ -223,3 +223,4 @@ export default function App() {
             <p className="mono-label mb-3 px-1">Lini produksi</p>
             <FactoryList onPick={openFactory} />
           </nav>
+        )}
