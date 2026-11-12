@@ -118,3 +118,4 @@ describe('products', () => {
     expect(state.cash).toBeCloseTo(100)
   })
 
+  it('moves the bottleneck to the station the product loads hardest', () => {
