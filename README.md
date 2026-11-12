@@ -1,0 +1,2 @@
+# Agentic Factory, game idle
+
