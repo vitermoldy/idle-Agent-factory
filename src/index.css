@@ -4,3 +4,4 @@
    (emissive strips, a shadow catcher, a vignette); the accent follows the active line. */
 @theme {
   --font-sans: 'Figtree Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Sora Variable', ui-sans-serif, system-ui, sans-serif;
