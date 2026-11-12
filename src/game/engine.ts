@@ -175,3 +175,5 @@ export function affordableLevels(def: FactoryDef, index: number, level: number, 
   return Math.max(0, Math.min(fit, MAX_LEVEL - level))
 }
 
+export type BuyMode = 1 | 10 | 'max'
+
