@@ -4,3 +4,4 @@ import { money, series } from '@/lib/format'
 import { PriceButton } from './price-button'
 
 export function SeriesPanel({ onStart }: { onStart: () => void }) {
+  const game = useGame((s) => s.game)
