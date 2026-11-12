@@ -84,3 +84,4 @@ const POS: Record<SlotId, [number, number, number]> = {
 /** Distance between plate centres; a plate is 12.8 wide, so 1.4 of floor shows between two. */
 const SPACING = 14.2
 const INK = '#171b20'
+const pad = (n: number) => String(n).padStart(2, '0')
