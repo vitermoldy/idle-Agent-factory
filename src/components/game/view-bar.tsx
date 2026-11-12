@@ -83,3 +83,4 @@ export function ViewBar({
       </button>
       <button
         type="button"
+        aria-pressed={!playing}
