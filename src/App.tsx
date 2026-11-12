@@ -9,3 +9,4 @@ import { StageAction, StagePlate, UnlockCard } from '@/components/game/stage-ove
 import { ViewBar } from '@/components/game/view-bar'
 import { AwayDialog, ConfirmDialog, SettingsDialog } from '@/components/game/dialogs'
 import { Notices } from '@/components/game/notices'
+import { useMediaQuery } from '@/hooks/use-media-query'
