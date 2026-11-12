@@ -245,3 +245,4 @@ export function initMachineScene(
       parent.add(o)
       return o
     }
+    function cyl(
