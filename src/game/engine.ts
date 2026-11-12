@@ -151,3 +151,5 @@ export function lineIncome(def: FactoryDef, fs: FactoryState, stars: number, lev
 export function incomePerSec(def: FactoryDef, fs: FactoryState, stars: number) {
   if (!fs.unlocked || !fs.agent) return 0
   return lineIncome(def, fs, stars)
+}
+
