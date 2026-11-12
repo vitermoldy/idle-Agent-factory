@@ -296,3 +296,4 @@ export function initMachineScene(
       t.colorSpace = THREE.SRGBColorSpace
       t.anisotropy = Math.min(4, renderer.capabilities.getMaxAnisotropy())
       return { texture: t, canvas: c, ctx }
+    }
