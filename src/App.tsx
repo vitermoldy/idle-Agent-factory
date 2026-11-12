@@ -229,3 +229,4 @@ export default function App() {
           <StagePlate className="px-4 pt-4 pb-1 lg:hidden" />
           <AgenticFactory3D
             key={active}
+            factory={def}
