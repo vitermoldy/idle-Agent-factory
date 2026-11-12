@@ -1110,3 +1110,4 @@ export function initMachineScene(
         }
         beltSlats.instanceMatrix.needsUpdate = true
       }
+      updateBelt(0)
