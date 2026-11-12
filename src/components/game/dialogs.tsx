@@ -130,3 +130,4 @@ export function SettingsDialog({
   onReset,
 }: {
   open: boolean
+  onClose: () => void
