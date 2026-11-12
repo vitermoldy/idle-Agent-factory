@@ -39,3 +39,4 @@ interface Store {
   selectProduct: (productId: string) => void
   setBuyMode: (mode: E.BuyMode) => void
   startNewSeries: () => void
+  resetGame: () => void
