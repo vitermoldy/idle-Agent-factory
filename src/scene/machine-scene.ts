@@ -1210,3 +1210,4 @@ export function initMachineScene(
       selected: SlotId = 'engine',
       hovered: { slot: SlotId; plate: number } | null = null,
       ownedCount = 0,
+      lastFocus = live.focus
