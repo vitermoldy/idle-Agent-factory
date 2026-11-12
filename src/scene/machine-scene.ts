@@ -1723,3 +1723,4 @@ export function initMachineScene(
           return {
             factory: factory.id,
             mode,
+            camera: cameraMode,
