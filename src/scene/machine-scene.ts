@@ -270,3 +270,4 @@ export function initMachineScene(
       if (!geometries.has(k)) geometries.set(k, new THREE.SphereGeometry(r, 16, 10))
       const o = new THREE.Mesh(geometries.get(k)!, m)
       o.position.set(x, y, z)
+      o.castShadow = true
