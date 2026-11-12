@@ -40,3 +40,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
   const rates = E.lineRates(def, fs)
   live.locked = !fs.unlocked
   live.focus = Math.max(0, def.products.findIndex((p) => p.id === fs.product))
+  // One plate per product; with an agent every owned plate runs, by hand only the one in view.
