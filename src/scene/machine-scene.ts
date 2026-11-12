@@ -1379,3 +1379,4 @@ export function initMachineScene(
       const r = root.getBoundingClientRect()
       return [e.clientX - r.left, e.clientY - r.top] as const
     }
+    function hitStation(x: number, y: number) {
