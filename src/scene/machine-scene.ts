@@ -1578,3 +1578,4 @@ export function initMachineScene(
       rafId = requestAnimationFrame(animate)
       const dt = Math.max(0, Math.min((now - lastFrame) / 1000, 0.045))
       lastFrame = now
+      if (!visible || contextLost) return
