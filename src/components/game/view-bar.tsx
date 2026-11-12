@@ -38,3 +38,4 @@ export function ViewBar({
 }) {
   return (
     <div
+      role="toolbar"
