@@ -52,3 +52,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         </button>
       )}
     </section>
+  )
