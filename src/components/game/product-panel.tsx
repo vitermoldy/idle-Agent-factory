@@ -45,3 +45,4 @@ function ProductRow({
   onShow: (id: string) => void
   onBought: () => void
 }) {
+  const game = useGame((s) => s.game)
