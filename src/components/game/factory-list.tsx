@@ -42,3 +42,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                   : 'border-transparent hover:border-line hover:bg-raised/60'
               )}
             >
+              <span className={cn('w-5 font-mono text-[10px]', active ? 'text-(--item)' : 'text-muted')}>
