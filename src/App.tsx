@@ -101,3 +101,5 @@ export default function App() {
   const pending = useRef(0)
 
   const tabs: Tab[] = wide ? ['upgrade', 'produk', 'series'] : ['upgrade', 'produk', 'pabrik', 'series']
+  const shownTab: Tab = tabs.includes(tab) ? tab : 'upgrade'
+
