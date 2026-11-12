@@ -150,3 +150,4 @@ export function initMachineScene(
     renderer.shadowMap.type = THREE.PCFShadowMap
     renderer.localClippingEnabled = true
     $('canvas').appendChild(renderer.domElement)
+    const controls = new OrbitControls(camera, renderer.domElement)
