@@ -291,3 +291,4 @@ export function initMachineScene(
       c.width = w
       c.height = h
       const ctx = c.getContext('2d')!
+      draw(ctx, w, h)
