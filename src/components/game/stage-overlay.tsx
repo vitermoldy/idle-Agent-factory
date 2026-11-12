@@ -155,3 +155,4 @@ export function UnlockCard() {
           onClick={() => unlockFactory(def.id)}
         />
         {!can && (
+          <p className="mt-2 text-center text-[12px] text-muted tabular-nums">
