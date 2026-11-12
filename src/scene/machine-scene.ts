@@ -1092,3 +1092,4 @@ export function initMachineScene(
       frameMesh.scale.y = 0.3
       frameMesh.position.y = 0.51
       belt.add(frameMesh)
+      const beltCount = 148
