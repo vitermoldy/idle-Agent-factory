@@ -48,3 +48,4 @@ export default function AgenticFactory3D({
   const [error, setError] = useState('')
   const [attempt, setAttempt] = useState(0)
 
+  useEffect(() => {
