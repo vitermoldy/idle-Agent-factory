@@ -130,3 +130,5 @@ export const starMultiplier = (stars: number) => 1 + stars * STAR_BONUS
 
 export function orderValue(def: FactoryDef, fs: FactoryState, stars: number, product = activeProduct(def, fs)) {
   return product.price * starMultiplier(stars)
+}
+
