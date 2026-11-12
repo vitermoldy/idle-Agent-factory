@@ -29,3 +29,4 @@ export interface SceneTheme {
   shell: string
   prop: PropKind
   plate: { title: string; line: string }
+  queue: { title: string; items: Three; active: string; waiting: string }
