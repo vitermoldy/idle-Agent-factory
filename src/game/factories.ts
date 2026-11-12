@@ -366,3 +366,4 @@ export const FACTORIES: FactoryDef[] = [
       wip: { title: 'BAB 1', sub: '05 / Pembuka' },
       store: {
         brand: 'RAK DIGITAL',
+        nav: 'Terlaris    Baru    Penulis',
