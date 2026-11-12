@@ -250,3 +250,4 @@ export default function App() {
           </AgenticFactory3D>
           {/* On a phone the machine keeps its whole box; the order controls sit under it. */}
           <div className="flex justify-center px-4 pt-3 empty:hidden lg:hidden">
+            <StageAction />
