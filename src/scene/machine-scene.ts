@@ -1681,3 +1681,4 @@ export function initMachineScene(
       if (playing) {
         frameCount++
         measureTime += dt
+        if (measureTime > 4) {
