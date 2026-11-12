@@ -37,3 +37,4 @@ export interface SceneLive {
   locked: boolean
   /** Visual pause. The game keeps running. */
   playing: boolean
+  labels: boolean
