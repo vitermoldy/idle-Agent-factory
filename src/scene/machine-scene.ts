@@ -1603,3 +1603,4 @@ export function initMachineScene(
           cameraAnimating = true
         }
       }
+      for (const p of plates) animatePlate(p, dt, now, smooth, playing, locked)
