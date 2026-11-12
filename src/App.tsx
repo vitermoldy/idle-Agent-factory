@@ -226,3 +226,4 @@ export default function App() {
         )}
         <main className="relative flex flex-col lg:min-h-0">
           {/* On a phone the line's plate sits above the machine, so no text covers it. */}
+          <StagePlate className="px-4 pt-4 pb-1 lg:hidden" />
