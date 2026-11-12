@@ -1433,3 +1433,4 @@ export function initMachineScene(
         lastFrame = performance.now()
       },
       { threshold: 0.01 }
+    )
