@@ -376,3 +376,4 @@ export function initMachineScene(
         rounded(c, 198, 166, 92, 24, 6, INK)
         // The section the agent is building moves along the row.
         const k = Math.floor(t * 0.9) % 3
+        for (let i = 0; i < 3; i++) rounded(c, 54 + i * 100, 210, 88, 56, 6, i === k ? ACC : '#e1e2db')
