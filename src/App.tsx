@@ -305,3 +305,4 @@ export default function App() {
             {shownTab === 'upgrade' && <UpgradePanel selected={selected} />}
             {shownTab === 'produk' && (
               <ProductPanel
+                onShow={(id) => {
