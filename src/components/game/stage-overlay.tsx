@@ -77,3 +77,4 @@ export function StageAction() {
       {first && (
         <p className="rounded-lg bg-panel/95 px-3 py-2 text-center text-[13px] leading-snug text-soft">
           Ambil order pertamamu. Setiap order melewati lima stasiun, lalu dibayar di kasir.
+        </p>
