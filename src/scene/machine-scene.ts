@@ -1704,3 +1704,4 @@ export function initMachineScene(
           for (const value of Object.values(material)) if (value instanceof THREE.Texture) textures.add(value)
           material.dispose()
         }
+      })
