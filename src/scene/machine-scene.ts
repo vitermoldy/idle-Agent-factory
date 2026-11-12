@@ -1640,3 +1640,4 @@ export function initMachineScene(
         controls.target.lerp(desiredTarget, k)
         if (
           cameraMode !== 'flight' &&
+          mode !== 'order' &&
