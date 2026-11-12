@@ -90,3 +90,4 @@ export const FACTORIES: FactoryDef[] = [
     unit: 'video',
     blurb: 'Agen menulis naskah, mengisi suara, lalu merender video untuk toko online.',
     products: [
+      { id: 'short', name: 'Video pendek', desc: 'Video 30 detik untuk media sosial.', price: 29, work: [1, 1, 1, 1, 1], unlockCost: 0 },
