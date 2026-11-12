@@ -527,3 +527,4 @@ export function initMachineScene(
         fit(c, q.items[i], 77, y + 29, 19, 280, '#d4d8cc')
         print(c, i === 0 ? q.active : q.waiting, 77, y + 49, 11, i === 0 ? ACC : '#81948f')
         c.fillStyle = '#334348'
+        c.fillRect(377, y + 26, 214, 7)
