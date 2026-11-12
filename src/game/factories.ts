@@ -250,3 +250,4 @@ export const FACTORIES: FactoryDef[] = [
         foot: 'DIPRODUKSI OLEH AGEN',
       },
       post: 'EPISODE',
+      orders: {
