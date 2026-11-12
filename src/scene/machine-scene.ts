@@ -1505,3 +1505,4 @@ export function initMachineScene(
         const lit =
           (hovered && hovered.plate === p.k && hovered.slot === st.id) ||
           (inFocus && cameraMode === 'station' && selected === st.id)
+        const goal = lit
