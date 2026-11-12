@@ -1475,3 +1475,4 @@ export function initMachineScene(
       if (owned && !p.shown) {
         p.shown = true
         p.holder.visible = true
+        p.holder.position.x = targetX(p.k)
