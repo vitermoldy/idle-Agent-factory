@@ -1226,3 +1226,4 @@ export function initMachineScene(
     const desiredPosition = new THREE.Vector3(),
       desiredTarget = new THREE.Vector3(0, 1, 0)
     const viewDirection = new THREE.Vector3(10.5, 10.8, 17).normalize()
+    let baseDistance = 25,
