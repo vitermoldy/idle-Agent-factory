@@ -69,3 +69,4 @@ declare global {
   interface Window {
     __machine?: SceneApi
     __machineDebug?: { getState: () => Record<string, unknown> }
+  }
