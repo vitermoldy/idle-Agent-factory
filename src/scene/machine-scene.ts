@@ -1235,3 +1235,4 @@ export function initMachineScene(
     const targetX = (k: number) => (plateLive(k).slot - (ownedCount - 1) / 2) * SPACING
     const countOwned = () => plates.filter((p) => plateLive(p.k).owned || p.k === 0).length
     const world = (p: Plate, local: THREE.Vector3, out: THREE.Vector3) =>
+      out.copy(local).multiplyScalar(p.holder.scale.x).add(p.holder.position)
