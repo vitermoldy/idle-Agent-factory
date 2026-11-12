@@ -77,3 +77,5 @@ describe('buying', () => {
     expect(E.hireAgent(g, 'video')).toBe(g)
     expect(E.unlockFactory(g, 'web')).toBe(g)
     expect(E.buyProduct(g, 'video', 'ads')).toBe(g)
+  })
+
