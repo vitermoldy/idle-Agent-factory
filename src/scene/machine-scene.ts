@@ -1372,3 +1372,4 @@ export function initMachineScene(
     controls.addEventListener('change', () => {
       if (dragging) lastInteraction = performance.now()
     })
+    const raycaster = new THREE.Raycaster(),
