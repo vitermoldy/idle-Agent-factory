@@ -1133,3 +1133,4 @@ export function initMachineScene(
       const packetTextures = [orderCardTex, scriptTex, productTex, postTex, receiptTex]
       const packets: Packet[] = []
       for (let i = 0; i < 6; i++) {
+        const g = new THREE.Group()
