@@ -133,3 +133,4 @@ function StationRow({
   const fs = useGame((s) => s.game.factories[def.id])
   const buyMode = useGame((s) => s.buyMode)
   const buyStation = useGame((s) => s.buyStation)
+  const ref = useRef<HTMLLIElement>(null)
