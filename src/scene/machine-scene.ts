@@ -1187,3 +1187,4 @@ export function initMachineScene(
     const pickables = plates.flatMap((p) => p.stations.map((s) => s.group))
 
     // Station labels follow the plate in view.
+    const labels = GEO.map((id) => {
