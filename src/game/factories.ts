@@ -74,3 +74,4 @@ export interface FactoryDef {
   products: ProductDef[]
   /** Orders per second of a level-1 station with speed 1. */
   rate: number
+  /** Cost growth per station level. */
