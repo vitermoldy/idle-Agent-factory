@@ -23,3 +23,4 @@ dibayar di Kasir.
 |---|---|---|
 | 01 Studio Video | Video pendek, video iklan, video penjelas | Gulungan film |
 | 02 Pabrik Website | Landing page, toko online, portal anggota | Rak server |
+| 03 Pabrik Podcast | Episode reguler, wawancara, serial dokumenter | Mikrofon dan meteran suara |
