@@ -341,3 +341,4 @@ export function initMachineScene(
       ctx.fill()
     }
     type Painted = THREE.Texture | { texture: THREE.Texture }
+    function screen(parent: THREE.Object3D, w: number, h: number, x: number, y: number, z: number, tex: Painted) {
