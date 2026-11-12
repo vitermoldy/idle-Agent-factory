@@ -864,3 +864,4 @@ export function initMachineScene(
             const led = box(rack, 0.036, 0.036, 0.02, 0.07 + j * 0.06, y + 0.035, 0.32, M.dark, 0)
             led.userData.moving = true
             leds.push(led)
+          }
