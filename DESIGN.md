@@ -34,3 +34,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Radius 9 px (tombol), 10 sampai 14 px (kartu, dialog) | Mengikuti sudut membulat kecil pada mesin; tidak ada elemen berbentuk pil. |
 | Ikon digambar sendiri: bingkai film, jendela browser, mikrofon, ponsel, buku | Setiap ikon menggambarkan produk lininya. Tidak ada pustaka ikon. |
 | Logo: tanda V dari komponen asli | Bukan aset baru; diambil dari komponen yang diberikan. |
+| Tombol nonaktif bergaris putus-putus | Status nonaktif dibedakan oleh bentuk juga, bukan hanya warna. |
