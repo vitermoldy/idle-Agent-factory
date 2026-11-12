@@ -36,3 +36,4 @@ while (t <= 4 * 3600) {
     const hire = FACTORIES.find((f) => s.factories[f.id].unlocked && !s.factories[f.id].agent && s.cash >= f.agentCost)
     if (hire) {
       s = E.hireAgent(s, hire.id)
+      marks.push(`${clock(t)}  agent ${hire.name}`)
