@@ -114,3 +114,4 @@ export function ConfirmDialog({
               onClose()
             }}
           >
+            {confirmLabel}
