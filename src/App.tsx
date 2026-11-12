@@ -139,3 +139,4 @@ export default function App() {
       clearInterval(save)
       document.removeEventListener('visibilitychange', onHide)
       window.removeEventListener('pagehide', onLeave)
+    }
