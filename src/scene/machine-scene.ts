@@ -221,3 +221,4 @@ export function initMachineScene(
       if (!geometries.has(k))
         geometries.set(
           k,
+          r
