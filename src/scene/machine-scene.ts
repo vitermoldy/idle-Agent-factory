@@ -358,3 +358,4 @@ export function initMachineScene(
         c.lineWidth = 13
         for (let i = 0; i < 3; i++) {
           c.beginPath()
+          c.ellipse(194, 160, 90 - i * 21, 111, Math.sin(t * 0.25) * 0.3 + 0.4, 0, TAU)
