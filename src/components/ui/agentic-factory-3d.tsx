@@ -6,3 +6,4 @@ import {
   type MachineMode,
   type SceneApi,
   type SceneLive,
+} from '@/scene/machine-scene'
