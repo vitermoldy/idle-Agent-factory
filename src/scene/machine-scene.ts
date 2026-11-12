@@ -700,3 +700,4 @@ export function initMachineScene(
         if (list.length < 2) continue
         const geos = list.map((m) => {
           m.updateMatrix()
+          const g = m.geometry.index ? m.geometry.toNonIndexed() : m.geometry.clone()
