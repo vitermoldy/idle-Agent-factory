@@ -1392,3 +1392,4 @@ export function initMachineScene(
       if (dragging) return
       const hit = hitStation(x, y)
       hovered = hit
+      renderer.domElement.style.cursor = hit ? 'pointer' : 'grab'
