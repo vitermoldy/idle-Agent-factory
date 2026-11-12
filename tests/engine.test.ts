@@ -143,3 +143,4 @@ describe('series and stars', () => {
     const g = { ...rich(5e9), allTime: 4 * E.STAR_UNIT, earned: 4 * E.STAR_UNIT }
     expect(E.starsClaimable(g)).toBe(2)
     const next = E.startNewSeries(g, 0)
+    expect(next.stars).toBe(2)
