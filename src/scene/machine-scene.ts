@@ -1476,3 +1476,4 @@ export function initMachineScene(
         p.shown = true
         p.holder.visible = true
         p.holder.position.x = targetX(p.k)
+      }
