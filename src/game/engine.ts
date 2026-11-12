@@ -258,3 +258,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     if (!fs.unlocked) continue
     if (!fs.agent && fs.queue <= 0) continue
     const progress = { ...fs.progress }
+    let done = 0
