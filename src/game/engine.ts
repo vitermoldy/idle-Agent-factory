@@ -363,3 +363,4 @@ export function parseSave(raw: string | null): GameState | null {
       levels: unlocked ? levels : [0, 0, 0, 0, 0],
       product,
       owned,
+      queue: Math.min(QUEUE_MAX, Math.floor(num(f.queue, 0))),
