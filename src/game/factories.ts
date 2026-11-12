@@ -61,3 +61,4 @@ export interface ProductDef {
   price: number
   /** Work per order at each station; 1 is the line's base product. */
   work: [number, number, number, number, number]
+  unlockCost: number
