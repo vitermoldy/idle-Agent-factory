@@ -549,3 +549,4 @@ export function initMachineScene(
       art(c, 40, 252, 271, 250, 0)
       fit(c, st.tag[0], 52, 181, 29, 250, '#242827', 700, displayFamily)
       fit(c, st.tag[1], 52, 220, 29, 250, '#242827', 700, displayFamily)
+      fit(c, st.head[0], 359, 197, 41, 500, '#22282b', 600, displayFamily)
