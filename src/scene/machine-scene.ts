@@ -163,3 +163,4 @@ export function initMachineScene(
     const pmrem = new THREE.PMREMGenerator(renderer),
       room = new RoomEnvironment()
     const env = pmrem.fromScene(room, 0.04)
+    scene.environment = env.texture
