@@ -256,3 +256,4 @@ export const FACTORIES: FactoryDef[] = [
         customers: ['Tari', 'Gilang', 'Nina'],
         statuses: ['Topik baru', 'Direkam', 'Siap tayang'],
       },
+      incoming: 'Topik baru  +',
