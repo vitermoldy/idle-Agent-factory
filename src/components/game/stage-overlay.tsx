@@ -151,3 +151,4 @@ export function UnlockCard() {
           label="Buka lini"
           price={money(def.unlockCost)}
           className="btn-lg mt-4 w-full"
+          disabled={!can}
