@@ -1656,3 +1656,4 @@ export function initMachineScene(
       labels.forEach((label, i) => {
         label.el.classList.toggle('visible', showLabels)
         if (!showLabels) return
+        const meta = live.meta[label.id]
