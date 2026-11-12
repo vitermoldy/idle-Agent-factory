@@ -60,3 +60,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
   })
 }
 
+function makeLive(): SceneLive {
