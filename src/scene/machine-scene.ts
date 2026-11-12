@@ -1087,3 +1087,4 @@ export function initMachineScene(
 
       // Conveyor: instanced treads, continuous rails and phase-locked cargo.
       const belt = new THREE.Group()
+      machine.add(belt)
