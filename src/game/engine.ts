@@ -142,3 +142,4 @@ export const ownedProducts = (def: FactoryDef, fs: FactoryState) =>
 
 /** Income of every plate of a line together, as if an agent ran it. */
 export function lineIncome(def: FactoryDef, fs: FactoryState, stars: number, levels = fs.levels) {
+  if (!fs.unlocked) return 0
