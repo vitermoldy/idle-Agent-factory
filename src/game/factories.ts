@@ -167,3 +167,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'storefront', name: 'Rilis', desc: 'Halaman tayang di domain klien.', output: 'situs', speed: 1.4, cost: 550 },
       { slot: 'cashdesk', name: 'Tagihan', desc: 'Invoice terkirim, langsung lunas.', output: 'invoice', speed: 1.5, cost: 350 },
     ],
+    theme: {
