@@ -68,3 +68,4 @@ describe('buying', () => {
       const n = E.affordableLevels(video, 1, 1, cash)
       expect(E.upgradeCost(video, 1, 1, n)).toBeLessThanOrEqual(cash)
       expect(E.upgradeCost(video, 1, 1, n + 1)).toBeGreaterThan(cash)
+    }
