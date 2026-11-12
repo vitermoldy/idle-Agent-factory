@@ -856,3 +856,4 @@ export function initMachineScene(
         box(rack, 0.5, 2.35, 0.6, 0, 1.12, 0, S.body, 0.05)
         box(rack, 0.54, 0.08, 0.64, 0, 2.32, 0, S.amber, 0.02)
         const leds: THREE.Mesh[] = []
+        for (let row = 0; row < 7; row++) {
