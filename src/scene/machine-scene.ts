@@ -1255,3 +1255,4 @@ export function initMachineScene(
     }
     // A zero-size box (a collapsed panel) would put NaN into the camera; wait for a real size.
     function layoutCamera() {
+      if (!frameWidth() || !frameHeight()) return
