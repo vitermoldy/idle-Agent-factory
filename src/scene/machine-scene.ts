@@ -1197,3 +1197,4 @@ export function initMachineScene(
       return {
         id,
         el,
+        level: el.querySelector<HTMLElement>('.label-title em')!,
