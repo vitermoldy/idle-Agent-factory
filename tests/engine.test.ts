@@ -109,3 +109,5 @@ describe('products', () => {
       Math.floor(E.throughput(video, fs, video.products[1]) * 100) * 100
     expect(completed.video?.cash).toBeCloseTo(expected)
     expect(state.cash).toBeCloseTo(expected)
+  })
+
