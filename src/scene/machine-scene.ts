@@ -1454,3 +1454,4 @@ export function initMachineScene(
       lastDraw = -1
     const labelOffsets = [
       [-48, -14],
+      [-8, -64],
