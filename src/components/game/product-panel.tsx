@@ -69,3 +69,4 @@ function ProductRow({
           <div className="min-w-0 flex-1 text-[12px] leading-relaxed tabular-nums">
             <p className="text-soft">{short(speed)} order/dtk</p>
             <p className={owned ? 'text-muted' : 'font-medium text-accent'}>
+              {owned ? `${money(income)}/dtk` : `Menambah ${money(income)}/dtk`}
