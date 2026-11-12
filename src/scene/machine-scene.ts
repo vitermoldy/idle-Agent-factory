@@ -1508,3 +1508,4 @@ export function initMachineScene(
         const goal = lit
           ? 3.5
           : locked
+            ? 0.15
