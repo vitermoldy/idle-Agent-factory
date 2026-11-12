@@ -773,3 +773,4 @@ export function initMachineScene(
         g.position.set(x, y, z)
         parent.add(g)
         cyl(g, r, 0.09, 0, 0, 0, M.copper)
+        cyl(g, r * 0.66, 0.105, 0, 0, 0, M.dark)
