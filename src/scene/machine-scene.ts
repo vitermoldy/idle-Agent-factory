@@ -1545,3 +1545,4 @@ export function initMachineScene(
       p.packets.forEach((packet, i) => {
         const phase = (t / 24 + i / 6) % 1
         packet.phase = phase
+        let stage
