@@ -24,3 +24,4 @@ export interface AwayReport {
 interface Store {
   game: E.GameState
   buyMode: E.BuyMode
+  away: AwayReport | null
