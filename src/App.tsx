@@ -88,3 +88,4 @@ export default function App() {
     synced.current = active
     syncLive(live.current, useGame.getState().game)
   }
+  const apiRef = useRef<SceneApi | null>(null)
