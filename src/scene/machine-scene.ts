@@ -718,3 +718,4 @@ export function initMachineScene(
     type Packet = { group: THREE.Group; faces: THREE.Mesh[]; halo: THREE.Mesh; stage: number; phase: number }
     type Plate = ReturnType<typeof buildPlate>
 
+    /** One complete machine for product `k`: platform, five stations, belt and cargo. */
