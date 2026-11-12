@@ -1672,3 +1672,4 @@ export function initMachineScene(
         const y = THREE.MathUtils.clamp((-anchor.y * 0.5 + 0.5) * height - 52 + off[1], 8, height - 150)
         label.el.style.transform = `translate(${x}px,${y}px)`
       })
+      renderer.render(scene, camera)
