@@ -1418,3 +1418,4 @@ export function initMachineScene(
       const hit = hitStation(x, y)
       if (!hit) return
       // The game moves the focus to this plate; the camera follows on the next frames.
+      options.onStation?.(hit.slot, hit.plate)
