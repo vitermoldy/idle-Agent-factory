@@ -125,3 +125,4 @@ export default function AgenticFactory3D({
           </button>
         </div>
       )}
+      {children}
