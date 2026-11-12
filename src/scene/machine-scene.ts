@@ -1649,3 +1649,4 @@ export function initMachineScene(
       controls.autoRotate =
         playing && !dragging && !cameraAnimating && mode !== 'order' && cameraMode === 'overview' && now - lastInteraction > 6500
       controls.autoRotateSpeed = 0.24
+      controls.update(dt)
