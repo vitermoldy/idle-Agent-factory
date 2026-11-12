@@ -364,3 +364,4 @@ export default function App() {
         onClose={() => setConfirm(null)}
       >
         <p>Kas, lini, produk, dan bintang dihapus dari browser ini. Langkah ini tidak bisa dibatalkan.</p>
+      </ConfirmDialog>
