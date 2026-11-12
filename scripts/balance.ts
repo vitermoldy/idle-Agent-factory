@@ -19,3 +19,4 @@ type Option = { payback: number; cost: number; apply: () => void }
 
 const dt = 0.5
 let t = 0
+const marks: string[] = []
