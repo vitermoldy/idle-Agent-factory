@@ -916,3 +916,4 @@ export function initMachineScene(
         const phone = new THREE.Group()
         phone.position.set(0, 1.98, 0)
         phone.userData.moving = true
+        stand.add(phone)
