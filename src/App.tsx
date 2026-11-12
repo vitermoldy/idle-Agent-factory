@@ -27,3 +27,4 @@ interface Popup {
   text: string
 }
 
+/** How fast the machine animates for a line making `T` orders a second. */
