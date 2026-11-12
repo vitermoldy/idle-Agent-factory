@@ -37,3 +37,4 @@ export interface SceneTheme {
     tag: Two
     head: Two
     sub: Two
+    cta: string
