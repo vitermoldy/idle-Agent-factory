@@ -70,3 +70,4 @@ function ProductRow({
             <p className="text-soft">{short(speed)} order/dtk</p>
             <p className={owned ? 'text-muted' : 'font-medium text-accent'}>
               {owned ? `${money(income)}/dtk` : `Menambah ${money(income)}/dtk`}
+            </p>
