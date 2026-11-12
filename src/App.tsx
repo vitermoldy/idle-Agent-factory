@@ -166,3 +166,4 @@ export default function App() {
     [setActive, wide]
   )
   const onStation = useCallback(
+    (slot: SlotId, plate: number) => {
