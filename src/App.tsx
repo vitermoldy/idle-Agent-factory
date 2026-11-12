@@ -350,3 +350,4 @@ export default function App() {
           setTab('upgrade')
         }}
         onClose={() => setConfirm(null)}
+      >
