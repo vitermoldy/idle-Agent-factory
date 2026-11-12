@@ -1248,3 +1248,4 @@ export function initMachineScene(
       return Math.max(horizontalFit, verticalFit)
     }
     function fitRow() {
+      baseDistance = fitDistance(SPACING * (ownedCount - 1))
