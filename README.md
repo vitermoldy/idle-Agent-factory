@@ -66,3 +66,4 @@ Tailwind CSS 4, three.js, zustand, Vite.
 
 Mesin 3D diadaptasi dari [Agentic Factory 3D](https://github.com/eugeneshilow/agentic-3d-templates)
 (dibuat dengan OpenAI Codex, port React oleh Claude). Versi ini menambahkan lima tema lini, properti
+khas per lini, dan sambungan ke state game. Semua geometri dan tekstur prosedural: tanpa model atau gambar.
