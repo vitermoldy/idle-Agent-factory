@@ -64,3 +64,4 @@ describe('buying', () => {
   })
 
   it('never lets max buy spend more than the cash', () => {
+    for (const cash of [16, 100, 12_345, 9e9]) {
