@@ -12,3 +12,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
   const game = useGame((s) => s.game)
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
+  return (
