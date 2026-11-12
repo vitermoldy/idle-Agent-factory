@@ -160,3 +160,4 @@ export function UnlockCard() {
           </p>
         )}
       </section>
+    </div>
