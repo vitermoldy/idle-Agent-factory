@@ -75,3 +75,4 @@ export function AwayDialog() {
               Hasil saat offline dihitung sampai {duration(E.OFFLINE_CAP)}.
             </p>
           )}
+        </>
