@@ -28,3 +28,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   return (
     <div className="flex flex-col gap-5">
       {!fs.agent && <AgentCard def={def} />}
+      <section aria-labelledby="stations-title">
