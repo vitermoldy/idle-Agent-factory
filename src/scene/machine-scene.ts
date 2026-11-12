@@ -574,3 +574,4 @@ export function initMachineScene(
     })
     const orderTex = canvasTexture(480, 460, (c, w, h) => {
       const o = theme.orders
+      c.fillStyle = '#172224'
