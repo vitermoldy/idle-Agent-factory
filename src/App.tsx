@@ -155,3 +155,5 @@ export default function App() {
     setSelected(null)
     setPopups([])
     pending.current = 0
+  }, [active])
+
