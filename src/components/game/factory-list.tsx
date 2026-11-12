@@ -68,3 +68,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                       {money(def.unlockCost)}
                     </span>
                   )}
+                </span>
