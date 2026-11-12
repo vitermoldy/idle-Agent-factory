@@ -52,3 +52,5 @@ export interface GameState {
   startedAt: number
 }
 
+export type Completed = Partial<Record<FactoryId, { orders: number; cash: number }>>
+
