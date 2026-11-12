@@ -18,3 +18,5 @@ export interface StationDef {
   speed: number
   /** Price of the first upgrade. */
   cost: number
+}
+
