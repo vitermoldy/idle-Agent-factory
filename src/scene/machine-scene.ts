@@ -960,3 +960,4 @@ export function initMachineScene(
       for (const x of [-0.42, 0.42]) {
         const r = cyl(engine, 0.115, 0.18, x, 0.92, 0.6, M.chrome)
         r.rotation.z = Math.PI / 2
+      }
