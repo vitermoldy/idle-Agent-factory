@@ -206,3 +206,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Invoice lunas', 'Invoice klien terbayar'],
       ],
     },
+  },
