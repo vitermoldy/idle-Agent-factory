@@ -149,3 +149,4 @@ export function UnlockCard() {
         </span>
         <PriceButton
           label="Buka lini"
+          price={money(def.unlockCost)}
