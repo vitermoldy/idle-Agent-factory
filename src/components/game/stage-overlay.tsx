@@ -89,3 +89,4 @@ export function StageAction() {
           </span>
           <span>{pace(T)}</span>
         </div>
+        <div className="mt-1.5 flex gap-1" aria-hidden="true">
