@@ -1273,3 +1273,4 @@ export function initMachineScene(
         camera.position.copy(desiredPosition)
         controls.target.copy(desiredTarget)
         controls.update()
+        cameraAnimating = false
