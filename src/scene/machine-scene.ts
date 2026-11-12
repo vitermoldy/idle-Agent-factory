@@ -955,3 +955,4 @@ export function initMachineScene(
       outputVideo.userData.moving = true
       engine.add(outputVideo)
       box(outputVideo, 0.62, 1.08, 0.055, 0, 1.36, 0.61, M.dark, 0.035)
+      screen(outputVideo, 0.56, 0.98, 0, 1.36, 0.641, productTex)
