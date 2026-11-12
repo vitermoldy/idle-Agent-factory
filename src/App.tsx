@@ -172,3 +172,4 @@ export default function App() {
       syncLive(live.current, useGame.getState().game)
       setSelected(slot)
       setTab('upgrade')
+    },
