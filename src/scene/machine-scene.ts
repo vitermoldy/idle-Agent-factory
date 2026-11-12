@@ -1495,3 +1495,4 @@ export function initMachineScene(
       const inFocus = p.k === live.focus
       const orderMode = mode === 'order' && inFocus
       const pulseClock = playing ? now / 1000 : 0
+      p.stations.forEach((st, i) => {
