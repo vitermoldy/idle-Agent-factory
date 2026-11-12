@@ -123,3 +123,4 @@ export default function AgenticFactory3D({
           <button type="button" className="btn btn-quiet" onClick={() => setAttempt((n) => n + 1)}>
             Coba muat mesin lagi
           </button>
+        </div>
