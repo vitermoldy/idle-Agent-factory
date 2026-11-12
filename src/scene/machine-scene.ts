@@ -618,3 +618,4 @@ export function initMachineScene(
     })
     const orderCardTex = canvasTexture(256, 352, (c, w, h) => {
       c.fillStyle = DEEP
+      c.fillRect(0, 0, w, h)
