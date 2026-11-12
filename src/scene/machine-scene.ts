@@ -1722,3 +1722,4 @@ export function initMachineScene(
           const fp = focusPlate()
           return {
             factory: factory.id,
+            mode,
