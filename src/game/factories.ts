@@ -373,3 +373,4 @@ export const FACTORIES: FactoryDef[] = [
         cta: 'Beli e-book',
         foot: 'DITERBITKAN OLEH AGEN',
       },
+      post: 'TERBIT',
