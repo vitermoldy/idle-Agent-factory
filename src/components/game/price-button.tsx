@@ -21,3 +21,4 @@ export function PriceButton({
       </span>
     </button>
   )
+}
