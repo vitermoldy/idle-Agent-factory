@@ -74,3 +74,4 @@ export function newGame(now = Date.now()): GameState {
     v: SAVE_VERSION,
     cash: 0,
     earned: 0,
+    allTime: 0,
