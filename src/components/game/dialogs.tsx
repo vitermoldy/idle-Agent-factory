@@ -40,3 +40,4 @@ export function Dialog({
             {title}
           </h2>
           <button type="button" className="icon-btn -mt-1.5 -mr-2" aria-label="Tutup" onClick={onClose}>
+            <Close />
