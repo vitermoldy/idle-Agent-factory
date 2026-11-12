@@ -217,3 +217,5 @@ export function unlockFactory(state: GameState, id: FactoryId) {
     ...withFactory(state, id, { unlocked: true, levels: [1, 1, 1, 1, 1] }),
     cash: state.cash - def.unlockCost,
   }
+}
+
