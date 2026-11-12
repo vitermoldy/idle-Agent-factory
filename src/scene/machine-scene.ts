@@ -786,3 +786,4 @@ export function initMachineScene(
       GEO.forEach((id, i) => {
         const group = new THREE.Group()
         group.position.fromArray(POS[id])
+        machine.add(group)
