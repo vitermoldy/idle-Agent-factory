@@ -214,3 +214,4 @@ export function initMachineScene(
       paper: mat(0xf4f1ea, 0, 0.85),
     }
     type Vec3 = [number, number, number]
+    type Material = THREE.Material
