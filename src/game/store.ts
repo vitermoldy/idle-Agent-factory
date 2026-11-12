@@ -104,3 +104,4 @@ export const useGame = create<Store>((set, get) => {
         if (r.report.cash > 0) away = r.report
       } else result = E.advance(game, seconds)
       const fresh: Notice[] = []
+      for (const def of FACTORIES) {
