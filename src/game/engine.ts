@@ -189,3 +189,4 @@ function withFactory(state: GameState, id: FactoryId, patch: Partial<FactoryStat
   return { ...state, factories: { ...state.factories, [id]: { ...state.factories[id], ...patch } } }
 }
 
+export function buyLevels(state: GameState, id: FactoryId, index: number, count: number) {
