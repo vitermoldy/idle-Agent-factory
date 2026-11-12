@@ -67,3 +67,4 @@ export function AwayDialog() {
       {away && (
         <>
           <p>
+            Kamu pergi {duration(away.seconds)}. Lini yang punya agen menyelesaikan {short(away.orders)} order.
