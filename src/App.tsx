@@ -167,3 +167,4 @@ export default function App() {
   )
   const onStation = useCallback(
     (slot: SlotId, plate: number) => {
+      const product = def.products[plate]
