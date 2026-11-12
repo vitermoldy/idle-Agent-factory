@@ -218,3 +218,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'interview', name: 'Episode wawancara', desc: 'Tamu harus dijadwalkan. Topik jadi sibuk.', price: 250_000, work: [2.2, 1.6, 1.4, 1, 1.1], unlockCost: 110_000_000 },
       { id: 'docu', name: 'Serial dokumenter', desc: 'Enam bagian dengan musik asli. Rekam dan mixing panjang.', price: 725_000, work: [1.8, 3, 3, 1.4, 1.2], unlockCost: 3_300_000_000 },
     ],
+    rate: 0.16,
