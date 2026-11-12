@@ -1408,3 +1408,4 @@ export function initMachineScene(
       tooltip.classList.remove('visible')
     })
     listen(renderer.domElement, 'pointerdown', (e: PointerEvent) => {
+      ;[downX, downY] = local(e)
