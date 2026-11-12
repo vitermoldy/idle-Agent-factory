@@ -746,3 +746,4 @@ export function initMachineScene(
         }
       for (const x of [-6.02, 6.02]) for (const z of [-3.73, 3.73]) screw(machine, x, 0.255, z)
       // The engraving names the line and the product this plate makes.
+      const engraving = canvasTexture(1536, 176, (c, w, h) => {
