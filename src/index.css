@@ -78,3 +78,4 @@
     color: var(--color-ink);
   }
   /* Buttons step up on hover and press down on click, so every action answers the pointer. */
+  .btn {
