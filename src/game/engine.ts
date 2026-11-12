@@ -109,3 +109,4 @@ export function stationRate(def: FactoryDef, index: number, level: number) {
 
 /** Orders per second each station manages on a product. */
 export function lineRates(def: FactoryDef, fs: FactoryState, product = activeProduct(def, fs)) {
+  return def.stations.map((_, i) => stationRate(def, i, fs.levels[i]) / product.work[i])
