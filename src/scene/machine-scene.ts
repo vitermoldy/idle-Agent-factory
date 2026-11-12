@@ -1666,3 +1666,4 @@ export function initMachineScene(
           label.meta.textContent = meta.rate
         }
         label.el.classList.toggle('is-neck', plateLive(fp.k).neck.includes(label.id))
+        world(fp, anchor.copy(fp.bySlot(label.id).group.position).add(new THREE.Vector3(0, 2.5, 0)), anchor).project(camera)
