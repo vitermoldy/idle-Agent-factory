@@ -310,3 +310,4 @@ export function initMachineScene(
       family = fontFamily
     ) {
       let s = size
+      ctx.font = `${weight} ${s}px ${family}`
