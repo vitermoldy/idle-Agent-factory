@@ -56,3 +56,4 @@ export interface SceneApi {
 
 export interface SceneOptions {
   factory: FactoryDef
+  fonts: { text: string; display: string }
