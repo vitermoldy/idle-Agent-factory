@@ -81,3 +81,4 @@ export function AwayDialog() {
   )
 }
 
+export function ConfirmDialog({
