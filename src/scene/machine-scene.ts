@@ -18,3 +18,4 @@ import { PIPELINE, type FactoryDef, type FactoryId, type SlotId } from '@/game/f
 export type MachineMode = 'assembled' | 'cutaway' | 'stations' | 'order'
 export type MachineCamera = 'overview' | 'side' | 'top' | 'plate' | 'station' | 'flight'
 
+/** One product's plate, as the game sees it right now. */
