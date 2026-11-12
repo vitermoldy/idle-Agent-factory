@@ -1204,3 +1204,4 @@ export function initMachineScene(
       }
     })
 
+    let mode: MachineMode = 'assembled',
