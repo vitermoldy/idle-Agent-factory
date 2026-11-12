@@ -94,3 +94,4 @@ function ProductRow({
               label="Tambah produk"
               price={money(product.unlockCost)}
               className="w-full"
+              disabled={!can}
