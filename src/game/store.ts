@@ -94,3 +94,4 @@ export const useGame = create<Store>((set, get) => {
     lastSaved: null,
     tick: (now) => {
       const seconds = (now - lastTick) / 1000
+      lastTick = now
