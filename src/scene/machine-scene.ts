@@ -433,3 +433,4 @@ export function initMachineScene(
         c.closePath()
         c.fill()
       },
+    }
