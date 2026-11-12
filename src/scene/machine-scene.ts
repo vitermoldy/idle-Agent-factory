@@ -817,3 +817,4 @@ export function initMachineScene(
       const printhead = new THREE.Group()
       engine.add(printhead)
       printhead.position.set(0, 1.9, -0.08)
+      printhead.userData.moving = true
