@@ -1045,3 +1045,4 @@ export function initMachineScene(
         c.fillRect(0, 0, 280, 540)
         fit(c, theme.receipt.shop, 25, 52, 24, 230, '#333d36', 650)
         print(c, 'STRUK PENJUALAN', 25, 87, 17, '#566059')
+        c.strokeStyle = '#8a9189'
