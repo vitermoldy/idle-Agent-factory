@@ -32,3 +32,4 @@ Progres disimpan otomatis di `localStorage` browser setiap 5 detik dan saat hala
 ## Menjalankan
 
 ```bash
+npm install
