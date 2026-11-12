@@ -141,3 +141,4 @@ function StationRow({
   const level = fs.levels[index]
   const n = E.levelsToBuy(def, index, level, cash, buyMode)
   const cost = n > 0 ? E.upgradeCost(def, index, level, n) : Infinity
+  const can = n > 0 && cost <= cash
