@@ -149,3 +149,4 @@ export const FACTORIES: FactoryDef[] = [
     id: 'web',
     no: '02',
     name: 'Pabrik Website',
+    unit: 'situs',
