@@ -137,3 +137,4 @@ export function productIncome(def: FactoryDef, fs: FactoryState, stars: number, 
   return throughput(def, fs, product) * orderValue(def, fs, stars, product)
 }
 
+export const ownedProducts = (def: FactoryDef, fs: FactoryState) =>
