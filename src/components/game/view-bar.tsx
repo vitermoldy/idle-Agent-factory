@@ -88,3 +88,4 @@ export function ViewBar({
         onClick={() => onPlaying(!playing)}
         className="view-btn"
       >
+        {playing ? <Pause /> : <Play />}
