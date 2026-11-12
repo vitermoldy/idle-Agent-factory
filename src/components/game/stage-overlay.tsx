@@ -157,3 +157,4 @@ export function UnlockCard() {
         {!can && (
           <p className="mt-2 text-center text-[12px] text-muted tabular-nums">
             Kurang {money(def.unlockCost - game.cash)}. Lini lain terus menghasilkan selama kamu menunggu.
+          </p>
