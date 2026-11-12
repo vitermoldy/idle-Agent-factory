@@ -989,3 +989,4 @@ export function initMachineScene(
       box(storefront, 1.35, 0.18, 0.88, 0, 0.44, 0, S.ivory, 0.045)
       cyl(storefront, 0.095, 1.04, 0, 0.93, -0.31, M.chrome)
       box(storefront, 0.56, 0.91, 0.14, 0, 0.99, -0.34, S.body, 0.04)
+      box(storefront, 2.42, 1.72, 0.2, 0, 1.94, -0.17, S.ivory, 0.08)
