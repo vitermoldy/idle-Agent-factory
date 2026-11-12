@@ -91,3 +91,4 @@ describe('buying', () => {
 describe('products', () => {
   it('adds a product as a new plate and brings it into view', () => {
     const ads = video.products[1]
+    const g = E.buyProduct(rich(ads.unlockCost), 'video', ads.id)
