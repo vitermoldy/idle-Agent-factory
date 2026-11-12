@@ -57,3 +57,4 @@ export default function AgenticFactory3D({
     const style = getComputedStyle(root)
     const text = style.fontFamily
     const display = style.getPropertyValue('--scene-display').trim() || text
+    // The in-scene screens are painted on canvases: the faces must be loaded first.
