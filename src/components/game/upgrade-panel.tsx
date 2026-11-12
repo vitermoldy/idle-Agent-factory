@@ -214,3 +214,4 @@ function StationRow({
           aria-label={`Naikkan ${st.name} ${n} level seharga ${money(cost)}`}
         >
           <span className="text-[13px]">+{n} level</span>
+          <span className="text-[12px] font-medium tabular-nums opacity-80">{money(cost)}</span>
