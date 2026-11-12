@@ -706,3 +706,4 @@ export function initMachineScene(
         const merged = mergeGeometries(geos, false)
         for (const geo of geos) geo.dispose()
         if (!merged) continue
+        const mesh = new THREE.Mesh(merged, list[0].material)
