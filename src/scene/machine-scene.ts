@@ -679,3 +679,4 @@ export function initMachineScene(
     function shell<T extends THREE.Material>(m: T): T {
       const s = m.clone() as T
       s.clippingPlanes = [cutPlane]
+      s.clipShadows = true
