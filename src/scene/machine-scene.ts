@@ -1709,3 +1709,4 @@ export function initMachineScene(
       Object.values(M).forEach((m) => m.dispose())
       geometries.forEach((g) => g.dispose())
       textures.forEach((t) => t.dispose())
+      env.dispose()
