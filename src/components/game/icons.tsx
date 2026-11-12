@@ -39,3 +39,4 @@ export const Lock = (p: P) => (
   </svg>
 )
 
+export const Pause = (p: P) => (
