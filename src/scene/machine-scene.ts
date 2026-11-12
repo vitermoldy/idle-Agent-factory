@@ -1102,3 +1102,4 @@ export function initMachineScene(
         for (let i = 0; i < beltCount; i++) {
           const u = (i / beltCount + t * 0.012) % 1
           path.getPointAt(u, pVec)
+          path.getTangentAt(u, tVec)
