@@ -225,3 +225,4 @@
     position: absolute;
     z-index: 5;
     pointer-events: none;
+    font-family: var(--font-display);
