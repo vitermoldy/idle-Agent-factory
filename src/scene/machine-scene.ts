@@ -625,3 +625,4 @@ export function initMachineScene(
       c.lineWidth = 2
       c.strokeRect(23, 112, 210, 139)
       fit(c, theme.orders.customers[0], 42, 190, 37, 176, '#1f241d', 550)
+      fit(c, `${factory.unit.toUpperCase()} / 01`, 23, 320, 17, 210, 'rgba(20,24,20,.75)')
