@@ -29,3 +29,4 @@ interface Store {
   storageOk: boolean
   lastSaved: number | null
   tick: (now: number) => E.Completed
+  save: () => void
