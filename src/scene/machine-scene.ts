@@ -117,3 +117,4 @@ export function initMachineScene(
     const displayFamily = options.fonts.display
     const ACC = theme.accent
     const DEEP = theme.accentDeep
+    const plateLive = (k: number) => live.plates[k] ?? NO_PLATE
