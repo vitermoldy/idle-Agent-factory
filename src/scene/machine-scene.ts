@@ -719,3 +719,4 @@ export function initMachineScene(
     type Plate = ReturnType<typeof buildPlate>
 
     /** One complete machine for product `k`: platform, five stations, belt and cargo. */
+    function buildPlate(k: number) {
