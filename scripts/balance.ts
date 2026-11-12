@@ -29,3 +29,4 @@ while (t <= 4 * 3600) {
   for (let guard = 0; guard < 5000; guard++) {
     const next = FACTORIES.find((f) => !s.factories[f.id].unlocked)
     if (next && s.cash >= next.unlockCost) {
+      s = E.unlockFactory(s, next.id)
