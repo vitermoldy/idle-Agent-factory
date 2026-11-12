@@ -961,3 +961,5 @@ export function initMachineScene(
         const r = cyl(engine, 0.115, 0.18, x, 0.92, 0.6, M.chrome)
         r.rotation.z = Math.PI / 2
       }
+      for (let i = 0; i < 5; i++) box(engine, 0.08, 0.03, 0.22, -0.38 + i * 0.19, 1.011, -0.02, M.edge, 0.005)
+
