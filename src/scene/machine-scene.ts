@@ -414,3 +414,4 @@ export function initMachineScene(
         disc(c, 330, 80, 200, DEEP)
         c.fillStyle = '#f4f1ea'
         c.fillRect(270, 36, 14, 262)
+        rounded(c, 104, 28, 170, 274, [4, 10, 10, 4], INK)
