@@ -245,3 +245,4 @@ export const FACTORIES: FactoryDef[] = [
         nav: 'Episode    Tamu    Ikuti',
         tag: ['DENGAR', 'DI JALAN.'],
         head: ['Episode baru.', 'Tiap Senin.'],
+        sub: ['Obrolan 40 menit', 'tentang usaha kecil.'],
