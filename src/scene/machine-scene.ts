@@ -906,3 +906,4 @@ export function initMachineScene(
             bar.position.y = 0.11 + 0.15 * s
           })
         })
+      } else if (theme.prop === 'phone') {
