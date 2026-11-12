@@ -79,3 +79,4 @@ describe('buying', () => {
     expect(E.buyProduct(g, 'video', 'ads')).toBe(g)
   })
 
+  it('opens a line once the cash is enough', () => {
