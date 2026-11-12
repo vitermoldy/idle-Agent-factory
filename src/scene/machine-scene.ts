@@ -580,3 +580,4 @@ export function initMachineScene(
       print(c, o.sub, 30, 81, 16, '#869991')
       o.customers.forEach((n, i) => {
         const y = 110 + i * 100
+        rounded(c, 22, y, 436, 83, 8, '#283839')
