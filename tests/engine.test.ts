@@ -170,3 +170,4 @@ describe('saves', () => {
     const old = JSON.parse(JSON.stringify(E.newGame(0)))
     old.v = 2
     old.factories.video.progress = 0.5
+    const back = E.parseSave(JSON.stringify(old))!
