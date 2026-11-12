@@ -852,3 +852,4 @@ export function initMachineScene(
         // A server rack with blinking status lights.
         const rack = new THREE.Group()
         rack.position.set(-1.17, 0, -0.42)
+        engine.add(rack)
