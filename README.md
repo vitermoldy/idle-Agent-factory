@@ -54,3 +54,5 @@ src/
   game/store.ts                          state zustand: tick, simpan/muat, hasil offline, notifikasi
 scripts/balance.ts                       simulasi keseimbangan ekonomi
 tests/engine.test.ts                     tes aturan game
+```
+
