@@ -16,3 +16,4 @@ export interface Notice {
 
 export interface AwayReport {
   seconds: number
+  capped: boolean
