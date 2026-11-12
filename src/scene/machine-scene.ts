@@ -1597,3 +1597,4 @@ export function initMachineScene(
         }
       }
       if (live.focus !== lastFocus) {
+        lastFocus = live.focus
