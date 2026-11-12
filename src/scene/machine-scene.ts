@@ -1325,3 +1325,4 @@ export function initMachineScene(
       lastInteraction = performance.now()
       flightTime = 0
       setCameraGoal()
+      cameraAnimating = true
