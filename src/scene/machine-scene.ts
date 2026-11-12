@@ -686,3 +686,4 @@ export function initMachineScene(
     const S = { body: shell(M.body), ivory: shell(M.ivory), amber: shell(M.amber), edge: shell(M.edge) }
 
     // Merge static geometry per parent/material. Moving assemblies remain separate.
+    function compact(group: THREE.Object3D) {
