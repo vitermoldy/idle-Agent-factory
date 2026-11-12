@@ -147,3 +147,4 @@ export function lineIncome(def: FactoryDef, fs: FactoryState, stars: number, lev
   return ownedProducts(def, fs).reduce((sum, p) => sum + productIncome(def, at, stars, p), 0)
 }
 
+/** Steady income of a line that runs by itself (an agent is hired). */
