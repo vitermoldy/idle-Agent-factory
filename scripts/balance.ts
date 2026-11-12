@@ -15,3 +15,5 @@ const fmt = (n: number) => {
 }
 const clock = (t: number) => `${Math.floor(t / 60)}m${String(Math.floor(t % 60)).padStart(2, '0')}s`
 
+type Option = { payback: number; cost: number; apply: () => void }
+
