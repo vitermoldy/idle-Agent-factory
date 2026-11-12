@@ -97,3 +97,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
         ditutup (dihitung sampai {duration(E.OFFLINE_CAP)}).
       </p>
       <PriceButton
+        label="Rekrut agen"
