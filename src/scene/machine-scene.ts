@@ -951,3 +951,4 @@ export function initMachineScene(
         })
       }
 
+      const outputVideo = new THREE.Group()
