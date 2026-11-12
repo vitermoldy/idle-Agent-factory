@@ -184,3 +184,4 @@ export default function App() {
   }, [])
   const tooltip = useCallback(
     (slot: SlotId, plate: number) => {
+      const g = useGame.getState().game
