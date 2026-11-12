@@ -117,3 +117,4 @@ export default function App() {
         titleAt = Date.now()
         document.title = `Agentic Factory (${money(g.cash)})`
       }
+    }, 100)
