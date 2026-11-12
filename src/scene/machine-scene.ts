@@ -677,3 +677,4 @@ export function initMachineScene(
 
     const cutPlane = new THREE.Plane(new THREE.Vector3(0, -1, 0), 10)
     function shell<T extends THREE.Material>(m: T): T {
+      const s = m.clone() as T
