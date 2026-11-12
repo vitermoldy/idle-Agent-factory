@@ -802,3 +802,5 @@ export function initMachineScene(
         screen(group, 1.54, 0.345, 0, 0.27, 0.891, plaques[id])
         stations.push({ id, group, base: new THREE.Vector3(...POS[id]), glowMat, index: i })
       })
+      const bySlot = (slot: SlotId) => stations.find((s) => s.id === slot)!
+
