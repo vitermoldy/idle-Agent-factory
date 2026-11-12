@@ -336,3 +336,4 @@ export function parseSave(raw: string | null): GameState | null {
   if ((s.v !== SAVE_VERSION && s.v !== 2) || typeof s.cash !== 'number' || !Number.isFinite(s.cash)) return null
   if (!s.factories || typeof s.factories !== 'object') return null
   const base = newGame(typeof s.startedAt === 'number' ? s.startedAt : Date.now())
+  const num = (v: unknown, d: number) => (typeof v === 'number' && Number.isFinite(v) && v >= 0 ? v : d)
