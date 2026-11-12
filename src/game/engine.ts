@@ -44,3 +44,4 @@ export interface GameState {
   earned: number
   /** Earned across every series; stars come from this. */
   allTime: number
+  stars: number
