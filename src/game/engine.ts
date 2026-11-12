@@ -132,3 +132,4 @@ export function orderValue(def: FactoryDef, fs: FactoryState, stars: number, pro
   return product.price * starMultiplier(stars)
 }
 
+/** Income of one plate running nonstop on a product, whether or not an agent runs it yet. */
