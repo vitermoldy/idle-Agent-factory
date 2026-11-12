@@ -170,3 +170,4 @@ export function affordableLevels(def: FactoryDef, index: number, level: number, 
   const first = def.stations[index].cost * g ** (level - 1)
   if (cash < first) return 0
   const n = Math.floor(Math.log((cash * (g - 1)) / first + 1) / Math.log(g))
+  // Guard against rounding at the edge.
