@@ -25,3 +25,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         <span className="sr-only">Kas</span>
         <strong className="font-display text-[22px] font-semibold tabular-nums sm:text-[26px]" aria-live="off">
           {money(cash)}
+        </strong>
