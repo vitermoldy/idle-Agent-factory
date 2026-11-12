@@ -132,3 +132,4 @@ function StationRow({
   const stars = useGame((s) => s.game.stars)
   const fs = useGame((s) => s.game.factories[def.id])
   const buyMode = useGame((s) => s.buyMode)
+  const buyStation = useGame((s) => s.buyStation)
