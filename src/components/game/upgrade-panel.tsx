@@ -234,3 +234,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
       </div>
       <ol className="flex flex-col gap-2">
         {def.stations.map((st, i) => (
+          <li key={st.slot} className="flex gap-3 rounded-xl border border-line bg-panel p-3.5">
