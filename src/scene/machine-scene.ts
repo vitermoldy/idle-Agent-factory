@@ -554,3 +554,4 @@ export function initMachineScene(
       print(c, st.sub[0], 362, 300, 19, '#77807b')
       print(c, st.sub[1], 362, 329, 19, '#77807b')
       for (let i = 0; i < 3; i++) {
+        c.fillStyle = '#d1d5cd'
