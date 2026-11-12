@@ -71,3 +71,4 @@ export function ViewBar({
           <option key={c.id} value={c.id}>
             {c.label}
           </option>
+        ))}
