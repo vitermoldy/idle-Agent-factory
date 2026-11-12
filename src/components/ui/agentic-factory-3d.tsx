@@ -70,3 +70,4 @@ export default function AgenticFactory3D({
           onStation: (slot, plate) => handlers.current.onStation?.(slot, plate),
           onView: (mode, camera) => handlers.current.onView?.(mode, camera),
           onReady: () => !cancelled && setPhase('ready'),
+          onError: (message) => {
