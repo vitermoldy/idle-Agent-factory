@@ -12,3 +12,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
     <header className="sticky top-0 z-30 flex h-16 items-center gap-3 border-b border-line bg-ground px-4 lg:px-6">
       <div className="flex min-w-0 items-center gap-3">
         <span className="grid size-9 shrink-0 place-items-center rounded-[9px] border border-[#55502f] bg-[#1c1b14] text-accent">
+          <Mark />
