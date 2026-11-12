@@ -613,3 +613,4 @@ export function initMachineScene(
       for (let i = 0; i < 9; i++) {
         c.fillStyle = i === 4 ? DEEP : '#aeb2a5'
         c.fillRect(24, 111 + i * 21, 190 - (i % 3) * 24, 6)
+      }
