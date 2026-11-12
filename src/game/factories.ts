@@ -185,3 +185,4 @@ export const FACTORIES: FactoryDef[] = [
         head: ['Kopi enak.', 'Dekat rumah.'],
         sub: ['Pesan dari halaman,', 'ambil di kedai.'],
         cta: 'Pesan kopi',
+        foot: 'DIRILIS OLEH AGEN',
