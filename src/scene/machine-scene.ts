@@ -202,3 +202,4 @@ export function initMachineScene(
     const M = {
       body: mat(0x30363f, 0.75, 0.29),
       base: mat(0x292f37, 0.85, 0.32),
+      edge: mat(0x707986, 0.85, 0.24),
