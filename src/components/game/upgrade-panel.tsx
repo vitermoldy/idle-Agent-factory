@@ -19,3 +19,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   if (!fs.unlocked) return <LockedLine def={def} />
   const rates = E.lineRates(def, fs)
   const T = Math.min(...rates)
+  const necks = E.bottlenecks(def, fs)
