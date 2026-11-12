@@ -56,3 +56,4 @@ export function ViewBar({
             {m.label}
           </span>
         </button>
+      ))}
