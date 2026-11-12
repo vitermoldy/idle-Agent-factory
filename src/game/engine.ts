@@ -380,3 +380,4 @@ export function parseSave(raw: string | null): GameState | null {
     series: Math.max(1, Math.floor(num(s.series, 1))),
     active,
     factories,
+    savedAt: num(s.savedAt, Date.now()),
