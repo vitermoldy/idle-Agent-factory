@@ -281,3 +281,4 @@ export function initMachineScene(
       parent.add(o)
       return o
     }
+    function screw(parent: THREE.Object3D, x: number, y: number, z: number) {
