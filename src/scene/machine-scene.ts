@@ -1352,3 +1352,4 @@ export function initMachineScene(
       if (!(plateLive(p.k).owned || p.k === 0)) continue
       p.shown = true
       p.holder.visible = true
+      p.holder.scale.setScalar(1)
