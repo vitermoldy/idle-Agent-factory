@@ -114,3 +114,4 @@ export default function AgenticFactory3D({
           <i aria-hidden="true" />
           <span>Merakit lini {factory.name}</span>
         </div>
+      )}
