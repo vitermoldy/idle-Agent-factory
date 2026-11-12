@@ -84,3 +84,4 @@ export interface FactoryDef {
 
 export const FACTORIES: FactoryDef[] = [
   {
+    id: 'video',
