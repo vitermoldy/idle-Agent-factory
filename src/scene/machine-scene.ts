@@ -430,3 +430,4 @@ export function initMachineScene(
         c.moveTo(274, 302 - lift)
         c.lineTo(274 - lift, 302)
         c.lineTo(274, 302)
+        c.closePath()
