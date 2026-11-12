@@ -75,3 +75,4 @@ declare global {
 /** Geometry order of the stations, left to right along the belt; pipes and label offsets follow it. */
 const GEO: SlotId[] = ['engine', 'admin', 'storefront', 'cabinet', 'cashdesk']
 const POS: Record<SlotId, [number, number, number]> = {
+  engine: [-4.15, 0.29, -0.65],
