@@ -73,3 +73,4 @@ export function AwayDialog() {
           {away.capped && (
             <p className="mt-2 text-[13px] text-muted">
               Hasil saat offline dihitung sampai {duration(E.OFFLINE_CAP)}.
+            </p>
