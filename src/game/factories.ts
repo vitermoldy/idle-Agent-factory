@@ -382,3 +382,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       incoming: 'Naskah baru  +',
       cashTitle: 'ROYALTI MASUK',
+      receipt: { shop: 'PENERBIT E-BOOK' },
