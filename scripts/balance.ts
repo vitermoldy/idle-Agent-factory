@@ -40,3 +40,4 @@ while (t <= 4 * 3600) {
       continue
     }
     let best: Option | null = null
+    const consider = (o: Option) => {
