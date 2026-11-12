@@ -193,3 +193,4 @@ export function buyLevels(state: GameState, id: FactoryId, index: number, count:
   const def = FACTORY_BY_ID[id]
   const fs = state.factories[id]
   if (!fs.unlocked || count <= 0) return state
+  const level = fs.levels[index]
