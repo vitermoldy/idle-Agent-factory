@@ -1356,3 +1356,4 @@ export function initMachineScene(
       p.holder.position.x = targetX(p.k)
       p.speed = live.locked ? 0 : plateLive(p.k).speed
     }
+    layoutCamera()
