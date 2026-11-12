@@ -32,3 +32,4 @@ export function StagePlate({ className }: { className?: string }) {
           {plates > 1 && <PlateStat label="Petak" value={`${fs.owned.indexOf(product.id) + 1} dari ${plates}`} />}
           <PlateStat label="Produk" value={product.name} />
           <PlateStat label="Per order" value={money(E.orderValue(def, fs, game.stars))} />
+          <PlateStat label="Kecepatan" value={pace(T)} />
