@@ -672,3 +672,4 @@ export function initMachineScene(
       return best
     }
     const adminU = nearestPort(-1.65, -0.7)
+    const storeU = nearestPort(1.5, -0.7)
