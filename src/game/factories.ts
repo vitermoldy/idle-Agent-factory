@@ -9,3 +9,4 @@ export type PropKind = 'reels' | 'rack' | 'mic' | 'phone' | 'books'
 export const PIPELINE: SlotId[] = ['cabinet', 'engine', 'admin', 'storefront', 'cashdesk']
 
 export interface StationDef {
+  slot: SlotId
