@@ -92,3 +92,4 @@ export default function App() {
   const [tab, setTab] = useState<Tab>('upgrade')
   const [mode, setMode] = useState<MachineMode>('assembled')
   const [camera, setCamera] = useState<MachineCamera>('overview')
+  const [labels, setLabels] = useState(live.current.labels)
