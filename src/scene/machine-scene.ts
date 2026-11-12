@@ -259,3 +259,4 @@ export function initMachineScene(
       const k = `c${r},${r2},${h},${segments}`
       if (!geometries.has(k)) geometries.set(k, new THREE.CylinderGeometry(r, r2, h, segments))
       const o = new THREE.Mesh(geometries.get(k)!, m)
+      o.position.set(x, y, z)
