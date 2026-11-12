@@ -150,3 +150,4 @@ export function lineIncome(def: FactoryDef, fs: FactoryState, stars: number, lev
 /** Steady income of a line that runs by itself (an agent is hired). */
 export function incomePerSec(def: FactoryDef, fs: FactoryState, stars: number) {
   if (!fs.unlocked || !fs.agent) return 0
+  return lineIncome(def, fs, stars)
