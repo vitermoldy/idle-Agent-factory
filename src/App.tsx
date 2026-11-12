@@ -211,3 +211,4 @@ export default function App() {
   } as CSSProperties
   const game = useGame((s) => s.game)
 
+  return (
