@@ -1301,3 +1301,4 @@ export function initMachineScene(
     }
     function setMode(next: MachineMode) {
       mode = next
+      lastInteraction = performance.now()
