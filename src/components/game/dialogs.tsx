@@ -94,3 +94,4 @@ export function ConfirmDialog({
   confirmLabel: string
   onConfirm: () => void
   onClose: () => void
+  children: ReactNode
