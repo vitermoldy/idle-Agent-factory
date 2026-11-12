@@ -9,3 +9,4 @@ describe('a new game', () => {
   it('opens only the first line, with its first product', () => {
     const g = E.newGame(0)
     expect(g.factories.video.unlocked).toBe(true)
+    expect(g.factories.video.product).toBe('short')
