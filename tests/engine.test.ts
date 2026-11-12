@@ -75,3 +75,4 @@ describe('buying', () => {
     const g = rich(1)
     expect(E.buyLevels(g, 'video', 0, 1)).toBe(g)
     expect(E.hireAgent(g, 'video')).toBe(g)
+    expect(E.unlockFactory(g, 'web')).toBe(g)
