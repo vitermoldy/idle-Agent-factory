@@ -334,3 +334,4 @@ export const FACTORIES: FactoryDef[] = [
   {
     id: 'ebook',
     no: '05',
+    name: 'Penerbit E-book',
