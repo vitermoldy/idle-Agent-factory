@@ -77,3 +77,4 @@ export function newGame(now = Date.now()): GameState {
     allTime: 0,
     stars: 0,
     series: 1,
+    active: 'video',
