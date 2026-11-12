@@ -62,3 +62,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                   )}
                 >
                   <span className="truncate">{status}</span>
+                  {!fs.unlocked && (
