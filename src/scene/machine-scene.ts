@@ -850,3 +850,4 @@ export function initMachineScene(
         propUpdates.push((t) => reels.forEach((r, i) => (r.rotation.z = -t * (i ? 0.65 : 0.85))))
       } else if (theme.prop === 'rack') {
         // A server rack with blinking status lights.
+        const rack = new THREE.Group()
