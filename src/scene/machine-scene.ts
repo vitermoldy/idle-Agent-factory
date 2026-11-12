@@ -1247,3 +1247,4 @@ export function initMachineScene(
       const verticalFit = (11.5 + span * 0.25) / (tan * (mobile ? 0.84 : 0.8))
       return Math.max(horizontalFit, verticalFit)
     }
+    function fitRow() {
