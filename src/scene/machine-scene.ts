@@ -1121,3 +1121,4 @@ export function initMachineScene(
       machine.add(pipes)
       for (let i = 0; i < 4; i++) {
         const a = stations[i].base,
+          b = stations[i + 1].base
