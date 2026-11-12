@@ -42,3 +42,4 @@ export function ViewBar({
       aria-label="Tampilan mesin"
       className="flex flex-wrap items-center justify-center gap-1 rounded-xl border border-line bg-panel/95 p-1"
     >
+      {MODES.map((m) => (
