@@ -610,3 +610,4 @@ export function initMachineScene(
       c.fillRect(0, 0, w, h)
       fit(c, theme.wip.title, 24, 47, 22, 208, '#3b403a', 650)
       fit(c, theme.wip.sub, 24, 85, 15, 208, '#7a7c70')
+      for (let i = 0; i < 9; i++) {
