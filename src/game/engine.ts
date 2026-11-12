@@ -11,3 +11,4 @@ import {
 export const SAVE_VERSION = 3
 /** A station doubles its speed when it reaches each of these levels. */
 export const MILESTONES = [10, 25, 50, 100, 150, 200, 300, 400, 500, 750, 1000]
+export const MAX_LEVEL = 2000
