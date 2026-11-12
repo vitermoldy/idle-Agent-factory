@@ -1353,3 +1353,4 @@ export function initMachineScene(
       p.shown = true
       p.holder.visible = true
       p.holder.scale.setScalar(1)
+      p.holder.position.x = targetX(p.k)
