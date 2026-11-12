@@ -80,3 +80,4 @@ export default function AgenticFactory3D({
         handlers.current.onApi?.(scene.api)
       })
     return () => {
+      cancelled = true
