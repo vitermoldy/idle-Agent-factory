@@ -220,3 +220,4 @@ export function unlockFactory(state: GameState, id: FactoryId) {
 }
 
 /** Buys a product: a new plate is built beside the others and comes into view. */
+export function buyProduct(state: GameState, id: FactoryId, productId: string) {
