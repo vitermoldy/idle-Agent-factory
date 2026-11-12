@@ -13,3 +13,4 @@ const MODES: Array<{ mode: E.BuyMode; label: string }> = [
 ]
 
 export function UpgradePanel({ selected }: { selected: SlotId | null }) {
+  const game = useGame((s) => s.game)
