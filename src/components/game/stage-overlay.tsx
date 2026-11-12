@@ -141,3 +141,4 @@ export function UnlockCard() {
             {money(Math.min(game.cash, def.unlockCost))} / {money(def.unlockCost)}
           </span>
         </div>
+        <span className="mt-1.5 block h-1 overflow-hidden rounded bg-line" aria-hidden="true">
