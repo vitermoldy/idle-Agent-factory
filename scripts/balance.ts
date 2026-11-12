@@ -80,3 +80,4 @@ while (t <= 4 * 3600) {
         if (gain > 0)
           consider({
             payback: p.unlockCost / gain,
+            cost: p.unlockCost,
