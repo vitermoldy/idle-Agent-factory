@@ -278,3 +278,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     }
     factories[def.id] = { ...fs, progress, queue, orders: fs.orders + done, earned: fs.earned + cash }
     if (done > 0) {
+      completed[def.id] = { orders: done, cash }
