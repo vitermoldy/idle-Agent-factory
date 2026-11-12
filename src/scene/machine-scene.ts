@@ -248,3 +248,4 @@ export function initMachineScene(
     function cyl(
       parent: THREE.Object3D,
       r: number,
+      h: number,
