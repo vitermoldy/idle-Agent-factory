@@ -10,3 +10,5 @@ const MODES: Array<{ mode: E.BuyMode; label: string }> = [
   { mode: 1, label: '×1' },
   { mode: 10, label: '×10' },
   { mode: 'max', label: 'Maks' },
+]
+
