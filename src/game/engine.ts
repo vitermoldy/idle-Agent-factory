@@ -305,3 +305,4 @@ export function nextStarAt(allTime: number) {
   return next * next * STAR_UNIT
 }
 
+export function starsClaimable(state: GameState) {
