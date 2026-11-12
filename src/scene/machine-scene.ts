@@ -1229,3 +1229,4 @@ export function initMachineScene(
     let baseDistance = 25,
       plateDistance = 25,
       sized = false,
+      readySent = false
