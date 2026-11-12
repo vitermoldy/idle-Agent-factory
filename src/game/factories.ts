@@ -338,3 +338,4 @@ export const FACTORIES: FactoryDef[] = [
     unit: 'buku',
     blurb: 'Kerangka disusun, bab ditulis dan disunting, lalu buku terjual di toko digital.',
     products: [
+      { id: 'guide', name: 'Buku panduan', desc: 'Resep, tips usaha, cara merawat tanaman.', price: 170_000_000, work: [1, 1, 1, 1, 1], unlockCost: 0 },
