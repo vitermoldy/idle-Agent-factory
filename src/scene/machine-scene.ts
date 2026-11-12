@@ -670,3 +670,4 @@ export function initMachineScene(
         }
       }
       return best
+    }
