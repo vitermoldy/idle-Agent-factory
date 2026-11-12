@@ -302,3 +302,4 @@ export default function App() {
             aria-labelledby={`tab-${shownTab}`}
             className="p-4 pb-24 lg:min-h-0 lg:flex-1 lg:overflow-y-auto lg:pb-6"
           >
+            {shownTab === 'upgrade' && <UpgradePanel selected={selected} />}
