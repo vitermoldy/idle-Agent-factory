@@ -352,3 +352,4 @@ export default function App() {
         onClose={() => setConfirm(null)}
       >
         <p>
+          Semua lini, produk, level, dan kas kembali ke awal. Kamu mendapat {E.starsClaimable(game)} bintang,
