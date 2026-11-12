@@ -360,3 +360,4 @@ export default function App() {
         open={confirm === 'reset'}
         title="Hapus semua progres?"
         confirmLabel="Hapus dan mulai dari nol"
+        onConfirm={() => useGame.getState().resetGame()}
