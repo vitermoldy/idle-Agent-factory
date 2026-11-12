@@ -109,3 +109,4 @@ export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
       )
     case 'ebook':
       return (
+        <svg {...base} {...p}>
