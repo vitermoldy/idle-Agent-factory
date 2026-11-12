@@ -285,3 +285,4 @@ export default function App() {
                 role="tab"
                 aria-selected={shownTab === t}
                 aria-controls="tab-panel"
+                tabIndex={shownTab === t ? 0 : -1}
