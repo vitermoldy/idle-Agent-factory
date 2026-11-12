@@ -1407,3 +1407,4 @@ export function initMachineScene(
       hovered = null
       tooltip.classList.remove('visible')
     })
+    listen(renderer.domElement, 'pointerdown', (e: PointerEvent) => {
