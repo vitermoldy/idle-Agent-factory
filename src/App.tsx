@@ -270,3 +270,4 @@ export default function App() {
           tabIndex={-1}
           aria-label="Panel lini"
           className="bg-ground lg:flex lg:min-h-0 lg:flex-col lg:border-l lg:border-line"
+        >
