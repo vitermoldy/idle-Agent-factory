@@ -139,3 +139,4 @@ export function SettingsDialog({
   const time = lastSaved
     ? new Date(lastSaved).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' })
     : null
+  return (
