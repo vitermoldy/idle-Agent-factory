@@ -1507,3 +1507,4 @@ export function initMachineScene(
           (inFocus && cameraMode === 'station' && selected === st.id)
         const goal = lit
           ? 3.5
+          : locked
