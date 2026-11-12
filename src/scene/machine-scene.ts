@@ -227,3 +227,4 @@ export function initMachineScene(
         )
       return geometries.get(k)!
     }
+    function box(
