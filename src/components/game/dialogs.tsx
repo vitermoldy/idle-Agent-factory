@@ -173,3 +173,4 @@ export function SettingsDialog({
           Mesin 3D diadaptasi dari komponen Agentic Factory 3D (dibuat dengan OpenAI Codex, port React oleh
           Claude), digambar seluruhnya dengan three.js tanpa model atau gambar.{' '}
           <a
+            className="text-soft underline underline-offset-2 hover:text-ink"
