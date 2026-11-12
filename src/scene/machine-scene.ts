@@ -465,3 +465,4 @@ export function initMachineScene(
     const draftingPoints: THREE.Vector3[] = []
     for (const r of [7.5, 8.1])
       for (let i = 0; i < 120; i++)
+        for (const j of [i, i + 1]) {
