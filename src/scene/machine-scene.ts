@@ -1483,3 +1483,4 @@ export function initMachineScene(
       }
       const grow = 1 - Math.exp(-dt * 3.2)
       const s = THREE.MathUtils.lerp(p.holder.scale.x, owned ? 1 : 0.001, grow)
+      p.holder.scale.setScalar(s)
