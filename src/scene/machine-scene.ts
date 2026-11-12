@@ -290,3 +290,4 @@ export function initMachineScene(
       const c = document.createElement('canvas')
       c.width = w
       c.height = h
+      const ctx = c.getContext('2d')!
