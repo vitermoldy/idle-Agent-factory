@@ -8,3 +8,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
   const income = useGame((s) => totalIncome(s.game))
   const series = useGame((s) => s.game.series)
   const stars = useGame((s) => s.game.stars)
+  return (
