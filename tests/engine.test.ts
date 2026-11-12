@@ -184,3 +184,4 @@ describe('saves', () => {
   it('cleans values it cannot trust', () => {
     const g = E.newGame(0)
     const raw = JSON.parse(JSON.stringify(g))
+    raw.factories.video.levels = [-4, 'x', 99999, 3, 3]
