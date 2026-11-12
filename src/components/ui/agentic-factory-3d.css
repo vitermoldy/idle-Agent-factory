@@ -5,3 +5,4 @@
   overflow: hidden;
   background: var(--color-ground, #050607);
   contain: layout;
+}
