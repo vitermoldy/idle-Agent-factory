@@ -357,3 +357,4 @@ export function parseSave(raw: string | null): GameState | null {
     if (typeof rawProgress === 'number') progress[product] = Math.min(0.999, num(rawProgress, 0))
     else if (rawProgress && typeof rawProgress === 'object')
       for (const id of owned) progress[id] = Math.min(0.999, num((rawProgress as Record<string, unknown>)[id], 0))
+    factories[def.id] = {
