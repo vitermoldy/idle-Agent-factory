@@ -36,3 +36,4 @@ describe('the line', () => {
     g = E.takeOrder(E.takeOrder(g, 'video'), 'video')
     const { state, completed } = E.advance(g, 600)
     expect(completed.video?.orders).toBe(2)
+    expect(state.cash).toBeCloseTo(2 * 29)
