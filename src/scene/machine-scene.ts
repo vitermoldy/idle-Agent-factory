@@ -768,3 +768,4 @@ export function initMachineScene(
 
       const stations: PlateStation[] = []
       const gears: Array<{ g: THREE.Group; dir: number }> = []
+      function gear(parent: THREE.Object3D, dir: number, x: number, y: number, z: number, r = 0.3) {
