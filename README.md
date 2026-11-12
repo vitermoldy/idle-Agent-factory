@@ -47,3 +47,4 @@ Butuh Node 22 atau lebih baru. Di Windows, jalankan vitest dari `C:\...` (huruf 
 ```
 src/
   components/ui/agentic-factory-3d.tsx   komponen mesin 3D (dari Prompt.txt, versi game)
+  components/game/                       header, daftar lini, panel upgrade/produk/series, dialog
