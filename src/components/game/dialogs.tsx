@@ -9,3 +9,4 @@ export function Dialog({
   open,
   onClose,
   title,
+  children,
