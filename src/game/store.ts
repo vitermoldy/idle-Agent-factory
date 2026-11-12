@@ -31,3 +31,4 @@ interface Store {
   tick: (now: number) => E.Completed
   save: () => void
   setActive: (id: FactoryId) => void
+  takeOrder: () => void
