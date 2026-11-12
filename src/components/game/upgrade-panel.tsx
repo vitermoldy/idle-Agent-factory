@@ -204,3 +204,4 @@ function StationRow({
             'Bottleneck lain ikut menahan'
           ) : (
             'Belum menambah pendapatan'
+          )}
