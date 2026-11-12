@@ -143,3 +143,4 @@
     color: var(--color-ink);
   }
   .icon-btn:active {
+    transform: translateY(1px);
