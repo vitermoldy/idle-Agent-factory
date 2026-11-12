@@ -1517,3 +1517,4 @@ export function initMachineScene(
       p.belt.scale.set(1 + spread * 0.12, 1, 1 + spread * 0.15)
       p.pipes.scale.set(1 + spread * 0.25, 1, 1 + spread * 0.3)
       if (playing) for (const { g, dir } of p.gears) g.rotation.y += dt * p.speed * dir * 1.1
+      for (const update of p.propUpdates) update(t)
