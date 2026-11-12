@@ -925,3 +925,4 @@ export function initMachineScene(
           phone.position.y = 1.98 + Math.sin(t * 1.1) * 0.04
         })
       } else {
+        // A stack of books with an open one on top, its page turning.
