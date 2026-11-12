@@ -8,3 +8,4 @@ export function short(n: number): string {
   if (n < 0) return '-' + short(-n)
   if (n < 10) return trim(n.toFixed(2))
   if (n < 100) return trim(n.toFixed(1))
+  if (n < 1000) return Math.floor(n).toString()
