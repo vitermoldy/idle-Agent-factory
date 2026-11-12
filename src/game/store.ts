@@ -162,3 +162,4 @@ export const useGame = create<Store>((set, get) => {
       set({ game: E.newGame(), away: null, notices: [] })
       get().save()
     },
+    dismissAway: () => set({ away: null }),
