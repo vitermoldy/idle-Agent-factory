@@ -1627,3 +1627,4 @@ export function initMachineScene(
         }
       } else if (cameraMode === 'flight' && playing && !dragging) {
         const a = flightTime * 0.12,
+          d = baseDistance * (mode === 'stations' ? 1.2 : 1)
