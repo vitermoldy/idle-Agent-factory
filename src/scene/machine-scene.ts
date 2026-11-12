@@ -1146,3 +1146,4 @@ export function initMachineScene(
         const halo = new THREE.Mesh(
           new THREE.RingGeometry(0.4, 0.414, 40),
           new THREE.MeshBasicMaterial({ color: ACC, transparent: true, opacity: 0.8, side: THREE.DoubleSide, depthWrite: false })
+        )
