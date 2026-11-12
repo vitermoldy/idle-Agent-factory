@@ -1563,3 +1563,4 @@ export function initMachineScene(
           packet.group.rotation.set(0, 0.18, 0)
           stage = u < adminU * 0.7 ? 1 : u < storeU * 0.96 ? 2 : u < cashU * 0.83 ? 3 : 4
         }
+        if (packet.stage !== stage) {
