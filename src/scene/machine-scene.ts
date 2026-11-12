@@ -1060,3 +1060,4 @@ export function initMachineScene(
           c.fillStyle = '#333d36'
           c.fillRect(25 + i * 5, 370, 1 + (i % 3), 83)
         }
+        print(c, 'No. 0001', 81, 496, 17, '#59635b')
