@@ -55,3 +55,4 @@ while (t <= 4 * 3600) {
         const cost = E.upgradeCost(def, i, fs.levels[i])
         if (gain > 0) consider({ payback: cost / gain, cost, apply: () => (s = E.buyLevels(s, id, i, 1)) })
       }
+      // Tied bottlenecks: no single upgrade helps, so price the whole tie together.
