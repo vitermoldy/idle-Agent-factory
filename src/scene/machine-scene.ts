@@ -1746,3 +1746,4 @@ export function initMachineScene(
   } catch (error) {
     console.error('Machine: failed to start', error)
     dispose()
+    api = null
