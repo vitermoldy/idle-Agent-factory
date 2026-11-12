@@ -258,3 +258,4 @@ export default function App() {
               camera={camera}
               labels={labels}
               playing={playing}
+              onMode={(m) => apiRef.current?.setMode(m)}
