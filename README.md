@@ -13,3 +13,4 @@ dibayar di Kasir.
 4. **Tambah produk.** Setiap pabrik punya tiga produk. Setiap produk yang dibeli dibangun sebagai petak
    mesin baru di samping petak lain, dan semua petak berproduksi bersamaan (dua produk berarti dua
    petak). Level stasiun berlaku untuk semua petak. Produk mahal membayar lebih per order tetapi
+   membebani stasiun tertentu; tab Produk menunjukkan berapa tambahan pendapatan tiap petak baru.
