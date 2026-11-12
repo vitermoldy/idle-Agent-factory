@@ -2,3 +2,4 @@
    Scoped to .af3d; colours follow the active line through --accent. */
 .af3d {
   position: relative;
+  overflow: hidden;
