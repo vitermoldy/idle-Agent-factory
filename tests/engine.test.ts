@@ -50,3 +50,4 @@ describe('the line', () => {
     const g = E.hireAgent(rich(video.agentCost), 'video')
     expect(g.cash).toBe(0)
     const T = E.throughput(video, g.factories.video)
+    const { state } = E.advance(g, 100)
