@@ -142,3 +142,4 @@ export function SettingsDialog({
   return (
     <Dialog open={open} onClose={onClose} title="Pengaturan">
       <section aria-labelledby="save-title">
+        <h3 id="save-title" className="text-[14px] font-semibold text-ink">
