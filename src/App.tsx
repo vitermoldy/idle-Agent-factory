@@ -183,3 +183,4 @@ export default function App() {
     apiRef.current = api
   }, [])
   const tooltip = useCallback(
+    (slot: SlotId, plate: number) => {
