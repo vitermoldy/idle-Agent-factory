@@ -1035,3 +1035,4 @@ export function initMachineScene(
       function paintPrice(value: string) {
         paintedValue = value
         let c = cashTex.ctx
+        c.fillStyle = '#12231e'
