@@ -7,3 +7,4 @@ export function useMediaQuery(query: string) {
       m.addEventListener('change', onChange)
       return () => m.removeEventListener('change', onChange)
     },
+    () => matchMedia(query).matches,
