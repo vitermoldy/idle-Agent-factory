@@ -1616,3 +1616,4 @@ export function initMachineScene(
           step = packet.stage
         if (step !== prevJourney && step >= 0) {
           $('journey-title').textContent = theme.journey[step][0]
+          $('journey-detail').textContent = theme.journey[step][1]
