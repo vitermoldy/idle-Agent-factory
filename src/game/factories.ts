@@ -261,3 +261,4 @@ export const FACTORIES: FactoryDef[] = [
       receipt: { shop: 'PABRIK PODCAST' },
       screen: { kicker: 'SUARA', head: 'DARI AGEN.', lines: ['Topik dipilih,', 'suara direkam.', 'Episode', 'siap tayang.'] },
       journey: [
+        ['Topik masuk', 'Usulan Tari masuk ke meja Topik'],
