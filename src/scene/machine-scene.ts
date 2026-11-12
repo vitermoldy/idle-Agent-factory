@@ -156,3 +156,4 @@ export function initMachineScene(
     controls.enablePan = false
     controls.minDistance = 7
     controls.maxDistance = 90
+    controls.minPolarAngle = 0.09
