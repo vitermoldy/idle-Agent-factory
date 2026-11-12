@@ -19,3 +19,4 @@ export type MachineMode = 'assembled' | 'cutaway' | 'stations' | 'order'
 export type MachineCamera = 'overview' | 'side' | 'top' | 'plate' | 'station' | 'flight'
 
 /** One product's plate, as the game sees it right now. */
+export interface PlateLive {
