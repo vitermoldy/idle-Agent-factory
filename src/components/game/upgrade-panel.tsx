@@ -212,3 +212,4 @@ function StationRow({
           disabled={!can}
           onClick={() => buyStation(index)}
           aria-label={`Naikkan ${st.name} ${n} level seharga ${money(cost)}`}
+        >
