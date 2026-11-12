@@ -16,3 +16,5 @@ import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment
 import { PIPELINE, type FactoryDef, type FactoryId, type SlotId } from '@/game/factories'
 
 export type MachineMode = 'assembled' | 'cutaway' | 'stations' | 'order'
+export type MachineCamera = 'overview' | 'side' | 'top' | 'plate' | 'station' | 'flight'
+
