@@ -75,3 +75,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                       className="block h-full bg-(--item)"
                       style={{ width: `${Math.min(100, (game.cash / def.unlockCost) * 100)}%` }}
                     />
+                  </span>
