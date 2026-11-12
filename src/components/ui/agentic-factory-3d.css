@@ -185,3 +185,4 @@
   border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
   border-top-color: var(--accent);
   animation: af3d-spin 1s linear infinite;
+}
