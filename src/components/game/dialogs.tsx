@@ -31,3 +31,4 @@ export function Dialog({
       ref={ref}
       aria-labelledby={id}
       onClose={onClose}
+      onClick={(e) => e.target === ref.current && onClose()}
