@@ -211,3 +211,4 @@ export function hireAgent(state: GameState, id: FactoryId) {
 
 export function unlockFactory(state: GameState, id: FactoryId) {
   const def = FACTORY_BY_ID[id]
+  const fs = state.factories[id]
