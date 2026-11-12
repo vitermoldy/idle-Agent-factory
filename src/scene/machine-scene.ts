@@ -1422,3 +1422,4 @@ export function initMachineScene(
       selected = hit.slot
       focusStation(hit.slot)
     })
+    let lastFrame = performance.now()
