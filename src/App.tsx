@@ -151,3 +151,4 @@ export default function App() {
   useEffect(() => {
     syncLive(live.current, useGame.getState().game)
     setMode('assembled')
+    setCamera('overview')
