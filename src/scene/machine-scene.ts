@@ -1120,3 +1120,4 @@ export function initMachineScene(
       const pipes = new THREE.Group()
       machine.add(pipes)
       for (let i = 0; i < 4; i++) {
+        const a = stations[i].base,
