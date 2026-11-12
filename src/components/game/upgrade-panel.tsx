@@ -45,3 +45,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
           {def.stations.map((st, i) => (
             <StationRow
               key={st.slot}
+              def={def}
