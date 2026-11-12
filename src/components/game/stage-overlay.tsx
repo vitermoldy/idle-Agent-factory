@@ -64,3 +64,4 @@ export function StageAction() {
         <div className="flex items-baseline justify-between gap-3 text-[13px] tabular-nums">
           <span className="font-medium text-ink">
             {fs.owned.length > 1 ? `${fs.owned.length} petak berproduksi` : 'Agen menjalankan lini'}
+          </span>
