@@ -830,3 +830,4 @@ export function initMachineScene(
           const reel = new THREE.Group()
           reel.position.set(x, y, -0.48)
           engine.add(reel)
+          reel.userData.moving = true
