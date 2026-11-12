@@ -1403,3 +1403,4 @@ export function initMachineScene(
         tooltip.style.top = Math.max(10, Math.min(height - 95, y - 65)) + 'px'
       }
     })
+    listen(renderer.domElement, 'pointerleave', () => {
