@@ -969,3 +969,4 @@ export function initMachineScene(
       consoleTop.position.set(0, 1.01, -0.08)
       consoleTop.rotation.x = -0.32
       admin.add(consoleTop)
+      box(consoleTop, 1.76, 0.12, 1.27, 0, 0, 0, S.ivory, 0.04)
