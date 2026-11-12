@@ -334,3 +334,4 @@ export default function App() {
       <Notices onOpen={openFactory} />
       <AwayDialog />
       <SettingsDialog
+        open={settings}
