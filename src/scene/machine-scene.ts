@@ -1572,3 +1572,5 @@ export function initMachineScene(
         packet.group.scale.setScalar(orderMode ? 1.35 : 1)
         if (phase > 0.94) packet.group.scale.multiplyScalar(Math.max(0.05, (1 - phase) / 0.06))
       })
+    }
+
