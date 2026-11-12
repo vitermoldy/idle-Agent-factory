@@ -38,3 +38,4 @@ while (t <= 4 * 3600) {
       s = E.hireAgent(s, hire.id)
       marks.push(`${clock(t)}  agent ${hire.name}`)
       continue
+    }
