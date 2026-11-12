@@ -1096,3 +1096,4 @@ export function initMachineScene(
       const beltSlats = new THREE.InstancedMesh(boxGeo(0.135, 0.065, 0.63, 0.012), M.body, beltCount)
       beltSlats.receiveShadow = true
       beltSlats.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
+      belt.add(beltSlats)
