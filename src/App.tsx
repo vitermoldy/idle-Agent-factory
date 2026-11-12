@@ -51,3 +51,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
       value: money(E.orderValue(def, fs, g.stars, p)),
       product: p.name,
       neck: fs.unlocked ? E.bottlenecks(def, fs, p).map((i) => def.stations[i].slot) : [],
+    }
