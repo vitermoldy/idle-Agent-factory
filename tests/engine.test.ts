@@ -132,3 +132,4 @@ describe('products', () => {
 
   it('makes the pricier product pay off once its heavy station is upgraded', () => {
     const ads = video.products[1]
+    const base = video.products[0]
