@@ -432,3 +432,4 @@ export function initMachineScene(
         c.lineTo(274, 302)
         c.closePath()
         c.fill()
+      },
