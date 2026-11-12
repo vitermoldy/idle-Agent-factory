@@ -722,3 +722,4 @@ export function initMachineScene(
     function buildPlate(k: number) {
       const product = factory.products[k]
       const holder = new THREE.Group()
+      holder.visible = false
