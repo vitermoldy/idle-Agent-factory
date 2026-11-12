@@ -533,3 +533,4 @@ export function initMachineScene(
       }
       queue.texture.needsUpdate = true
     }
+    drawQueue(0)
