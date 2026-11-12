@@ -31,3 +31,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               type="button"
               aria-pressed={active}
               onClick={() => {
+                setActive(def.id)
