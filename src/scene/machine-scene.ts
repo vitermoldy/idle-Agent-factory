@@ -164,3 +164,4 @@ export function initMachineScene(
       room = new RoomEnvironment()
     const env = pmrem.fromScene(room, 0.04)
     scene.environment = env.texture
+    scene.environmentIntensity = 0.62
