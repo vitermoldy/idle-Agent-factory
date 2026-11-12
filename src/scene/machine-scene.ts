@@ -81,3 +81,4 @@ const POS: Record<SlotId, [number, number, number]> = {
   cabinet: [4.03, 0.29, 0.12],
   cashdesk: [0.93, 0.29, 1.85],
 }
+/** Distance between plate centres; a plate is 12.8 wide, so 1.4 of floor shows between two. */
