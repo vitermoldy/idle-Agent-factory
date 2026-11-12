@@ -38,3 +38,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               className={cn(
                 'group flex min-h-[60px] w-full items-center gap-3 rounded-[10px] border px-3 py-2.5 text-left transition-colors',
                 active
+                  ? 'border-line-strong bg-raised'
