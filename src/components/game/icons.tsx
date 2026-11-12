@@ -10,3 +10,4 @@ const base = {
   height: 16,
   viewBox: '0 0 16 16',
   fill: 'none',
+  stroke: 'currentColor',
