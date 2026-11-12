@@ -66,3 +66,4 @@ while (t <= 4 * 3600) {
         const cheapest = tied.reduce((a, b) =>
           E.upgradeCost(def, a, fs.levels[a]) <= E.upgradeCost(def, b, fs.levels[b]) ? a : b
         )
+        if (gain > 0)
