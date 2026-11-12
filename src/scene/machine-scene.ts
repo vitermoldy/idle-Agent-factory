@@ -365,3 +365,4 @@ export function initMachineScene(
       web: (c, t) => {
         disc(c, 330, 60, 180, DEEP)
         rounded(c, 34, 34, 316, 252, 12, '#f4f1ea')
+        rounded(c, 34, 34, 316, 34, [12, 12, 0, 0], '#dedfd7')
