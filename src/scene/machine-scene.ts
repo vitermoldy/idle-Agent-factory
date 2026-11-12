@@ -1158,3 +1158,4 @@ export function initMachineScene(
       stations.forEach((s) => s.group.traverse((o) => Object.assign(o.userData, { station: s.id, plate: k })))
       return {
         k,
+        holder,
