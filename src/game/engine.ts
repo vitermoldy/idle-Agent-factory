@@ -23,3 +23,4 @@ export const STAR_UNIT = 1e10
 
 export interface FactoryState {
   unlocked: boolean
+  agent: boolean
