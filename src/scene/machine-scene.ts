@@ -213,3 +213,4 @@ export function initMachineScene(
       green: mat(0xc6d9a1, 0.1, 0.3, { emissive: 0x91b364, emissiveIntensity: 0.7 }),
       paper: mat(0xf4f1ea, 0, 0.85),
     }
+    type Vec3 = [number, number, number]
