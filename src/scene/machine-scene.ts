@@ -1213,3 +1213,4 @@ export function initMachineScene(
       lastFocus = live.focus
     let width = frameWidth(),
       height = frameHeight(),
+      mobile = width <= 640,
