@@ -385,3 +385,4 @@ export function initMachineScene(
         c.lineWidth = 6
         c.beginPath()
         c.arc(192, 170, 118, 0, TAU)
+        c.stroke()
