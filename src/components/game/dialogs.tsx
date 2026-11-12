@@ -168,3 +168,4 @@ export function SettingsDialog({
       <section aria-labelledby="about-title" className="mt-5 border-t border-line pt-5">
         <h3 id="about-title" className="text-[14px] font-semibold text-ink">
           Tentang mesin
+        </h3>
