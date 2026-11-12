@@ -67,3 +67,4 @@ export default function AgenticFactory3D({
           live,
           fonts: { text, display },
           tooltip: (slot, plate) => handlers.current.tooltip(slot, plate),
+          onStation: (slot, plate) => handlers.current.onStation?.(slot, plate),
