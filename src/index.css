@@ -259,3 +259,4 @@
     animation: popup-fade 1.4s linear forwards;
     transform: translate(-50%, -20px);
   }
+  .btn:hover:not(:disabled),
