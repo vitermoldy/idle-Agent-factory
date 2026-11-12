@@ -787,3 +787,4 @@ export function initMachineScene(
         const group = new THREE.Group()
         group.position.fromArray(POS[id])
         machine.add(group)
+        const glowMat = M.light.clone()
