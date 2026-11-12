@@ -107,3 +107,4 @@ function Progress({ value, steady = false }: { value: number; steady?: boolean }
         className={cn('block h-full origin-left bg-accent', !steady && 'transition-transform duration-100 ease-linear')}
         style={{ transform: `scaleX(${Math.min(1, Math.max(0, value))})` }}
       />
+    </span>
