@@ -1503,3 +1503,4 @@ export function initMachineScene(
         const neck = !locked && pl.neck.includes(st.id)
         const pulse = Math.pow(Math.max(0, Math.sin(tact - i * 0.9)), 7)
         const lit =
+          (hovered && hovered.plate === p.k && hovered.slot === st.id) ||
