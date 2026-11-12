@@ -39,3 +39,4 @@ function NoticeCard({ notice, onOpen }: { notice: Notice; onOpen: (id: FactoryId
         </button>
       )}
       <button type="button" className="icon-btn" aria-label="Tutup pemberitahuan" onClick={() => dismiss(notice.id)}>
+        <Close />
