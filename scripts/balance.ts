@@ -88,3 +88,4 @@ while (t <= 4 * 3600) {
           })
       }
     }
+    const income = Math.max(1e-9, E.totalIncome(s))
