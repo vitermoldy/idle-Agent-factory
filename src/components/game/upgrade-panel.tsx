@@ -174,3 +174,4 @@ function StationRow({
               </span>
             )}
           </div>
+          <p className="mt-1 text-[12px] leading-snug text-muted">{st.desc}</p>
