@@ -253,3 +253,4 @@ export function initMachineScene(
       y: number,
       z: number,
       m: Material = M.chrome,
+      r2: number = r,
