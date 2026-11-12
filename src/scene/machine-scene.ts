@@ -1405,3 +1405,4 @@ export function initMachineScene(
     })
     listen(renderer.domElement, 'pointerleave', () => {
       hovered = null
+      tooltip.classList.remove('visible')
