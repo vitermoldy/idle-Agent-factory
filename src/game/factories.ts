@@ -198,3 +198,4 @@ export const FACTORIES: FactoryDef[] = [
       cashTitle: 'INVOICE LUNAS',
       receipt: { shop: 'PABRIK WEBSITE' },
       screen: { kicker: 'RILIS', head: 'HARI INI.', lines: ['Brief pagi,', 'tayang sore.', 'Agen menulis', 'kodenya.'] },
+      journey: [
