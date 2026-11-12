@@ -47,3 +47,4 @@ export const Pause = (p: P) => (
 )
 
 export const Play = (p: P) => (
+  <svg {...base} {...p} fill="currentColor" stroke="none">
