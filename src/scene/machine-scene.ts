@@ -589,3 +589,4 @@ export function initMachineScene(
         print(c, o.statuses[i], 93, y + 58, 15, '#94a59b')
       })
     })
+    const nameTex = canvasTexture(432, 204, (c, w, h) => {
