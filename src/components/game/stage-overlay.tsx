@@ -126,3 +126,4 @@ export function UnlockCard() {
         aria-labelledby="unlock-title"
         className="pointer-events-auto w-[min(420px,100%)] rounded-2xl border border-line-strong bg-panel/95 p-5"
       >
+        <p className="mono-label text-accent">Lini {def.no}</p>
