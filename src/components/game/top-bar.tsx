@@ -14,3 +14,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         <span className="grid size-9 shrink-0 place-items-center rounded-[9px] border border-[#55502f] bg-[#1c1b14] text-accent">
           <Mark />
         </span>
+        <div>
