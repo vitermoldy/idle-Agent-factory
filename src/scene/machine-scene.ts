@@ -486,3 +486,4 @@ export function initMachineScene(
         canvasTexture(512, 116, (c) => {
           c.fillStyle = '#151a20'
           c.fillRect(0, 0, 512, 116)
+          print(c, pad(stepOf(id)), 24, 76, 42, ACC, 550)
