@@ -16,3 +16,4 @@ import './agentic-factory-3d.css'
  * the `live` object, which must keep its identity for the life of the component.
  */
 export type AgenticFactory3DProps = {
+  factory: FactoryDef
