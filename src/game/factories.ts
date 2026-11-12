@@ -127,3 +127,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       post: 'KANAL',
       orders: {
+        title: 'ORDER MASUK',
