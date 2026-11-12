@@ -76,3 +76,4 @@ export default function AgenticFactory3D({
             setPhase('error')
           },
         })
+        dispose = scene.dispose
