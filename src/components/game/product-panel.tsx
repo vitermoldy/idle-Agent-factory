@@ -13,3 +13,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
   return (
+    <section aria-labelledby="products-title" className="flex flex-col gap-4">
