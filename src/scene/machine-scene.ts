@@ -1429,3 +1429,4 @@ export function initMachineScene(
     })
     const observer = new IntersectionObserver(
       (entries) => {
+        visible = entries[0].isIntersecting && !document.hidden
