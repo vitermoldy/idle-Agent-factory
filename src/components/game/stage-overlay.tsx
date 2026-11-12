@@ -121,3 +121,4 @@ export function UnlockCard() {
   const can = game.cash >= def.unlockCost
   const first = def.products[0]
   return (
+    <div className="pointer-events-none absolute inset-0 grid place-items-center p-4 lg:pt-24">
