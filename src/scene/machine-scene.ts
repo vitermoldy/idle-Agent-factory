@@ -421,3 +421,4 @@ export function initMachineScene(
         fit(c, theme.store.tag[1], 134, 116, 26, 128, '#f4f1ea', 700, displayFamily)
         for (let i = 0; i < 3; i++) {
           c.fillStyle = '#5d636b'
+          c.fillRect(134, 150 + i * 16, 110 - i * 22, 5)
