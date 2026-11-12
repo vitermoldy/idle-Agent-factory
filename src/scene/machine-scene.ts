@@ -1499,3 +1499,4 @@ export function initMachineScene(
         st.group.position.copy(st.base)
         st.group.position.x *= 1 + spread * 0.29
         st.group.position.z *= 1 + spread * 0.37
+        st.group.position.y += spread * (i % 2 ? 0.32 : 0.55)
