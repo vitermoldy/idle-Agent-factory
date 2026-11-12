@@ -185,3 +185,4 @@ export function levelsToBuy(def: FactoryDef, index: number, level: number, cash:
   return Math.min(mode, room)
 }
 
+function withFactory(state: GameState, id: FactoryId, patch: Partial<FactoryState>): GameState {
