@@ -43,3 +43,4 @@ function ProductRow({
   product: ProductDef
   inView: boolean
   onShow: (id: string) => void
+  onBought: () => void
