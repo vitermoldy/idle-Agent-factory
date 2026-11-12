@@ -158,3 +158,4 @@ export function SettingsDialog({
         <h3 id="reset-title" className="text-[14px] font-semibold text-ink">
           Mulai dari nol
         </h3>
+        <p className="mt-1 text-[13px] text-muted">
