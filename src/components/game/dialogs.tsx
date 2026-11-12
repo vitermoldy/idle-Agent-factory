@@ -151,3 +151,4 @@ export function SettingsDialog({
             : 'Browser ini menolak penyimpanan lokal, jadi progres hilang saat halaman ditutup.'}
         </p>
         <button type="button" className="btn btn-quiet mt-3" onClick={save}>
+          Simpan sekarang
