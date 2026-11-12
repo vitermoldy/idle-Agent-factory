@@ -628,3 +628,4 @@ export function initMachineScene(
       fit(c, `${factory.unit.toUpperCase()} / 01`, 23, 320, 17, 210, 'rgba(20,24,20,.75)')
     })
 
+    // Conveyor path, the same on every plate.
