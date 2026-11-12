@@ -15,3 +15,4 @@ dibayar di Kasir.
    petak). Level stasiun berlaku untuk semua petak. Produk mahal membayar lebih per order tetapi
    membebani stasiun tertentu; tab Produk menunjukkan berapa tambahan pendapatan tiap petak baru.
    Klik "Lihat petak ini" atau sebuah stasiun di petak mana pun untuk melihat petak itu dari dekat.
+5. **Buka pabrik lain** begitu uangmu cukup. Game memberi tahu saat itu terjadi.
