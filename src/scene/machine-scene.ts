@@ -1242,3 +1242,4 @@ export function initMachineScene(
       const aspect = width / height
       const tan = 2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))
       // A single plate may crop its drafting rings on a phone; a row must show every plate whole.
+      const share = mobile ? (span > 0 ? 0.94 : 1.1) : 0.9
