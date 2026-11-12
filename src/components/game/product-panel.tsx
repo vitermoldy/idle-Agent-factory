@@ -28,3 +28,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
           <ProductRow key={p.id} def={def} product={p} inView={p.id === fs.product} onShow={onShow} onBought={onBought} />
         ))}
       </ul>
+    </section>
