@@ -159,3 +159,4 @@ export function initMachineScene(
     controls.minPolarAngle = 0.09
     controls.maxPolarAngle = Math.PI * 0.475
     controls.rotateSpeed = 0.48
+    controls.zoomSpeed = 0.7
