@@ -39,3 +39,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
           Setiap petak berjalan secepat stasiun paling lambatnya. Naikkan bottleneck dulu; stasiun lain baru
           terasa setelah ia menyusul.
           {owned.length > 1 &&
+            ` Level berlaku untuk ${owned.length} petak; kecepatan di bawah untuk petak ${E.activeProduct(def, fs).name.toLowerCase()}.`}
