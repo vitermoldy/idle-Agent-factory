@@ -63,3 +63,4 @@ export function StageAction() {
       <div className="pointer-events-auto w-[min(360px,100%)] rounded-xl border border-line bg-panel/95 px-4 py-3">
         <div className="flex items-baseline justify-between gap-3 text-[13px] tabular-nums">
           <span className="font-medium text-ink">
+            {fs.owned.length > 1 ? `${fs.owned.length} petak berproduksi` : 'Agen menjalankan lini'}
