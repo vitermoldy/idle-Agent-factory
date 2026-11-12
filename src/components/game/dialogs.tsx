@@ -57,3 +57,4 @@ export function AwayDialog() {
     <Dialog
       open={!!away}
       onClose={dismiss}
+      title="Agenmu tetap bekerja"
