@@ -1118,3 +1118,4 @@ export function initMachineScene(
       }
       // Pneumatic lines (in the line's deep accent) link the station footings.
       const pipes = new THREE.Group()
+      machine.add(pipes)
