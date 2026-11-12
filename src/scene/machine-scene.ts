@@ -1419,3 +1419,4 @@ export function initMachineScene(
       if (!hit) return
       // The game moves the focus to this plate; the camera follows on the next frames.
       options.onStation?.(hit.slot, hit.plate)
+      selected = hit.slot
