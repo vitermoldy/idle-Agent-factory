@@ -34,3 +34,4 @@ export interface FactoryState {
   /** Fraction of the next order already done, per plate. */
   progress: Record<string, number>
   orders: number
+  earned: number
