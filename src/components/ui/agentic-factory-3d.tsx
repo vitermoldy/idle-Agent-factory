@@ -61,3 +61,4 @@ export default function AgenticFactory3D({
     Promise.all([document.fonts.load(`600 20px ${text}`), document.fonts.load(`650 20px ${display}`)])
       .catch(() => undefined)
       .then(() => {
+        if (cancelled) return
