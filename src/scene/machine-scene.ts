@@ -1535,3 +1535,4 @@ export function initMachineScene(
       p.incoming.rotation.z = Math.sin(incomingBeat * Math.PI) * -0.14
       p.incoming.scale.setScalar(Math.min(1, incomingBeat * 8 + 0.15, (1 - incomingBeat) * 7 + 0.1))
       p.toggles.forEach((o, i) => (o.rotation.x = Math.sin(tact + i) > 0 ? -0.4 : 0.4))
+      if (t - p.lastBelt > 1 / 18 || p.lastBelt < 0) {
