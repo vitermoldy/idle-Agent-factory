@@ -1613,3 +1613,4 @@ export function initMachineScene(
       }
       if (mode === 'order') {
         const packet = fp.packets[0],
+          step = packet.stage
