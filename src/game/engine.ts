@@ -124,3 +124,5 @@ export function bottlenecks(def: FactoryDef, fs: FactoryState, product = activeP
   const rates = lineRates(def, fs, product)
   const min = Math.min(...rates)
   return rates.flatMap((r, i) => (r <= min * 1.0001 ? [i] : []))
+}
+
