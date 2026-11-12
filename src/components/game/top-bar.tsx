@@ -40,3 +40,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
             {stars}
             <span className="sr-only"> bintang</span>
           </span>
+        )}
