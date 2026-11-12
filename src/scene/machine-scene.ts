@@ -1027,3 +1027,4 @@ export function initMachineScene(
       box(cashdesk, 0.64, 0.6, 0.52, 0.58, 1.04, -0.15, S.body, 0.045)
       box(cashdesk, 0.48, 0.07, 0.09, 0.59, 1.37, -0.1, M.dark, 0.01)
       cyl(cashdesk, 0.06, 0.65, -0.35, 1.6, -0.56, M.chrome)
+      box(cashdesk, 1.13, 0.46, 0.19, -0.35, 1.98, -0.56, S.body, 0.045)
