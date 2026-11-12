@@ -214,3 +214,4 @@ export default function App() {
   return (
     <div className="min-h-svh bg-ground text-ink lg:flex lg:h-svh lg:flex-col" style={accent}>
       <a href="#panel" className="skip-link">
+        Lewati ke panel upgrade
