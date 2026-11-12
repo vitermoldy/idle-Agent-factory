@@ -1207,3 +1207,4 @@ export function initMachineScene(
     let mode: MachineMode = 'assembled',
       cameraMode: MachineCamera = 'overview',
       spread = 0,
+      selected: SlotId = 'engine',
