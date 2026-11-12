@@ -66,3 +66,4 @@ export default function AgenticFactory3D({
           factory,
           live,
           fonts: { text, display },
+          tooltip: (slot, plate) => handlers.current.tooltip(slot, plate),
