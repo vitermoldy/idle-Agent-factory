@@ -27,3 +27,4 @@ export function ViewBar({
   onLabels,
   onPlaying,
 }: {
+  mode: MachineMode
