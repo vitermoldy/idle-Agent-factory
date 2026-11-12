@@ -1541,3 +1541,4 @@ export function initMachineScene(
       }
       if (pl.value && pl.value !== p.painted()) p.paintPrice(pl.value)
       const engine = p.engine
+      const cabinet = p.bySlot('cabinet').group
