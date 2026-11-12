@@ -255,3 +255,4 @@ export function initMachineScene(
       m: Material = M.chrome,
       r2: number = r,
       segments = 24
+    ) {
