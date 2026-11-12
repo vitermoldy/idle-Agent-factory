@@ -1492,3 +1492,4 @@ export function initMachineScene(
       const t = p.t,
         beat = (t / 4) % 1,
         tact = (t * TAU) / 4
+      const inFocus = p.k === live.focus
