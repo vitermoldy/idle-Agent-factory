@@ -240,3 +240,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
               <h3 className="text-[14px] font-semibold text-ink">{st.name}</h3>
               <p className="mt-1 text-[12px] leading-snug text-muted">{st.desc}</p>
             </div>
+          </li>
