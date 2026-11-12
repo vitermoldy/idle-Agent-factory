@@ -166,3 +166,4 @@ describe('saves', () => {
     expect(back?.cash).toBe(g.cash)
   })
 
+  it('reads the previous save format', () => {
