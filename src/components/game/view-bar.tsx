@@ -44,3 +44,4 @@ export function ViewBar({
     >
       {MODES.map((m) => (
         <button
+          key={m.id}
