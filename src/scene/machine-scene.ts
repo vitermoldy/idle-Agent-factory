@@ -407,3 +407,4 @@ export function initMachineScene(
           c.fillStyle = i === k ? INK : '#9a9d95'
           c.fillRect(148, y + 10, 52, 6)
           c.fillRect(148, y + 21, 34, 5)
+        }
