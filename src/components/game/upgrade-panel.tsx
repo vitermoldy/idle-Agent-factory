@@ -135,3 +135,4 @@ function StationRow({
   const buyStation = useGame((s) => s.buyStation)
   const ref = useRef<HTMLLIElement>(null)
   useEffect(() => {
+    if (selected) ref.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
