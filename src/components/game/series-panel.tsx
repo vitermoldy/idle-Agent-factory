@@ -21,3 +21,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           Series baru mengosongkan semua lini dan kas, lalu menukar pendapatanmu dengan bintang. Setiap
           bintang menambah {Math.round(E.STAR_BONUS * 100)}% nilai setiap order, untuk seterusnya.
         </p>
+      </div>
