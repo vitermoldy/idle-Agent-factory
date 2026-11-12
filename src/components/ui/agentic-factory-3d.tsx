@@ -122,3 +122,4 @@ export default function AgenticFactory3D({
           <p>Lini tetap berjalan dan semua upgrade di panel tetap bisa dipakai.</p>
           <button type="button" className="btn btn-quiet" onClick={() => setAttempt((n) => n + 1)}>
             Coba muat mesin lagi
+          </button>
