@@ -101,3 +101,4 @@ export function activeProduct(def: FactoryDef, fs: FactoryState): ProductDef {
   return def.products.find((p) => p.id === fs.product) ?? def.products[0]
 }
 
+/** Raw capacity of a station: base-product orders per second. */
