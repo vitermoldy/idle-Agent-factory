@@ -183,3 +183,4 @@ export const FACTORIES: FactoryDef[] = [
         nav: 'Menu    Lokasi    Pesan',
         tag: ['SEDUH', 'SETIAP PAGI.'],
         head: ['Kopi enak.', 'Dekat rumah.'],
+        sub: ['Pesan dari halaman,', 'ambil di kedai.'],
