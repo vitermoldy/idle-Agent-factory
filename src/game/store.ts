@@ -52,3 +52,4 @@ const announced = new Set<FactoryId>()
 function readSave() {
   try {
     const raw = localStorage.getItem(SAVE_KEY)
+    const game = E.parseSave(raw)
