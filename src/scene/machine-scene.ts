@@ -1002,3 +1002,4 @@ export function initMachineScene(
       screen(flyPost, 0.55, 0.72, 0.94, 0.81, 0.575, postTex)
 
       const cabinet = bySlot('cabinet').group
+      box(cabinet, 1.75, 1.77, 1.02, 0, 1.24, -0.13, S.body, 0.12)
