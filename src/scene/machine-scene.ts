@@ -285,3 +285,4 @@ export function initMachineScene(
       cyl(parent, 0.055, 0.026, x, y, z, M.chrome, undefined, 12)
       box(parent, 0.068, 0.005, 0.009, x, y + 0.014, z, M.dark, 0)
     }
+    type Draw = (ctx: CanvasRenderingContext2D, w: number, h: number) => void
