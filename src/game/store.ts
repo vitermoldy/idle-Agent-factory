@@ -156,3 +156,4 @@ export const useGame = create<Store>((set, get) => {
       update((g) => E.startNewSeries(g))
       get().save()
     },
+    resetGame: () => {
