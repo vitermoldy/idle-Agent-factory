@@ -37,3 +37,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         </div>
         <span className="mt-1.5 block h-1 overflow-hidden rounded bg-line" aria-hidden="true">
           <span className="block h-full bg-accent" style={{ width: `${Math.min(100, progress * 100)}%` }} />
+        </span>
