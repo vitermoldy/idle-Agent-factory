@@ -233,3 +233,4 @@ export default function App() {
             live={live.current}
             tooltip={tooltip}
             onStation={onStation}
+            onView={onView}
