@@ -1183,3 +1183,4 @@ export function initMachineScene(
         shown: false,
       }
     }
+    const plates = factory.products.map((_, k) => buildPlate(k))
