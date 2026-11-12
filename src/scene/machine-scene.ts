@@ -1369,3 +1369,4 @@ export function initMachineScene(
       dragging = false
       lastInteraction = performance.now()
     })
+    controls.addEventListener('change', () => {
