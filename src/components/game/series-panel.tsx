@@ -14,3 +14,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
   return (
     <section aria-labelledby="series-title" className="flex flex-col gap-4">
       <div>
+        <h2 id="series-title" className="panel-title">
