@@ -262,3 +262,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     let cash = 0
     let queue = fs.queue
     const plates = fs.agent ? ownedProducts(def, fs) : [activeProduct(def, fs)]
+    for (const p of plates) {
