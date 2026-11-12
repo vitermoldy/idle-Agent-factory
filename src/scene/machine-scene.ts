@@ -282,3 +282,4 @@ export function initMachineScene(
       return o
     }
     function screw(parent: THREE.Object3D, x: number, y: number, z: number) {
+      cyl(parent, 0.055, 0.026, x, y, z, M.chrome, undefined, 12)
