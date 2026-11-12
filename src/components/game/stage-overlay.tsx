@@ -52,3 +52,4 @@ function PlateStat({ label, value }: { label: string; value: string }) {
 export function StageAction() {
   const game = useGame((s) => s.game)
   const takeOrder = useGame((s) => s.takeOrder)
+  const def = FACTORY_BY_ID[game.active]
