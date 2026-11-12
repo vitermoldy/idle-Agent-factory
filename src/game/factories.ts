@@ -229,3 +229,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'storefront', name: 'Siaran', desc: 'Episode tayang di semua aplikasi podcast.', output: 'episode', speed: 1.35, cost: 27_500 },
       { slot: 'cashdesk', name: 'Sponsor', desc: 'Iklan sponsor dibayar per episode.', output: 'sponsor', speed: 1.5, cost: 17_500 },
     ],
+    theme: {
