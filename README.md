@@ -14,3 +14,4 @@ dibayar di Kasir.
    mesin baru di samping petak lain, dan semua petak berproduksi bersamaan (dua produk berarti dua
    petak). Level stasiun berlaku untuk semua petak. Produk mahal membayar lebih per order tetapi
    membebani stasiun tertentu; tab Produk menunjukkan berapa tambahan pendapatan tiap petak baru.
+   Klik "Lihat petak ini" atau sebuah stasiun di petak mana pun untuk melihat petak itu dari dekat.
