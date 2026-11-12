@@ -11,3 +11,4 @@ dibayar di Kasir.
 3. **Upgrade stasiun.** Lini berjalan secepat stasiun paling lambat (bottleneck), jadi naikkan stasiun
    yang ditandai Bottleneck dulu. Setiap stasiun dua kali lebih cepat di level 10, 25, 50, 100, dan seterusnya.
 4. **Tambah produk.** Setiap pabrik punya tiga produk. Setiap produk yang dibeli dibangun sebagai petak
+   mesin baru di samping petak lain, dan semua petak berproduksi bersamaan (dua produk berarti dua
