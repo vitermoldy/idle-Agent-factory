@@ -979,3 +979,4 @@ export function initMachineScene(
         const t = cyl(consoleTop, 0.025, 0.15, x, 0.19, 0.45, M.chrome)
         t.rotation.x = -0.4
         t.userData.moving = true
+        toggles.push(t)
