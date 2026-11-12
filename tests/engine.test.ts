@@ -114,3 +114,4 @@ describe('products', () => {
   it('makes hand-taken orders on the plate in view only', () => {
     let g = E.buyProduct(rich(video.products[1].unlockCost), 'video', 'ads')
     g = E.takeOrder(g, 'video')
+    const { state } = E.advance(g, 600)
