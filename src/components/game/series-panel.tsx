@@ -12,3 +12,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
   const bonus = Math.round(game.stars * E.STAR_BONUS * 100)
   const after = Math.round((game.stars + claim) * E.STAR_BONUS * 100)
   return (
+    <section aria-labelledby="series-title" className="flex flex-col gap-4">
