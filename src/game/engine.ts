@@ -255,3 +255,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
   let gained = 0
   for (const def of FACTORIES) {
     const fs = factories[def.id]
+    if (!fs.unlocked) continue
