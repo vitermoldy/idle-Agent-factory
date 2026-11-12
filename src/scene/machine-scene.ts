@@ -1305,3 +1305,4 @@ export function initMachineScene(
       if (mode === 'order') {
         focusPlate().t = 0
         cameraMode = 'overview'
+      } else if (cameraMode === 'station') cameraMode = 'overview'
