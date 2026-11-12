@@ -309,3 +309,4 @@ export const FACTORIES: FactoryDef[] = [
         head: ['Kasir warung.', 'Di ponselmu.'],
         sub: ['Catat jualan, stok,', 'dan utang pelanggan.'],
         cta: 'Pasang aplikasi',
+        foot: 'DIBANGUN OLEH AGEN',
