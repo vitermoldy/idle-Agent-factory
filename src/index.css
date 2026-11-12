@@ -29,3 +29,4 @@
   --accent-deep: #c57e45;
   --on-accent: #14100a;
   /* Read by the 3D scene for the type it paints on its screens. */
+  --scene-display: 'Sora Variable', ui-sans-serif, system-ui, sans-serif;
