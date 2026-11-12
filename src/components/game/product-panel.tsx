@@ -115,3 +115,4 @@ function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: Produc
     <div className="shrink-0">
       <div className="flex h-9 items-end gap-1" aria-hidden="true">
         {product.work.map((w, i) => (
+          <span
