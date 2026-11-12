@@ -59,3 +59,4 @@ function readSave() {
   }
 }
 
+function catchUp(game: E.GameState, seconds: number) {
