@@ -18,3 +18,4 @@ export interface AwayReport {
   seconds: number
   capped: boolean
   cash: number
+  orders: number
