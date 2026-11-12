@@ -154,3 +154,5 @@ describe('series and stars', () => {
     const g = rich(100)
     expect(E.startNewSeries(g)).toBe(g)
   })
+})
+
