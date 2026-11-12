@@ -67,3 +67,4 @@ function makeLive(): SceneLive {
     labels: matchMedia('(min-width: 1024px)').matches,
     focus: 0,
     meta: Object.fromEntries(PIPELINE.map((s) => [s, { level: '', rate: '' }])) as SceneLive['meta'],
+    plates: [],
