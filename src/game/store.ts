@@ -36,3 +36,4 @@ interface Store {
   hireAgent: () => void
   unlockFactory: (id: FactoryId) => void
   buyProduct: (productId: string) => void
+  selectProduct: (productId: string) => void
