@@ -1715,3 +1715,4 @@ export function initMachineScene(
       renderer.domElement.remove()
     })
     renderer.compile(scene, camera)
+    // Lightweight inspection for automated browser checks; no production UI.
