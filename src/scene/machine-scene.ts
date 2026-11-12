@@ -760,3 +760,4 @@ export function initMachineScene(
         c.textAlign = 'right'
         print(c, `PETAK ${k + 1}`, w - 48, 130, 23, DEEP, 600)
         c.textAlign = 'left'
+      })
