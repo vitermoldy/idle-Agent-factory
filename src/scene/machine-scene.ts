@@ -197,3 +197,4 @@ export function initMachineScene(
       color: THREE.ColorRepresentation,
       metalness = 0.1,
       roughness = 0.4,
+      extra: THREE.MeshStandardMaterialParameters = {}
