@@ -87,3 +87,4 @@ export const FACTORIES: FactoryDef[] = [
     id: 'video',
     no: '01',
     name: 'Studio Video',
+    unit: 'video',
