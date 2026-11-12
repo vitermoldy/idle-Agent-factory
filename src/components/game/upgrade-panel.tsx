@@ -77,3 +77,4 @@ function BuyModeSwitch() {
           )}
         >
           {label}
+        </button>
