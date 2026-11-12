@@ -85,3 +85,4 @@ function initialState() {
   return { game, away: null, notices, storageOk }
 }
 
+export const useGame = create<Store>((set, get) => {
