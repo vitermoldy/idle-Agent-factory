@@ -362,3 +362,4 @@ export function parseSave(raw: string | null): GameState | null {
       agent: unlocked && f.agent === true,
       levels: unlocked ? levels : [0, 0, 0, 0, 0],
       product,
+      owned,
