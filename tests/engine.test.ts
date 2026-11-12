@@ -27,3 +27,4 @@ describe('the line', () => {
     expect(E.bottlenecks(video, fs)).toEqual([1])
   })
 
+  it('doubles a station at each milestone level', () => {
