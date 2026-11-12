@@ -356,3 +356,4 @@ export default function App() {
           sehingga setiap order bernilai +{Math.round((game.stars + E.starsClaimable(game)) * E.STAR_BONUS * 100)}%.
         </p>
       </ConfirmDialog>
+      <ConfirmDialog
