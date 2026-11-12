@@ -81,3 +81,4 @@ while (t <= 4 * 3600) {
           consider({
             payback: p.unlockCost / gain,
             cost: p.unlockCost,
+            apply: () => {
