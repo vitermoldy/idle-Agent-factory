@@ -62,3 +62,4 @@ export default function AgenticFactory3D({
       .catch(() => undefined)
       .then(() => {
         if (cancelled) return
+        const scene = initMachineScene(root, {
