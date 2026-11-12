@@ -1657,3 +1657,4 @@ export function initMachineScene(
         label.el.classList.toggle('visible', showLabels)
         if (!showLabels) return
         const meta = live.meta[label.id]
+        if (meta.level !== label.levelText) {
