@@ -599,3 +599,4 @@ export function initMachineScene(
       c.textAlign = 'left'
       fit(c, name, 108, 91, 38, 300, '#222822', 600)
       fit(c, theme.incoming, 108, 138, 23, 300, 'rgba(20,20,16,.66)', 500)
+    })
