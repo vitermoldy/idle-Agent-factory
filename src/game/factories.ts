@@ -281,3 +281,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'game', name: 'Game kasual', desc: 'Level, grafis, dan review toko yang ketat.', price: 36_000_000, work: [1.4, 3.2, 2.6, 2.4, 1.2], unlockCost: 270_000_000_000 },
     ],
     rate: 0.13,
+    growth: 1.15,
