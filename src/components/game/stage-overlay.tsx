@@ -74,3 +74,4 @@ export function StageAction() {
   const full = fs.queue >= E.QUEUE_MAX
   return (
     <div className="pointer-events-auto flex w-[min(360px,100%)] flex-col items-center gap-2.5">
+      {first && (
