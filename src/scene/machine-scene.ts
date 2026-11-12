@@ -1617,3 +1617,4 @@ export function initMachineScene(
         if (step !== prevJourney && step >= 0) {
           $('journey-title').textContent = theme.journey[step][0]
           $('journey-detail').textContent = theme.journey[step][1]
+          prevJourney = step
