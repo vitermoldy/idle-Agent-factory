@@ -23,3 +23,4 @@ export function Dialog({
   useEffect(() => {
     const d = ref.current
     if (!d) return
+    if (open && !d.open) d.showModal()
