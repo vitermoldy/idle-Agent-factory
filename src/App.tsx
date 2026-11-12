@@ -216,3 +216,4 @@ export default function App() {
       <a href="#panel" className="skip-link">
         Lewati ke panel upgrade
       </a>
+      <TopBar onSettings={() => setSettings(true)} />
