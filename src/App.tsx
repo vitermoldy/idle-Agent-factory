@@ -130,3 +130,4 @@ export default function App() {
     }, 700)
     const save = setInterval(() => useGame.getState().save(), 5000)
     const onHide = () => document.visibilityState === 'hidden' && useGame.getState().save()
+    const onLeave = () => useGame.getState().save()
