@@ -82,3 +82,4 @@ while (t <= 4 * 3600) {
             payback: p.unlockCost / gain,
             cost: p.unlockCost,
             apply: () => {
+              s = E.buyProduct(s, id, p.id)
