@@ -41,3 +41,4 @@ export default function AgenticFactory3D({
 }: AgenticFactory3DProps) {
   const rootRef = useRef<HTMLDivElement>(null)
   const handlers = useRef({ tooltip, onStation, onView, onApi })
+  useEffect(() => {
