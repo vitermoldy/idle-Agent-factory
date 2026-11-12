@@ -163,3 +163,4 @@ export const useGame = create<Store>((set, get) => {
       get().save()
     },
     dismissAway: () => set({ away: null }),
+    dismissNotice: (id) => set((s) => ({ notices: s.notices.filter((n) => n.id !== id) })),
