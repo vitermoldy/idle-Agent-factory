@@ -905,3 +905,4 @@ export function initMachineScene(
             bar.scale.y = s
             bar.position.y = 0.11 + 0.15 * s
           })
+        })
