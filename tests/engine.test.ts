@@ -22,3 +22,4 @@ describe('a new game', () => {
 describe('the line', () => {
   it('runs as fast as its slowest station', () => {
     const fs = E.newGame(0).factories.video
+    const rates = E.lineRates(video, fs)
