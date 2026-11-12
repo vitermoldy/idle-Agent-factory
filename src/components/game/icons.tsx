@@ -107,3 +107,4 @@ export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
           <path d="M7 12.4h2" />
         </svg>
       )
+    case 'ebook':
