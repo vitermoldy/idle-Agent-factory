@@ -118,3 +118,4 @@ export default function App() {
         document.title = `Agentic Factory (${money(g.cash)})`
       }
     }, 100)
+    const flush = setInterval(() => {
