@@ -44,3 +44,4 @@ interface Store {
   dismissNotice: (id: number) => void
 }
 
+let noticeId = 0
