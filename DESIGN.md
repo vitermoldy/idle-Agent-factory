@@ -27,3 +27,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Aksen hanya untuk tindakan yang bisa dilakukan, bottleneck, dan progres | Aksen menunjukkan apa yang bisa diklik atau apa yang menahan lini. Angka uang tetap ivory karena fokusnya ukuran, bukan warna. |
 | Sora untuk judul dan angka besar | Dipilih oleh `start.mjs deal --page gaming` dari taste-skill (pilihan pertama). Bentuknya lebar dan geometris, sehingga angka seperti $4.38B tetap terbaca di ukuran 26 px. |
 | Figtree untuk teks | Pasangan Sora dari deal yang sama: sans yang ramah untuk paragraf pendek di panel. |
+| Martian Mono hanya untuk label 10 px huruf kapital | Meniru tulisan terukir pada pelat mesin ("LINI 01"). Tidak dipakai untuk judul. |
