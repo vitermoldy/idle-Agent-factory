@@ -71,3 +71,4 @@ const freshFactory = (def: FactoryDef): FactoryState => {
 
 export function newGame(now = Date.now()): GameState {
   return {
+    v: SAVE_VERSION,
