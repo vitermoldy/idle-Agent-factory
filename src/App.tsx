@@ -340,3 +340,4 @@ export default function App() {
           setSettings(false)
           setConfirm('reset')
         }}
+      />
