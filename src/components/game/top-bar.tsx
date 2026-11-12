@@ -18,3 +18,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           <h1 className="sr-only font-display text-[15px] leading-none font-semibold tracking-[-0.01em] sm:not-sr-only">
             Agentic Factory
           </h1>
+          <p className="mono-label mt-1.5 hidden sm:block">Game idle</p>
