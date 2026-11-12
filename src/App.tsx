@@ -220,3 +220,4 @@ export default function App() {
       <div className="lg:grid lg:min-h-0 lg:flex-1 lg:grid-cols-[minmax(0,1fr)_380px] xl:grid-cols-[248px_minmax(0,1fr)_388px]">
         {wide && (
           <nav aria-label="Lini produksi" className="min-h-0 overflow-y-auto border-r border-line p-4">
+            <p className="mono-label mb-3 px-1">Lini produksi</p>
