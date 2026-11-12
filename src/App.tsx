@@ -319,3 +319,4 @@ export default function App() {
                 }}
               />
             )}
+            {shownTab === 'pabrik' && (
