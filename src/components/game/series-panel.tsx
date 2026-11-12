@@ -51,3 +51,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           Belum ada bintang untuk diambil
         </button>
       )}
+    </section>
