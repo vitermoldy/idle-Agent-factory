@@ -34,3 +34,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           <span>
             {money(game.allTime)} / {money(nextAt)}
           </span>
+        </div>
