@@ -1726,3 +1726,4 @@ export function initMachineScene(
             camera: cameraMode,
             focus: live.focus,
             plates: plates.map((p) => ({ k: p.k, visible: p.holder.visible, x: +p.holder.position.x.toFixed(2), scale: +p.holder.scale.x.toFixed(2), speed: +p.speed.toFixed(2) })),
+            time: fp.t,
