@@ -15,3 +15,4 @@ describe('a new game', () => {
 
   it('earns nothing until an order is taken or an agent is hired', () => {
     const { state } = E.advance(E.newGame(0), 60)
+    expect(state.cash).toBe(0)
