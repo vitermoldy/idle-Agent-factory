@@ -35,3 +35,5 @@ export interface FactoryState {
   progress: Record<string, number>
   orders: number
   earned: number
+}
+
