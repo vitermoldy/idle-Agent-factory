@@ -106,3 +106,4 @@ describe('products', () => {
     const { state, completed } = E.advance(g, 100)
     const expected =
       Math.floor(E.throughput(video, fs, video.products[0]) * 100) * 29 +
+      Math.floor(E.throughput(video, fs, video.products[1]) * 100) * 100
