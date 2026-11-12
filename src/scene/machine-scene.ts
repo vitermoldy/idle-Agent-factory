@@ -288,3 +288,4 @@ export function initMachineScene(
     type Draw = (ctx: CanvasRenderingContext2D, w: number, h: number) => void
     function canvasTexture(w: number, h: number, draw: Draw) {
       const c = document.createElement('canvas')
+      c.width = w
