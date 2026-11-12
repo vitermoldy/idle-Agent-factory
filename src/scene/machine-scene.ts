@@ -1748,3 +1748,4 @@ export function initMachineScene(
     dispose()
     api = null
     options.onError?.(
+      error instanceof Error && error.message.startsWith('WebGL')
