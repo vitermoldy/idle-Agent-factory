@@ -9,3 +9,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
   const nextAt = E.nextStarAt(game.allTime)
   const prevAt = E.starsEarnedTotal(game.allTime) ** 2 * E.STAR_UNIT
   const progress = (game.allTime - prevAt) / (nextAt - prevAt)
+  const bonus = Math.round(game.stars * E.STAR_BONUS * 100)
