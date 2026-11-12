@@ -108,3 +108,4 @@ function Progress({ value, steady = false }: { value: number; steady?: boolean }
         style={{ transform: `scaleX(${Math.min(1, Math.max(0, value))})` }}
       />
     </span>
+  )
