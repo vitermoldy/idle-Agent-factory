@@ -45,3 +45,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           price={`+${claim} bintang`}
           className="w-full"
           onClick={onStart}
+        />
