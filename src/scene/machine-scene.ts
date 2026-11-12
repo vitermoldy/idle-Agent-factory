@@ -1319,3 +1319,4 @@ export function initMachineScene(
       cameraAnimating = true
       emitView()
     }
+    function setCamera(next: MachineCamera) {
