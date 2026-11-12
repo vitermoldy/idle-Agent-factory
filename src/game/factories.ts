@@ -122,3 +122,4 @@ export const FACTORIES: FactoryDef[] = [
         tag: ['DARI IDE', 'JADI VIDEO.'],
         head: ['Idemu.', 'Sudah tayang.'],
         sub: ['Video 30 detik yang', 'menjual produkmu.'],
+        cta: 'Pesan video',
