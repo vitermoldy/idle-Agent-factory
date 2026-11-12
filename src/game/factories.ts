@@ -233,3 +233,4 @@ export const FACTORIES: FactoryDef[] = [
       accent: '#3ddc97',
       accentDeep: '#2f9e6f',
       shell: '#e2e0d6',
+      prop: 'mic',
