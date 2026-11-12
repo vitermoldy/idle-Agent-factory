@@ -27,3 +27,5 @@ dibayar di Kasir.
 | 04 Pabrik Aplikasi | Aplikasi alat, aplikasi belanja, game kasual | Ponsel uji |
 | 05 Penerbit E-book | Buku panduan, novel, kursus dan e-book | Tumpukan buku |
 
+Progres disimpan otomatis di `localStorage` browser setiap 5 detik dan saat halaman ditutup.
+
