@@ -19,3 +19,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 
 ## Keputusan dan alasannya
 
+| Keputusan | Alasan |
