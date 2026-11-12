@@ -837,3 +837,4 @@ export function initMachineScene(
             const d = cyl(reel, 0.46, 0.045, 0, 0, z, M.chrome)
             d.rotation.x = Math.PI / 2
             for (let j = 0; j < 6; j++) {
+              const a = (j / 6) * TAU
