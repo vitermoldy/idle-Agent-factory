@@ -56,3 +56,4 @@ export function AwayDialog() {
   return (
     <Dialog
       open={!!away}
+      onClose={dismiss}
