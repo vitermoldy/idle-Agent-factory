@@ -560,3 +560,4 @@ export function initMachineScene(
       rounded(c, 359, 447, 279, 62, 7, '#232a2b')
       fit(c, st.cta, 390, 486, 22, 230, '#f4f1ea', 500)
       print(c, st.foot, 33, 571, 12, '#879088')
+    })
