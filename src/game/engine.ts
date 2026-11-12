@@ -270,3 +270,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
         if (made >= queue) {
           made = queue
           progress[p.id] = 0
+        }
