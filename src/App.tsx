@@ -337,3 +337,4 @@ export default function App() {
         open={settings}
         onClose={() => setSettings(false)}
         onReset={() => {
+          setSettings(false)
