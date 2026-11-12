@@ -992,3 +992,4 @@ export function initMachineScene(
       box(storefront, 2.42, 1.72, 0.2, 0, 1.94, -0.17, S.ivory, 0.08)
       box(storefront, 2.28, 1.59, 0.1, 0, 1.94, -0.044, M.dark, 0.045)
       screen(storefront, 2.16, 1.43, 0, 1.95, 0.011, webTexture)
+      ball(storefront, 0.024, 0, 2.747, -0.05, M.dark)
