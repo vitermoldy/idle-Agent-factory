@@ -95,3 +95,4 @@ export function initMachineScene(
   const frameWidth = () => root.clientWidth
   const frameHeight = () => root.clientHeight
   // Every listener goes through here, so dispose() can take it off again.
+  const listen = (target: EventTarget, type: string, handler: (event: never) => void) => {
