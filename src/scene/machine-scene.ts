@@ -1548,3 +1548,4 @@ export function initMachineScene(
         let stage
         if (phase < 0.15) {
           stage = 0
+          const f = phase / 0.15
