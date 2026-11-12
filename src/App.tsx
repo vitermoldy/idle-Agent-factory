@@ -308,3 +308,4 @@ export default function App() {
                 onShow={(id) => {
                   useGame.getState().selectProduct(id)
                   syncLive(live.current, useGame.getState().game)
+                  apiRef.current?.setCamera('plate')
