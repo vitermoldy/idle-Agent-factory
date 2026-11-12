@@ -5,3 +5,4 @@ export type FactoryId = 'video' | 'web' | 'podcast' | 'app' | 'ebook'
 export type SlotId = 'cabinet' | 'engine' | 'admin' | 'storefront' | 'cashdesk'
 export type PropKind = 'reels' | 'rack' | 'mic' | 'phone' | 'books'
 
+/** Order flow through the machine: an order enters at the cabinet and is paid at the cash desk. */
