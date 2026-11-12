@@ -1195,3 +1195,4 @@ export function initMachineScene(
       $('labels').appendChild(el)
       cleanups.push(() => el.remove())
       return {
+        id,
