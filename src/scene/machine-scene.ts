@@ -612,3 +612,4 @@ export function initMachineScene(
       fit(c, theme.wip.sub, 24, 85, 15, 208, '#7a7c70')
       for (let i = 0; i < 9; i++) {
         c.fillStyle = i === 4 ? DEEP : '#aeb2a5'
+        c.fillRect(24, 111 + i * 21, 190 - (i % 3) * 24, 6)
