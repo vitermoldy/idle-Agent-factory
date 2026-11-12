@@ -389,3 +389,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Menulis bab', 'Mesin Tulis bekerja bab demi bab'],
         ['Menyunting', 'Ejaan dan tata letak diperiksa'],
         ['Buku terbit', 'Buku tayang di toko digital'],
+        ['Royalti masuk', 'Royalti masuk dari setiap buku terjual'],
