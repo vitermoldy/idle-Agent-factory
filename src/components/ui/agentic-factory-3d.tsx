@@ -32,3 +32,4 @@ type Phase = 'loading' | 'ready' | 'error'
 export default function AgenticFactory3D({
   factory,
   live,
+  tooltip,
