@@ -93,3 +93,4 @@ export function milestoneCount(level: number) {
   return n
 }
 
+export function nextMilestone(level: number): number | null {
