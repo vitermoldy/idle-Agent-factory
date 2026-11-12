@@ -1016,3 +1016,4 @@ export function initMachineScene(
       screen(incoming, 0.82, 0.39, 0, 0, 0.026, nameTex)
 
       const cashdesk = bySlot('cashdesk').group
+      box(cashdesk, 1.91, 0.63, 1.32, 0, 0.65, -0.06, S.ivory, 0.12)
