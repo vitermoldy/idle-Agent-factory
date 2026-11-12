@@ -22,3 +22,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           bintang menambah {Math.round(E.STAR_BONUS * 100)}% nilai setiap order, untuk seterusnya.
         </p>
       </div>
+      <dl className="grid grid-cols-2 gap-2">
