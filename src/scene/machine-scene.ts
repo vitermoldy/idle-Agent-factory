@@ -1567,3 +1567,4 @@ export function initMachineScene(
           packet.faces.forEach((f, j) => (f.visible = j === stage))
           packet.stage = stage
         }
+        packet.group.visible = !locked && (!orderMode || i === 0)
