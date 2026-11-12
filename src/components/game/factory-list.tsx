@@ -34,3 +34,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                 setActive(def.id)
                 onPick?.(def.id)
               }}
+              style={{ '--item': def.theme.accent } as CSSProperties}
