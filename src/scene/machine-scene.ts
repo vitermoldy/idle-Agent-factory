@@ -27,3 +27,4 @@ export interface PlateLive {
   speed: number
   /** Formatted value of one order, painted on its cash desk. */
   value: string
+  /** Product name, engraved on the plate and printed on its receipt. */
