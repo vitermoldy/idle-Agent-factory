@@ -302,3 +302,4 @@ export function starsEarnedTotal(allTime: number) {
 /** Lifetime earnings needed for the next star. */
 export function nextStarAt(allTime: number) {
   const next = starsEarnedTotal(allTime) + 1
+  return next * next * STAR_UNIT
