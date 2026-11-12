@@ -288,3 +288,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'cabinet', name: 'Spesifikasi', desc: 'Kebutuhan klien ditulis jadi daftar fitur.', output: 'spesifikasi', speed: 1.3, cost: 1_120_000 },
       { slot: 'engine', name: 'Desain', desc: 'Layar aplikasi digambar lalu diuji.', output: 'desain', speed: 1.1, cost: 2_000_000 },
       { slot: 'admin', name: 'Build', desc: 'Kode dikompilasi untuk Android dan iOS.', output: 'build', speed: 1, cost: 1_500_000 },
+      { slot: 'storefront', name: 'Review', desc: 'Aplikasi lolos review dan tayang di toko.', output: 'rilis', speed: 1.2, cost: 1_380_000 },
