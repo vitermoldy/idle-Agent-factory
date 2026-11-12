@@ -68,3 +68,4 @@ export interface FactoryDef {
   id: FactoryId
   no: string
   name: string
+  unit: string
