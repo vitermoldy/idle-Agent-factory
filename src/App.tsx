@@ -136,3 +136,4 @@ export default function App() {
     return () => {
       clearInterval(tick)
       clearInterval(flush)
+      clearInterval(save)
