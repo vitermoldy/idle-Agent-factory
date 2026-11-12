@@ -1694,3 +1694,4 @@ export function initMachineScene(
     rafId = requestAnimationFrame(animate)
     cleanups.push(() => {
       cancelAnimationFrame(rafId)
+      controls.dispose()
