@@ -1093,3 +1093,4 @@ export function initMachineScene(
       frameMesh.position.y = 0.51
       belt.add(frameMesh)
       const beltCount = 148
+      const beltSlats = new THREE.InstancedMesh(boxGeo(0.135, 0.065, 0.63, 0.012), M.body, beltCount)
