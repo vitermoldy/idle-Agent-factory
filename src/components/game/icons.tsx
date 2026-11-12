@@ -95,3 +95,4 @@ export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
       )
     case 'podcast':
       return (
+        <svg {...base} {...p}>
