@@ -44,3 +44,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
         <ol className="mt-4 flex flex-col gap-2">
           {def.stations.map((st, i) => (
             <StationRow
+              key={st.slot}
