@@ -711,3 +711,4 @@ export function initMachineScene(
         mesh.receiveShadow = list.some((x) => x.receiveShadow)
         for (const m of list) group.remove(m)
         group.add(mesh)
+      }
