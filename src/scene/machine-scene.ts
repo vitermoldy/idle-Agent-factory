@@ -1741,3 +1741,4 @@ export function initMachineScene(
       configurable: true,
     })
     cleanups.push(() => {
+      delete window.__machineDebug
