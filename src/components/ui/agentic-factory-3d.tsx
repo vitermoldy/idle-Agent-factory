@@ -38,3 +38,4 @@ export default function AgenticFactory3D({
   onApi,
   className,
   children,
+}: AgenticFactory3DProps) {
