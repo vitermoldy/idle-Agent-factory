@@ -188,3 +188,4 @@ function StationRow({
             <span className="h-1 flex-1 overflow-hidden rounded bg-line" aria-hidden="true">
               <span className="block h-full bg-accent-deep" style={{ width: `${progress * 100}%` }} />
             </span>
+            <span className="text-[11px] whitespace-nowrap text-muted tabular-nums">
