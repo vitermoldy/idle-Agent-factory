@@ -1130,3 +1130,4 @@ export function initMachineScene(
         ])
         pipes.add(new THREE.Mesh(new THREE.TubeGeometry(curve, 30, 0.054, 8, false), M.copper))
       }
+      const packetTextures = [orderCardTex, scriptTex, productTex, postTex, receiptTex]
