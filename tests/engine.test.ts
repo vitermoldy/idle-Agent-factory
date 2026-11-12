@@ -140,3 +140,4 @@ describe('products', () => {
 
 describe('series and stars', () => {
   it('turns lifetime earnings into stars and resets the lines', () => {
+    const g = { ...rich(5e9), allTime: 4 * E.STAR_UNIT, earned: 4 * E.STAR_UNIT }
