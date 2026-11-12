@@ -93,3 +93,4 @@ function ProductRow({
             <PriceButton
               label="Tambah produk"
               price={money(product.unlockCost)}
+              className="w-full"
