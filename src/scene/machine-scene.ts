@@ -1621,3 +1621,4 @@ export function initMachineScene(
         }
         $('journey-progress').style.width = packet.phase * 100 + '%'
         if (!dragging) {
+          world(fp, packet.group.position, desiredTarget)
