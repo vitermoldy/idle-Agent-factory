@@ -289,3 +289,4 @@ export default function App() {
                 onClick={() => setTab(t)}
                 className={cn('tab', t === 'produk' && 'whitespace-nowrap')}
               >
+                {TAB_LABEL[t]}
