@@ -107,3 +107,4 @@ export function stationRate(def: FactoryDef, index: number, level: number) {
   return def.rate * def.stations[index].speed * level * 2 ** milestoneCount(level)
 }
 
+/** Orders per second each station manages on a product. */
