@@ -32,3 +32,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               aria-pressed={active}
               onClick={() => {
                 setActive(def.id)
+                onPick?.(def.id)
