@@ -191,3 +191,4 @@ describe('saves', () => {
     expect(back.factories.video.levels).toEqual([1, 1, E.MAX_LEVEL, 3, 3])
     expect(back.factories.video.product).toBe('short')
     expect(back.factories.web.agent).toBe(false)
+  })
