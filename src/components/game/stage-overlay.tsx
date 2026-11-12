@@ -18,3 +18,4 @@ export function StagePlate({ className }: { className?: string }) {
     : fs.agent
       ? plates > 1
         ? `Agen menjalankan ${plates} petak`
+        : 'Agen bekerja'
