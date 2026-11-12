@@ -56,3 +56,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
 }
 
 function Stat({ label, value, note }: { label: string; value: string; note?: string }) {
+  return (
