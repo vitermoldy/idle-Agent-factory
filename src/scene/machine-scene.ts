@@ -1504,3 +1504,4 @@ export function initMachineScene(
         const pulse = Math.pow(Math.max(0, Math.sin(tact - i * 0.9)), 7)
         const lit =
           (hovered && hovered.plate === p.k && hovered.slot === st.id) ||
+          (inFocus && cameraMode === 'station' && selected === st.id)
