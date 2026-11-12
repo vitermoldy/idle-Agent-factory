@@ -999,3 +999,5 @@ export function initMachineScene(
       flyPost.userData.moving = true
       storefront.add(flyPost)
       box(flyPost, 0.59, 0.77, 0.045, 0.94, 0.81, 0.55, M.ivory, 0.025)
+      screen(flyPost, 0.55, 0.72, 0.94, 0.81, 0.575, postTex)
+
