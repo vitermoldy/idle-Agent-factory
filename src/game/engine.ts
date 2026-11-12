@@ -313,3 +313,4 @@ export function starsClaimable(state: GameState) {
 export function startNewSeries(state: GameState, now = Date.now()): GameState {
   const claim = starsClaimable(state)
   if (claim <= 0) return state
+  return {
