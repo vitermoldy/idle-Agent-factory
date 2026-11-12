@@ -70,3 +70,4 @@ function makeLive(): SceneLive {
     plates: [],
   }
   syncLive(live, useGame.getState().game)
+  return live
