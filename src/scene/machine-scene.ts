@@ -878,3 +878,4 @@ export function initMachineScene(
         mic.position.set(-1.2, 0, -0.32)
         engine.add(mic)
         cyl(mic, 0.27, 0.06, 0, -0.02, 0, M.dark)
+        cyl(mic, 0.035, 2.0, 0, 0.98, 0, M.chrome)
