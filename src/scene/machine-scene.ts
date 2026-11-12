@@ -115,3 +115,4 @@ export function initMachineScene(
     const theme = factory.theme
     const fontFamily = options.fonts.text
     const displayFamily = options.fonts.display
+    const ACC = theme.accent
