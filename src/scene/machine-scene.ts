@@ -196,3 +196,4 @@ export function initMachineScene(
     const mat = (
       color: THREE.ColorRepresentation,
       metalness = 0.1,
+      roughness = 0.4,
