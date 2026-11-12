@@ -451,3 +451,4 @@ export function initMachineScene(
     floor.position.y = -0.43
     floor.receiveShadow = true
     scene.add(floor)
+    const shadowTex = canvasTexture(128, 128, (c, w, h) => {
