@@ -748,3 +748,4 @@ export function initMachineScene(
       // The engraving names the line and the product this plate makes.
       const engraving = canvasTexture(1536, 176, (c, w, h) => {
         c.fillStyle = '#252b32'
+        c.fillRect(0, 0, w, h)
