@@ -372,3 +372,4 @@ export function initMachineScene(
         for (let i = 0; i < 4; i++) {
           c.fillStyle = i === 0 ? INK : '#b9bcb5'
           c.fillRect(198, 92 + i * 20, i === 0 ? 120 : 132 - i * 18, i === 0 ? 10 : 6)
+        }
