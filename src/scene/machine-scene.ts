@@ -1539,3 +1539,4 @@ export function initMachineScene(
         p.updateBelt(t)
         p.lastBelt = t
       }
+      if (pl.value && pl.value !== p.painted()) p.paintPrice(pl.value)
