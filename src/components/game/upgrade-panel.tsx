@@ -81,3 +81,5 @@ function BuyModeSwitch() {
       ))}
     </div>
   )
+}
+
