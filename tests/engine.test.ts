@@ -11,3 +11,5 @@ describe('a new game', () => {
     expect(g.factories.video.unlocked).toBe(true)
     expect(g.factories.video.product).toBe('short')
     expect(FACTORIES.slice(1).every((f) => !g.factories[f.id].unlocked)).toBe(true)
+  })
+
