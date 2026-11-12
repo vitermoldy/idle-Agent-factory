@@ -1740,3 +1740,4 @@ export function initMachineScene(
       },
       configurable: true,
     })
+    cleanups.push(() => {
