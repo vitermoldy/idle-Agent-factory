@@ -119,3 +119,4 @@ export default function AgenticFactory3D({
         <div className="af3d-error" role="alert">
           <strong>Mesin 3D tidak tampil</strong>
           <p>{error}</p>
+          <p>Lini tetap berjalan dan semua upgrade di panel tetap bisa dipakai.</p>
