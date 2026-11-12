@@ -1647,3 +1647,4 @@ export function initMachineScene(
           cameraAnimating = false
       }
       controls.autoRotate =
+        playing && !dragging && !cameraAnimating && mode !== 'order' && cameraMode === 'overview' && now - lastInteraction > 6500
