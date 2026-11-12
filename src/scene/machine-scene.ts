@@ -104,3 +104,4 @@ export function initMachineScene(
     const el = root.querySelector<HTMLElement>(`[data-el="${name}"]`)
     if (!el) throw new Error(`Scene markup is missing [data-el=${name}]`)
     return el
+  }
