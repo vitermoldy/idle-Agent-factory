@@ -315,3 +315,4 @@ export function initMachineScene(
         s -= 1
         ctx.font = `${weight} ${s}px ${family}`
       }
+      ctx.fillStyle = color
