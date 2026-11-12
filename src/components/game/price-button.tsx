@@ -14,3 +14,4 @@ export function PriceButton({
       aria-label={`${label}, ${price}`}
       className={cn('btn btn-primary justify-between gap-4 px-4', className)}
       {...props}
+    >
