@@ -71,3 +71,4 @@ function BuyModeSwitch() {
           type="button"
           aria-pressed={buyMode === mode}
           onClick={() => setBuyMode(mode)}
+          className={cn(
