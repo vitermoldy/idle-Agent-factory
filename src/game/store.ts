@@ -67,3 +67,5 @@ function catchUp(game: E.GameState, seconds: number) {
     { cash: 0, orders: 0 }
   )
   return { state, completed, report: { seconds, capped, ...totals } satisfies AwayReport }
+}
+
