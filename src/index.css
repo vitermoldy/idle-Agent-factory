@@ -134,3 +134,4 @@
     border-radius: 9px;
     color: var(--color-soft);
     transition:
+      background-color 0.15s,
