@@ -53,3 +53,4 @@ function ProductRow({
   const speed = E.throughput(def, fs, product)
   const income = E.productIncome(def, fs, game.stars, product)
   const heaviest = product.work.indexOf(Math.max(...product.work))
+  const can = game.cash >= product.unlockCost
