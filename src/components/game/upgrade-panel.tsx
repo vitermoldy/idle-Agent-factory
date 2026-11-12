@@ -201,3 +201,4 @@ function StationRow({
               Pendapatan +{gain < 0.1 ? (gain * 100).toFixed(1) : Math.round(gain * 100)}%
             </span>
           ) : holds ? (
+            'Bottleneck lain ikut menahan'
