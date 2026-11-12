@@ -1481,3 +1481,4 @@ export function initMachineScene(
         p.shown = false
         p.holder.visible = false
       }
+      const grow = 1 - Math.exp(-dt * 3.2)
