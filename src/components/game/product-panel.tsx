@@ -30,3 +30,5 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
       </ul>
     </section>
   )
+}
+
