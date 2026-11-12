@@ -64,3 +64,4 @@ export interface ProductDef {
   unlockCost: number
 }
 
+export interface FactoryDef {
