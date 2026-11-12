@@ -148,3 +148,4 @@ function StationRow({
   const before = fs.agent ? E.lineIncome(def, fs, stars) : E.productIncome(def, fs, stars)
   const after = fs.agent ? E.lineIncome(def, fs, stars, levels) : E.productIncome(def, { ...fs, levels }, stars)
   const gain = before > 0 ? after / before - 1 : 0
+  const holds = neck || heldBack.length > 0
