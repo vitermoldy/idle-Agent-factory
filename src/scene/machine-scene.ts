@@ -590,3 +590,4 @@ export function initMachineScene(
       })
     })
     const nameTex = canvasTexture(432, 204, (c, w, h) => {
+      const name = theme.orders.customers[0]
