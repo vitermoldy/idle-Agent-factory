@@ -974,3 +974,4 @@ export function initMachineScene(
       qs.rotation.x = -Math.PI / 2
       const toggles: THREE.Mesh[] = []
       for (let i = 0; i < 4; i++) {
+        const x = -0.57 + i * 0.38
