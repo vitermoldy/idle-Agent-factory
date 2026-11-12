@@ -8,3 +8,4 @@ const rich = (cash: number) => ({ ...E.newGame(0), cash })
 describe('a new game', () => {
   it('opens only the first line, with its first product', () => {
     const g = E.newGame(0)
+    expect(g.factories.video.unlocked).toBe(true)
