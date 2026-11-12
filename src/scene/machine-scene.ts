@@ -1175,3 +1175,4 @@ export function initMachineScene(
         packets,
         updateBelt,
         paintPrice,
+        painted: () => paintedValue,
