@@ -387,3 +387,4 @@ export const FACTORIES: FactoryDef[] = [
       journey: [
         ['Naskah masuk', 'Usulan Wulan jadi kerangka buku'],
         ['Menulis bab', 'Mesin Tulis bekerja bab demi bab'],
+        ['Menyunting', 'Ejaan dan tata letak diperiksa'],
