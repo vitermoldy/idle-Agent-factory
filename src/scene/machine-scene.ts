@@ -362,3 +362,4 @@ export function initMachineScene(
           c.stroke()
         }
       },
+      web: (c, t) => {
