@@ -823,3 +823,4 @@ export function initMachineScene(
       box(printhead, 0.24, 0.045, 0.022, 0, 0.09, 0.23, M.light, 0.01)
       tube(engine, [[-0.68, 2.1, -0.35], [-0.42, 2.52, -0.4], [0.25, 2.5, -0.4], [0.35, 2.01, -0.12]], 0.032, M.dark)
 
+      // The signature prop on the left of the engine: what makes each line look like its trade.
