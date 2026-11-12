@@ -248,3 +248,4 @@ export default function App() {
               </span>
             ))}
           </AgenticFactory3D>
+          {/* On a phone the machine keeps its whole box; the order controls sit under it. */}
