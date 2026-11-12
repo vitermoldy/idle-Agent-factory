@@ -167,3 +167,4 @@ export function initMachineScene(
     scene.environmentIntensity = 0.62
     room.dispose()
     pmrem.dispose()
+    scene.add(new THREE.HemisphereLight(0xdbe5f4, 0x29211a, 2))
