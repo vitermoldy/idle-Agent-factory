@@ -288,3 +288,4 @@ export default function App() {
                 tabIndex={shownTab === t ? 0 : -1}
                 onClick={() => setTab(t)}
                 className={cn('tab', t === 'produk' && 'whitespace-nowrap')}
+              >
