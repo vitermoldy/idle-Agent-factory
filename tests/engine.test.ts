@@ -171,3 +171,4 @@ describe('saves', () => {
     old.v = 2
     old.factories.video.progress = 0.5
     const back = E.parseSave(JSON.stringify(old))!
+    expect(back.v).toBe(E.SAVE_VERSION)
