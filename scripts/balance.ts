@@ -50,3 +50,4 @@ while (t <= 4 * 3600) {
       const before = E.lineIncome(def, fs, s.stars)
       for (let i = 0; i < 5; i++) {
         const levels = fs.levels.slice()
+        levels[i]++
