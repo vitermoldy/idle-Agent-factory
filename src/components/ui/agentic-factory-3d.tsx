@@ -108,3 +108,4 @@ export default function AgenticFactory3D({
         <div className="af3d-track">
           <i data-el="journey-progress" />
         </div>
+      </div>
