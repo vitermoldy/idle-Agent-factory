@@ -130,3 +130,4 @@ describe('products', () => {
     expect(E.selectProduct(g, 'video', 'explainer')).toBe(g)
   })
 
+  it('makes the pricier product pay off once its heavy station is upgraded', () => {
