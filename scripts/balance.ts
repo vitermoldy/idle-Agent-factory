@@ -105,3 +105,4 @@ while (t <= 4 * 3600) {
       .join('  ')
     marks.push(`${clock(t)}  income ${fmt(E.totalIncome(s))}/s  earned ${fmt(s.earned)}  stars+${E.starsClaimable(s)}  ${lv}`)
   }
+}
