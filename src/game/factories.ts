@@ -24,3 +24,4 @@ type Three = [string, string, string]
 type Two = [string, string]
 
 export interface SceneTheme {
+  accent: string
