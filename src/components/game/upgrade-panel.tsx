@@ -46,3 +46,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
             <StationRow
               key={st.slot}
               def={def}
+              index={i}
