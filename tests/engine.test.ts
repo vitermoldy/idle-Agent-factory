@@ -41,3 +41,4 @@ describe('the line', () => {
   })
 
   it('caps the manual queue', () => {
+    let g = E.newGame(0)
