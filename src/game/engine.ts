@@ -372,3 +372,4 @@ export function parseSave(raw: string | null): GameState | null {
   const active = FACTORIES.some((f) => f.id === s.active) ? (s.active as FactoryId) : 'video'
   return {
     ...base,
+    v: SAVE_VERSION,
