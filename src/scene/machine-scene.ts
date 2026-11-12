@@ -499,3 +499,4 @@ export function initMachineScene(
       c.fillStyle = ACC
       c.fillRect(0, 0, 384, 640)
       art(c, 0, 112, 384, 340, t)
+      print(c, theme.screen.kicker, 28, 57, 24, '#242320', 650)
