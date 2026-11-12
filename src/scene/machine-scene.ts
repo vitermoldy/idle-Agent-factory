@@ -1600,3 +1600,4 @@ export function initMachineScene(
         lastFocus = live.focus
         if (cameraMode === 'plate' || cameraMode === 'station') {
           setCameraGoal()
+          cameraAnimating = true
