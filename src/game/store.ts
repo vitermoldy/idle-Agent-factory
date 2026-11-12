@@ -97,3 +97,4 @@ export const useGame = create<Store>((set, get) => {
       lastTick = now
       const { game, notices } = get()
       let result: { state: E.GameState; completed: E.Completed }
+      let away: AwayReport | null = null
