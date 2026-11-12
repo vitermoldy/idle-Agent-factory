@@ -84,3 +84,4 @@ export function newGame(now = Date.now()): GameState {
     >,
     savedAt: now,
     startedAt: now,
+  }
