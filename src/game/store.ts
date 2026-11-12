@@ -76,3 +76,4 @@ function initialState() {
   const notices: Notice[] = []
   if (corrupt) notices.push({ id: ++noticeId, text: 'Simpanan lama tidak bisa dibaca, jadi permainan dimulai dari awal.' })
   if (!storageOk)
+    notices.push({ id: ++noticeId, text: 'Browser ini menolak penyimpanan lokal. Progres hilang saat halaman ditutup.' })
