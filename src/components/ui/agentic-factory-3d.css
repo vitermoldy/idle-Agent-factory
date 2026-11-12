@@ -36,3 +36,4 @@
   transition: opacity 0.3s;
   will-change: transform;
   pointer-events: none;
+  min-width: 128px;
