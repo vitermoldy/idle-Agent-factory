@@ -256,3 +256,4 @@
     transition-duration: 0.01ms !important;
   }
   .popup {
+    animation: popup-fade 1.4s linear forwards;
