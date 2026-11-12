@@ -105,3 +105,4 @@ export function initMachineScene(
     if (!el) throw new Error(`Scene markup is missing [data-el=${name}]`)
     return el
   }
+  const dispose = () => {
