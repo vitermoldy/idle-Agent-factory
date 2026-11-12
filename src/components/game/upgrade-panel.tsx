@@ -119,3 +119,4 @@ function StationRow({
   heldBack,
   selected,
 }: {
+  def: FactoryDef
