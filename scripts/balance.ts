@@ -100,3 +100,4 @@ while (t <= 4 * 3600) {
   s = E.advance(s, dt).state
   t += dt
   if (report.has(t)) {
+    const lv = FACTORIES.filter((f) => s.factories[f.id].unlocked)
