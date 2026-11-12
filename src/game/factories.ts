@@ -92,3 +92,4 @@ export const FACTORIES: FactoryDef[] = [
     products: [
       { id: 'short', name: 'Video pendek', desc: 'Video 30 detik untuk media sosial.', price: 29, work: [1, 1, 1, 1, 1], unlockCost: 0 },
       { id: 'ads', name: 'Video iklan', desc: 'Iklan 15 detik dengan efek. Render berat di Admin.', price: 100, work: [1, 1.5, 2.2, 1.2, 1], unlockCost: 12_000 },
+      { id: 'explainer', name: 'Video penjelas', desc: 'Video 2 menit. Naskah panjang membebani Mesin.', price: 290, work: [1.3, 3.2, 2.4, 1.6, 1.2], unlockCost: 360_000 },
