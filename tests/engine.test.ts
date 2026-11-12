@@ -101,3 +101,4 @@ describe('products', () => {
     let g = E.hireAgent(rich(video.agentCost + video.products[1].unlockCost), 'video')
     g = E.buyProduct(g, 'video', 'ads')
     const fs = g.factories.video
+    const sum = E.productIncome(video, fs, 0, video.products[0]) + E.productIncome(video, fs, 0, video.products[1])
