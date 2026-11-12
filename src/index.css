@@ -181,3 +181,4 @@
     transition: color 0.15s;
   }
   .tab:hover {
+    color: var(--color-ink);
