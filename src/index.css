@@ -127,3 +127,4 @@
     border-color: rgb(244 241 234 / 0.34);
   }
   .icon-btn {
+    display: inline-grid;
