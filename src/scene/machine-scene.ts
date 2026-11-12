@@ -490,3 +490,5 @@ export function initMachineScene(
           fit(c, stationDef(id).name.toUpperCase(), 111, 73, 35, 380, '#d7d9d7', 550)
         }),
       ])
+    ) as Record<SlotId, ReturnType<typeof canvasTexture>>
+
