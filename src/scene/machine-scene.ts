@@ -1391,3 +1391,4 @@ export function initMachineScene(
       if (Math.hypot(x - downX, y - downY) > 5) wasDragged = true
       if (dragging) return
       const hit = hitStation(x, y)
+      hovered = hit
