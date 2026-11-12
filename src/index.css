@@ -59,3 +59,4 @@
     outline-offset: 2px;
   }
   select {
+    background-color: var(--color-ground);
