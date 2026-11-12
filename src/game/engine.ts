@@ -202,3 +202,4 @@ export function buyLevels(state: GameState, id: FactoryId, index: number, count:
   return { ...withFactory(state, id, { levels }), cash: state.cash - cost }
 }
 
+export function hireAgent(state: GameState, id: FactoryId) {
