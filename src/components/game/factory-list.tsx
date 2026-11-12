@@ -18,3 +18,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
         const affordable = !fs.unlocked && game.cash >= def.unlockCost
         const status = fs.unlocked
           ? fs.agent
+            ? `${money(incomePerSec(def, fs, game.stars))}/dtk`
