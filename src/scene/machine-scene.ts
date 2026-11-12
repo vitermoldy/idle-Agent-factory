@@ -782,3 +782,4 @@ export function initMachineScene(
         }
         g.userData.moving = true
         gears.push({ g, dir })
+      }
