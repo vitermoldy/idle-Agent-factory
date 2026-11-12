@@ -28,3 +28,4 @@ interface Store {
   notices: Notice[]
   storageOk: boolean
   lastSaved: number | null
+  tick: (now: number) => E.Completed
