@@ -456,3 +456,4 @@ export function initMachineScene(
       g.addColorStop(0, 'rgba(0,0,0,.8)')
       g.addColorStop(0.55, 'rgba(0,0,0,.45)')
       g.addColorStop(1, 'rgba(0,0,0,0)')
+      c.fillStyle = g
