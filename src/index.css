@@ -113,3 +113,4 @@
     background: color-mix(in srgb, var(--accent) 86%, white);
   }
   /* Disabled is told by shape too (a dashed edge), not by colour alone. */
+  .btn-primary:disabled {
