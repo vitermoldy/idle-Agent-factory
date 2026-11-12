@@ -15,3 +15,4 @@ import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js'
 import { PIPELINE, type FactoryDef, type FactoryId, type SlotId } from '@/game/factories'
 
+export type MachineMode = 'assembled' | 'cutaway' | 'stations' | 'order'
