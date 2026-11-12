@@ -801,3 +801,4 @@ export function initMachineScene(
         tube(group, [[-0.7, 0.4, -0.4], [-0.55, 0.48, 0.4], [0.35, 0.45, 0.6], [0.7, 0.58, 0.23]], 0.023, M.light)
         screen(group, 1.54, 0.345, 0, 0.27, 0.891, plaques[id])
         stations.push({ id, group, base: new THREE.Vector3(...POS[id]), glowMat, index: i })
+      })
