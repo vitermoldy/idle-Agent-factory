@@ -47,3 +47,4 @@ export interface GameState {
   stars: number
   series: number
   active: FactoryId
+  factories: Record<FactoryId, FactoryState>
