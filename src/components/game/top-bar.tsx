@@ -22,3 +22,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         </div>
       </div>
       <div className="ml-2 flex min-w-0 flex-col leading-tight sm:ml-8 sm:flex-row sm:items-baseline sm:gap-3">
+        <span className="sr-only">Kas</span>
