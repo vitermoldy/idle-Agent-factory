@@ -53,3 +53,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
               heldBack={owned.length > 1 ? heldBack[i] : []}
               selected={selected === st.slot}
             />
+          ))}
