@@ -123,3 +123,5 @@ describe('products', () => {
     const fs = { ...E.newGame(0).factories.video, levels: [20, 20, 20, 20, 20] }
     const heaviest = ads.work.indexOf(Math.max(...ads.work))
     expect(E.bottlenecks(video, fs, ads)).toEqual([heaviest])
+  })
+
