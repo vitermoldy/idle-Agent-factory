@@ -311,3 +311,4 @@ export const FACTORIES: FactoryDef[] = [
         cta: 'Pasang aplikasi',
         foot: 'DIBANGUN OLEH AGEN',
       },
+      post: 'RILIS',
