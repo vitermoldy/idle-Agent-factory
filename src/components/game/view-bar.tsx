@@ -21,3 +21,4 @@ export function ViewBar({
   mode,
   camera,
   labels,
+  playing,
