@@ -42,3 +42,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
       {claim > 0 ? (
         <PriceButton
           label={`Mulai series ${series(game.series + 1)}`}
+          price={`+${claim} bintang`}
