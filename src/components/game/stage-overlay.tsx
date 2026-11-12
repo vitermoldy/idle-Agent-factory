@@ -86,3 +86,4 @@ export function StageAction() {
         <div className="flex items-center justify-between gap-3 text-[12px] text-muted tabular-nums">
           <span>
             Antrean {fs.queue}/{E.QUEUE_MAX}
+          </span>
