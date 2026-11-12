@@ -13,3 +13,4 @@ export function Dialog({
   footer,
 }: {
   open: boolean
+  onClose: () => void
