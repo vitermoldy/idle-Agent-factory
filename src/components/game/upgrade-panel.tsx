@@ -48,3 +48,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
               def={def}
               index={i}
               rate={rates[i]}
+              throughput={T}
