@@ -395,3 +395,4 @@ export const FACTORIES: FactoryDef[] = [
   },
 ]
 
+export const FACTORY_BY_ID = Object.fromEntries(FACTORIES.map((f) => [f.id, f])) as Record<
