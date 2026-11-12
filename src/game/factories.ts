@@ -259,3 +259,4 @@ export const FACTORIES: FactoryDef[] = [
       incoming: 'Topik baru  +',
       cashTitle: 'SPONSOR MEMBAYAR',
       receipt: { shop: 'PABRIK PODCAST' },
+      screen: { kicker: 'SUARA', head: 'DARI AGEN.', lines: ['Topik dipilih,', 'suara direkam.', 'Episode', 'siap tayang.'] },
