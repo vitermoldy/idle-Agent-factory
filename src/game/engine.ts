@@ -364,3 +364,4 @@ export function parseSave(raw: string | null): GameState | null {
       product,
       owned,
       queue: Math.min(QUEUE_MAX, Math.floor(num(f.queue, 0))),
+      progress,
