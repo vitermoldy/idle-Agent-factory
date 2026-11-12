@@ -32,3 +32,4 @@ export interface FactoryState {
   /** Orders waiting on a line without an agent. */
   queue: number
   /** Fraction of the next order already done, per plate. */
+  progress: Record<string, number>
