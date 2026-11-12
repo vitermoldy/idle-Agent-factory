@@ -34,3 +34,4 @@ interface Store {
   takeOrder: () => void
   buyStation: (index: number) => void
   hireAgent: () => void
+  unlockFactory: (id: FactoryId) => void
