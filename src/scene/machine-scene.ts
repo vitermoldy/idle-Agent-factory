@@ -72,3 +72,4 @@ declare global {
   }
 }
 
+/** Geometry order of the stations, left to right along the belt; pipes and label offsets follow it. */
