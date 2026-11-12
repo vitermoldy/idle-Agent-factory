@@ -192,3 +192,4 @@ function StationRow({
               {next ? `Lv ${next}: ×2 cepat` : 'Bonus level penuh'}
             </span>
           </div>
+        </div>
