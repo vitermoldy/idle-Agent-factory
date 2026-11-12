@@ -128,3 +128,4 @@ export default function App() {
       setPopups((list) => [...list.slice(-5), { id, x: p.x + (Math.random() - 0.5) * 40, y: p.y, text: '+' + money(cash) }])
       setTimeout(() => setPopups((list) => list.filter((q) => q.id !== id)), 1450)
     }, 700)
+    const save = setInterval(() => useGame.getState().save(), 5000)
