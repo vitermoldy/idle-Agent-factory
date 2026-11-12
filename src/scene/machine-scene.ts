@@ -833,3 +833,4 @@ export function initMachineScene(
           reel.userData.moving = true
           const core = cyl(reel, 0.4, 0.22, 0, 0, 0, M.dark)
           core.rotation.x = Math.PI / 2
+          for (const z of [-0.14, 0.14]) {
