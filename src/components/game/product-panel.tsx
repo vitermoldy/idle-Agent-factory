@@ -83,3 +83,4 @@ function ProductRow({
             {inView ? (
               <p className="text-[13px] text-accent">Sedang dilihat</p>
             ) : (
+              <button type="button" className="btn btn-quiet" onClick={() => onShow(product.id)}>
