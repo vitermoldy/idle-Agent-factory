@@ -53,3 +53,4 @@ export default function AgenticFactory3D({
     if (!root) return
     let cancelled = false
     let dispose: (() => void) | undefined
+    setPhase('loading')
