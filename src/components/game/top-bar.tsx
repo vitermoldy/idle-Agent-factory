@@ -39,3 +39,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
             <span aria-hidden="true">★ </span>
             {stars}
             <span className="sr-only"> bintang</span>
+          </span>
