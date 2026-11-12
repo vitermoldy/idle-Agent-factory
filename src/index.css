@@ -222,3 +222,4 @@
     transform: none;
   }
   .popup {
+    position: absolute;
