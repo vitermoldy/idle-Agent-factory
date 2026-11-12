@@ -1259,3 +1259,4 @@ export function initMachineScene(
       const first = !sized
       sized = true
       width = frameWidth()
+      height = frameHeight()
