@@ -97,3 +97,4 @@ export function nextMilestone(level: number): number | null {
   return MILESTONES.find((m) => m > level) ?? null
 }
 
+export function activeProduct(def: FactoryDef, fs: FactoryState): ProductDef {
