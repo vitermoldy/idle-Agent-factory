@@ -58,3 +58,4 @@ export const Close = (p: P) => (
   </svg>
 )
 
+export const Tag = (p: P) => (
