@@ -134,3 +134,4 @@ export default function App() {
     document.addEventListener('visibilitychange', onHide)
     window.addEventListener('pagehide', onLeave)
     return () => {
+      clearInterval(tick)
