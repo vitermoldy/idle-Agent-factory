@@ -27,3 +27,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
         {def.products.map((p) => (
           <ProductRow key={p.id} def={def} product={p} inView={p.id === fs.product} onShow={onShow} onBought={onBought} />
         ))}
+      </ul>
