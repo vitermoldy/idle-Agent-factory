@@ -58,3 +58,5 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
       </section>
     </div>
   )
+}
+
