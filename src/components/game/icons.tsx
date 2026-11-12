@@ -5,3 +5,4 @@ import type { FactoryId } from '@/game/factories'
 import type { MachineMode } from '@/scene/machine-scene'
 
 type P = SVGProps<SVGSVGElement>
+const base = {
