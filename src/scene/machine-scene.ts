@@ -1143,3 +1143,4 @@ export function initMachineScene(
           s.visible = false
           return s
         })
+        const halo = new THREE.Mesh(
