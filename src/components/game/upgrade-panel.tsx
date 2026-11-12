@@ -107,3 +107,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
         <p className="mt-2 text-[12px] text-muted tabular-nums">Kurang {money(def.agentCost - cash)}</p>
       )}
     </section>
+  )
