@@ -71,3 +71,4 @@ const MODE_PATHS: Record<MachineMode, string> = {
   stations: 'M8 1.5l6 3-6 3-6-3 6-3zM2 8l6 3 6-3M2 11.5l6 3 6-3',
   order: 'M5 2.5l8 5.5-8 5.5v-11z',
 }
+export const ModeIcon = ({ mode, ...p }: P & { mode: MachineMode }) => (
