@@ -28,3 +28,4 @@ export function StagePlate({ className }: { className?: string }) {
       <h2 className="mt-1.5 font-display text-[20px] leading-tight font-semibold lg:text-[24px]">{def.name}</h2>
       <p className="mt-0.5 text-[13px] font-medium text-soft">{status}</p>
       {fs.unlocked && (
+        <dl className="mt-2.5 flex flex-wrap gap-x-5 gap-y-1.5 text-[13px] tabular-nums">
