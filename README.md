@@ -19,3 +19,4 @@ dibayar di Kasir.
 6. **Mulai series baru** untuk menukar pendapatan dengan bintang. Setiap bintang menambah 5% nilai
    setiap order untuk seterusnya.
 
+| Lini | Produk | Properti khas di mesin |
