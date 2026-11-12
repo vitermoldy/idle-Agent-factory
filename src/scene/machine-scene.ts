@@ -1625,3 +1625,4 @@ export function initMachineScene(
           desiredPosition.copy(desiredTarget).addScaledVector(viewDirection, mobile ? 10 : 15)
           cameraAnimating = true
         }
+      } else if (cameraMode === 'flight' && playing && !dragging) {
