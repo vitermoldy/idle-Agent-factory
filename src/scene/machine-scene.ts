@@ -424,3 +424,4 @@ export function initMachineScene(
           c.fillRect(134, 150 + i * 16, 110 - i * 22, 5)
         }
         // A page corner lifts and settles.
+        const lift = (Math.sin(t * 1.3) * 0.5 + 0.5) * 34 + 10
