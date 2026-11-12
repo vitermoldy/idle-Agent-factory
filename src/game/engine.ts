@@ -206,3 +206,4 @@ export function hireAgent(state: GameState, id: FactoryId) {
   const def = FACTORY_BY_ID[id]
   const fs = state.factories[id]
   if (!fs.unlocked || fs.agent || state.cash < def.agentCost) return state
+  return { ...withFactory(state, id, { agent: true, queue: 0 }), cash: state.cash - def.agentCost }
