@@ -458,3 +458,4 @@ export function initMachineScene(
       g.addColorStop(1, 'rgba(0,0,0,0)')
       c.fillStyle = g
       c.fillRect(0, 0, w, h)
+    })
