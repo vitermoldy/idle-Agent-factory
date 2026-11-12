@@ -334,3 +334,4 @@ export function parseSave(raw: string | null): GameState | null {
   const s = data as Partial<GameState>
   // Version 2 kept one progress number per line; it reads into the plate in view.
   if ((s.v !== SAVE_VERSION && s.v !== 2) || typeof s.cash !== 'number' || !Number.isFinite(s.cash)) return null
+  if (!s.factories || typeof s.factories !== 'object') return null
