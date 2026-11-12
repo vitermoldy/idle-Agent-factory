@@ -200,3 +200,4 @@ export function initMachineScene(
       extra: THREE.MeshStandardMaterialParameters = {}
     ) => new THREE.MeshStandardMaterial({ color, metalness, roughness, ...extra })
     const M = {
+      body: mat(0x30363f, 0.75, 0.29),
