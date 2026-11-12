@@ -1024,3 +1024,4 @@ export function initMachineScene(
       for (let row = 0; row < 3; row++)
         for (let col = 0; col < 3; col++)
           box(cashdesk, 0.19, 0.085, 0.17, -0.62 + col * 0.27, 1.21, 0.27 - row * 0.24, col === 2 && row === 2 ? M.amber : M.ivory, 0.022)
+      box(cashdesk, 0.64, 0.6, 0.52, 0.58, 1.04, -0.15, S.body, 0.045)
