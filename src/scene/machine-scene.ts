@@ -1159,3 +1159,4 @@ export function initMachineScene(
       return {
         k,
         holder,
+        stations,
