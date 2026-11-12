@@ -964,3 +964,4 @@ export function initMachineScene(
       for (let i = 0; i < 5; i++) box(engine, 0.08, 0.03, 0.22, -0.38 + i * 0.19, 1.011, -0.02, M.edge, 0.005)
 
       const admin = bySlot('admin').group
+      box(admin, 1.9, 0.66, 1.36, 0, 0.67, -0.04, S.body, 0.11)
