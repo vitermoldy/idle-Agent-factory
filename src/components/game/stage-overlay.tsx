@@ -70,3 +70,4 @@ export function StageAction() {
         <Progress value={fast ? 1 : progress} steady={fast} />
       </div>
     )
+  const first = fs.orders === 0 && fs.queue === 0 && game.allTime === 0
