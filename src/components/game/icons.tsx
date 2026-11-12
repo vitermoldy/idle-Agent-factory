@@ -77,3 +77,4 @@ export const ModeIcon = ({ mode, ...p }: P & { mode: MachineMode }) => (
   </svg>
 )
 
+export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
