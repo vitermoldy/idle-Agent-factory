@@ -704,3 +704,4 @@ export function initMachineScene(
           return g.applyMatrix4(m.matrix)
         })
         const merged = mergeGeometries(geos, false)
+        for (const geo of geos) geo.dispose()
