@@ -57,3 +57,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
 
 function Stat({ label, value, note }: { label: string; value: string; note?: string }) {
   return (
+    <div className="rounded-xl border border-line bg-panel p-3">
