@@ -53,3 +53,4 @@ export function ViewBar({
         >
           <ModeIcon mode={m.id} />
           <span className="hidden lg:inline" aria-hidden="true">
+            {m.label}
