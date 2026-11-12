@@ -19,3 +19,4 @@ const base = {
 
 /** The machine's mark, from the original component. */
 export const Mark = (p: P) => (
+  <svg {...base} width={18} height={18} viewBox="0 0 20 20" strokeWidth={1.7} {...p}>
