@@ -386,3 +386,4 @@ export function initMachineScene(
         c.beginPath()
         c.arc(192, 170, 118, 0, TAU)
         c.stroke()
+        for (let i = 0; i < 15; i++) {
