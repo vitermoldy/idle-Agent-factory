@@ -1421,3 +1421,4 @@ export function initMachineScene(
       options.onStation?.(hit.slot, hit.plate)
       selected = hit.slot
       focusStation(hit.slot)
+    })
