@@ -20,3 +20,4 @@ import { cn } from '@/lib/utils'
 type Tab = 'upgrade' | 'produk' | 'pabrik' | 'series'
 const TAB_LABEL: Record<Tab, string> = { upgrade: 'Upgrade', produk: 'Produk', pabrik: 'Pabrik', series: 'Series' }
 
+interface Popup {
