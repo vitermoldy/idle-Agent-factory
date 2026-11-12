@@ -965,3 +965,4 @@ export function initMachineScene(
 
       const admin = bySlot('admin').group
       box(admin, 1.9, 0.66, 1.36, 0, 0.67, -0.04, S.body, 0.11)
+      const consoleTop = new THREE.Group()
