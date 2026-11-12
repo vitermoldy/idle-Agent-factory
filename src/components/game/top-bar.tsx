@@ -30,3 +30,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           +{money(income)}
           <span className="sr-only"> per detik</span>
           <span aria-hidden="true">/dtk</span>
+        </span>
