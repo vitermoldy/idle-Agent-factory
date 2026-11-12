@@ -312,3 +312,4 @@ export function starsClaimable(state: GameState) {
 /** Resets every line, product and the cash; keeps the stars and adds the new ones. */
 export function startNewSeries(state: GameState, now = Date.now()): GameState {
   const claim = starsClaimable(state)
+  if (claim <= 0) return state
