@@ -1274,3 +1274,4 @@ export function initMachineScene(
         controls.target.copy(desiredTarget)
         controls.update()
         cameraAnimating = false
+      }
