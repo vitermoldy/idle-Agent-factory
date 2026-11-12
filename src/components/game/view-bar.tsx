@@ -64,3 +64,4 @@ export function ViewBar({
       <select
         id="camera-select"
         value={camera}
+        onChange={(e) => onCamera(e.target.value as MachineCamera)}
