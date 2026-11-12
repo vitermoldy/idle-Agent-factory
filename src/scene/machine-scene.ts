@@ -1171,3 +1171,4 @@ export function initMachineScene(
         coin,
         toggles,
         belt,
+        pipes,
