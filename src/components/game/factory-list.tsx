@@ -40,3 +40,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                 active
                   ? 'border-line-strong bg-raised'
                   : 'border-transparent hover:border-line hover:bg-raised/60'
+              )}
