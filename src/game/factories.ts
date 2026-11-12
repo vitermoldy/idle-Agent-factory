@@ -249,3 +249,4 @@ export const FACTORIES: FactoryDef[] = [
         cta: 'Putar episode',
         foot: 'DIPRODUKSI OLEH AGEN',
       },
+      post: 'EPISODE',
