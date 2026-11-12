@@ -307,3 +307,5 @@ export function nextStarAt(allTime: number) {
 
 export function starsClaimable(state: GameState) {
   return Math.max(0, starsEarnedTotal(state.allTime) - state.stars)
+}
+
