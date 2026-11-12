@@ -298,3 +298,4 @@ export function initMachineScene(
       return { texture: t, canvas: c, ctx }
     }
     /** Paints a line of text, shrinking it until it fits `maxW`. */
+    function fit(
