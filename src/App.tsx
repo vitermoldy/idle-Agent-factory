@@ -307,3 +307,4 @@ export default function App() {
               <ProductPanel
                 onShow={(id) => {
                   useGame.getState().selectProduct(id)
+                  syncLive(live.current, useGame.getState().game)
