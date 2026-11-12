@@ -1479,3 +1479,4 @@ export function initMachineScene(
       }
       if (!owned && p.shown && p.holder.scale.x < 0.02) {
         p.shown = false
+        p.holder.visible = false
