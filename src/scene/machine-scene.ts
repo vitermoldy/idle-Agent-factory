@@ -66,3 +66,4 @@ export interface SceneOptions {
 }
 
 declare global {
+  interface Window {
