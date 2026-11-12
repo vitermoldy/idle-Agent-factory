@@ -370,3 +370,4 @@ export function initMachineScene(
         rounded(c, 54, 86, 128, 104, 8, INK)
         disc(c, 118, 138, 30, ACC)
         for (let i = 0; i < 4; i++) {
+          c.fillStyle = i === 0 ? INK : '#b9bcb5'
