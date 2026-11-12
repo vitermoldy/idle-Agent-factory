@@ -225,3 +225,4 @@ export default function App() {
           </nav>
         )}
         <main className="relative flex flex-col lg:min-h-0">
+          {/* On a phone the line's plate sits above the machine, so no text covers it. */}
