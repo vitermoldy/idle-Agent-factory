@@ -136,3 +136,4 @@ export function SettingsDialog({
   const save = useGame((s) => s.save)
   const lastSaved = useGame((s) => s.lastSaved)
   const storageOk = useGame((s) => s.storageOk)
+  const time = lastSaved
