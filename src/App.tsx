@@ -100,3 +100,4 @@ export default function App() {
   const [popups, setPopups] = useState<Popup[]>([])
   const pending = useRef(0)
 
+  const tabs: Tab[] = wide ? ['upgrade', 'produk', 'series'] : ['upgrade', 'produk', 'pabrik', 'series']
