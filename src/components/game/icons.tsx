@@ -60,3 +60,4 @@ export const Close = (p: P) => (
 
 export const Tag = (p: P) => (
   <svg {...base} {...p}>
+    <path d="M2.5 8.2V3.5a1 1 0 0 1 1-1h4.7l5.3 5.3a1 1 0 0 1 0 1.4l-4.3 4.3a1 1 0 0 1-1.4 0z" />
