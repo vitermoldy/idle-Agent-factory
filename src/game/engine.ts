@@ -242,3 +242,5 @@ export function takeOrder(state: GameState, id: FactoryId) {
   const fs = state.factories[id]
   if (!fs.unlocked || fs.agent || fs.queue >= QUEUE_MAX) return state
   return withFactory(state, id, { queue: fs.queue + 1 })
+}
+
