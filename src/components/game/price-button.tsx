@@ -17,3 +17,4 @@ export function PriceButton({
     >
       <span>{label}</span>
       <span className="font-medium tabular-nums opacity-80" aria-hidden="true">
+        {price}
