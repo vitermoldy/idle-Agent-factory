@@ -986,3 +986,4 @@ export function initMachineScene(
       for (let i = 0; i < 7; i++) box(admin, 0.55, 0.027, 0.02, 0, 0.46 + i * 0.05, 0.655, M.dark, 0.003)
 
       const storefront = bySlot('storefront').group
+      box(storefront, 1.35, 0.18, 0.88, 0, 0.44, 0, S.ivory, 0.045)
