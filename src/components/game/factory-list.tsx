@@ -28,3 +28,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
         return (
           <li key={def.id}>
             <button
+              type="button"
