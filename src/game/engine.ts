@@ -113,3 +113,4 @@ export function lineRates(def: FactoryDef, fs: FactoryState, product = activePro
 }
 
 /** Orders per second: a line is exactly as fast as its slowest station. */
+export function throughput(def: FactoryDef, fs: FactoryState, product = activeProduct(def, fs)) {
