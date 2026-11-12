@@ -1291,3 +1291,4 @@ export function initMachineScene(
         desiredTarget.set(0, 1, 0)
         const distance = baseDistance * expand
         if (cameraMode === 'side') desiredPosition.set(13, 5, 20).normalize().multiplyScalar(distance).add(desiredTarget)
+        else if (cameraMode === 'top') desiredPosition.set(0.01, distance, 0.8).add(desiredTarget)
