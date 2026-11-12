@@ -17,3 +17,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
   if (!fs.unlocked) return <LockedLine def={def} />
+  const rates = E.lineRates(def, fs)
