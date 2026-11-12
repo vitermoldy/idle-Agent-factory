@@ -80,3 +80,4 @@ function ProductRow({
         ) : owned ? (
           <div className="flex items-center justify-between gap-3">
             <p className="text-[13px] font-medium text-soft">Petak {plate + 1}</p>
+            {inView ? (
