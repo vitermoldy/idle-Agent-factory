@@ -1593,3 +1593,4 @@ export function initMachineScene(
         fitRow()
         if (cameraMode !== 'station' && mode !== 'order') {
           setCameraGoal()
+          cameraAnimating = true
