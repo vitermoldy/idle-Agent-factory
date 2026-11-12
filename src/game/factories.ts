@@ -12,3 +12,4 @@ export interface StationDef {
   slot: SlotId
   name: string
   desc: string
+  /** What this station hands to the next one. */
