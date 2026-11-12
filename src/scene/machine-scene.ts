@@ -384,3 +384,4 @@ export function initMachineScene(
         c.strokeStyle = ACC
         c.lineWidth = 6
         c.beginPath()
+        c.arc(192, 170, 118, 0, TAU)
