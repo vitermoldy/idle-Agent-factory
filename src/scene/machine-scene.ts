@@ -303,3 +303,4 @@ export function initMachineScene(
       txt: string,
       x: number,
       y: number,
+      size: number,
