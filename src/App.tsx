@@ -273,3 +273,4 @@ export default function App() {
         >
           <div
             role="tablist"
+            aria-label="Bagian panel"
