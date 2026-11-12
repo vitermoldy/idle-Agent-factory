@@ -397,3 +397,4 @@ export function initMachineScene(
         rounded(c, 118, 12, 148, 312, 24, INK)
         rounded(c, 128, 26, 128, 284, 14, '#f4f1ea')
         rounded(c, 168, 34, 48, 8, 4, INK)
+        c.fillStyle = DEEP
