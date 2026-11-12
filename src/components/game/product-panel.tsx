@@ -42,3 +42,4 @@ function ProductRow({
   def: FactoryDef
   product: ProductDef
   inView: boolean
+  onShow: (id: string) => void
