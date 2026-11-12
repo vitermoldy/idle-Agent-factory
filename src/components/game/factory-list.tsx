@@ -69,3 +69,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                     </span>
                   )}
                 </span>
+                {!fs.unlocked && !affordable && (
