@@ -280,3 +280,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'shop', name: 'Aplikasi belanja', desc: 'Katalog dan pembayaran. Desain paling lama.', price: 12_500_000, work: [1.2, 2.3, 1.7, 1.5, 1], unlockCost: 9_000_000_000 },
       { id: 'game', name: 'Game kasual', desc: 'Level, grafis, dan review toko yang ketat.', price: 36_000_000, work: [1.4, 3.2, 2.6, 2.4, 1.2], unlockCost: 270_000_000_000 },
     ],
+    rate: 0.13,
