@@ -142,3 +142,4 @@ export const useGame = create<Store>((set, get) => {
       }),
     hireAgent: () => update((g) => E.hireAgent(g, g.active)),
     unlockFactory: (id) => {
+      update((g) => {
