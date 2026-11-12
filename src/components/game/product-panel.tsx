@@ -106,3 +106,5 @@ function ProductRow({
       </div>
     </li>
   )
+}
+
