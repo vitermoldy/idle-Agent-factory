@@ -1497,3 +1497,4 @@ export function initMachineScene(
       const pulseClock = playing ? now / 1000 : 0
       p.stations.forEach((st, i) => {
         st.group.position.copy(st.base)
+        st.group.position.x *= 1 + spread * 0.29
