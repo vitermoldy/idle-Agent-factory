@@ -215,3 +215,4 @@ export function unlockFactory(state: GameState, id: FactoryId) {
   if (fs.unlocked || state.cash < def.unlockCost) return state
   return {
     ...withFactory(state, id, { unlocked: true, levels: [1, 1, 1, 1, 1] }),
+    cash: state.cash - def.unlockCost,
