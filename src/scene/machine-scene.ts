@@ -380,3 +380,4 @@ export function initMachineScene(
       },
       podcast: (c, t) => {
         disc(c, 320, 70, 190, DEEP)
+        disc(c, 192, 170, 138, INK)
