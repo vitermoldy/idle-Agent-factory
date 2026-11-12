@@ -1077,3 +1077,4 @@ export function initMachineScene(
       cashdesk.add(coin)
       const coinDisc = cyl(coin, 0.22, 0.065, 0, 0, 0, M.amber, undefined, 32)
       coinDisc.rotation.x = Math.PI / 2
+      const coinRing = new THREE.Mesh(new THREE.TorusGeometry(0.174, 0.014, 6, 32), M.light)
