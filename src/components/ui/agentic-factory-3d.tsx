@@ -95,3 +95,4 @@ export default function AgenticFactory3D({
         aria-label={`Mesin 3D ${factory.name} dengan lima stasiun. Seret untuk memutar, gulir atau cubit untuk zoom, klik stasiun untuk melihatnya dari dekat.`}
       />
       <div className="af3d-vignette" />
+      <div data-el="labels" className="af3d-labels" />
