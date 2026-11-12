@@ -12,3 +12,4 @@ export function StagePlate({ className }: { className?: string }) {
   const fs = game.factories[game.active]
   const product = E.activeProduct(def, fs)
   const T = E.throughput(def, fs)
+  const plates = fs.owned.length
