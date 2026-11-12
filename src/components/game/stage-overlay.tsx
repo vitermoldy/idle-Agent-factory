@@ -14,3 +14,4 @@ export function StagePlate({ className }: { className?: string }) {
   const T = E.throughput(def, fs)
   const plates = fs.owned.length
   const status = !fs.unlocked
+    ? 'Terkunci'
