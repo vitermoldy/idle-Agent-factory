@@ -340,3 +340,4 @@ export function parseSave(raw: string | null): GameState | null {
   const factories = { ...base.factories }
   const saved = s.factories as Record<string, Partial<FactoryState> | undefined>
   for (const def of FACTORIES) {
+    const f: Partial<FactoryState> | undefined = saved[def.id]
