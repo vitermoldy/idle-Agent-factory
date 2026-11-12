@@ -68,3 +68,4 @@ function makeLive(): SceneLive {
     focus: 0,
     meta: Object.fromEntries(PIPELINE.map((s) => [s, { level: '', rate: '' }])) as SceneLive['meta'],
     plates: [],
+  }
