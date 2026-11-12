@@ -28,3 +28,4 @@ export interface SceneTheme {
   accentDeep: string
   shell: string
   prop: PropKind
+  plate: { title: string; line: string }
