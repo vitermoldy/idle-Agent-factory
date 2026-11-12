@@ -1081,3 +1081,4 @@ export function initMachineScene(
       coinRing.position.z = 0.037
       coin.add(coinRing)
       const dollar = screen(coin, 0.28, 0.28, 0, 0, 0.04, dollarTex)
+      ;(dollar.material as THREE.MeshBasicMaterial).transparent = true
