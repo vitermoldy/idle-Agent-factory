@@ -1170,3 +1170,4 @@ export function initMachineScene(
         receipt,
         coin,
         toggles,
+        belt,
