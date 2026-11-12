@@ -522,3 +522,4 @@ export function initMachineScene(
       for (let i = 0; i < 3; i++) {
         const y = 74 + i * 76
         rounded(c, 21, y, 598, 61, 6, '#202c30')
+        c.fillStyle = i === 0 ? DEEP : '#626f69'
