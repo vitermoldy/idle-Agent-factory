@@ -144,3 +144,4 @@ export function SettingsDialog({
       <section aria-labelledby="save-title">
         <h3 id="save-title" className="text-[14px] font-semibold text-ink">
           Simpanan
+        </h3>
