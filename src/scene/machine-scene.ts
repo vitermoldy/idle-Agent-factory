@@ -482,3 +482,4 @@ export function initMachineScene(
 
     const plaques = Object.fromEntries(
       GEO.map((id) => [
+        id,
