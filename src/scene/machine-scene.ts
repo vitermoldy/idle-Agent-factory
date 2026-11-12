@@ -1574,3 +1574,4 @@ export function initMachineScene(
       })
     }
 
+    function animate(now: number) {
