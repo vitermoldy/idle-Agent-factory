@@ -103,3 +103,4 @@ while (t <= 4 * 3600) {
     const lv = FACTORIES.filter((f) => s.factories[f.id].unlocked)
       .map((f) => `${f.id}[${s.factories[f.id].owned.length}]:${s.factories[f.id].levels.join("/")}`)
       .join('  ')
+    marks.push(`${clock(t)}  income ${fmt(E.totalIncome(s))}/s  earned ${fmt(s.earned)}  stars+${E.starsClaimable(s)}  ${lv}`)
