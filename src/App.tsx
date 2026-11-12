@@ -268,3 +268,4 @@ export default function App() {
         <aside
           id="panel"
           tabIndex={-1}
+          aria-label="Panel lini"
