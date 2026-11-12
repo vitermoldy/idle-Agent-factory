@@ -1712,3 +1712,4 @@ export function initMachineScene(
       env.dispose()
       renderer.dispose()
       renderer.forceContextLoss()
+      renderer.domElement.remove()
