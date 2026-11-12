@@ -1161,3 +1161,4 @@ export function initMachineScene(
         holder,
         stations,
         bySlot,
+        gears,
