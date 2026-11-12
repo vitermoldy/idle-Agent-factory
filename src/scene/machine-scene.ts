@@ -55,3 +55,4 @@ export interface SceneApi {
 }
 
 export interface SceneOptions {
+  factory: FactoryDef
