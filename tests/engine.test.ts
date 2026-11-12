@@ -103,3 +103,4 @@ describe('products', () => {
     const fs = g.factories.video
     const sum = E.productIncome(video, fs, 0, video.products[0]) + E.productIncome(video, fs, 0, video.products[1])
     expect(E.incomePerSec(video, fs, 0)).toBeCloseTo(sum)
+    const { state, completed } = E.advance(g, 100)
