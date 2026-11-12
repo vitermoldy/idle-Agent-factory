@@ -66,3 +66,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                     <span className={cn('shrink-0', !affordable && 'text-soft')}>
                       <span className="sr-only">, harga </span>
                       {money(def.unlockCost)}
+                    </span>
