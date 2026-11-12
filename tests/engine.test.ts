@@ -33,3 +33,4 @@ describe('the line', () => {
 
   it('works off a manual queue and then stops', () => {
     let g = E.newGame(0)
+    g = E.takeOrder(E.takeOrder(g, 'video'), 'video')
