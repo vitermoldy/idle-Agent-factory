@@ -27,3 +27,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
             : 'Terkunci'
         return (
           <li key={def.id}>
+            <button
