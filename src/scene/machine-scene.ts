@@ -99,3 +99,4 @@ export function initMachineScene(
     const fn = handler as unknown as EventListener
     target.addEventListener(type, fn)
     cleanups.push(() => target.removeEventListener(type, fn))
+  }
