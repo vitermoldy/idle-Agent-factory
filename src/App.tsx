@@ -332,3 +332,4 @@ export default function App() {
         </aside>
       </div>
       <Notices onOpen={openFactory} />
+      <AwayDialog />
