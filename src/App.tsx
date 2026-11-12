@@ -358,3 +358,4 @@ export default function App() {
       </ConfirmDialog>
       <ConfirmDialog
         open={confirm === 'reset'}
+        title="Hapus semua progres?"
