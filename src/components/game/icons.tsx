@@ -2,3 +2,5 @@
 // for the video line, a browser for the website line), so no icon library is needed.
 import type { SVGProps } from 'react'
 import type { FactoryId } from '@/game/factories'
+import type { MachineMode } from '@/scene/machine-scene'
+
