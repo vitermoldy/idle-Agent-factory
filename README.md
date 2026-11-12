@@ -57,3 +57,4 @@ tests/engine.test.ts                     tes aturan game
 ```
 
 Proyek ini mengikuti struktur shadcn: `components.json` di root, alias `@/` ke `src/`, komponen UI
+di `src/components/ui`, dan helper `cn()` di `src/lib/utils.ts`. Folder `components/ui` penting karena
