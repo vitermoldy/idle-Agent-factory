@@ -910,3 +910,4 @@ export function initMachineScene(
         // A test phone on a stand, playing the line's product screen.
         const stand = new THREE.Group()
         stand.position.set(-1.2, 0, -0.25)
+        engine.add(stand)
