@@ -154,3 +154,4 @@ export default function App() {
     setCamera('overview')
     setSelected(null)
     setPopups([])
+    pending.current = 0
