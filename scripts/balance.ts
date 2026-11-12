@@ -94,3 +94,4 @@ while (t <= 4 * 3600) {
     if (pick && pick.cost <= s.cash && (pick.payback < wait * 1.5 || !next)) {
       pick.apply()
       continue
+    }
