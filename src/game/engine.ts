@@ -249,3 +249,4 @@ export function takeOrder(state: GameState, id: FactoryId) {
  * plate in view works, and only on the orders taken by hand.
  */
 export function advance(state: GameState, seconds: number): { state: GameState; completed: Completed } {
+  if (!(seconds > 0)) return { state, completed: {} }
