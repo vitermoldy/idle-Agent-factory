@@ -55,3 +55,4 @@ export interface SceneTheme {
  */
 export interface ProductDef {
   id: string
+  name: string
