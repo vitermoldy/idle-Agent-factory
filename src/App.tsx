@@ -11,3 +11,4 @@ import { AwayDialog, ConfirmDialog, SettingsDialog } from '@/components/game/dia
 import { Notices } from '@/components/game/notices'
 import { useMediaQuery } from '@/hooks/use-media-query'
 import { useGame } from '@/game/store'
+import * as E from '@/game/engine'
