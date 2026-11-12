@@ -266,3 +266,4 @@ export function initMachineScene(
       return o
     }
     function ball(parent: THREE.Object3D, r: number, x: number, y: number, z: number, m: Material = M.chrome) {
+      const k = `s${r}`
