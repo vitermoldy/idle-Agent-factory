@@ -357,3 +357,4 @@ export default function App() {
         </p>
       </ConfirmDialog>
       <ConfirmDialog
+        open={confirm === 'reset'}
