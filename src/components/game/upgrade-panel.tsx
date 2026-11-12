@@ -103,3 +103,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
         disabled={!can}
         onClick={hireAgent}
       />
+      {!can && (
