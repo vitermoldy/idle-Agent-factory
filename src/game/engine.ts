@@ -98,3 +98,4 @@ export function nextMilestone(level: number): number | null {
 }
 
 export function activeProduct(def: FactoryDef, fs: FactoryState): ProductDef {
+  return def.products.find((p) => p.id === fs.product) ?? def.products[0]
