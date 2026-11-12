@@ -790,3 +790,4 @@ export function initMachineScene(
         const glowMat = M.light.clone()
         glowMat.emissiveIntensity = 0.5
         box(group, 2.05, 0.12, 1.78, 0, 0.03, 0, M.dark, 0.1)
+        box(group, 1.97, 0.03, 1.7, 0, 0.12, 0, glowMat, 0.09)
