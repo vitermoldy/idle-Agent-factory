@@ -35,3 +35,4 @@ describe('the line', () => {
     let g = E.newGame(0)
     g = E.takeOrder(E.takeOrder(g, 'video'), 'video')
     const { state, completed } = E.advance(g, 600)
+    expect(completed.video?.orders).toBe(2)
