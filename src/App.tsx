@@ -96,3 +96,4 @@ export default function App() {
   const [playing, setPlaying] = useState(live.current.playing)
   const [selected, setSelected] = useState<SlotId | null>(null)
   const [settings, setSettings] = useState(false)
+  const [confirm, setConfirm] = useState<'series' | 'reset' | null>(null)
