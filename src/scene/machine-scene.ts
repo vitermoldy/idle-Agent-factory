@@ -1114,3 +1114,4 @@ export function initMachineScene(
       for (const g of railGeos) belt.add(new THREE.Mesh(g, M.chrome))
       for (let i = 0; i < 16; i++) {
         const p = path.getPointAt(i / 16)
+        cyl(belt, 0.045, 0.43, p.x, 0.53, p.z, M.chrome)
