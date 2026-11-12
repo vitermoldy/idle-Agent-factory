@@ -47,3 +47,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           onClick={onStart}
         />
       ) : (
+        <button type="button" className="btn btn-primary w-full" disabled>
