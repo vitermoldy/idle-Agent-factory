@@ -62,3 +62,4 @@ export function ViewBar({
         Kamera
       </label>
       <select
+        id="camera-select"
