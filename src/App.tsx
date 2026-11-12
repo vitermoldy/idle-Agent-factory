@@ -354,3 +354,4 @@ export default function App() {
         <p>
           Semua lini, produk, level, dan kas kembali ke awal. Kamu mendapat {E.starsClaimable(game)} bintang,
           sehingga setiap order bernilai +{Math.round((game.stars + E.starsClaimable(game)) * E.STAR_BONUS * 100)}%.
+        </p>
