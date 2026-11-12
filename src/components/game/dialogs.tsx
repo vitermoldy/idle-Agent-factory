@@ -179,3 +179,4 @@ export function SettingsDialog({
             rel="noopener noreferrer"
           >
             Lihat template aslinya
+          </a>
