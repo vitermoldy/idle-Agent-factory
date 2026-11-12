@@ -276,3 +276,4 @@ export default function App() {
             aria-label="Bagian panel"
             onKeyDown={onTabKey}
             className="sticky top-16 z-20 flex gap-5 border-b border-line bg-ground px-4 lg:static"
+          >
