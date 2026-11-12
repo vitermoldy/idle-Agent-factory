@@ -123,3 +123,4 @@ function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: Produc
         ))}
       </div>
       <p className="mt-1 text-[11px] text-muted">
+        {product.work[heaviest] > 1 ? `Berat di ${def.stations[heaviest].name}` : 'Beban rata'}
