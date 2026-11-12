@@ -38,3 +38,4 @@ export function Dialog({
         <div className="flex items-start justify-between gap-4">
           <h2 id={id} className="font-display text-[19px] leading-snug font-semibold">
             {title}
+          </h2>
