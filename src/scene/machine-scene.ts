@@ -1144,3 +1144,4 @@ export function initMachineScene(
           return s
         })
         const halo = new THREE.Mesh(
+          new THREE.RingGeometry(0.4, 0.414, 40),
