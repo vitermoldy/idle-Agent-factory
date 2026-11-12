@@ -141,3 +141,4 @@ export const ownedProducts = (def: FactoryDef, fs: FactoryState) =>
   fs.owned.map((id) => def.products.find((p) => p.id === id)!).filter(Boolean)
 
 /** Income of every plate of a line together, as if an agent ran it. */
+export function lineIncome(def: FactoryDef, fs: FactoryState, stars: number, levels = fs.levels) {
