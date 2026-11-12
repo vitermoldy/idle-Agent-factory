@@ -318,3 +318,4 @@ export function startNewSeries(state: GameState, now = Date.now()): GameState {
     allTime: state.allTime,
     stars: state.stars + claim,
     series: state.series + 1,
+  }
