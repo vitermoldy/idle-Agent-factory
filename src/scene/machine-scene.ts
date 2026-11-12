@@ -1282,3 +1282,4 @@ export function initMachineScene(
       const expand = mode === 'stations' ? 1.2 : 1
       const fp = focusPlate()
       if (cameraMode === 'station') {
+        world(fp, fp.bySlot(selected).group.position, desiredTarget).add(new THREE.Vector3(0, 1.25, 0))
