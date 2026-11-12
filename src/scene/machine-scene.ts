@@ -1423,3 +1423,4 @@ export function initMachineScene(
       focusStation(hit.slot)
     })
     let lastFrame = performance.now()
+    listen(document, 'visibilitychange', () => {
