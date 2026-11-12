@@ -1149,3 +1149,4 @@ export function initMachineScene(
         )
         halo.rotation.x = -Math.PI / 2
         halo.position.y = -0.37
+        g.add(halo)
