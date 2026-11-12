@@ -83,3 +83,4 @@ function BuyModeSwitch() {
   )
 }
 
+function AgentCard({ def }: { def: FactoryDef }) {
