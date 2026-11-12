@@ -363,3 +363,4 @@ export default function App() {
         onConfirm={() => useGame.getState().resetGame()}
         onClose={() => setConfirm(null)}
       >
+        <p>Kas, lini, produk, dan bintang dihapus dari browser ini. Langkah ini tidak bisa dibatalkan.</p>
