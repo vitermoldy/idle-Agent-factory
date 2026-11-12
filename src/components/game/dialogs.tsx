@@ -184,3 +184,4 @@ export function SettingsDialog({
         </p>
       </section>
     </Dialog>
+  )
