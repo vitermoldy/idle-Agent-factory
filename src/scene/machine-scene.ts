@@ -1581,3 +1581,4 @@ export function initMachineScene(
       if (!visible || contextLost) return
       const playing = live.playing
       const locked = live.locked
+      if (playing) flightTime += dt
