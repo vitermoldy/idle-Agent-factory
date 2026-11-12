@@ -97,3 +97,4 @@ export function ConfirmDialog({
   children: ReactNode
 }) {
   return (
+    <Dialog
