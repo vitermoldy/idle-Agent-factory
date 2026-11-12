@@ -208,3 +208,4 @@ export default function App() {
   const accent = {
     '--accent': def.theme.accent,
     '--accent-deep': def.theme.accentDeep,
+  } as CSSProperties
