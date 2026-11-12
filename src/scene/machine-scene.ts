@@ -975,3 +975,4 @@ export function initMachineScene(
       const toggles: THREE.Mesh[] = []
       for (let i = 0; i < 4; i++) {
         const x = -0.57 + i * 0.38
+        cyl(consoleTop, 0.074, 0.035, x, 0.1, 0.45, M.dark)
