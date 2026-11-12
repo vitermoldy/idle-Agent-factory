@@ -45,3 +45,4 @@ export interface GameState {
   /** Earned across every series; stars come from this. */
   allTime: number
   stars: number
+  series: number
