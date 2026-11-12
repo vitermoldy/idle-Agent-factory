@@ -52,3 +52,4 @@ export function ViewBar({
           className={cn('view-btn', mode === m.id && 'is-on')}
         >
           <ModeIcon mode={m.id} />
+          <span className="hidden lg:inline" aria-hidden="true">
