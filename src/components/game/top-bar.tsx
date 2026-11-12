@@ -32,3 +32,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           <span aria-hidden="true">/dtk</span>
         </span>
       </div>
+      <div className="ml-auto flex items-center gap-2 sm:gap-4">
