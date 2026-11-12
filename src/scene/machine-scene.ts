@@ -673,3 +673,5 @@ export function initMachineScene(
     }
     const adminU = nearestPort(-1.65, -0.7)
     const storeU = nearestPort(1.5, -0.7)
+    const cashU = nearestPort(0.93, 2.65)
+
