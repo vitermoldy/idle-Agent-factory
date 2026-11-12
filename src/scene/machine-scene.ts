@@ -694,3 +694,4 @@ export function initMachineScene(
         if (!child.isMesh || child.isInstancedMesh || child.userData.moving || Array.isArray(child.material)) continue
         const key = child.material.uuid
         if (!buckets.has(key)) buckets.set(key, [])
+        buckets.get(key)!.push(child)
