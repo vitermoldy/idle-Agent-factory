@@ -56,3 +56,4 @@ export function StageAction() {
   const fs = game.factories[game.active]
   if (!fs.unlocked) return null
   const T = E.throughput(def, fs)
+  const fast = T >= 3
