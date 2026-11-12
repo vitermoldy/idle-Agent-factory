@@ -6,3 +6,4 @@ import type { MachineMode } from '@/scene/machine-scene'
 
 type P = SVGProps<SVGSVGElement>
 const base = {
+  width: 16,
