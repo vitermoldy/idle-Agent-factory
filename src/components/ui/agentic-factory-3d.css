@@ -12,3 +12,4 @@
   touch-action: none;
 }
 .af3d-canvas canvas {
+  display: block;
