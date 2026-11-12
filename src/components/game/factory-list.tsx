@@ -56,3 +56,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
               <span className="min-w-0 flex-1">
                 <span className="block truncate text-[14px] font-medium text-ink">{def.name}</span>
                 <span
+                  className={cn(
