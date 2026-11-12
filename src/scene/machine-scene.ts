@@ -537,3 +537,4 @@ export function initMachineScene(
     const webTexture = canvasTexture(896, 592, (c, w, h) => {
       const st = theme.store
       c.fillStyle = '#edece3'
+      c.fillRect(0, 0, w, h)
