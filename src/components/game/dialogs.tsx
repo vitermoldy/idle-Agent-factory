@@ -7,3 +7,4 @@ import { Close } from './icons'
 /** Native modal dialog: focus is trapped, Escape and the backdrop close it. */
 export function Dialog({
   open,
+  onClose,
