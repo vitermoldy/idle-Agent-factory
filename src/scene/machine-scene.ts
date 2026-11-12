@@ -1426,3 +1426,4 @@ export function initMachineScene(
     listen(document, 'visibilitychange', () => {
       visible = !document.hidden
       lastFrame = performance.now()
+    })
