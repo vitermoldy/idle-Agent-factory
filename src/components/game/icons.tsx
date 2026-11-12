@@ -8,3 +8,4 @@ type P = SVGProps<SVGSVGElement>
 const base = {
   width: 16,
   height: 16,
+  viewBox: '0 0 16 16',
