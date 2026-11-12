@@ -1669,3 +1669,4 @@ export function initMachineScene(
         world(fp, anchor.copy(fp.bySlot(label.id).group.position).add(new THREE.Vector3(0, 2.5, 0)), anchor).project(camera)
         const off = (mobile ? labelOffsetsMobile : labelOffsets)[i]
         const x = THREE.MathUtils.clamp((anchor.x * 0.5 + 0.5) * width - 40 + off[0], 8, width - (mobile ? 118 : 160))
+        const y = THREE.MathUtils.clamp((-anchor.y * 0.5 + 0.5) * height - 52 + off[1], 8, height - 150)
