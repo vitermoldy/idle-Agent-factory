@@ -348,3 +348,4 @@ export default function App() {
         onConfirm={() => {
           useGame.getState().startNewSeries()
           setTab('upgrade')
+        }}
