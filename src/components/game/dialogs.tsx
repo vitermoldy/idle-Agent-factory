@@ -29,3 +29,4 @@ export function Dialog({
   return (
     <dialog
       ref={ref}
+      aria-labelledby={id}
