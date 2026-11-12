@@ -32,3 +32,4 @@ export interface PlateLive {
   neck: SlotId[]
 }
 
+/** Written by the game every tick, read by the scene every frame. */
