@@ -68,3 +68,4 @@ export function ViewBar({
         className="min-h-11 rounded-lg border border-line bg-ground px-2.5 text-[13px] text-soft hover:border-line-strong"
       >
         {CAMERAS.map((c) => (
+          <option key={c.id} value={c.id}>
