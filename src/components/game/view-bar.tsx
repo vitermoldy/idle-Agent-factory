@@ -60,3 +60,4 @@ export function ViewBar({
       <span className="mx-1 hidden h-5 w-px bg-line sm:block" aria-hidden="true" />
       <label className="sr-only" htmlFor="camera-select">
         Kamera
+      </label>
