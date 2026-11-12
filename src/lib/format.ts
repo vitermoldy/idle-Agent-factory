@@ -40,3 +40,5 @@ export function duration(seconds: number) {
   if (h > 0) return m ? `${h} jam ${m} menit` : `${h} jam`
   if (m > 0) return `${m} menit`
   return `${s} detik`
+}
+
