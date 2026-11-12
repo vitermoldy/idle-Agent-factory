@@ -60,3 +60,4 @@ export default function AgenticFactory3D({
     // The in-scene screens are painted on canvases: the faces must be loaded first.
     Promise.all([document.fonts.load(`600 20px ${text}`), document.fonts.load(`650 20px ${display}`)])
       .catch(() => undefined)
+      .then(() => {
