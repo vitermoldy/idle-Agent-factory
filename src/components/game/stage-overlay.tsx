@@ -76,3 +76,4 @@ export function StageAction() {
     <div className="pointer-events-auto flex w-[min(360px,100%)] flex-col items-center gap-2.5">
       {first && (
         <p className="rounded-lg bg-panel/95 px-3 py-2 text-center text-[13px] leading-snug text-soft">
+          Ambil order pertamamu. Setiap order melewati lima stasiun, lalu dibayar di kasir.
