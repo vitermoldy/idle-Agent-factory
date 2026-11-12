@@ -728,3 +728,4 @@ export function initMachineScene(
       const machine = new THREE.Group()
       holder.add(machine)
       const contact = new THREE.Mesh(contactGeo, contactMat)
+      contact.rotation.x = -Math.PI / 2
