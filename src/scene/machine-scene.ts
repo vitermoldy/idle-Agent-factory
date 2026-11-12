@@ -667,3 +667,4 @@ export function initMachineScene(
         if (d < dist) {
           dist = d
           best = i / 300
+        }
