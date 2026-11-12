@@ -66,3 +66,4 @@ function catchUp(game: E.GameState, seconds: number) {
     (sum, c) => ({ cash: sum.cash + c.cash, orders: sum.orders + c.orders }),
     { cash: 0, orders: 0 }
   )
+  return { state, completed, report: { seconds, capped, ...totals } satisfies AwayReport }
