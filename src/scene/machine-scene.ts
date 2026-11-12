@@ -1506,3 +1506,4 @@ export function initMachineScene(
           (hovered && hovered.plate === p.k && hovered.slot === st.id) ||
           (inFocus && cameraMode === 'station' && selected === st.id)
         const goal = lit
+          ? 3.5
