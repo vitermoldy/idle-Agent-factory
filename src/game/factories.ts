@@ -210,3 +210,4 @@ export const FACTORIES: FactoryDef[] = [
   {
     id: 'podcast',
     no: '03',
+    name: 'Pabrik Podcast',
