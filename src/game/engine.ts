@@ -144,3 +144,4 @@ export const ownedProducts = (def: FactoryDef, fs: FactoryState) =>
 export function lineIncome(def: FactoryDef, fs: FactoryState, stars: number, levels = fs.levels) {
   if (!fs.unlocked) return 0
   const at = { ...fs, levels }
+  return ownedProducts(def, fs).reduce((sum, p) => sum + productIncome(def, at, stars, p), 0)
