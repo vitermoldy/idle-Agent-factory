@@ -279,3 +279,4 @@ export function initMachineScene(
       const o = new THREE.Mesh(new THREE.TubeGeometry(curve, Math.max(12, pts.length * 7), r, 8, false), m)
       o.castShadow = true
       parent.add(o)
+      return o
