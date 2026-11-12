@@ -286,3 +286,4 @@ export function initMachineScene(
       box(parent, 0.068, 0.005, 0.009, x, y + 0.014, z, M.dark, 0)
     }
     type Draw = (ctx: CanvasRenderingContext2D, w: number, h: number) => void
+    function canvasTexture(w: number, h: number, draw: Draw) {
