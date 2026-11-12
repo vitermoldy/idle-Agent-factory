@@ -1333,3 +1333,4 @@ export function initMachineScene(
       setMode,
       setCamera,
       focusStation,
+      project: (slot) => {
