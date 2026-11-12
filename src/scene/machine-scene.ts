@@ -394,3 +394,4 @@ export function initMachineScene(
       },
       app: (c, t) => {
         disc(c, 60, 300, 170, DEEP)
+        rounded(c, 118, 12, 148, 312, 24, INK)
