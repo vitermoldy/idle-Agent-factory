@@ -92,3 +92,4 @@ while (t <= 4 * 3600) {
     const wait = next ? (next.unlockCost - s.cash) / income : Infinity
     const pick = best as Option | null
     if (pick && pick.cost <= s.cash && (pick.payback < wait * 1.5 || !next)) {
+      pick.apply()
