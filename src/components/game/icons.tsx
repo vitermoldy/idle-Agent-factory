@@ -81,3 +81,4 @@ export function FactoryGlyph({ id, ...p }: P & { id: FactoryId }) {
   switch (id) {
     case 'video':
       return (
+        <svg {...base} {...p}>
