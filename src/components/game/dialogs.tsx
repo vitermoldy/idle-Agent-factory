@@ -148,3 +148,4 @@ export function SettingsDialog({
         <p className="mt-1 text-[13px] text-muted">
           {storageOk
             ? `Progres disimpan di browser ini setiap 5 detik${time ? `, terakhir pukul ${time}` : ''}.`
+            : 'Browser ini menolak penyimpanan lokal, jadi progres hilang saat halaman ditutup.'}
