@@ -1630,3 +1630,4 @@ export function initMachineScene(
           d = baseDistance * (mode === 'stations' ? 1.2 : 1)
         desiredTarget.set(0, 1, 0)
         desiredPosition
+          .set(Math.sin(a + 0.55) * d * 0.83, d * (0.5 + Math.sin(a * 0.7) * 0.09), Math.cos(a + 0.55) * d * 0.83)
