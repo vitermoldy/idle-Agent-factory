@@ -1389,3 +1389,4 @@ export function initMachineScene(
     listen(renderer.domElement, 'pointermove', (e: PointerEvent) => {
       const [x, y] = local(e)
       if (Math.hypot(x - downX, y - downY) > 5) wasDragged = true
+      if (dragging) return
