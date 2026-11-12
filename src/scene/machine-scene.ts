@@ -1276,3 +1276,4 @@ export function initMachineScene(
         cameraAnimating = false
       }
     }
+    const scratch = new THREE.Vector3(),
