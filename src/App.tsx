@@ -365,3 +365,4 @@ export default function App() {
       >
         <p>Kas, lini, produk, dan bintang dihapus dari browser ini. Langkah ini tidak bisa dibatalkan.</p>
       </ConfirmDialog>
+    </div>
