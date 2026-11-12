@@ -203,3 +203,5 @@ export default function App() {
     const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length]
     setTab(next)
     document.getElementById(`tab-${next}`)?.focus()
+  }
+
