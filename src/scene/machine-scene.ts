@@ -152,3 +152,4 @@ export function initMachineScene(
     $('canvas').appendChild(renderer.domElement)
     const controls = new OrbitControls(camera, renderer.domElement)
     controls.enableDamping = true
+    controls.dampingFactor = 0.065
