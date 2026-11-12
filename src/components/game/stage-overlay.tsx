@@ -142,3 +142,4 @@ export function UnlockCard() {
           </span>
         </div>
         <span className="mt-1.5 block h-1 overflow-hidden rounded bg-line" aria-hidden="true">
+          <span
