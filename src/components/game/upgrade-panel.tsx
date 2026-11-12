@@ -207,3 +207,4 @@ function StationRow({
           )}
         </span>
         <button
+          type="button"
