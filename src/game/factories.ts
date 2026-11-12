@@ -263,3 +263,4 @@ export const FACTORIES: FactoryDef[] = [
       journey: [
         ['Topik masuk', 'Usulan Tari masuk ke meja Topik'],
         ['Merekam suara', 'Studio Suara merekam narasi'],
+        ['Mixing', 'Musik dan efek ditambahkan'],
