@@ -1164,3 +1164,4 @@ export function initMachineScene(
         gears,
         propUpdates,
         printhead,
+        outputVideo,
