@@ -1549,3 +1549,4 @@ export function initMachineScene(
         if (phase < 0.15) {
           stage = 0
           const f = phase / 0.15
+          packet.group.position.copy(cabinet.position).add(new THREE.Vector3(0, 1.6, 0.6))
