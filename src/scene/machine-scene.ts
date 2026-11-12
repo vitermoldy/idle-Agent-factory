@@ -1343,3 +1343,4 @@ export function initMachineScene(
     }
     const publicApi = api
     window.__machine = publicApi
+    cleanups.push(() => {
