@@ -10,3 +10,4 @@ export function PriceButton({
 }: { label: string; price: string } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'children'>) {
   return (
     <button
+      type="button"
