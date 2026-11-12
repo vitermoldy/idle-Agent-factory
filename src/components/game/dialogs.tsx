@@ -35,3 +35,4 @@ export function Dialog({
       className="dialog"
     >
       <div className="p-5 sm:p-6">
+        <div className="flex items-start justify-between gap-4">
