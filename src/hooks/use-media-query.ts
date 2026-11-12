@@ -4,3 +4,4 @@ export function useMediaQuery(query: string) {
   return useSyncExternalStore(
     (onChange) => {
       const m = matchMedia(query)
+      m.addEventListener('change', onChange)
