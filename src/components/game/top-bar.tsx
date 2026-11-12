@@ -24,3 +24,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
       <div className="ml-2 flex min-w-0 flex-col leading-tight sm:ml-8 sm:flex-row sm:items-baseline sm:gap-3">
         <span className="sr-only">Kas</span>
         <strong className="font-display text-[22px] font-semibold tabular-nums sm:text-[26px]" aria-live="off">
+          {money(cash)}
