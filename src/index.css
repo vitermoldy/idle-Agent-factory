@@ -187,3 +187,4 @@
     color: var(--color-ink);
   }
   .tab[aria-selected='true']::after {
+    content: '';
