@@ -33,3 +33,4 @@ export function pace(ordersPerSec: number) {
   return `${short(ordersPerSec)} order/dtk`
 }
 
+export function duration(seconds: number) {
