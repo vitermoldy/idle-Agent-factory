@@ -52,3 +52,4 @@ export default function AgenticFactory3D({
     const root = rootRef.current
     if (!root) return
     let cancelled = false
+    let dispose: (() => void) | undefined
