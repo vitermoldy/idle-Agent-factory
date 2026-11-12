@@ -45,3 +45,4 @@ export function Dialog({
         </div>
         <div className="mt-3 text-[14px] leading-relaxed text-soft">{children}</div>
         {footer && <div className="mt-5 flex flex-wrap justify-end gap-2">{footer}</div>}
+      </div>
