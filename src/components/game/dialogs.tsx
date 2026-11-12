@@ -19,3 +19,4 @@ export function Dialog({
   footer?: ReactNode
 }) {
   const ref = useRef<HTMLDialogElement>(null)
+  const id = useId()
