@@ -34,3 +34,4 @@ export const Gear = (p: P) => (
 
 export const Lock = (p: P) => (
   <svg {...base} {...p}>
+    <rect x="3.5" y="7" width="9" height="7" rx="1.5" />
