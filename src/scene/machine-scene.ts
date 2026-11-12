@@ -439,3 +439,4 @@ export function initMachineScene(
       c.beginPath()
       c.rect(x, y, w, h)
       c.clip()
+      c.translate(x, y)
