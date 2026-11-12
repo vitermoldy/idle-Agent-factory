@@ -58,3 +58,4 @@ export function AwayDialog() {
       open={!!away}
       onClose={dismiss}
       title="Agenmu tetap bekerja"
+      footer={
