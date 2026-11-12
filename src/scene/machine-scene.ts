@@ -1013,3 +1013,5 @@ export function initMachineScene(
       incoming.userData.moving = true
       cabinet.add(incoming)
       box(incoming, 0.86, 0.42, 0.043, 0, 0, 0, M.light, 0.035)
+      screen(incoming, 0.82, 0.39, 0, 0, 0.026, nameTex)
+
