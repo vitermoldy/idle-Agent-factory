@@ -1340,3 +1340,4 @@ export function initMachineScene(
         if (projected.z > 1) return null
         return { x: (projected.x * 0.5 + 0.5) * width, y: (-projected.y * 0.5 + 0.5) * height }
       },
+    }
