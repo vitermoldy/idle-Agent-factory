@@ -90,3 +90,4 @@ export function ConfirmDialog({
   children,
 }: {
   open: boolean
+  title: string
