@@ -1315,3 +1315,4 @@ export function initMachineScene(
       if (mode === 'order') mode = 'assembled'
       cameraMode = 'station'
       lastInteraction = performance.now()
+      setCameraGoal()
