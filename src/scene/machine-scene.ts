@@ -193,3 +193,4 @@ export function initMachineScene(
     front.position.set(5, 3, 10)
     scene.add(front)
 
+    const mat = (
