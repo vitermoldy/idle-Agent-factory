@@ -181,3 +181,4 @@ export type BuyMode = 1 | 10 | 'max'
 export function levelsToBuy(def: FactoryDef, index: number, level: number, cash: number, mode: BuyMode) {
   const room = MAX_LEVEL - level
   if (room <= 0) return 0
+  if (mode === 'max') return Math.max(1, affordableLevels(def, index, level, cash))
