@@ -192,3 +192,4 @@ export default function App() {
       const level = fs.unlocked
         ? ` Level ${fs.levels[i]}, ${short(E.lineRates(def, fs, product)[i])} ${product.name.toLowerCase()} per detik.`
         : ''
+      return { title: st.name, body: st.desc + level }
