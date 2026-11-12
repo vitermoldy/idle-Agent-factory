@@ -209,3 +209,4 @@ export function hireAgent(state: GameState, id: FactoryId) {
   return { ...withFactory(state, id, { agent: true, queue: 0 }), cash: state.cash - def.agentCost }
 }
 
+export function unlockFactory(state: GameState, id: FactoryId) {
