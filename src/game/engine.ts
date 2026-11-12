@@ -145,3 +145,5 @@ export function lineIncome(def: FactoryDef, fs: FactoryState, stars: number, lev
   if (!fs.unlocked) return 0
   const at = { ...fs, levels }
   return ownedProducts(def, fs).reduce((sum, p) => sum + productIncome(def, at, stars, p), 0)
+}
+
