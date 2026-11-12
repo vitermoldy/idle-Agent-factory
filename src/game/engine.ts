@@ -29,3 +29,4 @@ export interface FactoryState {
   product: string
   /** Products bought for this line, in purchase order. Each one has its own plate. */
   owned: string[]
+  /** Orders waiting on a line without an agent. */
