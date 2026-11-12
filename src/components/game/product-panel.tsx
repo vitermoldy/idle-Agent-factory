@@ -119,3 +119,4 @@ function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: Produc
             key={i}
             className={cn('w-2.5 rounded-sm', i === heaviest && w > 1 ? 'bg-accent' : 'bg-line-strong')}
             style={{ height: `${Math.max(14, (w / MAX_WORK) * 100)}%` }}
+          />
