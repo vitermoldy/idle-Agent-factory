@@ -52,3 +52,4 @@ function ProductRow({
   const owned = plate >= 0
   const speed = E.throughput(def, fs, product)
   const income = E.productIncome(def, fs, game.stars, product)
+  const heaviest = product.work.indexOf(Math.max(...product.work))
