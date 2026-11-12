@@ -324,3 +324,4 @@ export const FACTORIES: FactoryDef[] = [
       screen: { kicker: 'APLIKASI', head: 'SIAP PASANG.', lines: ['Dari daftar fitur', 'jadi aplikasi.', 'Agen menguji', 'setiap layar.'] },
       journey: [
         ['Proyek masuk', 'Permintaan Putri ditulis jadi spesifikasi'],
+        ['Mendesain layar', 'Alur dan tampilan digambar'],
