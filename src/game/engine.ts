@@ -315,3 +315,4 @@ export function startNewSeries(state: GameState, now = Date.now()): GameState {
   if (claim <= 0) return state
   return {
     ...newGame(now),
+    allTime: state.allTime,
