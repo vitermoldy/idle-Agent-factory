@@ -28,3 +28,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         </strong>
         <span className="text-[13px] text-muted tabular-nums">
           +{money(income)}
+          <span className="sr-only"> per detik</span>
