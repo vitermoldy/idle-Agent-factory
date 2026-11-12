@@ -942,3 +942,4 @@ export function initMachineScene(
           page.rotation.z = side * -0.1
         }
         const turn = new THREE.Group()
+        turn.userData.moving = true
