@@ -1283,3 +1283,4 @@ export function initMachineScene(
       const fp = focusPlate()
       if (cameraMode === 'station') {
         world(fp, fp.bySlot(selected).group.position, desiredTarget).add(new THREE.Vector3(0, 1.25, 0))
+        desiredPosition.copy(desiredTarget).addScaledVector(viewDirection, mobile ? 9 : 12)
