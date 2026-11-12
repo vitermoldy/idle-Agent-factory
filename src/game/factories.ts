@@ -65,3 +65,4 @@ export interface ProductDef {
 }
 
 export interface FactoryDef {
+  id: FactoryId
