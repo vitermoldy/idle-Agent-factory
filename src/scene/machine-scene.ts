@@ -1245,3 +1245,4 @@ export function initMachineScene(
       const share = mobile ? (span > 0 ? 0.94 : 1.1) : 0.9
       const horizontalFit = (17.3 + span * 0.85) / (tan * aspect * share)
       const verticalFit = (11.5 + span * 0.25) / (tan * (mobile ? 0.84 : 0.8))
+      return Math.max(horizontalFit, verticalFit)
