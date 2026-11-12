@@ -1050,3 +1050,4 @@ export function initMachineScene(
         c.beginPath()
         c.moveTo(22, 115)
         c.lineTo(258, 115)
+        c.stroke()
