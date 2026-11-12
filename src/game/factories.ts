@@ -129,3 +129,4 @@ export const FACTORIES: FactoryDef[] = [
       orders: {
         title: 'ORDER MASUK',
         sub: '3 order baru hari ini',
+        customers: ['Sari', 'Bima', 'Dewi'],
