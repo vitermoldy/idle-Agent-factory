@@ -7,3 +7,4 @@ const MODES: Array<{ id: MachineMode; label: string }> = [
   { id: 'cutaway', label: 'Belah' },
   { id: 'stations', label: 'Urai' },
   { id: 'order', label: 'Ikuti order' },
+]
