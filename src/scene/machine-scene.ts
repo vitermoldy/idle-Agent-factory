@@ -119,3 +119,4 @@ export function initMachineScene(
     const DEEP = theme.accentDeep
     const plateLive = (k: number) => live.plates[k] ?? NO_PLATE
     const stationDef = (slot: SlotId) => factory.stations.find((s) => s.slot === slot)!
+    const stepOf = (slot: SlotId) => PIPELINE.indexOf(slot) + 1
