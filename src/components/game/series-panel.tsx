@@ -30,3 +30,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
       </dl>
       <div>
         <div className="flex justify-between text-[12px] text-muted tabular-nums">
+          <span>Bintang berikutnya</span>
