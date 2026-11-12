@@ -1451,3 +1451,4 @@ export function initMachineScene(
       measureTime = 0,
       pixelRatio = renderer.getPixelRatio(),
       rafId = 0,
+      lastDraw = -1
