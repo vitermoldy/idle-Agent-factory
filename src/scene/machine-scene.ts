@@ -1012,3 +1012,4 @@ export function initMachineScene(
       const incoming = new THREE.Group()
       incoming.userData.moving = true
       cabinet.add(incoming)
+      box(incoming, 0.86, 0.42, 0.043, 0, 0, 0, M.light, 0.035)
