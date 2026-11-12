@@ -306,3 +306,4 @@ export default function App() {
             {shownTab === 'produk' && (
               <ProductPanel
                 onShow={(id) => {
+                  useGame.getState().selectProduct(id)
