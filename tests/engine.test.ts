@@ -82,3 +82,4 @@ describe('buying', () => {
   it('opens a line once the cash is enough', () => {
     const cost = FACTORY_BY_ID.web.unlockCost
     const g = E.unlockFactory(rich(cost), 'web')
+    expect(g.factories.web.unlocked).toBe(true)
