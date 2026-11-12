@@ -236,3 +236,4 @@ export default function App() {
             onView={onView}
             onApi={onApi}
             className="h-[40svh] min-h-[280px] lg:h-auto lg:min-h-0 lg:flex-1"
+          >
