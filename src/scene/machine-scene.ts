@@ -693,3 +693,4 @@ export function initMachineScene(
         const child = object as THREE.Mesh<THREE.BufferGeometry, THREE.Material> & { isInstancedMesh?: boolean }
         if (!child.isMesh || child.isInstancedMesh || child.userData.moving || Array.isArray(child.material)) continue
         const key = child.material.uuid
+        if (!buckets.has(key)) buckets.set(key, [])
