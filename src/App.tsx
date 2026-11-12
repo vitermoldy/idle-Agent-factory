@@ -181,3 +181,4 @@ export default function App() {
   }, [])
   const onApi = useCallback((api: SceneApi | null) => {
     apiRef.current = api
+  }, [])
