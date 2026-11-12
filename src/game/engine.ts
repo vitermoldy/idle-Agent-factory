@@ -214,3 +214,4 @@ export function unlockFactory(state: GameState, id: FactoryId) {
   const fs = state.factories[id]
   if (fs.unlocked || state.cash < def.unlockCost) return state
   return {
+    ...withFactory(state, id, { unlocked: true, levels: [1, 1, 1, 1, 1] }),
