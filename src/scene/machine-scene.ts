@@ -185,3 +185,4 @@ export function initMachineScene(
     }
     const rim = new THREE.DirectionalLight(0xc4d4ed, 3.1)
     rim.position.set(3, 7, -8)
+    scene.add(rim)
