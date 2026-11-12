@@ -283,3 +283,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     }
   }
   return {
+    state: {
