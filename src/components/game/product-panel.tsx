@@ -34,3 +34,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
 
 function ProductRow({
   def,
+  product,
