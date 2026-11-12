@@ -10,3 +10,4 @@ export interface Notice {
   id: number
   text: string
   /** Opens this line when the notice's button is used. */
+  factory?: FactoryId
