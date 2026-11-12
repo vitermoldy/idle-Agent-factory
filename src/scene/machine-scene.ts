@@ -1519,3 +1519,4 @@ export function initMachineScene(
       if (playing) for (const { g, dir } of p.gears) g.rotation.y += dt * p.speed * dir * 1.1
       for (const update of p.propUpdates) update(t)
       p.printhead.position.x = Math.sin(tact) * 0.42
+      p.printhead.position.y = 1.91 + Math.sin(tact * 2) * 0.055
