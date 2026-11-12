@@ -107,3 +107,4 @@ export default function App() {
   useEffect(() => {
     let titleAt = 0
     const tick = setInterval(() => {
+      const store = useGame.getState()
