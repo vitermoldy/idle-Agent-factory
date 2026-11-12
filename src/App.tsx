@@ -317,3 +317,4 @@ export default function App() {
                   apiRef.current?.setCamera('overview')
                   if (!wide) window.scrollTo({ top: 0, behavior: 'smooth' })
                 }}
+              />
