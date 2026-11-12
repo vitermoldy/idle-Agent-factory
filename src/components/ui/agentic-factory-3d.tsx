@@ -29,3 +29,4 @@ export type AgenticFactory3DProps = {
 
 type Phase = 'loading' | 'ready' | 'error'
 
+export default function AgenticFactory3D({
