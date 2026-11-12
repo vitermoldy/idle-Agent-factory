@@ -306,3 +306,4 @@ export const FACTORIES: FactoryDef[] = [
         brand: 'TOKO APLIKASI',
         nav: 'Teratas    Baru    Kategori',
         tag: ['KASIR', 'DI SAKU.'],
+        head: ['Kasir warung.', 'Di ponselmu.'],
