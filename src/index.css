@@ -166,3 +166,4 @@
     background: rgb(244 241 234 / 0.05);
   }
   .view-btn.is-on,
+  .view-btn[aria-pressed='true'] {
