@@ -1471,3 +1471,4 @@ export function initMachineScene(
     function animatePlate(p: Plate, dt: number, now: number, smooth: number, playing: boolean, locked: boolean) {
       const pl = plateLive(p.k)
       const owned = pl.owned || p.k === 0
+      // Row placement: slide to its place; a newly bought plate rises from the floor.
