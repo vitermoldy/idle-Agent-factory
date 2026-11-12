@@ -50,3 +50,4 @@ function PlateStat({ label, value }: { label: string; value: string }) {
 
 /** The player's hands on the line: take orders by hand until an agent is hired. */
 export function StageAction() {
+  const game = useGame((s) => s.game)
