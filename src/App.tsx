@@ -75,3 +75,4 @@ function makeLive(): SceneLive {
 
 let popupId = 0
 
+export default function App() {
