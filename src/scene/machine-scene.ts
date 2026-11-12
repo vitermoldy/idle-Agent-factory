@@ -1610,3 +1610,4 @@ export function initMachineScene(
         drawProduct(fp.t)
         drawQueue(fp.t)
         lastDraw = fp.t
+      }
