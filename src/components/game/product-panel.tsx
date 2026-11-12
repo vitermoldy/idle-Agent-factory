@@ -109,3 +109,4 @@ function ProductRow({
 }
 
 /** Work per order at each station; the heaviest one is where this product will queue. */
+function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: ProductDef; heaviest: number }) {
