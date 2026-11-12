@@ -345,3 +345,4 @@ export default function App() {
         open={confirm === 'series'}
         title={`Mulai series ${series(game.series + 1)}?`}
         confirmLabel="Mulai series baru"
+        onConfirm={() => {
