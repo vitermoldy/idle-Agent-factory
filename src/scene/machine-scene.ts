@@ -136,3 +136,4 @@ export function initMachineScene(
         powerPreference: 'high-performance',
       })
     } catch {
+      throw new Error(
