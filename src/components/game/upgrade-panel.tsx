@@ -108,3 +108,5 @@ function AgentCard({ def }: { def: FactoryDef }) {
       )}
     </section>
   )
+}
+
