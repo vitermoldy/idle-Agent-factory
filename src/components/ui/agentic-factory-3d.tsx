@@ -110,3 +110,4 @@ export default function AgenticFactory3D({
         </div>
       </div>
       {phase === 'loading' && (
+        <div className="af3d-loading" role="status">
