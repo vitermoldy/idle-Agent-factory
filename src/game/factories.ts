@@ -77,3 +77,4 @@ export interface FactoryDef {
   /** Cost growth per station level. */
   growth: number
   unlockCost: number
+  agentCost: number
