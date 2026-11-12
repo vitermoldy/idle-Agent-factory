@@ -496,3 +496,4 @@ export function initMachineScene(
     const productTex = canvasTexture(384, 640, () => {})
     function drawProduct(t: number) {
       const c = productTex.ctx
+      c.fillStyle = ACC
