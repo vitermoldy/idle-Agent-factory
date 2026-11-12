@@ -898,3 +898,4 @@ export function initMachineScene(
           bar.userData.moving = true
           bars.push(bar)
         }
+        propUpdates.push((t) => {
