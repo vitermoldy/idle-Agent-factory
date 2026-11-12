@@ -25,3 +25,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
       <dl className="grid grid-cols-2 gap-2">
         <Stat label="Bintang dimiliki" value={`${game.stars}`} note={`+${bonus}% nilai order`} />
         <Stat label="Bintang baru" value={`+${claim}`} note={claim > 0 ? `jadi +${after}%` : 'belum ada'} />
+        <Stat label="Pendapatan series ini" value={money(game.earned)} />
