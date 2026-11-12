@@ -86,3 +86,4 @@ export default function AgenticFactory3D({
     }
   }, [factory, live, attempt])
 
+  return (
