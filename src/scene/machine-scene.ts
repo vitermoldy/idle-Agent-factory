@@ -647,3 +647,4 @@ export function initMachineScene(
     )
     const pVec = new THREE.Vector3(),
       tVec = new THREE.Vector3()
+    const beltFrameGeo = new THREE.TubeGeometry(path, 150, 0.35, 8, true)
