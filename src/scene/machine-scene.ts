@@ -1569,3 +1569,4 @@ export function initMachineScene(
         }
         packet.group.visible = !locked && (!orderMode || i === 0)
         packet.halo.visible = orderMode && i === 0
+        packet.group.scale.setScalar(orderMode ? 1.35 : 1)
