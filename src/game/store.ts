@@ -56,3 +56,4 @@ function readSave() {
     return { game: game ?? E.newGame(), corrupt: !!raw && !game, storageOk: true }
   } catch {
     return { game: E.newGame(), corrupt: false, storageOk: false }
+  }
