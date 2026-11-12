@@ -276,3 +276,4 @@ export const FACTORIES: FactoryDef[] = [
     unit: 'aplikasi',
     blurb: 'Spesifikasi jadi desain, desain jadi build, build lolos review dan masuk toko aplikasi.',
     products: [
+      { id: 'tool', name: 'Aplikasi alat', desc: 'Kasir, absensi, jadwal. Fitur sedikit, rapi.', price: 3_600_000, work: [1, 1, 1, 1, 1], unlockCost: 0 },
