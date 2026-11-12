@@ -1753,3 +1753,4 @@ export function initMachineScene(
         : 'Mesin 3D tidak bisa dimulai di browser ini. Game tetap berjalan; nyalakan WebGL untuk melihat mesinnya.'
     )
   }
+  return { api, dispose }
