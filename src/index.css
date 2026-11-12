@@ -205,3 +205,4 @@
     color: var(--color-ink);
   }
   .dialog::backdrop {
+    background: rgb(0 0 0 / 0.7);
