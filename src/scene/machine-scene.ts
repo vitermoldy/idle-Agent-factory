@@ -726,3 +726,4 @@ export function initMachineScene(
       holder.scale.setScalar(0.001)
       scene.add(holder)
       const machine = new THREE.Group()
+      holder.add(machine)
