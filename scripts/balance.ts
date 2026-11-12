@@ -64,3 +64,4 @@ while (t <= 4 * 3600) {
         const gain = E.lineIncome(def, fs, s.stars, levels) - before
         const total = tied.reduce((sum, i) => sum + E.upgradeCost(def, i, fs.levels[i]), 0)
         const cheapest = tied.reduce((a, b) =>
+          E.upgradeCost(def, a, fs.levels[a]) <= E.upgradeCost(def, b, fs.levels[b]) ? a : b
