@@ -93,3 +93,4 @@ export default function App() {
   const [mode, setMode] = useState<MachineMode>('assembled')
   const [camera, setCamera] = useState<MachineCamera>('overview')
   const [labels, setLabels] = useState(live.current.labels)
+  const [playing, setPlaying] = useState(live.current.playing)
