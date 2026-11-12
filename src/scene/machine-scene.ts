@@ -596,3 +596,4 @@ export function initMachineScene(
       disc(c, 58, 98, 32, '#2a2e26')
       c.textAlign = 'center'
       print(c, name[0], 58, 111, 34, ACC, 550)
+      c.textAlign = 'left'
