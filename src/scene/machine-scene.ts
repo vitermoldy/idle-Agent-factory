@@ -1193,3 +1193,4 @@ export function initMachineScene(
       el.innerHTML = `<div class="stem"></div><div class="label-card"><div class="label-title"><span>${pad(stepOf(id))}</span><b></b><em></em></div><div class="label-meta"></div></div>`
       el.querySelector('.label-title b')!.textContent = stationDef(id).name
       $('labels').appendChild(el)
+      cleanups.push(() => el.remove())
