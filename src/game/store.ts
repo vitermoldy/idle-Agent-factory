@@ -120,3 +120,4 @@ export const useGame = create<Store>((set, get) => {
         ...(away ? { away } : {}),
         ...(fresh.length ? { notices: [...notices, ...fresh].slice(-4) } : {}),
       })
+      return result.completed
