@@ -1615,3 +1615,4 @@ export function initMachineScene(
         const packet = fp.packets[0],
           step = packet.stage
         if (step !== prevJourney && step >= 0) {
+          $('journey-title').textContent = theme.journey[step][0]
