@@ -189,3 +189,4 @@ describe('saves', () => {
     raw.factories.web.agent = true
     const back = E.parseSave(JSON.stringify(raw))!
     expect(back.factories.video.levels).toEqual([1, 1, E.MAX_LEVEL, 3, 3])
+    expect(back.factories.video.product).toBe('short')
