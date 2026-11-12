@@ -44,3 +44,4 @@ while (t <= 4 * 3600) {
       if (!best || o.payback < best.payback) best = o
     }
     for (const def of FACTORIES) {
+      const fs = s.factories[def.id]
