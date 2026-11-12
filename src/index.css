@@ -80,3 +80,4 @@
   /* Buttons step up on hover and press down on click, so every action answers the pointer. */
   .btn {
     display: inline-flex;
+    align-items: center;
