@@ -1219,3 +1219,4 @@ export function initMachineScene(
       wasDragged = false,
       downX = 0,
       downY = 0
+    let cameraAnimating = true,
