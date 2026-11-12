@@ -126,3 +126,4 @@ describe('products', () => {
   })
 
   it('only switches to owned products', () => {
+    const g = E.newGame(0)
