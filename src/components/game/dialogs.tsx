@@ -89,3 +89,4 @@ export function ConfirmDialog({
   onClose,
   children,
 }: {
+  open: boolean
