@@ -1513,3 +1513,4 @@ export function initMachineScene(
               ? 1.6 + Math.sin(pulseClock * 4.2) * 1.1
               : 0.55 + pulse * 0.65
         st.glowMat.emissiveIntensity = THREE.MathUtils.lerp(st.glowMat.emissiveIntensity, goal, neck ? 0.35 : smooth)
+      })
