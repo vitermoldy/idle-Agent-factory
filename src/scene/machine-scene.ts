@@ -1447,3 +1447,4 @@ export function initMachineScene(
     })
 
     let prevJourney = -1,
+      frameCount = 0,
