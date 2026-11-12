@@ -377,3 +377,4 @@ export const FACTORIES: FactoryDef[] = [
       orders: {
         title: 'NASKAH MASUK',
         sub: '3 naskah baru bulan ini',
+        customers: ['Wulan', 'Rendi', 'Ayu'],
