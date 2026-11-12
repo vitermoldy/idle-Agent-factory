@@ -358,3 +358,4 @@ export const FACTORIES: FactoryDef[] = [
       accentDeep: '#a8892f',
       shell: '#e6e1d3',
       prop: 'books',
+      plate: {
