@@ -191,3 +191,4 @@ export default function App() {
       const product = def.products[plate] ?? def.products[0]
       const level = fs.unlocked
         ? ` Level ${fs.levels[i]}, ${short(E.lineRates(def, fs, product)[i])} ${product.name.toLowerCase()} per detik.`
+        : ''
