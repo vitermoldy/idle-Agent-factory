@@ -22,3 +22,4 @@ export interface AwayReport {
 }
 
 interface Store {
+  game: E.GameState
