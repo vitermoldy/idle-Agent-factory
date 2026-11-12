@@ -316,3 +316,4 @@ export function startNewSeries(state: GameState, now = Date.now()): GameState {
   return {
     ...newGame(now),
     allTime: state.allTime,
+    stars: state.stars + claim,
