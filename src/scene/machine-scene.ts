@@ -1540,3 +1540,4 @@ export function initMachineScene(
         p.lastBelt = t
       }
       if (pl.value && pl.value !== p.painted()) p.paintPrice(pl.value)
+      const engine = p.engine
