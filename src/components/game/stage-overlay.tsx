@@ -144,3 +144,4 @@ export function UnlockCard() {
         <span className="mt-1.5 block h-1 overflow-hidden rounded bg-line" aria-hidden="true">
           <span
             className="block h-full bg-accent"
+            style={{ width: `${Math.min(100, (game.cash / def.unlockCost) * 100)}%` }}
