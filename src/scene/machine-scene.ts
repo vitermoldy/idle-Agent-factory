@@ -175,3 +175,4 @@ export function initMachineScene(
     Object.assign(key.shadow.camera, { left: -10, right: 10, top: 9, bottom: -9, near: 0.5, far: 45 })
     key.shadow.normalBias = 0.035
     key.shadow.bias = -0.0002
+    key.shadow.radius = 4
