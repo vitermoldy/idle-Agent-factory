@@ -55,3 +55,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
   })
   def.stations.forEach((st, i) => {
     live.meta[st.slot] = fs.unlocked
+      ? { level: `Lv ${fs.levels[i]}`, rate: `${short(rates[i])} order/dtk` }
