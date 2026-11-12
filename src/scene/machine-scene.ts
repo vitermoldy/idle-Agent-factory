@@ -1317,3 +1317,4 @@ export function initMachineScene(
       lastInteraction = performance.now()
       setCameraGoal()
       cameraAnimating = true
+      emitView()
