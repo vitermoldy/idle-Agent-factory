@@ -107,3 +107,4 @@ export function ConfirmDialog({
             Batal
           </button>
           <button
+            type="button"
