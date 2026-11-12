@@ -1626,3 +1626,4 @@ export function initMachineScene(
           cameraAnimating = true
         }
       } else if (cameraMode === 'flight' && playing && !dragging) {
+        const a = flightTime * 0.12,
