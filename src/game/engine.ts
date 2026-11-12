@@ -88,3 +88,4 @@ export function newGame(now = Date.now()): GameState {
 }
 
 export function milestoneCount(level: number) {
+  let n = 0
