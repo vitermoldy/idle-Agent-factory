@@ -77,3 +77,4 @@ function initialState() {
   if (corrupt) notices.push({ id: ++noticeId, text: 'Simpanan lama tidak bisa dibaca, jadi permainan dimulai dari awal.' })
   if (!storageOk)
     notices.push({ id: ++noticeId, text: 'Browser ini menolak penyimpanan lokal. Progres hilang saat halaman ditutup.' })
+  const gone = (now - game.savedAt) / 1000
