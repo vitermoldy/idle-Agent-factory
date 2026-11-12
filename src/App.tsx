@@ -63,3 +63,4 @@ function syncLive(live: SceneLive, g: E.GameState) {
 function makeLive(): SceneLive {
   const live: SceneLive = {
     locked: false,
+    playing: !matchMedia('(prefers-reduced-motion: reduce)').matches,
