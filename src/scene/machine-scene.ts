@@ -1261,3 +1261,4 @@ export function initMachineScene(
       width = frameWidth()
       height = frameHeight()
       mobile = width <= 640
+      renderer.setSize(width, height)
