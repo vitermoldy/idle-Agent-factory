@@ -229,3 +229,4 @@ function LockedLine({ def }: { def: FactoryDef }) {
           Stasiun di {def.name}
         </h2>
         <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
+          Buka lini ini dulu. Semua stasiun mulai dari level 1.
