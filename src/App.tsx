@@ -186,3 +186,4 @@ export default function App() {
     (slot: SlotId, plate: number) => {
       const g = useGame.getState().game
       const fs = g.factories[def.id]
+      const i = def.stations.findIndex((s) => s.slot === slot)
