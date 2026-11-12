@@ -159,3 +159,4 @@ function StationRow({
         'rounded-xl border bg-panel p-3.5 transition-colors',
         selected ? 'border-accent' : holds ? 'border-line-strong' : 'border-line'
       )}
+    >
