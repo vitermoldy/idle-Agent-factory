@@ -139,3 +139,4 @@ describe('products', () => {
 })
 
 describe('series and stars', () => {
+  it('turns lifetime earnings into stars and resets the lines', () => {
