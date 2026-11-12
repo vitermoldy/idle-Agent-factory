@@ -1006,3 +1006,4 @@ export function initMachineScene(
       box(cabinet, 1.58, 0.13, 1.09, 0, 2.16, -0.13, S.amber, 0.04)
       box(cabinet, 1.47, 1.38, 0.055, 0, 1.31, 0.405, M.dark, 0.025)
       screen(cabinet, 1.31, 1.255, 0, 1.37, 0.44, orderTex)
+      box(cabinet, 1.27, 0.075, 0.29, 0, 0.57, 0.55, M.chrome, 0.02)
