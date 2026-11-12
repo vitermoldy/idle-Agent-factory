@@ -123,3 +123,4 @@ export function initMachineScene(
     const TAU = Math.PI * 2
     const scene = new THREE.Scene()
     const camera = new THREE.PerspectiveCamera(
+      33,
