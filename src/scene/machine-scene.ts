@@ -593,3 +593,4 @@ export function initMachineScene(
       const name = theme.orders.customers[0]
       c.fillStyle = ACC
       c.fillRect(0, 0, w, h)
+      disc(c, 58, 98, 32, '#2a2e26')
