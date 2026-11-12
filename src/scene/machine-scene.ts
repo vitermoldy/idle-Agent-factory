@@ -566,3 +566,4 @@ export function initMachineScene(
       c.fillRect(0, 0, w, h)
       c.fillStyle = ACC
       c.fillRect(15, 16, 190, 168)
+      art(c, 15, 16, 190, 168, 0)
