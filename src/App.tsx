@@ -173,3 +173,4 @@ export default function App() {
       setSelected(slot)
       setTab('upgrade')
     },
+    [def]
