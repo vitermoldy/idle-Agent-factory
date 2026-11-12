@@ -123,3 +123,4 @@ function StationRow({
   index: number
   rate: number
   throughput: number
+  neck: boolean
