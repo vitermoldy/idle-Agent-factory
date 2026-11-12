@@ -603,3 +603,4 @@ export function initMachineScene(
     const dollarTex = canvasTexture(128, 128, (c, w, h) => {
       c.clearRect(0, 0, w, h)
       c.textAlign = 'center'
+      print(c, '$', 64, 95, 91, '#3a2a10', 650)
