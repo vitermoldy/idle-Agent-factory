@@ -1202,3 +1202,5 @@ export function initMachineScene(
         levelText: '',
         metaText: '',
       }
+    })
+
