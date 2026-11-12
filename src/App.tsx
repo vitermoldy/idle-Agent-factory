@@ -69,3 +69,4 @@ function makeLive(): SceneLive {
     meta: Object.fromEntries(PIPELINE.map((s) => [s, { level: '', rate: '' }])) as SceneLive['meta'],
     plates: [],
   }
+  syncLive(live, useGame.getState().game)
