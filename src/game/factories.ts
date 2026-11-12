@@ -307,3 +307,4 @@ export const FACTORIES: FactoryDef[] = [
         nav: 'Teratas    Baru    Kategori',
         tag: ['KASIR', 'DI SAKU.'],
         head: ['Kasir warung.', 'Di ponselmu.'],
+        sub: ['Catat jualan, stok,', 'dan utang pelanggan.'],
