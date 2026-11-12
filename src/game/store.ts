@@ -30,3 +30,4 @@ interface Store {
   lastSaved: number | null
   tick: (now: number) => E.Completed
   save: () => void
+  setActive: (id: FactoryId) => void
