@@ -91,3 +91,4 @@ export default function AgenticFactory3D({
       <div
         data-el="canvas"
         className="af3d-canvas"
+        role="img"
