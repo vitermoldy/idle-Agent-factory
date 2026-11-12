@@ -1217,3 +1217,4 @@ export function initMachineScene(
       lastInteraction = performance.now(),
       dragging = false,
       wasDragged = false,
+      downX = 0,
