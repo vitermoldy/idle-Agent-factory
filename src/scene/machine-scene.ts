@@ -1109,3 +1109,4 @@ export function initMachineScene(
           beltSlats.setMatrixAt(i, dummy.matrix)
         }
         beltSlats.instanceMatrix.needsUpdate = true
+      }
