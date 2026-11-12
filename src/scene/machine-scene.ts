@@ -1564,3 +1564,4 @@ export function initMachineScene(
           stage = u < adminU * 0.7 ? 1 : u < storeU * 0.96 ? 2 : u < cashU * 0.83 ? 3 : 4
         }
         if (packet.stage !== stage) {
+          packet.faces.forEach((f, j) => (f.visible = j === stage))
