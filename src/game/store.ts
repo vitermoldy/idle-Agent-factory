@@ -130,3 +130,4 @@ export const useGame = create<Store>((set, get) => {
       } catch {
         set({ storageOk: false })
       }
+    },
