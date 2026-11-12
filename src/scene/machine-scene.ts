@@ -50,3 +50,4 @@ export interface SceneApi {
   setMode: (mode: MachineMode) => void
   setCamera: (camera: MachineCamera) => void
   focusStation: (slot: SlotId) => void
+  /** Screen position of a station's top on the plate in view, relative to the scene box. */
