@@ -33,3 +33,4 @@ export function Dialog({
       onClose={onClose}
       onClick={(e) => e.target === ref.current && onClose()}
       className="dialog"
+    >
