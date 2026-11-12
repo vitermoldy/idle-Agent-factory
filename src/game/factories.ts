@@ -34,3 +34,4 @@ export interface SceneTheme {
   store: {
     brand: string
     nav: string
+    tag: Two
