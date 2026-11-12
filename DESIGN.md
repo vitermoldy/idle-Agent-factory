@@ -13,3 +13,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 
 - ENERGY 2: mesin 3D menjadi pusat perhatian; panel tenang supaya angka mudah dibaca.
 - RHYTHM 2: tiga kolom yang konsisten (lini, mesin, panel) dengan satu perubahan besar: lini terkunci
+  memakai kartu buka di tengah panggung.
