@@ -1370,3 +1370,4 @@ export function initMachineScene(
       lastInteraction = performance.now()
     })
     controls.addEventListener('change', () => {
+      if (dragging) lastInteraction = performance.now()
