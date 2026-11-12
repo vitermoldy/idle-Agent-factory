@@ -60,3 +60,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   )
 }
 
+function BuyModeSwitch() {
