@@ -156,3 +156,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'shop', name: 'Toko online', desc: 'Katalog dan keranjang. Kode jadi kerja terberat.', price: 5_000, work: [1.2, 1.4, 2.4, 1.6, 1], unlockCost: 2_300_000 },
       { id: 'portal', name: 'Portal anggota', desc: 'Login, langganan, dasbor. Perancang dan Kode sama sibuk.', price: 14_500, work: [1.6, 2.6, 3.2, 1.8, 1.3], unlockCost: 68_000_000 },
     ],
+    rate: 0.2,
