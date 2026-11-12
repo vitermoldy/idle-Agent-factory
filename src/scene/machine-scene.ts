@@ -1321,3 +1321,4 @@ export function initMachineScene(
     }
     function setCamera(next: MachineCamera) {
       cameraMode = next
+      if (mode === 'order') mode = 'assembled'
