@@ -1487,3 +1487,4 @@ export function initMachineScene(
       p.holder.position.x = THREE.MathUtils.lerp(p.holder.position.x, targetX(p.k), grow)
       p.holder.position.y = (1 - s) * -2.5
       if (!p.holder.visible) return
+      p.speed += ((locked ? 0 : pl.speed) - p.speed) * (1 - Math.exp(-dt * 2.5))
