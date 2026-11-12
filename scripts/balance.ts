@@ -18,3 +18,4 @@ const clock = (t: number) => `${Math.floor(t / 60)}m${String(Math.floor(t % 60))
 type Option = { payback: number; cost: number; apply: () => void }
 
 const dt = 0.5
+let t = 0
