@@ -393,3 +393,4 @@ export function initMachineScene(
         }
       },
       app: (c, t) => {
+        disc(c, 60, 300, 170, DEEP)
