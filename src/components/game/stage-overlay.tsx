@@ -137,3 +137,4 @@ export function UnlockCard() {
         </p>
         <div className="mt-4 flex justify-between text-[12px] text-muted tabular-nums">
           <span>Kas</span>
+          <span>
