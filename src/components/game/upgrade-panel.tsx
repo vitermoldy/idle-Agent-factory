@@ -101,3 +101,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
         price={money(def.agentCost)}
         className="mt-3 w-full"
         disabled={!can}
+        onClick={hireAgent}
