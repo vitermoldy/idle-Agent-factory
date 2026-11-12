@@ -76,3 +76,4 @@ export function ViewBar({
       <button
         type="button"
         aria-pressed={labels}
+        onClick={() => onLabels(!labels)}
