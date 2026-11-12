@@ -1496,3 +1496,4 @@ export function initMachineScene(
       const orderMode = mode === 'order' && inFocus
       const pulseClock = playing ? now / 1000 : 0
       p.stations.forEach((st, i) => {
+        st.group.position.copy(st.base)
