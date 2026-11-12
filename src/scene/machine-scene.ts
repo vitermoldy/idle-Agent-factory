@@ -446,3 +446,4 @@ export function initMachineScene(
     }
 
     // ---- Shared by every plate: the floor, the painted screens that do not depend on the product.
+    const floor = new THREE.Mesh(new THREE.PlaneGeometry(120, 70), new THREE.ShadowMaterial({ opacity: 0.23 }))
