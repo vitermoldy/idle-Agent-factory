@@ -217,3 +217,4 @@ export function initMachineScene(
     type Material = THREE.Material
     const geometries = new Map<string, THREE.BufferGeometry>()
     function boxGeo(w: number, h: number, d: number, r = 0.04) {
+      const k = `b${w},${h},${d},${r}`
