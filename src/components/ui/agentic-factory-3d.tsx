@@ -82,3 +82,4 @@ export default function AgenticFactory3D({
     return () => {
       cancelled = true
       dispose?.()
+      handlers.current.onApi?.(null)
