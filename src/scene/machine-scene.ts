@@ -1347,3 +1347,4 @@ export function initMachineScene(
       if (window.__machine === publicApi) delete window.__machine
     })
     // Plates already owned stand in place from the first frame; only later ones rise.
+    ownedCount = countOwned()
