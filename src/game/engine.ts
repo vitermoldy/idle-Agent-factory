@@ -299,3 +299,4 @@ export function starsEarnedTotal(allTime: number) {
   return Math.floor(Math.sqrt(allTime / STAR_UNIT))
 }
 
+/** Lifetime earnings needed for the next star. */
