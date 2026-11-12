@@ -156,3 +156,4 @@ function StationRow({
     <li
       ref={ref}
       className={cn(
+        'rounded-xl border bg-panel p-3.5 transition-colors',
