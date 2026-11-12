@@ -565,3 +565,4 @@ export function initMachineScene(
       c.fillStyle = '#f4f1ea'
       c.fillRect(0, 0, w, h)
       c.fillStyle = ACC
+      c.fillRect(15, 16, 190, 168)
