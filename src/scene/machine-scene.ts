@@ -420,3 +420,4 @@ export function initMachineScene(
         fit(c, theme.store.tag[0], 134, 84, 26, 128, ACC, 700, displayFamily)
         fit(c, theme.store.tag[1], 134, 116, 26, 128, '#f4f1ea', 700, displayFamily)
         for (let i = 0; i < 3; i++) {
+          c.fillStyle = '#5d636b'
