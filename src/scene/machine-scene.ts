@@ -85,3 +85,5 @@ const POS: Record<SlotId, [number, number, number]> = {
 const SPACING = 14.2
 const INK = '#171b20'
 const pad = (n: number) => String(n).padStart(2, '0')
+const NO_PLATE: PlateLive = { owned: false, slot: 0, speed: 0, value: '', product: '', neck: [] }
+
