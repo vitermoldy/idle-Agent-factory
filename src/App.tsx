@@ -94,3 +94,4 @@ export default function App() {
   const [camera, setCamera] = useState<MachineCamera>('overview')
   const [labels, setLabels] = useState(live.current.labels)
   const [playing, setPlaying] = useState(live.current.playing)
+  const [selected, setSelected] = useState<SlotId | null>(null)
