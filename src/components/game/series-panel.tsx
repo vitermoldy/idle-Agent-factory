@@ -18,3 +18,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           Series {series(game.series)}
         </h2>
         <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
+          Series baru mengosongkan semua lini dan kas, lalu menukar pendapatanmu dengan bintang. Setiap
