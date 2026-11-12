@@ -71,3 +71,4 @@ export interface FactoryDef {
   unit: string
   blurb: string
   /** The first product is owned as soon as the line opens. */
+  products: ProductDef[]
