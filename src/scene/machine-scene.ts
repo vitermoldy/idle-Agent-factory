@@ -894,3 +894,4 @@ export function initMachineScene(
         box(meter, 0.46, 0.16, 0.36, 0, 0.03, 0, M.dark, 0.03)
         const bars: THREE.Mesh[] = []
         for (let i = 0; i < 6; i++) {
+          const bar = box(meter, 0.045, 0.3, 0.06, -0.15 + i * 0.06, 0.26, 0.05, i > 3 ? M.amber : M.light, 0.01)
