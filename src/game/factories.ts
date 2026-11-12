@@ -78,3 +78,4 @@ export interface FactoryDef {
   growth: number
   unlockCost: number
   agentCost: number
+  stations: StationDef[]
