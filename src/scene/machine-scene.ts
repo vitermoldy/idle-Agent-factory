@@ -344,3 +344,4 @@ export function initMachineScene(
     function screen(parent: THREE.Object3D, w: number, h: number, x: number, y: number, z: number, tex: Painted) {
       const map = 'texture' in tex ? tex.texture : tex
       const o = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map, toneMapped: false }))
+      o.position.set(x, y, z)
