@@ -295,3 +295,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
 }
 
 /** Stars held in total once a player has earned `allTime`. */
+export function starsEarnedTotal(allTime: number) {
