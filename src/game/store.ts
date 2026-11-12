@@ -69,3 +69,4 @@ function catchUp(game: E.GameState, seconds: number) {
   return { state, completed, report: { seconds, capped, ...totals } satisfies AwayReport }
 }
 
+function initialState() {
