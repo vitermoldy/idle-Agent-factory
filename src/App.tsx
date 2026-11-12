@@ -65,3 +65,4 @@ function makeLive(): SceneLive {
     locked: false,
     playing: !matchMedia('(prefers-reduced-motion: reduce)').matches,
     labels: matchMedia('(min-width: 1024px)').matches,
+    focus: 0,
