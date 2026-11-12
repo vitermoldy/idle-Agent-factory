@@ -32,3 +32,4 @@ interface Store {
   save: () => void
   setActive: (id: FactoryId) => void
   takeOrder: () => void
+  buyStation: (index: number) => void
