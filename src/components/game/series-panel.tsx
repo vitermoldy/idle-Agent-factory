@@ -50,3 +50,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         <button type="button" className="btn btn-primary w-full" disabled>
           Belum ada bintang untuk diambil
         </button>
+      )}
