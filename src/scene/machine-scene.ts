@@ -1068,3 +1068,4 @@ export function initMachineScene(
       const receipt = new THREE.Group()
       receipt.position.set(0.59, 1.37, -0.1)
       receipt.userData.moving = true
+      cashdesk.add(receipt)
