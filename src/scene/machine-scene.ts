@@ -941,3 +941,4 @@ export function initMachineScene(
           const page = box(open, 0.3, 0.025, 0.46, side * 0.155, 0.02, 0, M.paper, 0.01)
           page.rotation.z = side * -0.1
         }
+        const turn = new THREE.Group()
