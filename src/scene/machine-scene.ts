@@ -1381,3 +1381,4 @@ export function initMachineScene(
     }
     function hitStation(x: number, y: number) {
       pointer.set((x / width) * 2 - 1, (-y / height) * 2 + 1)
+      raycaster.setFromCamera(pointer, camera)
