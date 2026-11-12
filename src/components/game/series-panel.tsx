@@ -27,3 +27,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         <Stat label="Bintang baru" value={`+${claim}`} note={claim > 0 ? `jadi +${after}%` : 'belum ada'} />
         <Stat label="Pendapatan series ini" value={money(game.earned)} />
         <Stat label="Total sepanjang masa" value={money(game.allTime)} />
+      </dl>
