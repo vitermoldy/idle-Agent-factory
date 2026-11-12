@@ -1310,3 +1310,4 @@ export function initMachineScene(
       cameraAnimating = true
       emitView()
     }
+    function focusStation(slot: SlotId) {
