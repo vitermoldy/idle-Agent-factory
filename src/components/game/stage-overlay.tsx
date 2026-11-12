@@ -35,3 +35,4 @@ export function StagePlate({ className }: { className?: string }) {
           <PlateStat label="Kecepatan" value={pace(T)} />
         </dl>
       )}
+    </div>
