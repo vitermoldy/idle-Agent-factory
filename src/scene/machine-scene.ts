@@ -1194,3 +1194,4 @@ export function initMachineScene(
       el.querySelector('.label-title b')!.textContent = stationDef(id).name
       $('labels').appendChild(el)
       cleanups.push(() => el.remove())
+      return {
