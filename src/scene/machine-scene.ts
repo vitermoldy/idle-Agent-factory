@@ -1100,3 +1100,4 @@ export function initMachineScene(
       const dummy = new THREE.Object3D()
       function updateBelt(t: number) {
         for (let i = 0; i < beltCount; i++) {
+          const u = (i / beltCount + t * 0.012) % 1
