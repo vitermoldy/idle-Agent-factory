@@ -1288,3 +1288,4 @@ export function initMachineScene(
         desiredTarget.set(targetX(fp.k), 1, 0)
         desiredPosition.copy(viewDirection).multiplyScalar(plateDistance * expand).add(desiredTarget)
       } else {
+        desiredTarget.set(0, 1, 0)
