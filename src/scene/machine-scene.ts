@@ -1074,3 +1074,4 @@ export function initMachineScene(
       receipt.rotation.x = -0.16
       const coin = new THREE.Group()
       coin.userData.moving = true
+      cashdesk.add(coin)
