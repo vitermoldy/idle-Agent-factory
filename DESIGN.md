@@ -46,3 +46,4 @@ permainan dan dihitung oleh `src/game/engine.ts`.
 ## Aksesibilitas
 
 - Semua pasangan teks lulus WCAG AA untuk teks normal (diperiksa dengan `antislop-human/contrast-check.py`;
+  terendah 5.89:1, koral di atas panel naik).
