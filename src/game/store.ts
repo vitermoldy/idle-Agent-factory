@@ -128,3 +128,4 @@ export const useGame = create<Store>((set, get) => {
         localStorage.setItem(SAVE_KEY, JSON.stringify(game))
         set({ lastSaved: game.savedAt, storageOk: true })
       } catch {
+        set({ storageOk: false })
