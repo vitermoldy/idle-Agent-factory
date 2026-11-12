@@ -142,3 +142,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Merakit video', 'Admin menyatukan suara, gambar, dan subtitle'],
         ['Tayang di etalase', 'Video tampil di halaman toko'],
         ['Pembayaran masuk', 'Kasir mencetak struk, koin masuk'],
+      ],
