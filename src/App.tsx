@@ -336,3 +336,4 @@ export default function App() {
       <SettingsDialog
         open={settings}
         onClose={() => setSettings(false)}
+        onReset={() => {
