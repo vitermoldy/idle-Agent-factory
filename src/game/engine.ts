@@ -234,3 +234,4 @@ export function buyProduct(state: GameState, id: FactoryId, productId: string) {
 /** Brings one plate into view; hand-taken orders go to it. */
 export function selectProduct(state: GameState, id: FactoryId, productId: string) {
   const fs = state.factories[id]
+  if (!fs.owned.includes(productId) || fs.product === productId) return state
