@@ -582,3 +582,4 @@ export function initMachineScene(
         const y = 110 + i * 100
         rounded(c, 22, y, 436, 83, 8, '#283839')
         disc(c, 58, y + 40, 19, [ACC, '#bdbf9c', '#7d938e'][i])
+        c.textAlign = 'center'
