@@ -330,3 +330,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Lisensi dibayar', 'Klien membayar lisensi tahunan'],
       ],
     },
+  },
