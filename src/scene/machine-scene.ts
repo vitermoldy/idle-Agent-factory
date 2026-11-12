@@ -184,3 +184,4 @@ export function initMachineScene(
       key.shadow.camera.updateProjectionMatrix()
     }
     const rim = new THREE.DirectionalLight(0xc4d4ed, 3.1)
+    rim.position.set(3, 7, -8)
