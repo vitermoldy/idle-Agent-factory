@@ -51,3 +51,4 @@ export function Dialog({
 }
 
 export function AwayDialog() {
+  const away = useGame((s) => s.away)
