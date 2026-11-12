@@ -60,3 +60,4 @@ export interface ProductDef {
   /** Revenue of one order before bonuses. */
   price: number
   /** Work per order at each station; 1 is the line's base product. */
+  work: [number, number, number, number, number]
