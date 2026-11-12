@@ -79,3 +79,4 @@ while (t <= 4 * 3600) {
         const gain = E.productIncome(def, fs, s.stars, p)
         if (gain > 0)
           consider({
+            payback: p.unlockCost / gain,
