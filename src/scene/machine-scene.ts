@@ -1538,3 +1538,4 @@ export function initMachineScene(
       if (t - p.lastBelt > 1 / 18 || p.lastBelt < 0) {
         p.updateBelt(t)
         p.lastBelt = t
+      }
