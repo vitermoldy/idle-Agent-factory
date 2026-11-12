@@ -104,3 +104,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'admin', name: 'Admin', desc: 'Antrean render dan kendali seluruh lini.', output: 'video', speed: 1.1, cost: 12 },
       { slot: 'storefront', name: 'Etalase', desc: 'Video jadi tampil di halaman produk.', output: 'posting', speed: 1.2, cost: 11 },
       { slot: 'cashdesk', name: 'Kasir', desc: 'Pembayaran masuk, struk tercetak.', output: 'pembayaran', speed: 1.5, cost: 7 },
+    ],
