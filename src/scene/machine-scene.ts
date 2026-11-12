@@ -1363,3 +1363,4 @@ export function initMachineScene(
     controls.addEventListener('start', () => {
       dragging = true
       cameraAnimating = false
+      lastInteraction = performance.now()
