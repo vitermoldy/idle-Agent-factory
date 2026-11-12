@@ -95,3 +95,4 @@ export function ConfirmDialog({
   onConfirm: () => void
   onClose: () => void
   children: ReactNode
+}) {
