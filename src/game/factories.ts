@@ -240,3 +240,4 @@ export const FACTORIES: FactoryDef[] = [
       },
       queue: { title: 'ANTREAN MIXING', items: ['Obrolan bisnis', 'Kisah perantau', 'Tanya pakar'], active: 'MIXING', waiting: 'ANTRE' },
       wip: { title: 'RUNDOWN', sub: '03 / Segmen tamu' },
+      store: {
