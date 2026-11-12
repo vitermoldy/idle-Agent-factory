@@ -95,3 +95,4 @@ export const useGame = create<Store>((set, get) => {
     tick: (now) => {
       const seconds = (now - lastTick) / 1000
       lastTick = now
+      const { game, notices } = get()
