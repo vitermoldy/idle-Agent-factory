@@ -87,3 +87,4 @@ export function StageAction() {
           <span>
             Antrean {fs.queue}/{E.QUEUE_MAX}
           </span>
+          <span>{pace(T)}</span>
