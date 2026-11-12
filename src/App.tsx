@@ -322,3 +322,4 @@ export default function App() {
             {shownTab === 'pabrik' && (
               <section aria-labelledby="lines-title">
                 <h2 id="lines-title" className="panel-title mb-3">
+                  Lini produksi
