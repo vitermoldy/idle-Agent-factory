@@ -1011,3 +1011,4 @@ export function initMachineScene(
       tube(cabinet, [[0.69, 0.43, -0.2], [0.89, 0.65, -0.2], [0.89, 1.8, -0.2], [0.65, 1.99, -0.2]], 0.033, M.chrome)
       const incoming = new THREE.Group()
       incoming.userData.moving = true
+      cabinet.add(incoming)
