@@ -54,3 +54,4 @@ export interface SceneTheme {
  * harder (`work`, in pipeline order), so the best pick depends on which stations are upgraded.
  */
 export interface ProductDef {
+  id: string
