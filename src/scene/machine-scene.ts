@@ -401,3 +401,4 @@ export function initMachineScene(
         c.fillRect(128, 52, 128, 44)
         print(c, 'Hari ini', 140, 81, 15, '#f4f1ea', 600)
         const k = Math.floor(t * 1.1) % 4
+        for (let i = 0; i < 4; i++) {
