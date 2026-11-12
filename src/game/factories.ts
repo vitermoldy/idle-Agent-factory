@@ -265,3 +265,4 @@ export const FACTORIES: FactoryDef[] = [
         ['Merekam suara', 'Studio Suara merekam narasi'],
         ['Mixing', 'Musik dan efek ditambahkan'],
         ['Episode tayang', 'Episode muncul di semua aplikasi podcast'],
+        ['Sponsor membayar', 'Iklan sponsor terbayar'],
