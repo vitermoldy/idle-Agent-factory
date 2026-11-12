@@ -165,3 +165,4 @@ export function upgradeCost(def: FactoryDef, index: number, level: number, count
 }
 
 /** How many levels of a station the cash can pay for. */
+export function affordableLevels(def: FactoryDef, index: number, level: number, cash: number) {
