@@ -847,3 +847,4 @@ export function initMachineScene(
           reels.push(reel)
         }
         tube(engine, [[-1.36, 2.66, -0.48], [-1.5, 2.34, -0.48], [-1.34, 1.92, -0.48]], 0.045, M.dark)
+        propUpdates.push((t) => reels.forEach((r, i) => (r.rotation.z = -t * (i ? 0.65 : 0.85))))
