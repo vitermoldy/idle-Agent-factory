@@ -1090,3 +1090,4 @@ export function initMachineScene(
       machine.add(belt)
       const frameMesh = new THREE.Mesh(beltFrameGeo, M.dark)
       frameMesh.scale.y = 0.3
+      frameMesh.position.y = 0.51
