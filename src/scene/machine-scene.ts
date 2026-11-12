@@ -776,3 +776,4 @@ export function initMachineScene(
         cyl(g, r * 0.66, 0.105, 0, 0, 0, M.dark)
         cyl(g, r * 0.22, 0.14, 0, 0, 0, M.chrome)
         for (let i = 0; i < 12; i++) {
+          const a = (i / 12) * TAU,
