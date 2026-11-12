@@ -338,3 +338,4 @@ export default function App() {
         onClose={() => setSettings(false)}
         onReset={() => {
           setSettings(false)
+          setConfirm('reset')
