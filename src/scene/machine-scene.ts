@@ -1601,3 +1601,4 @@ export function initMachineScene(
         if (cameraMode === 'plate' || cameraMode === 'station') {
           setCameraGoal()
           cameraAnimating = true
+        }
