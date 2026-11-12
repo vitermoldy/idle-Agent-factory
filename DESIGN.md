@@ -33,3 +33,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Kartu berbeda menurut isi | Agen dan lini terkunci memakai kartu menonjol (garis 18%); stasiun dan produk memakai baris; bottleneck dan produk aktif mendapat garis aksen. |
 | Radius 9 px (tombol), 10 sampai 14 px (kartu, dialog) | Mengikuti sudut membulat kecil pada mesin; tidak ada elemen berbentuk pil. |
 | Ikon digambar sendiri: bingkai film, jendela browser, mikrofon, ponsel, buku | Setiap ikon menggambarkan produk lininya. Tidak ada pustaka ikon. |
+| Logo: tanda V dari komponen asli | Bukan aset baru; diambil dari komponen yang diberikan. |
