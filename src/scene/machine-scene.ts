@@ -1551,3 +1551,4 @@ export function initMachineScene(
           const f = phase / 0.15
           packet.group.position.copy(cabinet.position).add(new THREE.Vector3(0, 1.6, 0.6))
           scratch.copy(engine.position).add(new THREE.Vector3(0, 1.3, 0.65))
+          packet.group.position.lerp(scratch, f)
