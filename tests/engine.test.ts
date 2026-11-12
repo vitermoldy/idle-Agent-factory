@@ -10,3 +10,4 @@ describe('a new game', () => {
     const g = E.newGame(0)
     expect(g.factories.video.unlocked).toBe(true)
     expect(g.factories.video.product).toBe('short')
+    expect(FACTORIES.slice(1).every((f) => !g.factories[f.id].unlocked)).toBe(true)
