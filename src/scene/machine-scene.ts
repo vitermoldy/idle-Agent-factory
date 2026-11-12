@@ -1052,3 +1052,4 @@ export function initMachineScene(
         c.lineTo(258, 115)
         c.stroke()
         c.setLineDash([])
+        fit(c, product.name, 25, 154, 22, 230, '#333d36')
