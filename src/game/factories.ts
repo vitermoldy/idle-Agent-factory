@@ -230,3 +230,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'cashdesk', name: 'Sponsor', desc: 'Iklan sponsor dibayar per episode.', output: 'sponsor', speed: 1.5, cost: 17_500 },
     ],
     theme: {
+      accent: '#3ddc97',
