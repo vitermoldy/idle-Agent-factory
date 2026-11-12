@@ -149,3 +149,4 @@ export function initMachineScene(
     renderer.shadowMap.enabled = true
     renderer.shadowMap.type = THREE.PCFShadowMap
     renderer.localClippingEnabled = true
+    $('canvas').appendChild(renderer.domElement)
