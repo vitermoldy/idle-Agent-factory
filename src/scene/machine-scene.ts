@@ -917,3 +917,4 @@ export function initMachineScene(
         phone.position.set(0, 1.98, 0)
         phone.userData.moving = true
         stand.add(phone)
+        box(phone, 0.52, 0.94, 0.07, 0, 0, 0, M.dark, 0.06)
