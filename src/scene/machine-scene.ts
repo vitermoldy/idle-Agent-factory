@@ -1079,3 +1079,4 @@ export function initMachineScene(
       coinDisc.rotation.x = Math.PI / 2
       const coinRing = new THREE.Mesh(new THREE.TorusGeometry(0.174, 0.014, 6, 32), M.light)
       coinRing.position.z = 0.037
+      coin.add(coinRing)
