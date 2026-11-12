@@ -84,3 +84,4 @@ export function ViewBar({
       <button
         type="button"
         aria-pressed={!playing}
+        aria-label={playing ? 'Jeda animasi mesin' : 'Jalankan animasi mesin'}
