@@ -37,3 +37,5 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Tombol nonaktif bergaris putus-putus | Status nonaktif dibedakan oleh bentuk juga, bukan hanya warna. |
 | Kaca dan blur tidak dipakai | Panel memakai permukaan padat agar teks di atas mesin selalu kontras. |
 
+## Isi dalam game
+
