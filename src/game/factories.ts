@@ -32,3 +32,4 @@ export interface SceneTheme {
   queue: { title: string; items: Three; active: string; waiting: string }
   wip: { title: string; sub: string }
   store: {
+    brand: string
