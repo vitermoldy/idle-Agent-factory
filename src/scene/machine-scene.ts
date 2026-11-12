@@ -238,3 +238,4 @@ export function initMachineScene(
       m: Material = M.body,
       r = 0.04
     ) {
+      const o = new THREE.Mesh(boxGeo(w, h, d, r), m)
