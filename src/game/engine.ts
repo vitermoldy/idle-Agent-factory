@@ -179,3 +179,4 @@ export type BuyMode = 1 | 10 | 'max'
 
 /** Levels a buy button would purchase: at least one, so a price is always shown. */
 export function levelsToBuy(def: FactoryDef, index: number, level: number, cash: number, mode: BuyMode) {
+  const room = MAX_LEVEL - level
