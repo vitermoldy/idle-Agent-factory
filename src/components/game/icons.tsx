@@ -75,3 +75,5 @@ export const ModeIcon = ({ mode, ...p }: P & { mode: MachineMode }) => (
   <svg {...base} {...p} strokeWidth={1.2}>
     <path d={MODE_PATHS[mode]} />
   </svg>
+)
+
