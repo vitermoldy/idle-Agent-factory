@@ -1716,3 +1716,4 @@ export function initMachineScene(
     })
     renderer.compile(scene, camera)
     // Lightweight inspection for automated browser checks; no production UI.
+    Object.defineProperty(window, '__machineDebug', {
