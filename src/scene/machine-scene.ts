@@ -1646,3 +1646,4 @@ export function initMachineScene(
         )
           cameraAnimating = false
       }
+      controls.autoRotate =
