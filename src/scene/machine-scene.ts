@@ -1208,3 +1208,4 @@ export function initMachineScene(
       cameraMode: MachineCamera = 'overview',
       spread = 0,
       selected: SlotId = 'engine',
+      hovered: { slot: SlotId; plate: number } | null = null,
