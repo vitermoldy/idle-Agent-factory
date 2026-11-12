@@ -24,3 +24,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
         </p>
       </div>
       <ul className="flex flex-col gap-2">
+        {def.products.map((p) => (
