@@ -1003,3 +1003,4 @@ export function initMachineScene(
 
       const cabinet = bySlot('cabinet').group
       box(cabinet, 1.75, 1.77, 1.02, 0, 1.24, -0.13, S.body, 0.12)
+      box(cabinet, 1.58, 0.13, 1.09, 0, 2.16, -0.13, S.amber, 0.04)
