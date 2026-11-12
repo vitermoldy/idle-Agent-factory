@@ -43,3 +43,4 @@ export const Pause = (p: P) => (
   <svg {...base} {...p} fill="currentColor" stroke="none">
     <rect x="4" y="3" width="2.6" height="10" rx=".6" />
     <rect x="9.4" y="3" width="2.6" height="10" rx=".6" />
+  </svg>
