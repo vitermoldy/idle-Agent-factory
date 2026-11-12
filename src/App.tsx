@@ -125,3 +125,4 @@ export default function App() {
       pending.current = 0
       if (!p) return
       const id = ++popupId
+      setPopups((list) => [...list.slice(-5), { id, x: p.x + (Math.random() - 0.5) * 40, y: p.y, text: '+' + money(cash) }])
