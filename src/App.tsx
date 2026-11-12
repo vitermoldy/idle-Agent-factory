@@ -90,3 +90,4 @@ export default function App() {
   }
   const apiRef = useRef<SceneApi | null>(null)
   const [tab, setTab] = useState<Tab>('upgrade')
+  const [mode, setMode] = useState<MachineMode>('assembled')
