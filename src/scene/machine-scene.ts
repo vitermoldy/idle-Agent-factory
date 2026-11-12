@@ -1262,3 +1262,4 @@ export function initMachineScene(
       height = frameHeight()
       mobile = width <= 640
       renderer.setSize(width, height)
+      camera.aspect = width / height
