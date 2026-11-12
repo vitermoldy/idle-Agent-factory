@@ -899,3 +899,4 @@ export function initMachineScene(
           bars.push(bar)
         }
         propUpdates.push((t) => {
+          head.rotation.z = -0.22 + Math.sin(t * 0.8) * 0.05
