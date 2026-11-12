@@ -165,3 +165,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'engine', name: 'Perancang', desc: 'Wireframe dan susunan halaman.', output: 'wireframe', speed: 1.1, cost: 800 },
       { slot: 'admin', name: 'Kode', desc: 'Agen menulis kode dan menjalankan tes.', output: 'build', speed: 1, cost: 600 },
       { slot: 'storefront', name: 'Rilis', desc: 'Halaman tayang di domain klien.', output: 'situs', speed: 1.4, cost: 550 },
+      { slot: 'cashdesk', name: 'Tagihan', desc: 'Invoice terkirim, langsung lunas.', output: 'invoice', speed: 1.5, cost: 350 },
