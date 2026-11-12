@@ -12,3 +12,4 @@ dibayar di Kasir.
    yang ditandai Bottleneck dulu. Setiap stasiun dua kali lebih cepat di level 10, 25, 50, 100, dan seterusnya.
 4. **Tambah produk.** Setiap pabrik punya tiga produk. Setiap produk yang dibeli dibangun sebagai petak
    mesin baru di samping petak lain, dan semua petak berproduksi bersamaan (dua produk berarti dua
+   petak). Level stasiun berlaku untuk semua petak. Produk mahal membayar lebih per order tetapi
