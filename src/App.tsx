@@ -362,3 +362,4 @@ export default function App() {
         confirmLabel="Hapus dan mulai dari nol"
         onConfirm={() => useGame.getState().resetGame()}
         onClose={() => setConfirm(null)}
+      >
