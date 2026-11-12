@@ -35,3 +35,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
           </h2>
           <BuyModeSwitch />
         </div>
+        <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
