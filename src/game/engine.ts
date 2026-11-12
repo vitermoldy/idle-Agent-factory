@@ -377,3 +377,4 @@ export function parseSave(raw: string | null): GameState | null {
     earned: num(s.earned, 0),
     allTime: num(s.allTime, 0),
     stars: Math.floor(num(s.stars, 0)),
+    series: Math.max(1, Math.floor(num(s.series, 1))),
