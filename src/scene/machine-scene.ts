@@ -208,3 +208,4 @@ export function initMachineScene(
       rubber: mat(0x0b1015, 0.1, 0.6),
       amber: mat(ACC, 0.52, 0.28),
       ivory: mat(theme.shell, 0.48, 0.26),
+      copper: mat(DEEP, 0.85, 0.3),
