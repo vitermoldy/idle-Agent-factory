@@ -56,3 +56,4 @@ describe('the line', () => {
 })
 
 describe('buying', () => {
+  it('prices a batch of levels as the sum of single levels', () => {
