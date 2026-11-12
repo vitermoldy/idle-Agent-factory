@@ -43,3 +43,4 @@ describe('the line', () => {
   it('caps the manual queue', () => {
     let g = E.newGame(0)
     for (let i = 0; i < 20; i++) g = E.takeOrder(g, 'video')
+    expect(g.factories.video.queue).toBe(E.QUEUE_MAX)
