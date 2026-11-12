@@ -156,3 +156,4 @@ export function SettingsDialog({
       </section>
       <section aria-labelledby="reset-title" className="mt-5 border-t border-line pt-5">
         <h3 id="reset-title" className="text-[14px] font-semibold text-ink">
+          Mulai dari nol
