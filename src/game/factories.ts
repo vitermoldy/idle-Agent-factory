@@ -95,3 +95,4 @@ export const FACTORIES: FactoryDef[] = [
       { id: 'explainer', name: 'Video penjelas', desc: 'Video 2 menit. Naskah panjang membebani Mesin.', price: 290, work: [1.3, 3.2, 2.4, 1.6, 1.2], unlockCost: 360_000 },
     ],
     rate: 0.25,
+    growth: 1.15,
