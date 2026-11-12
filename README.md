@@ -34,3 +34,4 @@ Progres disimpan otomatis di `localStorage` browser setiap 5 detik dan saat hala
 ```bash
 npm install
 npm run dev        # http://localhost:5173
+npm run build      # hasil di dist/, bisa dibuka dari host statis mana pun
