@@ -1730,3 +1730,4 @@ export function initMachineScene(
             width,
             height,
             drawCalls: renderer.info.render.calls,
+            triangles: renderer.info.render.triangles,
