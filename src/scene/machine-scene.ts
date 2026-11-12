@@ -1147,3 +1147,4 @@ export function initMachineScene(
           new THREE.RingGeometry(0.4, 0.414, 40),
           new THREE.MeshBasicMaterial({ color: ACC, transparent: true, opacity: 0.8, side: THREE.DoubleSide, depthWrite: false })
         )
+        halo.rotation.x = -Math.PI / 2
