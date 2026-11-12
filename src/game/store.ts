@@ -116,3 +116,4 @@ export const useGame = create<Store>((set, get) => {
         })
       }
       set({
+        game: result.state,
