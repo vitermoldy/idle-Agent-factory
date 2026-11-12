@@ -45,3 +45,4 @@ export interface SceneTheme {
   incoming: string
   cashTitle: string
   receipt: { shop: string }
+  screen: { kicker: string; head: string; lines: [string, string, string, string] }
