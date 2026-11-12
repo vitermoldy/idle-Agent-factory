@@ -235,3 +235,4 @@ export function buyProduct(state: GameState, id: FactoryId, productId: string) {
 export function selectProduct(state: GameState, id: FactoryId, productId: string) {
   const fs = state.factories[id]
   if (!fs.owned.includes(productId) || fs.product === productId) return state
+  return withFactory(state, id, { product: productId })
