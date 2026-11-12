@@ -123,3 +123,4 @@ export default function App() {
       const p = apiRef.current?.project('cashdesk')
       const cash = pending.current
       pending.current = 0
+      if (!p) return
