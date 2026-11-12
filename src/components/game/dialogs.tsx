@@ -169,3 +169,4 @@ export function SettingsDialog({
         <h3 id="about-title" className="text-[14px] font-semibold text-ink">
           Tentang mesin
         </h3>
+        <p className="mt-1 text-[13px] text-muted">
