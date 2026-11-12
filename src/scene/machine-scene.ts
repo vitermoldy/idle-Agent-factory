@@ -108,3 +108,4 @@ export function initMachineScene(
   const dispose = () => {
     for (const fn of cleanups.reverse()) fn()
     cleanups.length = 0
+  }
