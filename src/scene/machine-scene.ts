@@ -122,3 +122,4 @@ export function initMachineScene(
     const stepOf = (slot: SlotId) => PIPELINE.indexOf(slot) + 1
     const TAU = Math.PI * 2
     const scene = new THREE.Scene()
+    const camera = new THREE.PerspectiveCamera(
