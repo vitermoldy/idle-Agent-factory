@@ -353,3 +353,4 @@ export const FACTORIES: FactoryDef[] = [
       { slot: 'storefront', name: 'Toko Buku', desc: 'Buku terbit di toko digital.', output: 'terbit', speed: 1.25, cost: 69_000_000 },
       { slot: 'cashdesk', name: 'Royalti', desc: 'Setiap penjualan membayar royalti.', output: 'royalti', speed: 1.5, cost: 44_000_000 },
     ],
+    theme: {
