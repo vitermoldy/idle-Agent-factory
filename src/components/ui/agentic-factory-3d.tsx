@@ -56,3 +56,4 @@ export default function AgenticFactory3D({
     setPhase('loading')
     const style = getComputedStyle(root)
     const text = style.fontFamily
+    const display = style.getPropertyValue('--scene-display').trim() || text
