@@ -697,3 +697,4 @@ export function initMachineScene(
         buckets.get(key)!.push(child)
       }
       for (const list of buckets.values()) {
+        if (list.length < 2) continue
