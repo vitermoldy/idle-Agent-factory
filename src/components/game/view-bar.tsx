@@ -35,3 +35,4 @@ export function ViewBar({
   onCamera: (c: MachineCamera) => void
   onLabels: (v: boolean) => void
   onPlaying: (v: boolean) => void
+}) {
