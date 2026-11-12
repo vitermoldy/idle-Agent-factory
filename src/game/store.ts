@@ -122,3 +122,4 @@ export const useGame = create<Store>((set, get) => {
       })
       return result.completed
     },
+    save: () => {
