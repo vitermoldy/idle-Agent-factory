@@ -403,3 +403,4 @@ export function initMachineScene(
         const k = Math.floor(t * 1.1) % 4
         for (let i = 0; i < 4; i++) {
           const y = 108 + i * 44
+          rounded(c, 138, y, 108, 34, 7, i === k ? ACC : '#e2e0d6')
