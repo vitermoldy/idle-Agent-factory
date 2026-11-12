@@ -147,3 +147,4 @@ export function SettingsDialog({
         </h3>
         <p className="mt-1 text-[13px] text-muted">
           {storageOk
+            ? `Progres disimpan di browser ini setiap 5 detik${time ? `, terakhir pukul ${time}` : ''}.`
