@@ -329,3 +329,4 @@ export function initMachineScene(
       family = fontFamily
     ) => fit(ctx, txt, x, y, size, Infinity, color, weight, family)
     function rounded(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, r: number | number[], color: string) {
+      ctx.fillStyle = color
