@@ -1428,3 +1428,4 @@ export function initMachineScene(
       lastFrame = performance.now()
     })
     const observer = new IntersectionObserver(
+      (entries) => {
