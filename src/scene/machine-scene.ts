@@ -882,3 +882,4 @@ export function initMachineScene(
         tube(mic, [[0, 1.95, 0], [0.08, 2.24, 0.1], [0.3, 2.42, 0.26]], 0.028, M.chrome)
         const head = new THREE.Group()
         head.position.set(0.34, 2.56, 0.3)
+        head.userData.moving = true
