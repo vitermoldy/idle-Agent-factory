@@ -9,3 +9,4 @@ const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d)
 
 export default defineConfig({
   root,
+  // Relative asset paths, so the built game runs from any folder or static host.
