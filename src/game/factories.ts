@@ -38,3 +38,4 @@ export interface SceneTheme {
     head: Two
     sub: Two
     cta: string
+    foot: string
