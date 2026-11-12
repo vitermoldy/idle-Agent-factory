@@ -1030,3 +1030,4 @@ export function initMachineScene(
       box(cashdesk, 1.13, 0.46, 0.19, -0.35, 1.98, -0.56, S.body, 0.045)
       // This plate's own price: its cash screen and receipt.
       const cashTex = canvasTexture(512, 176, () => {})
+      const receiptTex = canvasTexture(280, 540, () => {})
