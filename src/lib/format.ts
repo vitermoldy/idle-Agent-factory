@@ -13,3 +13,4 @@ export function short(n: number): string {
   const v = n / 10 ** (e * 3)
   if (e === UNITS.length - 1 && v >= 1000) return n.toExponential(2)
   // Three significant digits: 1.23K, 12.3K, 123K.
+  return v.toFixed(v < 10 ? 2 : v < 100 ? 1 : 0) + UNITS[e]
