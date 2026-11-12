@@ -254,3 +254,4 @@ export const FACTORIES: FactoryDef[] = [
         title: 'TOPIK MASUK',
         sub: '3 topik baru minggu ini',
         customers: ['Tari', 'Gilang', 'Nina'],
+        statuses: ['Topik baru', 'Direkam', 'Siap tayang'],
