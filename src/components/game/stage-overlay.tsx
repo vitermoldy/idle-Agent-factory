@@ -140,3 +140,4 @@ export function UnlockCard() {
           <span>
             {money(Math.min(game.cash, def.unlockCost))} / {money(def.unlockCost)}
           </span>
+        </div>
