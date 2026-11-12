@@ -1594,3 +1594,4 @@ export function initMachineScene(
         if (cameraMode !== 'station' && mode !== 'order') {
           setCameraGoal()
           cameraAnimating = true
+        }
