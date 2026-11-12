@@ -345,3 +345,4 @@ export function parseSave(raw: string | null): GameState | null {
     const unlocked = def.unlockCost === 0 || f.unlocked === true
     const levels =
       Array.isArray(f.levels) && f.levels.length === 5
+        ? f.levels.map((l) => Math.min(MAX_LEVEL, Math.max(unlocked ? 1 : 0, Math.floor(num(l, 1)))))
