@@ -1523,3 +1523,4 @@ export function initMachineScene(
       p.outputVideo.position.y = beat * 0.25
       p.flyPost.position.y = Math.sin(tact) * 0.04
       const orderPhase = (t / 24) % 1,
+        cashBeat = orderMode ? THREE.MathUtils.clamp((orderPhase - 0.88) / 0.12, 0, 1) : beat
