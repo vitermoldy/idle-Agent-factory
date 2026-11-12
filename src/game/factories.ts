@@ -119,3 +119,4 @@ export const FACTORIES: FactoryDef[] = [
       store: {
         brand: 'TOKO KAMU',
         nav: 'Beranda    Katalog    Akun',
+        tag: ['DARI IDE', 'JADI VIDEO.'],
