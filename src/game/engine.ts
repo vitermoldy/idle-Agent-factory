@@ -140,3 +140,4 @@ export function productIncome(def: FactoryDef, fs: FactoryState, stars: number, 
 export const ownedProducts = (def: FactoryDef, fs: FactoryState) =>
   fs.owned.map((id) => def.products.find((p) => p.id === id)!).filter(Boolean)
 
+/** Income of every plate of a line together, as if an agent ran it. */
