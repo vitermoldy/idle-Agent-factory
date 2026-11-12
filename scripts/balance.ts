@@ -26,3 +26,4 @@ while (t <= 4 * 3600) {
     const fs = s.factories[def.id]
     if (fs.unlocked && !fs.agent) while (s.factories[def.id].queue < E.QUEUE_MAX) s = E.takeOrder(s, def.id)
   }
+  for (let guard = 0; guard < 5000; guard++) {
