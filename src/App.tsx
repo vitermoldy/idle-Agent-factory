@@ -347,3 +347,4 @@ export default function App() {
         confirmLabel="Mulai series baru"
         onConfirm={() => {
           useGame.getState().startNewSeries()
+          setTab('upgrade')
