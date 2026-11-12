@@ -42,3 +42,4 @@ export function StagePlate({ className }: { className?: string }) {
 function PlateStat({ label, value }: { label: string; value: string }) {
   return (
     <div>
+      <dt className="text-[11px] text-muted">{label}</dt>
