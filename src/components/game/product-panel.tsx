@@ -99,3 +99,4 @@ function ProductRow({
                 buyProduct(product.id)
                 onBought()
               }}
+            />
