@@ -106,3 +106,4 @@ export function initMachineScene(
     return el
   }
   const dispose = () => {
+    for (const fn of cleanups.reverse()) fn()
