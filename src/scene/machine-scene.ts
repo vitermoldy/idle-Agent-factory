@@ -1729,3 +1729,4 @@ export function initMachineScene(
             time: fp.t,
             width,
             height,
+            drawCalls: renderer.info.render.calls,
