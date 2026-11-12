@@ -102,3 +102,4 @@
     transform: translateY(1px);
   }
   .btn-lg {
+    min-height: 52px;
