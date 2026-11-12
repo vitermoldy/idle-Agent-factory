@@ -108,3 +108,4 @@ export const FACTORIES: FactoryDef[] = [
     theme: {
       accent: '#ff7a1a',
       accentDeep: '#c57e45',
+      shell: '#e0ded4',
