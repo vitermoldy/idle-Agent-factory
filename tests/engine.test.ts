@@ -157,3 +157,4 @@ describe('series and stars', () => {
 })
 
 describe('saves', () => {
+  it('round-trips a game', () => {
