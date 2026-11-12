@@ -58,3 +58,5 @@ function syncLive(live: SceneLive, g: E.GameState) {
       ? { level: `Lv ${fs.levels[i]}`, rate: `${short(rates[i])} order/dtk` }
       : { level: '', rate: '' }
   })
+}
+
