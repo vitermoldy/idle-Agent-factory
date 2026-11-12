@@ -14,3 +14,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
     <ul className="flex flex-col gap-1.5">
       {FACTORIES.map((def) => {
         const fs = game.factories[def.id]
+        const active = game.active === def.id
