@@ -264,3 +264,4 @@ export function advance(state: GameState, seconds: number): { state: GameState; 
     const plates = fs.agent ? ownedProducts(def, fs) : [activeProduct(def, fs)]
     for (const p of plates) {
       const work = (progress[p.id] ?? 0) + throughput(def, fs, p) * seconds
+      let made = Math.floor(work)
