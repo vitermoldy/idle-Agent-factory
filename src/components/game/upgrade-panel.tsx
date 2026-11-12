@@ -145,3 +145,4 @@ function StationRow({
   const levels = fs.levels.slice()
   levels[index] = level + n
   // With an agent every plate earns, so the gain counts them all; by hand only the plate in view works.
+  const before = fs.agent ? E.lineIncome(def, fs, stars) : E.productIncome(def, fs, stars)
