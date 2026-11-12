@@ -199,3 +199,4 @@ function StationRow({
           {gain > 0.0005 ? (
             <span className="font-medium text-accent">
               Pendapatan +{gain < 0.1 ? (gain * 100).toFixed(1) : Math.round(gain * 100)}%
+            </span>
