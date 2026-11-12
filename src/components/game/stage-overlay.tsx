@@ -79,3 +79,4 @@ export function StageAction() {
           Ambil order pertamamu. Setiap order melewati lima stasiun, lalu dibayar di kasir.
         </p>
       )}
+      <button type="button" className="btn btn-primary btn-lg w-full" disabled={full} onClick={takeOrder}>
