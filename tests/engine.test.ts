@@ -19,3 +19,4 @@ describe('a new game', () => {
   })
 })
 
+describe('the line', () => {
