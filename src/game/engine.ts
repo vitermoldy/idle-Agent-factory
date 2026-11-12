@@ -66,3 +66,4 @@ const freshFactory = (def: FactoryDef): FactoryState => {
     progress: {},
     orders: 0,
     earned: 0,
+  }
