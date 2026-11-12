@@ -43,3 +43,4 @@ export interface SceneTheme {
   post: string
   orders: { title: string; sub: string; customers: Three; statuses: Three }
   incoming: string
+  cashTitle: string
