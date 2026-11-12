@@ -26,3 +26,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 | Satu aksen per lini: oranye #ff7a1a (video), biru #45b4ff (website), hijau #3ddc97 (podcast), koral #ff5d6c (aplikasi), kuning #f2c230 (e-book) | Warna menandai lini, sehingga daftar pabrik, mesin, dan tombol terasa satu sistem. Hanya satu aksen aktif di layar pada satu waktu; daftar pabrik memakai warna masing-masing lini agar tiap lini dikenali sebelum dibuka. Tidak ada ungu. |
 | Aksen hanya untuk tindakan yang bisa dilakukan, bottleneck, dan progres | Aksen menunjukkan apa yang bisa diklik atau apa yang menahan lini. Angka uang tetap ivory karena fokusnya ukuran, bukan warna. |
 | Sora untuk judul dan angka besar | Dipilih oleh `start.mjs deal --page gaming` dari taste-skill (pilihan pertama). Bentuknya lebar dan geometris, sehingga angka seperti $4.38B tetap terbaca di ukuran 26 px. |
+| Figtree untuk teks | Pasangan Sora dari deal yang sama: sans yang ramah untuk paragraf pendek di panel. |
