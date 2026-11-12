@@ -109,3 +109,4 @@
     background: var(--accent);
     color: var(--on-accent);
   }
+  .btn-primary:hover:not(:disabled) {
