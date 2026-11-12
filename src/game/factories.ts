@@ -10,3 +10,4 @@ export const PIPELINE: SlotId[] = ['cabinet', 'engine', 'admin', 'storefront', '
 
 export interface StationDef {
   slot: SlotId
+  name: string
