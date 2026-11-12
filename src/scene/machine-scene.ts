@@ -1636,3 +1636,4 @@ export function initMachineScene(
       } else if ((cameraMode === 'station' || cameraMode === 'plate') && cameraAnimating) setCameraGoal()
       if (cameraAnimating && !dragging) {
         const k = 1 - Math.exp(-dt * (mode === 'order' ? 2.2 : 3))
+        camera.position.lerp(desiredPosition, k)
