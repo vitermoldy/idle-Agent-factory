@@ -1609,3 +1609,4 @@ export function initMachineScene(
       if (fp.t - lastDraw > 1 / 18 || lastDraw < 0 || fp.t < lastDraw) {
         drawProduct(fp.t)
         drawQueue(fp.t)
+        lastDraw = fp.t
