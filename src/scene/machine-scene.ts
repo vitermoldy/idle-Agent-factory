@@ -1493,3 +1493,4 @@ export function initMachineScene(
         beat = (t / 4) % 1,
         tact = (t * TAU) / 4
       const inFocus = p.k === live.focus
+      const orderMode = mode === 'order' && inFocus
