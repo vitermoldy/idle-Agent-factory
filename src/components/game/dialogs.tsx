@@ -103,3 +103,4 @@ export function ConfirmDialog({
       title={title}
       footer={
         <>
+          <button type="button" className="btn btn-quiet" onClick={onClose}>
