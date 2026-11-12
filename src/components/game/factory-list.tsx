@@ -76,3 +76,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
                       style={{ width: `${Math.min(100, (game.cash / def.unlockCost) * 100)}%` }}
                     />
                   </span>
+                )}
