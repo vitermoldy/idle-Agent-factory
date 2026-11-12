@@ -79,3 +79,4 @@ export function ViewBar({
         onClick={() => onLabels(!labels)}
         className={cn('view-btn', labels && 'is-on')}
       >
+        Label
