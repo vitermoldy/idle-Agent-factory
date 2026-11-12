@@ -16,3 +16,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   const game = useGame((s) => s.game)
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
+  if (!fs.unlocked) return <LockedLine def={def} />
