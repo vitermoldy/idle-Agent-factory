@@ -17,3 +17,4 @@ const CAMERAS: Array<{ id: MachineCamera; label: string }> = [
   { id: 'flight', label: 'Kamera berputar' },
 ]
 
+export function ViewBar({
