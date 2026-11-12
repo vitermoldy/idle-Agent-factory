@@ -18,3 +18,4 @@ export const QUEUE_MAX = 10
 export const OFFLINE_CAP = 8 * 60 * 60
 /** Each star adds this much to every order's value. */
 export const STAR_BONUS = 0.05
+/** Lifetime earnings that give the first star; stars grow with the square root. */
