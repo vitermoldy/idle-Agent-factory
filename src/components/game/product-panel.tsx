@@ -72,3 +72,4 @@ function ProductRow({
               {owned ? `${money(income)}/dtk` : `Menambah ${money(income)}/dtk`}
             </p>
           </div>
+        )}
