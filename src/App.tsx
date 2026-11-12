@@ -161,3 +161,4 @@ export default function App() {
     (id: FactoryId) => {
       setActive(id)
       setTab('upgrade')
+      if (!wide) window.scrollTo({ top: 0, behavior: 'smooth' })
