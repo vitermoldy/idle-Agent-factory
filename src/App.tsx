@@ -256,3 +256,4 @@ export default function App() {
             <ViewBar
               mode={mode}
               camera={camera}
+              labels={labels}
