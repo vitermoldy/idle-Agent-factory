@@ -1270,3 +1270,4 @@ export function initMachineScene(
       setCameraGoal()
       cameraAnimating = true
       if (first) {
+        camera.position.copy(desiredPosition)
