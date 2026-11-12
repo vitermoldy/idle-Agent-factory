@@ -1057,3 +1057,4 @@ export function initMachineScene(
         print(c, 'LUNAS', 25, 263, 31, '#333d36', 650)
         print(c, 'Terima kasih!', 25, 317, 24, '#687067')
         for (let i = 0; i < 44; i++) {
+          c.fillStyle = '#333d36'
