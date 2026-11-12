@@ -54,3 +54,4 @@ export interface SceneApi {
   project: (slot: SlotId) => { x: number; y: number } | null
 }
 
+export interface SceneOptions {
