@@ -29,3 +29,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
     <div className="flex flex-col gap-5">
       {!fs.agent && <AgentCard def={def} />}
       <section aria-labelledby="stations-title">
+        <div className="flex flex-wrap items-center justify-between gap-3">
