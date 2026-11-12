@@ -1258,3 +1258,4 @@ export function initMachineScene(
       if (!frameWidth() || !frameHeight()) return
       const first = !sized
       sized = true
+      width = frameWidth()
