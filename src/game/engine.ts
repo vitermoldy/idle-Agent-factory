@@ -369,3 +369,4 @@ export function parseSave(raw: string | null): GameState | null {
       earned: num(f.earned, 0),
     }
   }
+  const active = FACTORIES.some((f) => f.id === s.active) ? (s.active as FactoryId) : 'video'
