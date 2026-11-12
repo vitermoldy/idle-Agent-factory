@@ -325,3 +325,4 @@ export function initMachineScene(
       y: number,
       size = 20,
       color = '#f4f1ea',
+      weight = 500,
