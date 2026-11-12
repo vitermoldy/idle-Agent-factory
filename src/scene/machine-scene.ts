@@ -413,3 +413,4 @@ export function initMachineScene(
       ebook: (c, t) => {
         disc(c, 330, 80, 200, DEEP)
         c.fillStyle = '#f4f1ea'
+        c.fillRect(270, 36, 14, 262)
