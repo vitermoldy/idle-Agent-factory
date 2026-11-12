@@ -485,3 +485,4 @@ export function initMachineScene(
         id,
         canvasTexture(512, 116, (c) => {
           c.fillStyle = '#151a20'
+          c.fillRect(0, 0, 512, 116)
