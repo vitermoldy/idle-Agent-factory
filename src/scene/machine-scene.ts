@@ -93,3 +93,4 @@ export function initMachineScene(
 ): { api: SceneApi | null; dispose: () => void } {
   const cleanups: Array<() => void> = []
   const frameWidth = () => root.clientWidth
+  const frameHeight = () => root.clientHeight
