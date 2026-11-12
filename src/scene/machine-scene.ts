@@ -927,3 +927,4 @@ export function initMachineScene(
       } else {
         // A stack of books with an open one on top, its page turning.
         const shelf = new THREE.Group()
+        shelf.position.set(-1.22, 0, -0.22)
