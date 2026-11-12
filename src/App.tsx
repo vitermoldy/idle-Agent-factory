@@ -34,3 +34,4 @@ function lineSpeed(T: number, running: boolean) {
   return v <= 2.4 ? Math.max(0.35, v) : Math.min(3.2, 2.4 + Math.log10(v / 2.4) * 0.8)
 }
 
+function syncLive(live: SceneLive, g: E.GameState) {
