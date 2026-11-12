@@ -102,3 +102,4 @@ export function StageAction() {
 
 function Progress({ value, steady = false }: { value: number; steady?: boolean }) {
   return (
+    <span className="mt-2 block h-1 overflow-hidden rounded bg-line" aria-hidden="true">
