@@ -18,3 +18,4 @@ const CAMERAS: Array<{ id: MachineCamera; label: string }> = [
 ]
 
 export function ViewBar({
+  mode,
