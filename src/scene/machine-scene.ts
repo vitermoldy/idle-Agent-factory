@@ -154,3 +154,4 @@ export function initMachineScene(
     controls.enableDamping = true
     controls.dampingFactor = 0.065
     controls.enablePan = false
+    controls.minDistance = 7
