@@ -95,3 +95,5 @@ export function milestoneCount(level: number) {
 
 export function nextMilestone(level: number): number | null {
   return MILESTONES.find((m) => m > level) ?? null
+}
+
