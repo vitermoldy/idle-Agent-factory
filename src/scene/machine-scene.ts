@@ -796,3 +796,4 @@ export function initMachineScene(
         // Internal mechanics become visible when the shell is cut at deck height.
         gear(group, 1, -0.35, 0.45, 0, 0.27)
         gear(group, -1, 0.22, 0.45, 0.12, 0.21)
+        box(group, 0.6, 0.15, 0.36, 0.52, 0.47, -0.33, M.dark)
