@@ -68,3 +68,4 @@ export function StageAction() {
           <span className="text-muted">{money(E.incomePerSec(def, fs, game.stars))}/dtk</span>
         </div>
         <Progress value={fast ? 1 : progress} steady={fast} />
+      </div>
