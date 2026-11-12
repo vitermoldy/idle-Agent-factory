@@ -40,3 +40,4 @@ function ProductRow({
   onBought,
 }: {
   def: FactoryDef
+  product: ProductDef
