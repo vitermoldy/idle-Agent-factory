@@ -41,3 +41,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
       </div>
       {claim > 0 ? (
         <PriceButton
+          label={`Mulai series ${series(game.series + 1)}`}
