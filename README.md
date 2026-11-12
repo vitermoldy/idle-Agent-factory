@@ -49,3 +49,4 @@ src/
   components/ui/agentic-factory-3d.tsx   komponen mesin 3D (dari Prompt.txt, versi game)
   components/game/                       header, daftar lini, panel upgrade/produk/series, dialog
   scene/machine-scene.ts                 scene three.js: geometri, layar yang dilukis, animasi
+  game/factories.ts                      data lima lini: stasiun, produk, harga, tema
