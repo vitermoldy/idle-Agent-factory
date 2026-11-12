@@ -216,3 +216,4 @@ export function initMachineScene(
     type Vec3 = [number, number, number]
     type Material = THREE.Material
     const geometries = new Map<string, THREE.BufferGeometry>()
+    function boxGeo(w: number, h: number, d: number, r = 0.04) {
