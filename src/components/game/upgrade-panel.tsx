@@ -99,3 +99,4 @@ function AgentCard({ def }: { def: FactoryDef }) {
       <PriceButton
         label="Rekrut agen"
         price={money(def.agentCost)}
+        className="mt-3 w-full"
