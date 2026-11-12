@@ -355,3 +355,4 @@ export function initMachineScene(
       video: (c, t) => {
         disc(c, 330, 95, 210, DEEP)
         c.strokeStyle = INK
+        c.lineWidth = 13
