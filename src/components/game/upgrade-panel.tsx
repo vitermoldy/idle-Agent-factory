@@ -70,3 +70,4 @@ function BuyModeSwitch() {
           key={label}
           type="button"
           aria-pressed={buyMode === mode}
+          onClick={() => setBuyMode(mode)}
