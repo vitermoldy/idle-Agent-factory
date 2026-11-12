@@ -7,3 +7,5 @@ screenshot-nya). Panggung hitam, mesin berwarna ivory dan baja, satu aksen orany
 bergaya nomenklatur mesin. Game ini meneruskan bahasa itu ke seluruh antarmuka, tidak menggantinya.
 
 Design read: game idle manajemen untuk pemain yang senang melihat mesin bekerja, dengan bahasa pelat
+dan rambu industri dari mesin 3D tersebut.
+
