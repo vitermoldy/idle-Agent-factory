@@ -284,3 +284,4 @@ export default function App() {
                 type="button"
                 role="tab"
                 aria-selected={shownTab === t}
+                aria-controls="tab-panel"
