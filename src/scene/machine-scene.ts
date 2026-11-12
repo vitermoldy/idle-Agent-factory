@@ -340,3 +340,4 @@ export function initMachineScene(
       ctx.arc(x, y, r, 0, TAU)
       ctx.fill()
     }
+    type Painted = THREE.Texture | { texture: THREE.Texture }
