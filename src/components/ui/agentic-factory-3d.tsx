@@ -111,3 +111,4 @@ export default function AgenticFactory3D({
       </div>
       {phase === 'loading' && (
         <div className="af3d-loading" role="status">
+          <i aria-hidden="true" />
