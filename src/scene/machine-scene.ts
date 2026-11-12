@@ -1063,3 +1063,4 @@ export function initMachineScene(
         print(c, 'No. 0001', 81, 496, 17, '#59635b')
         receiptTex.texture.needsUpdate = true
       }
+      paintPrice(plateLive(k).value)
