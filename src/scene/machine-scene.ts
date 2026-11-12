@@ -1699,3 +1699,4 @@ export function initMachineScene(
       scene.traverse((object) => {
         const mesh = object as THREE.Mesh
         if (mesh.geometry) mesh.geometry.dispose()
+        const list = mesh.material ? (Array.isArray(mesh.material) ? mesh.material : [mesh.material]) : []
