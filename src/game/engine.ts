@@ -352,3 +352,4 @@ export function parseSave(raw: string | null): GameState | null {
       ? [...new Set([def.products[0].id, ...f.owned.filter((id): id is string => known.has(id as string))])]
       : [def.products[0].id]
     const product = typeof f.product === 'string' && owned.includes(f.product) ? f.product : def.products[0].id
+    const rawProgress: unknown = f.progress
