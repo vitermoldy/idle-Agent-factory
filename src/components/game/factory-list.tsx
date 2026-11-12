@@ -12,3 +12,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
   const setActive = useGame((s) => s.setActive)
   return (
     <ul className="flex flex-col gap-1.5">
+      {FACTORIES.map((def) => {
