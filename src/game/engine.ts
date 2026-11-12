@@ -42,3 +42,4 @@ export interface GameState {
   cash: number
   /** Earned in this series. */
   earned: number
+  /** Earned across every series; stars come from this. */
