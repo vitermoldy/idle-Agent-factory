@@ -112,3 +112,4 @@ function ProductRow({
 function LoadBars({ def, product, heaviest }: { def: FactoryDef; product: ProductDef; heaviest: number }) {
   const summary = def.stations.map((st, i) => `${st.name} ×${product.work[i]}`).join(', ')
   return (
+    <div className="shrink-0">
