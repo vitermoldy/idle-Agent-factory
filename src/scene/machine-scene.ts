@@ -771,3 +771,4 @@ export function initMachineScene(
       function gear(parent: THREE.Object3D, dir: number, x: number, y: number, z: number, r = 0.3) {
         const g = new THREE.Group()
         g.position.set(x, y, z)
+        parent.add(g)
