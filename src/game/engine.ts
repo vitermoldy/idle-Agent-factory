@@ -122,3 +122,4 @@ export function throughput(def: FactoryDef, fs: FactoryState, product = activePr
 export function bottlenecks(def: FactoryDef, fs: FactoryState, product = activeProduct(def, fs)) {
   if (!fs.unlocked) return []
   const rates = lineRates(def, fs, product)
+  const min = Math.min(...rates)
