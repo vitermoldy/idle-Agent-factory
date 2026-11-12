@@ -511,3 +511,4 @@ export function initMachineScene(
       productTex.texture.needsUpdate = true
     }
     drawProduct(0)
+    const queue = canvasTexture(640, 340, () => {})
