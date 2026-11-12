@@ -16,3 +16,4 @@ export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => voi
     <section aria-labelledby="products-title" className="flex flex-col gap-4">
       <div>
         <h2 id="products-title" className="panel-title">
+          Produk {def.name}
