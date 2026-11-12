@@ -1200,3 +1200,4 @@ export function initMachineScene(
         level: el.querySelector<HTMLElement>('.label-title em')!,
         meta: el.querySelector<HTMLDivElement>('.label-meta')!,
         levelText: '',
+        metaText: '',
