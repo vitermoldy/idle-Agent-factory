@@ -120,3 +120,4 @@
   }
   .btn-quiet {
     background: var(--color-raised);
+    border-color: var(--color-line-strong);
