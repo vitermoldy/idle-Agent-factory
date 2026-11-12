@@ -67,3 +67,4 @@ while (t <= 4 * 3600) {
           E.upgradeCost(def, a, fs.levels[a]) <= E.upgradeCost(def, b, fs.levels[b]) ? a : b
         )
         if (gain > 0)
+          consider({
