@@ -168,3 +168,4 @@
   .view-btn.is-on,
   .view-btn[aria-pressed='true'] {
     background: var(--color-raised);
+    color: var(--color-ink);
