@@ -204,3 +204,4 @@ export function initMachineScene(
       base: mat(0x292f37, 0.85, 0.32),
       edge: mat(0x707986, 0.85, 0.24),
       chrome: mat(0xc3cad0, 0.92, 0.18),
+      dark: mat(0x12171d, 0.45, 0.38),
