@@ -20,3 +20,4 @@ export function StagePlate({ className }: { className?: string }) {
         ? `Agen menjalankan ${plates} petak`
         : 'Agen bekerja'
       : fs.queue > 0
+        ? `${fs.queue} order dalam antrean`
