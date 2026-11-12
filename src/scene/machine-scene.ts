@@ -675,3 +675,4 @@ export function initMachineScene(
     const storeU = nearestPort(1.5, -0.7)
     const cashU = nearestPort(0.93, 2.65)
 
+    const cutPlane = new THREE.Plane(new THREE.Vector3(0, -1, 0), 10)
