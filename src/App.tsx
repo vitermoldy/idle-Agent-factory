@@ -294,3 +294,4 @@ export default function App() {
                   <span className="ml-1.5 text-[12px] text-accent tabular-nums">+{E.starsClaimable(game)}</span>
                 )}
               </button>
+            ))}
