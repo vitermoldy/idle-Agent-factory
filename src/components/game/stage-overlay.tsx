@@ -25,3 +25,4 @@ export function StagePlate({ className }: { className?: string }) {
   return (
     <div className={className}>
       <p className="mono-label text-accent">Lini {def.no}</p>
+      <h2 className="mt-1.5 font-display text-[20px] leading-tight font-semibold lg:text-[24px]">{def.name}</h2>
