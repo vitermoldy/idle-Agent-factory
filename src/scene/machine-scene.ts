@@ -535,3 +535,4 @@ export function initMachineScene(
     }
     drawQueue(0)
     const webTexture = canvasTexture(896, 592, (c, w, h) => {
+      const st = theme.store
