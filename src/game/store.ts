@@ -100,3 +100,4 @@ export const useGame = create<Store>((set, get) => {
       let away: AwayReport | null = null
       if (seconds > AWAY_AFTER) {
         const r = catchUp(game, seconds)
+        result = r
