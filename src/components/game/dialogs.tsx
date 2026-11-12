@@ -145,3 +145,4 @@ export function SettingsDialog({
         <h3 id="save-title" className="text-[14px] font-semibold text-ink">
           Simpanan
         </h3>
+        <p className="mt-1 text-[13px] text-muted">
