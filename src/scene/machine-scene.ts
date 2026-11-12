@@ -1677,3 +1677,4 @@ export function initMachineScene(
         readySent = true
         options.onReady?.()
       }
+      // Reduce only raster resolution on sustained slow devices; geometry and timing stay identical.
