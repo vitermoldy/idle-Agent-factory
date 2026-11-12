@@ -180,3 +180,4 @@ export const FACTORIES: FactoryDef[] = [
       wip: { title: 'WIREFRAME', sub: '02 / Beranda' },
       store: {
         brand: 'KOPI PAGI',
+        nav: 'Menu    Lokasi    Pesan',
