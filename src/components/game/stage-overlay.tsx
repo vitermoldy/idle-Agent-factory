@@ -7,3 +7,4 @@ import { PriceButton } from './price-button'
 
 /** Line name and what it is doing, over the top left of the machine. */
 export function StagePlate({ className }: { className?: string }) {
+  const game = useGame((s) => s.game)
