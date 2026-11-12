@@ -516,3 +516,4 @@ export function initMachineScene(
       const c = queue.ctx,
         q = theme.queue
       c.fillStyle = '#111b20'
+      c.fillRect(0, 0, 640, 340)
