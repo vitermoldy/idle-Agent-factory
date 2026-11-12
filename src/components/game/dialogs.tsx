@@ -22,3 +22,4 @@ export function Dialog({
   const id = useId()
   useEffect(() => {
     const d = ref.current
+    if (!d) return
