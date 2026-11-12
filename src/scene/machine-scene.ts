@@ -938,3 +938,4 @@ export function initMachineScene(
         open.position.set(0, 0.56, 0)
         shelf.add(open)
         for (const side of [-1, 1]) {
+          const page = box(open, 0.3, 0.025, 0.46, side * 0.155, 0.02, 0, M.paper, 0.01)
