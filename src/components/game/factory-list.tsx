@@ -81,3 +81,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
             </button>
           </li>
         )
+      })}
