@@ -1155,3 +1155,4 @@ export function initMachineScene(
       }
       ;[incoming, receipt, coin, outputVideo, flyPost, printhead].forEach((g) => (g.userData.moving = true))
       compact(machine)
+      stations.forEach((s) => s.group.traverse((o) => Object.assign(o.userData, { station: s.id, plate: k })))
