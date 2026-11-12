@@ -39,3 +39,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
           <span className="block h-full bg-accent" style={{ width: `${Math.min(100, progress * 100)}%` }} />
         </span>
       </div>
+      {claim > 0 ? (
