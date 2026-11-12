@@ -103,3 +103,4 @@ export const useGame = create<Store>((set, get) => {
         result = r
         if (r.report.cash > 0) away = r.report
       } else result = E.advance(game, seconds)
+      const fresh: Notice[] = []
