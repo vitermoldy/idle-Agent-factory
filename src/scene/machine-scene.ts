@@ -724,3 +724,4 @@ export function initMachineScene(
       const holder = new THREE.Group()
       holder.visible = false
       holder.scale.setScalar(0.001)
+      scene.add(holder)
