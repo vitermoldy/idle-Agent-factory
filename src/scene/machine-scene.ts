@@ -1230,3 +1230,4 @@ export function initMachineScene(
       plateDistance = 25,
       sized = false,
       readySent = false
+    const focusPlate = () => plates[live.focus] ?? plates[0]
