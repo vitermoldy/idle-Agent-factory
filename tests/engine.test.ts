@@ -144,3 +144,4 @@ describe('series and stars', () => {
     expect(E.starsClaimable(g)).toBe(2)
     const next = E.startNewSeries(g, 0)
     expect(next.stars).toBe(2)
+    expect(next.series).toBe(2)
