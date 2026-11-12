@@ -6,3 +6,4 @@ const video = FACTORY_BY_ID.video
 const rich = (cash: number) => ({ ...E.newGame(0), cash })
 
 describe('a new game', () => {
+  it('opens only the first line, with its first product', () => {
