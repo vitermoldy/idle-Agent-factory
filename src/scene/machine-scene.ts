@@ -440,3 +440,4 @@ export function initMachineScene(
       c.rect(x, y, w, h)
       c.clip()
       c.translate(x, y)
+      c.scale(w / 384, h / 340)
