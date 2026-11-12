@@ -1064,3 +1064,4 @@ export function initMachineScene(
         receiptTex.texture.needsUpdate = true
       }
       paintPrice(plateLive(k).value)
+      screen(cashdesk, 1.015, 0.349, -0.35, 1.98, -0.459, cashTex)
