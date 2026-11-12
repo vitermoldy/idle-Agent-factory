@@ -36,3 +36,4 @@ export const Lock = (p: P) => (
   <svg {...base} {...p}>
     <rect x="3.5" y="7" width="9" height="7" rx="1.5" />
     <path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2" />
+  </svg>
