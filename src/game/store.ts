@@ -80,3 +80,4 @@ function initialState() {
   const gone = (now - game.savedAt) / 1000
   if (gone > AWAY_AFTER) {
     const { state, report } = catchUp(game, gone)
+    return { game: state, away: report.cash > 0 ? report : null, notices, storageOk }
