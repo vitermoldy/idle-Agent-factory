@@ -13,3 +13,4 @@ export function StagePlate({ className }: { className?: string }) {
   const product = E.activeProduct(def, fs)
   const T = E.throughput(def, fs)
   const plates = fs.owned.length
+  const status = !fs.unlocked
