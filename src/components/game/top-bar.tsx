@@ -27,3 +27,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           {money(cash)}
         </strong>
         <span className="text-[13px] text-muted tabular-nums">
+          +{money(income)}
