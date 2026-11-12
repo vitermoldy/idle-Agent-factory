@@ -264,3 +264,4 @@ export function initMachineScene(
       o.receiveShadow = true
       parent.add(o)
       return o
+    }
