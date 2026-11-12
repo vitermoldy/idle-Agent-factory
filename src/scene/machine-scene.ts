@@ -233,3 +233,4 @@ export function initMachineScene(
       h: number,
       d: number,
       x: number,
+      y: number,
