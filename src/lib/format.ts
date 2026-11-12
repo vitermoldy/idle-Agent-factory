@@ -34,3 +34,4 @@ export function pace(ordersPerSec: number) {
 }
 
 export function duration(seconds: number) {
+  const s = Math.max(0, Math.floor(seconds))
