@@ -40,3 +40,4 @@ export function SeriesPanel({ onStart }: { onStart: () => void }) {
         </span>
       </div>
       {claim > 0 ? (
+        <PriceButton
