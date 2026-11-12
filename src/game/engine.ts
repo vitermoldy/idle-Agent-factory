@@ -250,3 +250,4 @@ export function takeOrder(state: GameState, id: FactoryId) {
  */
 export function advance(state: GameState, seconds: number): { state: GameState; completed: Completed } {
   if (!(seconds > 0)) return { state, completed: {} }
+  const completed: Completed = {}
