@@ -55,3 +55,4 @@ export const Play = (p: P) => (
 export const Close = (p: P) => (
   <svg {...base} {...p}>
     <path d="M4 4l8 8M12 4l-8 8" />
+  </svg>
