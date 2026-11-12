@@ -428,3 +428,4 @@ export function initMachineScene(
         c.fillStyle = '#e8e4d8'
         c.beginPath()
         c.moveTo(274, 302 - lift)
+        c.lineTo(274 - lift, 302)
