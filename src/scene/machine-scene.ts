@@ -715,3 +715,4 @@ export function initMachineScene(
     }
 
     type PlateStation = { id: SlotId; group: THREE.Group; base: THREE.Vector3; glowMat: THREE.MeshStandardMaterial; index: number }
+    type Packet = { group: THREE.Group; faces: THREE.Mesh[]; halo: THREE.Mesh; stage: number; phase: number }
