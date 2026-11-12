@@ -691,3 +691,4 @@ export function initMachineScene(
       const buckets = new Map<string, THREE.Mesh<THREE.BufferGeometry, THREE.Material>[]>()
       for (const object of group.children) {
         const child = object as THREE.Mesh<THREE.BufferGeometry, THREE.Material> & { isInstancedMesh?: boolean }
+        if (!child.isMesh || child.isInstancedMesh || child.userData.moving || Array.isArray(child.material)) continue
