@@ -21,3 +21,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           <p className="mono-label mt-1.5 hidden sm:block">Game idle</p>
         </div>
       </div>
+      <div className="ml-2 flex min-w-0 flex-col leading-tight sm:ml-8 sm:flex-row sm:items-baseline sm:gap-3">
