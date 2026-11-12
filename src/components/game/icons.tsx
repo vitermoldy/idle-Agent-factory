@@ -15,3 +15,5 @@ const base = {
   strokeLinecap: 'round',
   strokeLinejoin: 'round',
   'aria-hidden': true,
+} as const
+
