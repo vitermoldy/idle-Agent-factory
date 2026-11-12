@@ -292,3 +292,4 @@ export function initMachineScene(
       c.height = h
       const ctx = c.getContext('2d')!
       draw(ctx, w, h)
+      const t = new THREE.CanvasTexture(c)
