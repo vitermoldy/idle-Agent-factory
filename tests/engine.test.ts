@@ -40,3 +40,4 @@ describe('the line', () => {
     expect(state.factories.video.queue).toBe(0)
   })
 
+  it('caps the manual queue', () => {
