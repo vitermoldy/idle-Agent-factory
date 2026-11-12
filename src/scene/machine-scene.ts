@@ -605,3 +605,4 @@ export function initMachineScene(
       c.textAlign = 'center'
       print(c, '$', 64, 95, 91, '#3a2a10', 650)
     })
+    const scriptTex = canvasTexture(256, 352, (c, w, h) => {
