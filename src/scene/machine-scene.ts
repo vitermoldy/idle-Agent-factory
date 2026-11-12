@@ -42,3 +42,4 @@ export interface SceneLive {
   focus: number
   /** Station labels of the plate in view: level beside the name, speed below it. */
   meta: Record<SlotId, { level: string; rate: string }>
+  /** One entry per product of the line, by product index. */
