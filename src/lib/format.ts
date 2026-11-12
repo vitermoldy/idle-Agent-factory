@@ -16,3 +16,5 @@ export function short(n: number): string {
   return v.toFixed(v < 10 ? 2 : v < 100 ? 1 : 0) + UNITS[e]
 }
 
+const trim = (s: string) => s.replace(/\.0+$/, '').replace(/(\.\d*?)0+$/, '$1')
+
