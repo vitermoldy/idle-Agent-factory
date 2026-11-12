@@ -153,3 +153,4 @@ export default function App() {
     setMode('assembled')
     setCamera('overview')
     setSelected(null)
+    setPopups([])
