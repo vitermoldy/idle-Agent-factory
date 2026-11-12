@@ -1547,3 +1547,4 @@ export function initMachineScene(
         packet.phase = phase
         let stage
         if (phase < 0.15) {
+          stage = 0
