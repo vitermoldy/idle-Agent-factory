@@ -8,3 +8,4 @@ dibayar di Kasir.
 
 1. **Ambil order** dengan tangan. Lini tanpa agen hanya bekerja selama antrean order masih ada.
 2. **Rekrut agen** supaya lini berjalan sendiri, juga saat game ditutup (hasil offline dihitung sampai 8 jam).
+3. **Upgrade stasiun.** Lini berjalan secepat stasiun paling lambat (bottleneck), jadi naikkan stasiun
