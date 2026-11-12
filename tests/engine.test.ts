@@ -25,3 +25,5 @@ describe('the line', () => {
     const rates = E.lineRates(video, fs)
     expect(E.throughput(video, fs)).toBe(Math.min(...rates))
     expect(E.bottlenecks(video, fs)).toEqual([1])
+  })
+
