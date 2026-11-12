@@ -115,3 +115,4 @@ export default function AgenticFactory3D({
           <span>Merakit lini {factory.name}</span>
         </div>
       )}
+      {phase === 'error' && (
