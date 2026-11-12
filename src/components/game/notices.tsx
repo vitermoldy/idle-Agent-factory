@@ -15,3 +15,5 @@ export function Notices({ onOpen }: { onOpen: (id: FactoryId) => void }) {
       ))}
     </div>
   )
+}
+
