@@ -20,3 +20,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
   const rates = E.lineRates(def, fs)
   const T = Math.min(...rates)
   const necks = E.bottlenecks(def, fs)
+  const owned = E.ownedProducts(def, fs)
