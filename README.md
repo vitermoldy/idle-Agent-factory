@@ -59,3 +59,4 @@ tests/engine.test.ts                     tes aturan game
 Proyek ini mengikuti struktur shadcn: `components.json` di root, alias `@/` ke `src/`, komponen UI
 di `src/components/ui`, dan helper `cn()` di `src/lib/utils.ts`. Folder `components/ui` penting karena
 CLI shadcn (`npx shadcn add ...`) menaruh komponen baru di sana dan import seperti
+`@/components/ui/agentic-factory-3d` bergantung pada alias itu. Stack: React 19, TypeScript,
