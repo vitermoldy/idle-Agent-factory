@@ -661,3 +661,4 @@ export function initMachineScene(
     function nearestPort(x: number, z: number) {
       let best = 0,
         dist = Infinity
+      for (let i = 0; i < 300; i++) {
