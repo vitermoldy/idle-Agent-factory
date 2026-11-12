@@ -24,3 +24,4 @@ export function Dialog({
     const d = ref.current
     if (!d) return
     if (open && !d.open) d.showModal()
+    else if (!open && d.open) d.close()
