@@ -90,3 +90,4 @@ const NO_PLATE: PlateLive = { owned: false, slot: 0, speed: 0, value: '', produc
 export function initMachineScene(
   root: HTMLElement,
   options: SceneOptions
+): { api: SceneApi | null; dispose: () => void } {
