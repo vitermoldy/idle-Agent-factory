@@ -271,3 +271,4 @@ export function initMachineScene(
       const o = new THREE.Mesh(geometries.get(k)!, m)
       o.position.set(x, y, z)
       o.castShadow = true
+      parent.add(o)
