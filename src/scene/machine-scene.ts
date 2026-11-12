@@ -239,3 +239,4 @@ export function initMachineScene(
       r = 0.04
     ) {
       const o = new THREE.Mesh(boxGeo(w, h, d, r), m)
+      o.position.set(x, y, z)
