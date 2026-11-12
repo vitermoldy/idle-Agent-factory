@@ -66,3 +66,4 @@ function makeLive(): SceneLive {
     playing: !matchMedia('(prefers-reduced-motion: reduce)').matches,
     labels: matchMedia('(min-width: 1024px)').matches,
     focus: 0,
+    meta: Object.fromEntries(PIPELINE.map((s) => [s, { level: '', rate: '' }])) as SceneLive['meta'],
