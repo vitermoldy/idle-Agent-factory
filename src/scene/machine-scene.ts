@@ -935,3 +935,4 @@ export function initMachineScene(
           b.rotation.y = i % 2 ? 0.12 : -0.08
         })
         const open = new THREE.Group()
+        open.position.set(0, 0.56, 0)
