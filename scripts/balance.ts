@@ -4,3 +4,4 @@ import { FACTORIES, type FactoryId } from '../src/game/factories.ts'
 import * as E from '../src/game/engine.ts'
 
 const starsArg = process.argv.indexOf('--stars')
+let s = E.newGame(0)
