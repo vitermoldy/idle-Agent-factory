@@ -179,3 +179,4 @@ export default function App() {
     setMode(m)
     setCamera(c)
   }, [])
+  const onApi = useCallback((api: SceneApi | null) => {
