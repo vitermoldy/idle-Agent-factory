@@ -1286,3 +1286,4 @@ export function initMachineScene(
         desiredPosition.copy(desiredTarget).addScaledVector(viewDirection, mobile ? 9 : 12)
       } else if (cameraMode === 'plate') {
         desiredTarget.set(targetX(fp.k), 1, 0)
+        desiredPosition.copy(viewDirection).multiplyScalar(plateDistance * expand).add(desiredTarget)
