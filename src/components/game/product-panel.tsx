@@ -11,3 +11,4 @@ const MAX_WORK = 3.4
 export function ProductPanel({ onShow, onBought }: { onShow: (id: string) => void; onBought: () => void }) {
   const game = useGame((s) => s.game)
   const def = FACTORY_BY_ID[game.active]
+  const fs = game.factories[game.active]
