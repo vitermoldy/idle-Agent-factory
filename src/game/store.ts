@@ -45,3 +45,4 @@ interface Store {
 }
 
 let noticeId = 0
+let lastTick = Date.now()
