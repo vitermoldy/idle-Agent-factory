@@ -732,3 +732,4 @@ export function initMachineScene(
       contact.position.y = -0.415
       holder.add(contact)
       holder.add(new THREE.LineSegments(draftingGeo, lineMat))
+      // A chamfered, layered platform with engraved nomenclature and captive screws.
