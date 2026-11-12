@@ -98,3 +98,4 @@
   .btn:hover:not(:disabled) {
     transform: translateY(-1px);
   }
+  .btn:active:not(:disabled) {
