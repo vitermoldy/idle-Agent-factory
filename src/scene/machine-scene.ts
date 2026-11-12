@@ -356,3 +356,4 @@ export function initMachineScene(
         disc(c, 330, 95, 210, DEEP)
         c.strokeStyle = INK
         c.lineWidth = 13
+        for (let i = 0; i < 3; i++) {
