@@ -55,3 +55,4 @@ export function StageAction() {
   const def = FACTORY_BY_ID[game.active]
   const fs = game.factories[game.active]
   if (!fs.unlocked) return null
+  const T = E.throughput(def, fs)
