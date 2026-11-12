@@ -84,3 +84,5 @@ export default function AgenticFactory3D({
       dispose?.()
       handlers.current.onApi?.(null)
     }
+  }, [factory, live, attempt])
+
