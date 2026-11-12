@@ -853,3 +853,4 @@ export function initMachineScene(
         const rack = new THREE.Group()
         rack.position.set(-1.17, 0, -0.42)
         engine.add(rack)
+        box(rack, 0.5, 2.35, 0.6, 0, 1.12, 0, S.body, 0.05)
