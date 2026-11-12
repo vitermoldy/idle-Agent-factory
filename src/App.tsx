@@ -346,3 +346,4 @@ export default function App() {
         title={`Mulai series ${series(game.series + 1)}?`}
         confirmLabel="Mulai series baru"
         onConfirm={() => {
+          useGame.getState().startNewSeries()
