@@ -349,3 +349,4 @@ export function initMachineScene(
       return o
     }
 
+    // The product art of each line, drawn in a 384 x 340 box and scaled into any frame.
