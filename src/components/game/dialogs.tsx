@@ -99,3 +99,4 @@ export function ConfirmDialog({
   return (
     <Dialog
       open={open}
+      onClose={onClose}
