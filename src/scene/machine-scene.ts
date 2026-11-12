@@ -911,3 +911,4 @@ export function initMachineScene(
         const stand = new THREE.Group()
         stand.position.set(-1.2, 0, -0.25)
         engine.add(stand)
+        cyl(stand, 0.25, 0.06, 0, -0.02, 0, M.dark)
