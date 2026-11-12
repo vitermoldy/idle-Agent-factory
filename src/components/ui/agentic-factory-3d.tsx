@@ -24,3 +24,4 @@ export type AgenticFactory3DProps = {
   onApi?: (api: SceneApi | null) => void
   className?: string
   /** Overlays drawn above the machine. */
+  children?: ReactNode
