@@ -22,3 +22,4 @@ export function StagePlate({ className }: { className?: string }) {
       : fs.queue > 0
         ? `${fs.queue} order dalam antrean`
         : 'Menunggu order'
+  return (
