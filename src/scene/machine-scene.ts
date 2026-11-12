@@ -699,3 +699,4 @@ export function initMachineScene(
       for (const list of buckets.values()) {
         if (list.length < 2) continue
         const geos = list.map((m) => {
+          m.updateMatrix()
