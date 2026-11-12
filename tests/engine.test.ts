@@ -20,3 +20,4 @@ describe('a new game', () => {
 })
 
 describe('the line', () => {
+  it('runs as fast as its slowest station', () => {
