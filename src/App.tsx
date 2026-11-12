@@ -230,3 +230,4 @@ export default function App() {
           <AgenticFactory3D
             key={active}
             factory={def}
+            live={live.current}
