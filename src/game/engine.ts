@@ -79,3 +79,4 @@ export function newGame(now = Date.now()): GameState {
     series: 1,
     active: 'video',
     factories: Object.fromEntries(FACTORIES.map((f) => [f.id, freshFactory(f)])) as Record<
+      FactoryId,
