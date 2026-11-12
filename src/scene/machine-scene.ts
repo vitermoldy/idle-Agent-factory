@@ -1749,3 +1749,4 @@ export function initMachineScene(
     api = null
     options.onError?.(
       error instanceof Error && error.message.startsWith('WebGL')
+        ? error.message
