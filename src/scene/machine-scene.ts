@@ -1209,3 +1209,4 @@ export function initMachineScene(
       spread = 0,
       selected: SlotId = 'engine',
       hovered: { slot: SlotId; plate: number } | null = null,
+      ownedCount = 0,
