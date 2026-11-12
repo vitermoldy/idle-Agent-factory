@@ -455,3 +455,4 @@ export function initMachineScene(
       const g = c.createRadialGradient(64, 64, 12, 64, 64, 64)
       g.addColorStop(0, 'rgba(0,0,0,.8)')
       g.addColorStop(0.55, 'rgba(0,0,0,.45)')
+      g.addColorStop(1, 'rgba(0,0,0,0)')
