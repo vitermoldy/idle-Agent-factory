@@ -229,3 +229,5 @@ export function buyProduct(state: GameState, id: FactoryId, productId: string) {
     ...withFactory(state, id, { owned: [...fs.owned, productId], product: productId }),
     cash: state.cash - product.unlockCost,
   }
+}
+
