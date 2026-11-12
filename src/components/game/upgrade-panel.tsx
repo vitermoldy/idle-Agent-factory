@@ -184,3 +184,4 @@ function StationRow({
               {neck ? 'Menahan lini' : `Cadangan +${Math.min(999, Math.round((rate / throughput - 1) * 100))}%`}
             </span>
           </p>
+          <div className="mt-2 flex items-center gap-2">
