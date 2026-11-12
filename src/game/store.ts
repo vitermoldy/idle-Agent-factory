@@ -8,3 +8,4 @@ const AWAY_AFTER = 30
 
 export interface Notice {
   id: number
+  text: string
