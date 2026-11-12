@@ -72,3 +72,4 @@ const MODE_PATHS: Record<MachineMode, string> = {
   order: 'M5 2.5l8 5.5-8 5.5v-11z',
 }
 export const ModeIcon = ({ mode, ...p }: P & { mode: MachineMode }) => (
+  <svg {...base} {...p} strokeWidth={1.2}>
