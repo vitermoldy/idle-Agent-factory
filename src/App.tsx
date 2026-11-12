@@ -271,3 +271,4 @@ export default function App() {
           aria-label="Panel lini"
           className="bg-ground lg:flex lg:min-h-0 lg:flex-col lg:border-l lg:border-line"
         >
+          <div
