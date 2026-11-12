@@ -111,3 +111,4 @@ export function ConfirmDialog({
             className="btn btn-primary"
             onClick={() => {
               onConfirm()
+              onClose()
