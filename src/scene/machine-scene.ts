@@ -1281,3 +1281,4 @@ export function initMachineScene(
     function setCameraGoal() {
       const expand = mode === 'stations' ? 1.2 : 1
       const fp = focusPlate()
+      if (cameraMode === 'station') {
