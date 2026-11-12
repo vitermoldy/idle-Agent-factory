@@ -46,3 +46,4 @@ export const Pause = (p: P) => (
   </svg>
 )
 
+export const Play = (p: P) => (
