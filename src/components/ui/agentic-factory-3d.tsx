@@ -37,3 +37,4 @@ export default function AgenticFactory3D({
   onView,
   onApi,
   className,
+  children,
