@@ -26,3 +26,4 @@ export function FactoryList({ onPick }: { onPick?: (id: FactoryId) => void }) {
             ? 'Bisa dibuka'
             : 'Terkunci'
         return (
+          <li key={def.id}>
