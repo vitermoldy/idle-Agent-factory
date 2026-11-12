@@ -46,3 +46,4 @@ describe('the line', () => {
     expect(g.factories.video.queue).toBe(E.QUEUE_MAX)
   })
 
+  it('runs nonstop once an agent is hired', () => {
