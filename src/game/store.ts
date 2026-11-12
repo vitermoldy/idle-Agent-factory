@@ -7,3 +7,4 @@ const SAVE_KEY = 'agentic-factory-idle'
 const AWAY_AFTER = 30
 
 export interface Notice {
+  id: number
