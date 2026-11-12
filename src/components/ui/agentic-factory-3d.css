@@ -67,3 +67,4 @@
 }
 .af3d .station-label .label-title span {
   color: var(--accent);
+  font: 500 9px var(--font-mono);
