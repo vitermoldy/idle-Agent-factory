@@ -11,3 +11,4 @@ const MODES: Array<{ id: MachineMode; label: string }> = [
 const CAMERAS: Array<{ id: MachineCamera; label: string }> = [
   { id: 'overview', label: 'Kamera depan' },
   { id: 'side', label: 'Kamera samping' },
+  { id: 'top', label: 'Kamera atas' },
