@@ -202,3 +202,4 @@ function StationRow({
             </span>
           ) : holds ? (
             'Bottleneck lain ikut menahan'
+          ) : (
