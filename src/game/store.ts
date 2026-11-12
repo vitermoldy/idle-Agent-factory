@@ -89,3 +89,4 @@ export const useGame = create<Store>((set, get) => {
   const update = (fn: (g: E.GameState) => E.GameState) => set((s) => ({ game: fn(s.game) }))
   const start = initialState()
   return {
+    ...start,
