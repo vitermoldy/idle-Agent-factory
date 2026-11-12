@@ -1467,3 +1467,4 @@ export function initMachineScene(
       [-5, 52],
     ]
 
+    /** Moves one plate for a frame: its clock, its parts and its cargo. */
