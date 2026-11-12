@@ -169,3 +169,4 @@ function StationRow({
             <h3 className="text-[15px] font-semibold text-ink">{st.name}</h3>
             <span className="text-[12px] text-muted tabular-nums">Lv {level}</span>
             {holds && (
+              <span className="rounded-[5px] border border-accent px-1.5 py-px text-[11px] font-medium text-accent">
