@@ -51,3 +51,4 @@ export function UpgradePanel({ selected }: { selected: SlotId | null }) {
               throughput={T}
               neck={necks.includes(i)}
               heldBack={owned.length > 1 ? heldBack[i] : []}
+              selected={selected === st.slot}
