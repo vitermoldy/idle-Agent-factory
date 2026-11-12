@@ -125,3 +125,4 @@ describe('products', () => {
     expect(E.bottlenecks(video, fs, ads)).toEqual([heaviest])
   })
 
+  it('only switches to owned products', () => {
