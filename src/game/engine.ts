@@ -382,3 +382,4 @@ export function parseSave(raw: string | null): GameState | null {
     factories,
     savedAt: num(s.savedAt, Date.now()),
   }
+}
