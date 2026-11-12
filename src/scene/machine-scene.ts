@@ -1455,3 +1455,4 @@ export function initMachineScene(
     const labelOffsets = [
       [-48, -14],
       [-8, -64],
+      [30, -12],
