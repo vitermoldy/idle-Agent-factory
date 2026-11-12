@@ -888,3 +888,4 @@ export function initMachineScene(
         cyl(head, 0.155, 0.04, 0, 0.1, 0, M.amber)
         cyl(head, 0.15, 0.2, 0, 0.22, 0, M.chrome)
         ball(head, 0.15, 0, 0.32, 0, M.chrome)
+        const meter = new THREE.Group()
