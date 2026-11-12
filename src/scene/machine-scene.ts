@@ -1664,3 +1664,4 @@ export function initMachineScene(
         if (meta.rate !== label.metaText) {
           label.metaText = meta.rate
           label.meta.textContent = meta.rate
+        }
