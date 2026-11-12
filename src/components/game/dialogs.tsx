@@ -141,3 +141,4 @@ export function SettingsDialog({
     : null
   return (
     <Dialog open={open} onClose={onClose} title="Pengaturan">
+      <section aria-labelledby="save-title">
