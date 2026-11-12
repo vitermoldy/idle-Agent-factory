@@ -57,3 +57,4 @@ export interface ProductDef {
   id: string
   name: string
   desc: string
+  /** Revenue of one order before bonuses. */
