@@ -824,3 +824,4 @@ export function initMachineScene(
       tube(engine, [[-0.68, 2.1, -0.35], [-0.42, 2.52, -0.4], [0.25, 2.5, -0.4], [0.35, 2.01, -0.12]], 0.032, M.dark)
 
       // The signature prop on the left of the engine: what makes each line look like its trade.
+      if (theme.prop === 'reels') {
