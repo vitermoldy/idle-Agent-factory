@@ -174,3 +174,4 @@ export const FACTORIES: FactoryDef[] = [
       prop: 'rack',
       plate: {
         title: 'PABRIK WEBSITE',
+        line: 'brief, wireframe, kode, lalu rilis',
