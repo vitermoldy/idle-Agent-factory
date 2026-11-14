@@ -156,3 +156,6 @@ export function mirrorSave(text: string, when: 'soon' | 'now' | 'leaving' = 'soo
   if (!text || frozen) return;
   saveText = text;
   if (when !== 'soon') void pushSave(when === 'leaving');
+  else if (!saveTimer) saveTimer = window.setTimeout(() => void pushSave(), pushedOnce ? MIRROR_EVERY : 2000);
+}
+
