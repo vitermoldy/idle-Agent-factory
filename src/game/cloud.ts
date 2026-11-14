@@ -159,3 +159,5 @@ export function mirrorSave(text: string, when: 'soon' | 'now' | 'leaving' = 'soo
   else if (!saveTimer) saveTimer = window.setTimeout(() => void pushSave(), pushedOnce ? MIRROR_EVERY : 2000);
 }
 
+/** `leaving`: the tab is being hidden or closed, so the request must outlive the page (keepalive). */
+async function pushSave(leaving = false): Promise<void> {
