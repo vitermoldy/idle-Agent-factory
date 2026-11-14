@@ -117,3 +117,5 @@ export function CloudSection({ open }: { open: boolean }) {
         <output className="field flex-1" aria-labelledby="cloud-code-label" data-cloud-code>
           {recoveryCode()}
         </output>
+        <button type="button" className="btn btn-quiet" onClick={copy}>
+          {copied === 'yes' ? 'Tersalin' : 'Salin kode'}
