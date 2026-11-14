@@ -177,7 +177,7 @@ export const useGame = create<Store>((set, get) => {
       announced.clear()
       lastTick = Date.now()
       set({ game: E.newGame(), away: null, notices: [] })
-      get().save()
+      get().save('now')
     },
     dismissAway: () => set({ away: null }),
     dismissNotice: (id) => set((s) => ({ notices: s.notices.filter((n) => n.id !== id) })),
