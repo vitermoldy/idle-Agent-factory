@@ -148,3 +148,5 @@ export function CloudSection({ open }: { open: boolean }) {
             aria-invalid={error ? true : undefined}
             aria-describedby={error ? 'cloud-error cloud-hint' : 'cloud-hint'}
           />
+          <button type="submit" className="btn btn-quiet" disabled={busy}>
+            {busy ? 'Memulihkan…' : 'Pulihkan'}
