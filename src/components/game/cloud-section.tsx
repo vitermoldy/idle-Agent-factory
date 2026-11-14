@@ -123,3 +123,5 @@ export function CloudSection({ open }: { open: boolean }) {
       </div>
       {copied === 'refused' && (
         <p className="mt-1.5 text-[13px] text-muted" role="status">
+          Browser ini menolak menyalin. Catat kode di kotak itu.
+        </p>
