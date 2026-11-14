@@ -5,3 +5,5 @@ import { cloudState, fetchStats, onCloud, recoveryCode, restoreFrom } from '@/ga
 
 /** What the server (npm run server) has recorded for this browser's code. */
 interface Stats {
+  series: number
+  stars: number
