@@ -30,7 +30,8 @@ interface Store {
   storageOk: boolean
   lastSaved: number | null
   tick: (now: number) => E.Completed
-  save: () => void
+  /** `when` is passed on to the server copy: see mirrorSave. */
+  save: (when?: 'soon' | 'now' | 'leaving') => void
   setActive: (id: FactoryId) => void
   takeOrder: () => void
   buyStation: (index: number) => void
