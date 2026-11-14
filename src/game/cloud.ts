@@ -176,3 +176,5 @@ async function pushSave(leaving = false): Promise<void> {
   }
 }
 
+/** This browser's totals from the server, or null when it cannot be reached. */
+export async function fetchStats<T>(days = 14): Promise<T | null> {
