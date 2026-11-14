@@ -104,3 +104,5 @@ export function CloudSection({ open }: { open: boolean }) {
       <p className="mt-1 text-[13px] text-muted" data-cloud-status>
         {status}
       </p>
+      {recorded && (
+        <p className="mt-1 text-[13px] text-muted" data-cloud-stats>
