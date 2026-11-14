@@ -163,3 +163,5 @@ export function mirrorSave(text: string, when: 'soon' | 'now' | 'leaving' = 'soo
 async function pushSave(leaving = false): Promise<void> {
   if (!saveText || frozen) return;
   clearTimeout(saveTimer);
+  saveTimer = 0;
+  pushedOnce = true;
