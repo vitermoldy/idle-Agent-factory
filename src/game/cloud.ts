@@ -207,3 +207,6 @@ export async function restoreFrom(input: string, readable: (text: string) => boo
   clearTimeout(saveTimer);
   code = wanted;
   write(ID_KEY, code);
+  return body.data;
+}
+
