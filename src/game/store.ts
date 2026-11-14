@@ -133,6 +133,7 @@ export const useGame = create<Store>((set, get) => {
       try {
         const text = JSON.stringify(game)
         localStorage.setItem(SAVE_KEY, text)
+        mirrorSave(text, when)
         set({ lastSaved: game.savedAt, storageOk: true })
       } catch {
         set({ storageOk: false })
