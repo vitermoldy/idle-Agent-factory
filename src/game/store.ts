@@ -51,6 +51,8 @@ let noticeId = 0
 let lastTick = Date.now()
 /** Lines the player was already told they can afford, this session and series. */
 const announced = new Set<FactoryId>()
+/** Set once another browser's save is written here: until the reload, nothing may overwrite it. */
+let adopted = false
 
 function readSave() {
   try {
