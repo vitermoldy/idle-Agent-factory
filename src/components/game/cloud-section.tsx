@@ -15,3 +15,5 @@ const clock = (t: number) => new Date(t).toLocaleTimeString('id-ID', { hour: '2-
 function useCloudState() {
   const [state, setState] = useState(cloudState)
   useEffect(() => {
+    const off = onCloud(setState)
+    return () => {
