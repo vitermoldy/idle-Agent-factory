@@ -7,3 +7,6 @@ import { cloudState, fetchStats, onCloud, recoveryCode, restoreFrom } from '@/ga
 interface Stats {
   series: number
   stars: number
+  factories: { id: string; opened: string }[]
+}
+
