@@ -4,3 +4,5 @@
  * opened.
  */
 export default {
+  name: 'Agentic Factory',
+  database: 'agentic_factory',
