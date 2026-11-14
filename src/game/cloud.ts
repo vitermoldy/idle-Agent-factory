@@ -152,3 +152,5 @@ let pushedOnce = false;
  * first save of a visit, then the newest save once every 30 seconds. `now`: at once.
  * `leaving`: at once and with keepalive, because the tab is being hidden or closed.
  */
+export function mirrorSave(text: string, when: 'soon' | 'now' | 'leaving' = 'soon'): void {
+  if (!text || frozen) return;
