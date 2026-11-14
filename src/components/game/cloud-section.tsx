@@ -10,3 +10,6 @@ interface Stats {
   factories: { id: string; opened: string }[]
 }
 
+const clock = (t: number) => new Date(t).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })
+
+function useCloudState() {
