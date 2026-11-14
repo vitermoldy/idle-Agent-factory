@@ -53,6 +53,9 @@ npm run server         # API di http://localhost:8796, membuat database agentic_
 npm run dev            # /api diteruskan ke server
 ```
 
+Setelah `npm run build`, `npm start` menyajikan `dist/` dan API di port yang sama. Butuh MySQL 8.
+
+Tidak ada akun. Setiap browser mendapat kode pemulihan 12 karakter di Pengaturan, bagian Salinan di server.
 ## Struktur
 
 ```
