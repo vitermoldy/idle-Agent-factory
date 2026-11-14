@@ -71,6 +71,8 @@ src/
   game/factories.ts                      data lima lini: stasiun, produk, harga, tema
   game/engine.ts                         aturan game murni (tanpa React), dipakai store dan tes
   game/store.ts                          state zustand: tick, simpan/muat, hasil offline, notifikasi
+  game/cloud.ts                          sambungan ke server: kode pemulihan, antrean catatan, salinan
+server/                                  Express dan MySQL: API, tabel, statistik (project.js)
 scripts/balance.ts                       simulasi keseimbangan ekonomi
 tests/engine.test.ts                     tes aturan game
 ```
