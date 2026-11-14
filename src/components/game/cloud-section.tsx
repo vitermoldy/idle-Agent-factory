@@ -119,3 +119,5 @@ export function CloudSection({ open }: { open: boolean }) {
         </output>
         <button type="button" className="btn btn-quiet" onClick={copy}>
           {copied === 'yes' ? 'Tersalin' : 'Salin kode'}
+        </button>
+      </div>
