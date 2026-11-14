@@ -35,3 +35,5 @@ function errorText(e: { code?: string; status?: number }) {
  * The copy of the save on the server: its status, what it recorded, and the recovery
  * code that brings the same factory to another browser.
  */
+export function CloudSection({ open }: { open: boolean }) {
+  const cloud = useCloudState()
