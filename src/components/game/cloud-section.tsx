@@ -140,3 +140,5 @@ export function CloudSection({ open }: { open: boolean }) {
               setInput(e.target.value)
               setError('')
             }}
+            autoComplete="off"
+            autoCapitalize="characters"
