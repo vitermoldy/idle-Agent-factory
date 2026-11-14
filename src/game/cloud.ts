@@ -146,3 +146,5 @@ export async function flushEvents(): Promise<void> {
 
 let saveTimer = 0;
 let saveText = '';
+let pushedOnce = false;
+/**
