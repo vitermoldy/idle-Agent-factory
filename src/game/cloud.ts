@@ -205,3 +205,5 @@ export async function restoreFrom(input: string, readable: (text: string) => boo
   if (!readable(body.data)) throw Object.assign(new Error('Simpanan di kode itu tidak bisa dibaca.'), { code: 'unreadable' });
   frozen = true;
   clearTimeout(saveTimer);
+  code = wanted;
+  write(ID_KEY, code);
