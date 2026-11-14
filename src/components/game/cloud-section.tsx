@@ -69,3 +69,5 @@ export function CloudSection({ open }: { open: boolean }) {
       ].filter(Boolean)
     : []
   const recorded = !stats
+    ? null
+    : parts.length === 0
