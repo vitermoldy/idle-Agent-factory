@@ -20,3 +20,5 @@ export default {
     factory(data) {
       const id = typeof data?.id === 'string' ? data.id : ''
       if (!/^[a-z0-9-]{2,40}$/.test(id)) return null
+      return { id }
+    },
