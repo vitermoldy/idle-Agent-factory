@@ -152,3 +152,5 @@ export function CloudSection({ open }: { open: boolean }) {
             {busy ? 'Memulihkan…' : 'Pulihkan'}
           </button>
         </div>
+        {error && (
+          <p id="cloud-error" className="mt-1.5 text-[13px] text-danger" role="alert">
