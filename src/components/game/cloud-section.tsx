@@ -156,3 +156,5 @@ export function CloudSection({ open }: { open: boolean }) {
           <p id="cloud-error" className="mt-1.5 text-[13px] text-danger" role="alert">
             {error}
           </p>
+        )}
+        <p id="cloud-hint" className="mt-1.5 text-[13px] text-muted">
