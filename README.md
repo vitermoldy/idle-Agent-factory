@@ -58,6 +58,9 @@ Setelah `npm run build`, `npm start` menyajikan `dist/` dan API di port yang sam
 Tidak ada akun. Setiap browser mendapat kode pemulihan 12 karakter di Pengaturan, bagian Salinan di server.
 Kode itu, diketik di browser lain, membawa pabrik yang sama ke sana. Game menyimpan setiap 5 detik; salinan
 ke server dikirim paling sering sekali per 30 detik, langsung saat Simpan sekarang, series baru, atau hapus
+progres, dan sekali lagi saat tab ditutup. Tabelnya: `devices` (satu baris per kode), `saves` (salinan
+simpanan terbaru), dan `events` (series baru dan lini yang dibuka).
+
 ## Struktur
 
 ```
