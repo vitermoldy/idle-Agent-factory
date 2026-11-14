@@ -12,3 +12,5 @@ export default {
     /** A new series (prestige): the stars it paid out and the earnings traded for them. */
     series(data) {
       const stars = Number(data?.stars)
+      const earned = Number(data?.earned)
+      if (!Number.isFinite(stars) || stars < 0 || stars > 1e12) return null
