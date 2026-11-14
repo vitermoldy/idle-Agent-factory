@@ -201,3 +201,5 @@ export async function restoreFrom(input: string, readable: (text: string) => boo
   const body = await api<{ data: string }>(`/save/${wanted}`).catch((err: unknown) => {
     if (reached(err)) throw err;
     throw Object.assign(new Error('Server tidak terhubung. Jalankan server dulu, lalu coba lagi.'), { code: 'offline' });
+  });
+  if (!readable(body.data)) throw Object.assign(new Error('Simpanan di kode itu tidak bisa dibaca.'), { code: 'unreadable' });
