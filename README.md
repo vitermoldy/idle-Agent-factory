@@ -42,6 +42,9 @@ npm run balance    # bot rakus memainkan game dan mencetak kapan tiap lini terbu
 Butuh Node 22 atau lebih baru. Di Windows, jalankan vitest dari `C:\...` (huruf besar), bukan
 `c:\...`. Vite sudah dikunci ke satu ejaan lewat `vite.config.ts`.
 
+## Database
+
+Server kecil (Express dan MySQL) menyimpan salinan simpanan game dan mencatat setiap series baru serta setiap
 ## Struktur
 
 ```
