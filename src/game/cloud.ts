@@ -203,3 +203,5 @@ export async function restoreFrom(input: string, readable: (text: string) => boo
     throw Object.assign(new Error('Server tidak terhubung. Jalankan server dulu, lalu coba lagi.'), { code: 'offline' });
   });
   if (!readable(body.data)) throw Object.assign(new Error('Simpanan di kode itu tidak bisa dibaca.'), { code: 'unreadable' });
+  frozen = true;
+  clearTimeout(saveTimer);
