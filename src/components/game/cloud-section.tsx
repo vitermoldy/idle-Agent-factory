@@ -146,3 +146,5 @@ export function CloudSection({ open }: { open: boolean }) {
             maxLength={16}
             placeholder="ABCD-EFGH-JKLM"
             aria-invalid={error ? true : undefined}
+            aria-describedby={error ? 'cloud-error cloud-hint' : 'cloud-hint'}
+          />
