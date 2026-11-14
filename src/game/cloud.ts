@@ -195,3 +195,5 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
  * overwrite the restored one on the way out. `readable` checks the save first:
  * a save the game cannot read leaves this browser's code and save untouched.
  */
+export async function restoreFrom(input: string, readable: (text: string) => boolean): Promise<string> {
+  const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
