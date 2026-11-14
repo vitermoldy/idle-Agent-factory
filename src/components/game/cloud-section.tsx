@@ -87,3 +87,5 @@ export function CloudSection({ open }: { open: boolean }) {
     event.preventDefault()
     setBusy(true)
     try {
+      const text = await restoreFrom(input, (t) => E.parseSave(t) !== null)
+      adoptSave(text)
