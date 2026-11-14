@@ -65,3 +65,5 @@ export function CloudSection({ open }: { open: boolean }) {
   const parts = stats
     ? [
         stats.series > 0 ? `${stats.series} series baru dengan ${stats.stars} bintang` : '',
+        stats.factories.length > 0 ? `${stats.factories.length} lini dibuka` : '',
+      ].filter(Boolean)
