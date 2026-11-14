@@ -21,3 +21,6 @@ function useCloudState() {
     }
   }, [])
   return state
+}
+
+function errorText(e: { code?: string; status?: number }) {
