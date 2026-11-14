@@ -193,3 +193,5 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
  * returned JSON text over its own save and reloads; from then on this browser
  * shares that code. Nothing is mirrored after this call, so the old save cannot
  * overwrite the restored one on the way out. `readable` checks the save first:
+ * a save the game cannot read leaves this browser's code and save untouched.
+ */
