@@ -154,3 +154,5 @@ let pushedOnce = false;
  */
 export function mirrorSave(text: string, when: 'soon' | 'now' | 'leaving' = 'soon'): void {
   if (!text || frozen) return;
+  saveText = text;
+  if (when !== 'soon') void pushSave(when === 'leaving');
