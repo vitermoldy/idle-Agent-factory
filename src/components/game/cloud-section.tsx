@@ -108,3 +108,6 @@ export function CloudSection({ open }: { open: boolean }) {
         <p className="mt-1 text-[13px] text-muted" data-cloud-stats>
           {recorded}
         </p>
+      )}
+
+      <p className="mt-4 text-[13px] font-semibold text-soft" id="cloud-code-label">
