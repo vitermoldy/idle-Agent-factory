@@ -34,3 +34,5 @@ export default {
       [device],
     )
     const [[save]] = await pool.query('SELECT updated_at AS updatedAt, bytes FROM saves WHERE device_id = ?', [device])
+    return {
+      series: Number(series.count),
