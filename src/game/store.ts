@@ -139,6 +139,8 @@ export const useGame = create<Store>((set, get) => {
         set({ storageOk: false })
       }
     },
+    adoptSave: (text) => {
+      adopted = true
     setActive: (id) => update((g) => ({ ...g, active: id })),
     takeOrder: () => update((g) => E.takeOrder(g, g.active)),
     buyStation: (index) =>
