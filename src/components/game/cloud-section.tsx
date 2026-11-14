@@ -44,3 +44,5 @@ export function CloudSection({ open }: { open: boolean }) {
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
 
+  useEffect(() => {
+    if (open) void fetchStats<Stats>().then(setStats)
