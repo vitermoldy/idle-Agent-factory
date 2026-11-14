@@ -38,3 +38,5 @@ export default {
       series: Number(series.count),
       stars: Number(series.stars),
       lastSeries: series.last,
+      factories: factories.map((f) => ({ id: f.factory_id, opened: f.opened })),
+      savedAt: save?.updatedAt ?? null,
