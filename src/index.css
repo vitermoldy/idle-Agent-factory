@@ -137,6 +137,8 @@
     border: 1px solid var(--color-line-strong);
     border-radius: 9px;
     background: var(--color-ground);
+    color: var(--color-ink);
+    font-family: var(--font-mono);
   .icon-btn {
     display: inline-grid;
     place-items: center;
