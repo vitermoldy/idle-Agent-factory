@@ -189,3 +189,5 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
 }
 
 /**
+ * Fetches the save stored under another recovery code. The caller writes the
+ * returned JSON text over its own save and reloads; from then on this browser
