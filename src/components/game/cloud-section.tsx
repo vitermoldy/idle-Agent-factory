@@ -78,3 +78,5 @@ export function CloudSection({ open }: { open: boolean }) {
     try {
       await navigator.clipboard.writeText(recoveryCode())
       setCopied('yes')
+    } catch {
+      setCopied('refused')
