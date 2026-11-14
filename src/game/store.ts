@@ -131,7 +131,8 @@ export const useGame = create<Store>((set, get) => {
       if (adopted) return
       const game = { ...get().game, savedAt: Date.now() }
       try {
-        localStorage.setItem(SAVE_KEY, JSON.stringify(game))
+        const text = JSON.stringify(game)
+        localStorage.setItem(SAVE_KEY, text)
         set({ lastSaved: game.savedAt, storageOk: true })
       } catch {
         set({ storageOk: false })
