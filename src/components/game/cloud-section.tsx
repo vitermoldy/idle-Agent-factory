@@ -56,3 +56,5 @@ export function CloudSection({ open }: { open: boolean }) {
 
   const waiting = cloud.pending > 0 ? ` ${cloud.pending} catatan menunggu dikirim.` : ''
   const status =
+    cloud.status === 'online'
+      ? `Tersambung ke server.${cloud.lastSaved ? ` Salinan terakhir terkirim pukul ${clock(cloud.lastSaved)}.` : ''}${waiting}`
