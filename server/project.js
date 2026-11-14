@@ -28,3 +28,5 @@ export default {
       "SELECT COUNT(*) AS count, COALESCE(SUM(JSON_EXTRACT(data, '$.stars')), 0) AS stars, MAX(at) AS last FROM events WHERE device_id = ? AND kind = 'series'",
       [device],
     )
+    // Not aliased id: GROUP BY would take the table's own id column and group nothing.
+    const [factories] = await pool.query(
