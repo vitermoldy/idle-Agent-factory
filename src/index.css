@@ -15,6 +15,7 @@
   --color-ink: #f4f1ea;
   --color-soft: #d2cfc8;
   --color-muted: #a3a7ad;
+  --color-danger: #ff9488;
 }
 
 @theme inline {
