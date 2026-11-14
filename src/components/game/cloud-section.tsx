@@ -58,3 +58,5 @@ export function CloudSection({ open }: { open: boolean }) {
   const status =
     cloud.status === 'online'
       ? `Tersambung ke server.${cloud.lastSaved ? ` Salinan terakhir terkirim pukul ${clock(cloud.lastSaved)}.` : ''}${waiting}`
+      : cloud.status === 'offline'
+        ? `Server tidak terhubung. Progres tetap tersimpan di browser ini dan disalin lagi saat server menyala.${waiting}`
