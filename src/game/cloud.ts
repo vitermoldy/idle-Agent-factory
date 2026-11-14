@@ -18,3 +18,5 @@ const MIRROR_EVERY = 30_000;
 
 export type CloudStatus = 'unknown' | 'online' | 'offline';
 export interface CloudState {
+  status: CloudStatus;
+  /** Epoch ms the save last reached the server, 0 if never. */
