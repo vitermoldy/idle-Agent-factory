@@ -171,7 +171,7 @@ export const useGame = create<Store>((set, get) => {
       const stars = E.starsClaimable(g)
       if (stars > 0) logEvent('series', { stars, earned: g.earned })
       update((g) => E.startNewSeries(g))
-      get().save()
+      get().save('now')
     },
     resetGame: () => {
       announced.clear()
