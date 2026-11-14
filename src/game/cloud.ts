@@ -171,3 +171,5 @@ async function pushSave(leaving = false): Promise<void> {
     write(SAVED_KEY, String(lastSaved));
     setStatus('online');
     notify();
+  } catch (err) {
+    setStatus(reached(err) ? 'online' : 'offline');
