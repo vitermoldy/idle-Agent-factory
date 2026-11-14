@@ -89,3 +89,5 @@ export function CloudSection({ open }: { open: boolean }) {
     try {
       const text = await restoreFrom(input, (t) => E.parseSave(t) !== null)
       adoptSave(text)
+      location.reload()
+    } catch (e) {
