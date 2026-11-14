@@ -142,3 +142,5 @@ export function CloudSection({ open }: { open: boolean }) {
             }}
             autoComplete="off"
             autoCapitalize="characters"
+            spellCheck={false}
+            maxLength={16}
