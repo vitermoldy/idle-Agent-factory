@@ -16,3 +16,5 @@ const OUTBOX_CAP = 500;
 /** The game saves every 5 seconds; the server gets a copy at most this often. */
 const MIRROR_EVERY = 30_000;
 
+export type CloudStatus = 'unknown' | 'online' | 'offline';
+export interface CloudState {
