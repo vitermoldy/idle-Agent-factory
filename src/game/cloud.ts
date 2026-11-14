@@ -66,3 +66,5 @@ const notify = (): void => listeners.forEach((fn) => fn(cloudState()));
 const setStatus = (next: CloudStatus): void => {
   if (next !== status) {
     status = next;
+    notify();
+  }
