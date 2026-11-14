@@ -22,3 +22,5 @@ export default {
       if (!/^[a-z0-9-]{2,40}$/.test(id)) return null
       return { id }
     },
+  },
+  async stats(pool, device) {
