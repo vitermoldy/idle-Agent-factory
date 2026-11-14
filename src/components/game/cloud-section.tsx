@@ -17,3 +17,5 @@ function useCloudState() {
   useEffect(() => {
     const off = onCloud(setState)
     return () => {
+      off()
+    }
