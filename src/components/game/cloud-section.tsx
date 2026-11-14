@@ -63,3 +63,5 @@ export function CloudSection({ open }: { open: boolean }) {
         : 'Memeriksa server…'
 
   const parts = stats
+    ? [
+        stats.series > 0 ? `${stats.series} series baru dengan ${stats.stars} bintang` : '',
