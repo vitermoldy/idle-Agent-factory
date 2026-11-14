@@ -96,3 +96,5 @@ export function CloudSection({ open }: { open: boolean }) {
     }
   }
 
+  return (
+    <section aria-labelledby="cloud-title" className="mt-5 border-t border-line pt-5">
