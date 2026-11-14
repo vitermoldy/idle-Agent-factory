@@ -54,3 +54,5 @@ export function CloudSection({ open }: { open: boolean }) {
     return () => clearTimeout(t)
   }, [copied])
 
+  const waiting = cloud.pending > 0 ? ` ${cloud.pending} catatan menunggu dikirim.` : ''
+  const status =
