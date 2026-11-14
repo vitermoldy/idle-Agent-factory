@@ -24,3 +24,5 @@ export interface CloudState {
   /** Events still waiting to be sent. */
   pending: number;
 }
+interface PendingEvent {
+  kind: string;
