@@ -93,3 +93,6 @@ export function CloudSection({ open }: { open: boolean }) {
     } catch (e) {
       setError(errorText(e as { code?: string; status?: number }))
       setBusy(false)
+    }
+  }
+
