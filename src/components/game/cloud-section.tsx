@@ -3,3 +3,5 @@ import { useGame } from '@/game/store'
 import * as E from '@/game/engine'
 import { cloudState, fetchStats, onCloud, recoveryCode, restoreFrom } from '@/game/cloud'
 
+/** What the server (npm run server) has recorded for this browser's code. */
+interface Stats {
