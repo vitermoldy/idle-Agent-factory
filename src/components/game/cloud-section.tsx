@@ -85,3 +85,5 @@ export function CloudSection({ open }: { open: boolean }) {
 
   async function restore(event: FormEvent) {
     event.preventDefault()
+    setBusy(true)
+    try {
