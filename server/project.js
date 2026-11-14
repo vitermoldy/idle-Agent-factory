@@ -14,3 +14,5 @@ export default {
       const stars = Number(data?.stars)
       const earned = Number(data?.earned)
       if (!Number.isFinite(stars) || stars < 0 || stars > 1e12) return null
+      return { stars: Math.floor(stars), ...(Number.isFinite(earned) && earned >= 0 ? { earned } : {}) }
+    },
