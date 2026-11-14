@@ -13,6 +13,8 @@ export default defineConfig({
   root,
   // Relative asset paths, so the built game runs from any folder or static host.
   base: './',
+  server: { proxy: api },
+  preview: { proxy: api },
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: { '@': root + 'src' },
