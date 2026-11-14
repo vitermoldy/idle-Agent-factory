@@ -160,3 +160,5 @@ export function CloudSection({ open }: { open: boolean }) {
         <p id="cloud-hint" className="mt-1.5 text-[13px] text-muted">
           Progres di browser ini diganti dengan progres yang tersimpan di kode itu.
         </p>
+      </form>
+    </section>
