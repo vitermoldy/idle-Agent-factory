@@ -129,8 +129,8 @@ export default function App() {
       setTimeout(() => setPopups((list) => list.filter((q) => q.id !== id)), 1450)
     }, 700)
     const save = setInterval(() => useGame.getState().save(), 5000)
-    const onHide = () => document.visibilityState === 'hidden' && useGame.getState().save()
-    const onLeave = () => useGame.getState().save()
+    const onHide = () => document.visibilityState === 'hidden' && useGame.getState().save('leaving')
+    const onLeave = () => useGame.getState().save('leaving')
     document.addEventListener('visibilitychange', onHide)
     window.addEventListener('pagehide', onLeave)
     return () => {
