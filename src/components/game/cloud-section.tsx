@@ -46,3 +46,6 @@ export function CloudSection({ open }: { open: boolean }) {
 
   useEffect(() => {
     if (open) void fetchStats<Stats>().then(setStats)
+  }, [open])
+
+  useEffect(() => {
