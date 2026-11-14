@@ -147,6 +147,8 @@
   }
   input.field::placeholder {
     color: #80858c;
+  }
+  input.field[aria-invalid='true'] {
   .icon-btn {
     display: inline-grid;
     place-items: center;
