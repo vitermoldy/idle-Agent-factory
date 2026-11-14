@@ -162,3 +162,5 @@ export function CloudSection({ open }: { open: boolean }) {
         </p>
       </form>
     </section>
+  )
+}
