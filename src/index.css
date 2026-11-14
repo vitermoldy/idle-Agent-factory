@@ -149,6 +149,8 @@
     color: #80858c;
   }
   input.field[aria-invalid='true'] {
+    border-color: var(--color-danger);
+  }
   .icon-btn {
     display: inline-grid;
     place-items: center;
