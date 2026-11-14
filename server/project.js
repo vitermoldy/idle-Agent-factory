@@ -40,3 +40,5 @@ export default {
       lastSeries: series.last,
       factories: factories.map((f) => ({ id: f.factory_id, opened: f.opened })),
       savedAt: save?.updatedAt ?? null,
+    }
+  },
