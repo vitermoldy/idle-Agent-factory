@@ -45,6 +45,9 @@ Butuh Node 22 atau lebih baru. Di Windows, jalankan vitest dari `C:\...` (huruf 
 ## Database
 
 Server kecil (Express dan MySQL) menyimpan salinan simpanan game dan mencatat setiap series baru serta setiap
+lini yang dibuka. Game tetap jalan tanpa server, dengan simpanan di browser seperti biasa.
+
+```bash
 ## Struktur
 
 ```
