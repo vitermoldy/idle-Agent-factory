@@ -138,3 +138,5 @@ export function CloudSection({ open }: { open: boolean }) {
             value={input}
             onChange={(e) => {
               setInput(e.target.value)
+              setError('')
+            }}
