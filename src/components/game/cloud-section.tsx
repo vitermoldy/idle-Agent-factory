@@ -74,3 +74,5 @@ export function CloudSection({ open }: { open: boolean }) {
       ? 'Series baru dan lini yang kamu buka tercatat di sini.'
       : `Tercatat: ${parts.join(' dan ')}.`
 
+  async function copy() {
+    try {
