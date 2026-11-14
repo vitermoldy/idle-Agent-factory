@@ -167,6 +167,8 @@ export const useGame = create<Store>((set, get) => {
     setBuyMode: (buyMode) => set({ buyMode }),
     startNewSeries: () => {
       announced.clear()
+      const g = get().game
+      const stars = E.starsClaimable(g)
       update((g) => E.startNewSeries(g))
       get().save()
     },
