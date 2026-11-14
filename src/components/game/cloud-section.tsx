@@ -49,3 +49,5 @@ export function CloudSection({ open }: { open: boolean }) {
   }, [open])
 
   useEffect(() => {
+    if (copied !== 'yes') return
+    const t = setTimeout(() => setCopied('no'), 1600)
