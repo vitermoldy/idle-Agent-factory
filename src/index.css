@@ -127,6 +127,8 @@
   .btn-quiet:hover:not(:disabled) {
     border-color: rgb(244 241 234 / 0.34);
   }
+  /* The recovery code: shown in a box, typed into an input of the same shape. */
+  .field {
   .icon-btn {
     display: inline-grid;
     place-items: center;
