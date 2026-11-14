@@ -71,3 +71,6 @@ export function CloudSection({ open }: { open: boolean }) {
   const recorded = !stats
     ? null
     : parts.length === 0
+      ? 'Series baru dan lini yang kamu buka tercatat di sini.'
+      : `Tercatat: ${parts.join(' dan ')}.`
+
