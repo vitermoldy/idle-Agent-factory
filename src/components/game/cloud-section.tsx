@@ -136,3 +136,5 @@ export function CloudSection({ open }: { open: boolean }) {
             id="cloud-input"
             className="field flex-1 uppercase"
             value={input}
+            onChange={(e) => {
+              setInput(e.target.value)
