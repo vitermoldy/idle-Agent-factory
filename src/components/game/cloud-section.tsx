@@ -80,3 +80,6 @@ export function CloudSection({ open }: { open: boolean }) {
       setCopied('yes')
     } catch {
       setCopied('refused')
+    }
+  }
+
