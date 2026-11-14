@@ -32,3 +32,5 @@ export default {
     const [factories] = await pool.query(
       "SELECT JSON_UNQUOTE(JSON_EXTRACT(data, '$.id')) AS factory_id, MIN(at) AS opened FROM events WHERE device_id = ? AND kind = 'factory' GROUP BY factory_id ORDER BY opened",
       [device],
+    )
+    const [[save]] = await pool.query('SELECT updated_at AS updatedAt, bytes FROM saves WHERE device_id = ?', [device])
