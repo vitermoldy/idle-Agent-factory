@@ -6,3 +6,5 @@
 export default {
   name: 'Agentic Factory',
   database: 'agentic_factory',
+  port: 8796,
+  maxSaveBytes: 512 * 1024,
