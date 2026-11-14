@@ -144,3 +144,5 @@ export function CloudSection({ open }: { open: boolean }) {
             autoCapitalize="characters"
             spellCheck={false}
             maxLength={16}
+            placeholder="ABCD-EFGH-JKLM"
+            aria-invalid={error ? true : undefined}
