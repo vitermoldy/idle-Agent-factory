@@ -102,3 +102,5 @@ function outbox(): PendingEvent[] {
   try {
     const list = JSON.parse(read(OUTBOX_KEY) || '[]') as unknown;
     return Array.isArray(list) ? (list as PendingEvent[]) : [];
+  } catch {
+    return [];
