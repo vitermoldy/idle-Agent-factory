@@ -165,3 +165,5 @@ async function pushSave(leaving = false): Promise<void> {
   clearTimeout(saveTimer);
   saveTimer = 0;
   pushedOnce = true;
+  try {
+    await api('/save', { method: 'PUT', body: JSON.stringify({ device: code, data: saveText }), keepalive: leaving });
