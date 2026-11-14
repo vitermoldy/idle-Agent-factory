@@ -115,3 +115,5 @@ export function CloudSection({ open }: { open: boolean }) {
       </p>
       <div className="mt-1.5 flex gap-2">
         <output className="field flex-1" aria-labelledby="cloud-code-label" data-cloud-code>
+          {recoveryCode()}
+        </output>
