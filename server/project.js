@@ -42,3 +42,4 @@ export default {
       savedAt: save?.updatedAt ?? null,
     }
   },
+}
