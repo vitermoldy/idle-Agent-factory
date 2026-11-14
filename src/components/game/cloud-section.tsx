@@ -98,3 +98,5 @@ export function CloudSection({ open }: { open: boolean }) {
 
   return (
     <section aria-labelledby="cloud-title" className="mt-5 border-t border-line pt-5">
+      <h3 id="cloud-title" className="text-[14px] font-semibold text-ink">
+        Salinan di server
