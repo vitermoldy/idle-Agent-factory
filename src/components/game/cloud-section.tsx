@@ -113,3 +113,5 @@ export function CloudSection({ open }: { open: boolean }) {
       <p className="mt-4 text-[13px] font-semibold text-soft" id="cloud-code-label">
         Kode pemulihan browser ini
       </p>
+      <div className="mt-1.5 flex gap-2">
+        <output className="field flex-1" aria-labelledby="cloud-code-label" data-cloud-code>
