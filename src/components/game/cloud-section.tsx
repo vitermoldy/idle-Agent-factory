@@ -150,3 +150,5 @@ export function CloudSection({ open }: { open: boolean }) {
           />
           <button type="submit" className="btn btn-quiet" disabled={busy}>
             {busy ? 'Memulihkan…' : 'Pulihkan'}
+          </button>
+        </div>
