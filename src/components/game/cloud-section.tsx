@@ -102,3 +102,5 @@ export function CloudSection({ open }: { open: boolean }) {
         Salinan di server
       </h3>
       <p className="mt-1 text-[13px] text-muted" data-cloud-status>
+        {status}
+      </p>
