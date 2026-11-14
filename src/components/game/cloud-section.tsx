@@ -41,3 +41,6 @@ export function CloudSection({ open }: { open: boolean }) {
   const [stats, setStats] = useState<Stats | null>(null)
   const [copied, setCopied] = useState<'no' | 'yes' | 'refused'>('no')
   const [input, setInput] = useState('')
+  const [error, setError] = useState('')
+  const [busy, setBusy] = useState(false)
+
