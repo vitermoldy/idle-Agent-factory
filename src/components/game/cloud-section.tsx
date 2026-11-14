@@ -19,3 +19,5 @@ function useCloudState() {
     return () => {
       off()
     }
+  }, [])
+  return state
