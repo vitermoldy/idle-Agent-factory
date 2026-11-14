@@ -6,6 +6,8 @@ import tailwindcss from '@tailwindcss/vite'
 // On Windows the project can be opened as c:\... or C:\...; Vite then resolves React once per
 // spelling, two copies load, and the first hook crashes. Pin the root to one spelling.
 const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d) => d.toUpperCase())
+// The server (npm run server) keeps a copy of the save in MySQL; dev and preview forward /api to it.
+const api = { '/api': { target: `http://localhost:${process.env.PORT ?? 8796}` } }
 
 export default defineConfig({
   root,
