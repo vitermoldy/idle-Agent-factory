@@ -130,3 +130,5 @@ export function CloudSection({ open }: { open: boolean }) {
       <form className="mt-4" onSubmit={restore} noValidate data-cloud-restore>
         <label htmlFor="cloud-input" className="text-[13px] font-semibold text-soft">
           Pakai progres dari browser lain
+        </label>
+        <div className="mt-1.5 flex gap-2">
