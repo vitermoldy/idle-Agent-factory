@@ -91,3 +91,5 @@ export function CloudSection({ open }: { open: boolean }) {
       adoptSave(text)
       location.reload()
     } catch (e) {
+      setError(errorText(e as { code?: string; status?: number }))
+      setBusy(false)
