@@ -145,6 +145,8 @@
   input.field:hover {
     border-color: rgb(244 241 234 / 0.34);
   }
+  input.field::placeholder {
+    color: #80858c;
   .icon-btn {
     display: inline-grid;
     place-items: center;
