@@ -132,3 +132,5 @@ export function CloudSection({ open }: { open: boolean }) {
           Pakai progres dari browser lain
         </label>
         <div className="mt-1.5 flex gap-2">
+          <input
+            id="cloud-input"
