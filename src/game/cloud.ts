@@ -45,3 +45,6 @@ const write = (key: string, value: string): boolean => {
   } catch {
     return false;
   }
+};
+
+let code = read(ID_KEY) ?? '';
