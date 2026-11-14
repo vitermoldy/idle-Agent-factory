@@ -18,3 +18,5 @@ export default {
     },
     /** A factory (production line) opened for the first time. */
     factory(data) {
+      const id = typeof data?.id === 'string' ? data.id : ''
+      if (!/^[a-z0-9-]{2,40}$/.test(id)) return null
