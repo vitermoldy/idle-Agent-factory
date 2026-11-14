@@ -134,3 +134,5 @@ export function CloudSection({ open }: { open: boolean }) {
         <div className="mt-1.5 flex gap-2">
           <input
             id="cloud-input"
+            className="field flex-1 uppercase"
+            value={input}
