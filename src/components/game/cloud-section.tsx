@@ -39,3 +39,5 @@ export function CloudSection({ open }: { open: boolean }) {
   const cloud = useCloudState()
   const adoptSave = useGame((s) => s.adoptSave)
   const [stats, setStats] = useState<Stats | null>(null)
+  const [copied, setCopied] = useState<'no' | 'yes' | 'refused'>('no')
+  const [input, setInput] = useState('')
