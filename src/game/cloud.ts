@@ -148,3 +148,5 @@ let saveTimer = 0;
 let saveText = '';
 let pushedOnce = false;
 /**
+ * Copies the browser save (its JSON text) to the server. `soon`: 2 seconds after the
+ * first save of a visit, then the newest save once every 30 seconds. `now`: at once.
