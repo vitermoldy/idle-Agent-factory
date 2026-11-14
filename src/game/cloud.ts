@@ -182,3 +182,5 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
     const stats = await api<T>(`/stats/${code}?days=${days}&today=${localDay()}`);
     setStatus('online');
     return stats;
+  } catch (err) {
+    setStatus(reached(err) ? 'online' : 'offline');
