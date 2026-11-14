@@ -50,3 +50,5 @@ const write = (key: string, value: string): boolean => {
 let code = read(ID_KEY) ?? '';
 if (!CODE.test(code)) {
   const bytes = new Uint8Array(12);
+  crypto.getRandomValues(bytes);
+  code = Array.from(bytes, (b) => ALPHABET[b % ALPHABET.length]).join('');
