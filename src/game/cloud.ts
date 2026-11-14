@@ -123,3 +123,5 @@ let flushing = false;
 export async function flushEvents(): Promise<void> {
   if (flushing) return;
   const list = outbox();
+  if (list.length === 0) return;
+  flushing = true;
