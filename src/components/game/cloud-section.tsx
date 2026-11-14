@@ -28,3 +28,6 @@ function errorText(e: { code?: string; status?: number }) {
   if (e.code === 'offline') return 'Server tidak terhubung. Jalankan server dulu, lalu coba lagi.'
   if (e.code === 'unreadable') return 'Simpanan di kode itu tidak bisa dibaca oleh versi game ini.'
   if (e.status === 404) return 'Tidak ada simpanan dengan kode itu.'
+  return 'Kode itu belum bisa dipakai. Coba lagi sebentar lagi.'
+}
+
