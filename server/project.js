@@ -10,3 +10,5 @@ export default {
   maxSaveBytes: 512 * 1024,
   events: {
     /** A new series (prestige): the stars it paid out and the earnings traded for them. */
+    series(data) {
+      const stars = Number(data?.stars)
