@@ -50,6 +50,9 @@ lini yang dibuka. Game tetap jalan tanpa server, dengan simpanan di browser sepe
 ```bash
 cp .env.example .env   # isi DB_USER dan DB_PASSWORD akun MySQL-mu
 npm run server         # API di http://localhost:8796, membuat database agentic_factory dan tabelnya sendiri
+npm run dev            # /api diteruskan ke server
+```
+
 ## Struktur
 
 ```
