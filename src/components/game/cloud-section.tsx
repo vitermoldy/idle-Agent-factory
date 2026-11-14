@@ -24,3 +24,5 @@ function useCloudState() {
 }
 
 function errorText(e: { code?: string; status?: number }) {
+  if (e.code === 'format' || e.status === 400) return 'Kode pemulihan terdiri dari 12 huruf dan angka.'
+  if (e.code === 'offline') return 'Server tidak terhubung. Jalankan server dulu, lalu coba lagi.'
