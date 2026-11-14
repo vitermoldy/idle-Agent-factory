@@ -13,3 +13,6 @@ const SAVED_KEY = `${APP}:cloud-saved`;
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const CODE = /^[A-HJ-NP-Z2-9]{12}$/;
 const OUTBOX_CAP = 500;
+/** The game saves every 5 seconds; the server gets a copy at most this often. */
+const MIRROR_EVERY = 30_000;
+
