@@ -31,3 +31,5 @@ function errorText(e: { code?: string; status?: number }) {
   return 'Kode itu belum bisa dipakai. Coba lagi sebentar lagi.'
 }
 
+/**
+ * The copy of the save on the server: its status, what it recorded, and the recovery
