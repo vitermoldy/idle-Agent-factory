@@ -212,3 +212,5 @@ export async function restoreFrom(input: string, readable: (text: string) => boo
 
 // No pagehide handler here: the game saves on hide and close itself and passes that newest save with 'leaving'.
 addEventListener('online', () => void flushEvents());
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') void flushEvents();
