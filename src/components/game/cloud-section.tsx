@@ -37,3 +37,5 @@ function errorText(e: { code?: string; status?: number }) {
  */
 export function CloudSection({ open }: { open: boolean }) {
   const cloud = useCloudState()
+  const adoptSave = useGame((s) => s.adoptSave)
+  const [stats, setStats] = useState<Stats | null>(null)
