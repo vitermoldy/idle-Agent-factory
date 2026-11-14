@@ -214,3 +214,5 @@ export async function restoreFrom(input: string, readable: (text: string) => boo
 addEventListener('online', () => void flushEvents());
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') void flushEvents();
+});
+setInterval(() => {
