@@ -121,3 +121,5 @@ export function CloudSection({ open }: { open: boolean }) {
           {copied === 'yes' ? 'Tersalin' : 'Salin kode'}
         </button>
       </div>
+      {copied === 'refused' && (
+        <p className="mt-1.5 text-[13px] text-muted" role="status">
