@@ -156,6 +156,8 @@ export const useGame = create<Store>((set, get) => {
     unlockFactory: (id) => {
       const g = get().game
       const next = E.unlockFactory(g, id)
+      if (next !== g) {
+        set({ game: { ...next, active: id } })
       set((s) => ({ notices: s.notices.filter((n) => n.factory !== id) }))
     },
     buyProduct: (productId) => update((g) => E.buyProduct(g, g.active, productId)),
