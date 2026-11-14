@@ -24,3 +24,5 @@ export default {
     },
   },
   async stats(pool, device) {
+    const [[series]] = await pool.query(
+      "SELECT COUNT(*) AS count, COALESCE(SUM(JSON_EXTRACT(data, '$.stars')), 0) AS stars, MAX(at) AS last FROM events WHERE device_id = ? AND kind = 'series'",
