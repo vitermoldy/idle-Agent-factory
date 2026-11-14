@@ -143,6 +143,8 @@
     letter-spacing: 0.04em;
   }
   input.field:hover {
+    border-color: rgb(244 241 234 / 0.34);
+  }
   .icon-btn {
     display: inline-grid;
     place-items: center;
