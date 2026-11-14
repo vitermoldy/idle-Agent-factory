@@ -13,3 +13,5 @@ interface Stats {
 const clock = (t: number) => new Date(t).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })
 
 function useCloudState() {
+  const [state, setState] = useState(cloudState)
+  useEffect(() => {
