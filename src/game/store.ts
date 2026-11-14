@@ -32,6 +32,7 @@ interface Store {
   tick: (now: number) => E.Completed
   /** `when` is passed on to the server copy: see mirrorSave. */
   save: (when?: 'soon' | 'now' | 'leaving') => void
+  adoptSave: (text: string) => void
   setActive: (id: FactoryId) => void
   takeOrder: () => void
   buyStation: (index: number) => void
